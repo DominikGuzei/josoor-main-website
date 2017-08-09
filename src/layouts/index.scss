@@ -2,17 +2,17 @@
 @import "../theme/mixins/container";
 
 .topMenu {
-  height: 50px;
+  height: $theme-top-menu-height;
   display: flex;
   @include container;
 }
 
 .homeLink {
-  background: url('../theme/images/josoor-logo-wordmark.svg') no-repeat;
-  background-size: 130px;
+  background: url('../theme/images/josoor-logo-wordmark.svg') center no-repeat;
+  background-size: 120px;
   width: 130px;
   display: block;
-  height: 50px;
+  height: 100%;
   text-indent: -9999px;
 }
 
