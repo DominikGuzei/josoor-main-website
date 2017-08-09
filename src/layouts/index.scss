@@ -1,0 +1,52 @@
+@import "../theme/config.scss";
+@import "../theme/mixins/container";
+
+.topMenu {
+  height: 50px;
+  display: flex;
+  @include container;
+}
+
+.homeLink {
+  background: url('../theme/images/josoor-logo-wordmark.svg') no-repeat;
+  background-size: 130px;
+  width: 130px;
+  display: block;
+  height: 50px;
+  text-indent: -9999px;
+}
+
+.itemsLeft {
+  flex-grow: 1;
+}
+
+.itemsRight{
+  flex-grow: 0;
+  display: flex;
+  align-items: center;
+}
+
+.blogLink {
+  color: $theme-color-main-light;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: $theme-font-sans-medium;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: $theme-footer-height;
+  width: 100%;
+  background: $theme-color-main-dark;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a:link, a:visited {
+    color: white;
+  }
+}

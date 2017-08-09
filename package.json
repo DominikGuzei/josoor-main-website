@@ -4,11 +4,6 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "@types/node": "^8.0.17",
-    "@types/prop-types": "^15.5.1",
-    "@types/react": "^15.0.39",
-    "@types/react-dom": "^15.5.1",
-    "@types/react-helmet": "^5.0.3",
     "apollo-client": "^1.9.0-1",
     "classnames": "^2.2.5",
     "gatsby": "^1.0.1",
@@ -17,10 +12,10 @@
     "gatsby-plugin-sass": "^1.0.1",
     "gatsby-plugin-typescript": "^1.0.1",
     "graphql-tag": "^2.4.2",
+    "normalize.css": "^7.0.0",
     "react-apollo": "^1.4.8",
     "react-css-themr": "^2.1.2",
-    "react-polymorph": "^0.3.1",
-    "typescript": "^2.4.2"
+    "react-polymorph": "^0.3.1"
   },
   "keywords": [
     "gatsby"

@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import Link from 'gatsby-link'
 import SkinnableComponent from 'react-polymorph/lib/components/SkinnableComponent';
 import InputSkin from 'react-polymorph/lib/skins/simple/InputSkin';

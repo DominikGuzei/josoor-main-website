@@ -1,0 +1,79 @@
+@import "../theme/config";
+@import "../theme/mixins/container";
+
+.header {
+  background: $theme-color-main-light;
+  position: relative;
+  &:after {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(237, 168, 122, 0);
+    border-top-color: $theme-color-main-light;
+    border-width: 30px;
+    margin-left: -30px;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.josoorLogo {
+  margin: 20px 0;
+  width: 240px;
+}
+
+.pitch {
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+  font-family: $theme-font-sans-light;
+  font-size: 25px;
+  color: white;
+  line-height: 1.3em;
+  margin-bottom: 40px;
+}
+
+.vision {
+  @include container;
+  margin-top: 80px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.separator {
+  width: 330px;
+  margin: 40px auto;
+  border-top: 1px solid $theme-color-main-light;
+}
+
+.howItWorks {
+  @include container;
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  @media (min-width: 640px) {
+    > div {
+      flex-basis: 0;
+      flex-grow: 1;
+      &:first-child {
+        margin-right: 40px;
+      }
+      &:last-child {
+        margin-left: 40px;
+      }
+    }
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
