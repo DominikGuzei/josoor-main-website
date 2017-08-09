@@ -1,0 +1,16 @@
+@import "../theme/config";
+@import "../theme/mixins/container";
+
+.impress {
+  @include container;
+  max-width: 640px;
+  text-align: center;
+  .text {
+    color: white !important;
+  }
+}
+
+.josoorLogo {
+  margin: 20px 0;
+  width: 240px;
+}
