@@ -1,0 +1,5 @@
+@import "../theme/mixins/container";
+
+.post {
+  @include container;
+}
