@@ -1,21 +1,19 @@
-@import "../theme/config";
-@import "../theme/mixins/container";
+@import "../../theme/config";
+@import "../../theme/mixins/container";
 
-.blog {
+.header {
   background: $theme-color-main-light;
   position: relative;
   &:after {
     top: 100%;
     left: 50%;
-    border: solid transparent;
+    border: 30px solid rgba(237, 168, 122, 0);
     content: " ";
     height: 0;
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-color: rgba(237, 168, 122, 0);
     border-top-color: $theme-color-main-light;
-    border-width: 30px;
     margin-left: -30px;
   }
   display: flex;

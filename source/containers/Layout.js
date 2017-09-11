@@ -1,14 +1,15 @@
-import React from 'react';
-import Helmet from 'react-helmet';
-import 'normalize.css/normalize.css';
-import '../theme/setup.global.scss';
-import '../theme/type.global.scss';
-import styles from './index.scss';
-import Link from 'gatsby-link';
+import React from "react";
+import Head from "react-helmet";
+import { Link } from "react-router";
+import styles from './Layout.scss';
 
-export default ({children}) => (
-  <div className={styles.root}>
-    <Helmet title="Josoor Q & A" />
+export default ({ children }) => (
+  <div>
+    <Head>
+      <html lang="en" />
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </Head>
     <div className={styles.topMenu}>
       <div className={styles.itemsLeft}>
         <Link to="/" className={styles.homeLink}>Home</Link>
@@ -18,10 +19,10 @@ export default ({children}) => (
       </div>
     </div>
     <div className={styles.content}>
-      {children()}
+      {children}
     </div>
-    <div className={styles.footer}>
+    <footer className={styles.footer}>
       <Link to="/impress" className={styles.impressLink}>Impress</Link>
-    </div>
+    </footer>
   </div>
 );
