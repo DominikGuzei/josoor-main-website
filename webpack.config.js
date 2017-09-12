@@ -114,7 +114,7 @@ module.exports = (config) => {
               // This comment solves it, but breaks testing from a local network
               // https://github.com/webpack/css-loader/issues/232#issuecomment-240449998
               // 'css-loader?sourceMap',
-              'css-loader?importLoaders=1&modules&localIdentName=[path]__[name]_[local]',
+              'css-loader?importLoaders=1&modules&localIdentName=[name]_[local]',
               'postcss-loader',
               'sass-loader',
             ],

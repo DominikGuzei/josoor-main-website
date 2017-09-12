@@ -2,43 +2,29 @@ import React from 'react';
 import { Link } from "react-router";
 import Head from "react-helmet";
 import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
-import Layout from '../../containers/Layout';
+import Layout from '../../containers/Layout'
+import styles from './BlogPost.scss';
 
-const DefaultPostLayout = ({ title, body }) =>
+const PostLayout = ({ title, body, image }) => (
   <article>
-    <Head><title>{title}</title></Head>
+    <Head>
+      <title>{title}</title>
+    </Head>
     <h1>{title}</h1>
+    <img className={styles.image} src={image} />
     <BodyRenderer>{body}</BodyRenderer>
-  </article>;
+  </article>
+);
 
-const HeroPostLayout = ({ title, body }) =>
-  <article>
-    <Head><title>{title}</title></Head>
-    <div style={{ padding: "4rem", background: "pink", color: "#fff" }}>
-      <h1>{title}</h1>
-    </div>
-    <BodyRenderer>{body}</BodyRenderer>
-  </article>;
-
-const PostLayouts = {
-  default: DefaultPostLayout,
-  hero: HeroPostLayout
-};
-
-export default ({ hasError, isLoading, page }) => {
-  if (hasError) {
-    return <PageError error={page.error} />;
-  }
-
-  const PostLayout =
-    (page.node && PostLayouts[page.node.layout]) || PostLayouts.default;
+export default ({ page }) => {
   return (
     <Layout>
-      {isLoading && "Loading..."}
-      {!isLoading && page.node && <PostLayout {...page.node} />}
-      <footer>
-        <Link to="/blog">Go to home</Link>
-      </footer>
+      <div className={styles.root}>
+        {page.node && <PostLayout {...page.node} />}
+        <footer>
+          <Link to="/blog">Go to home</Link>
+        </footer>
+      </div>
     </Layout>
   );
 };
