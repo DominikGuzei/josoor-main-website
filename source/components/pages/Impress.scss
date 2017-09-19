@@ -1,5 +1,5 @@
-@import "../theme/config";
-@import "../theme/mixins/container";
+@import "../../theme/config";
+@import "../../theme/mixins/container";
 
 .impress {
   @include container;

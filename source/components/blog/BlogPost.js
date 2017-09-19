@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router";
 import Head from "react-helmet";
 import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
-import Layout from '../../containers/Layout'
+import Layout from '../layout/Layout'
 import styles from './BlogPost.scss';
 
 const PostLayout = ({ title, body, image }) => (

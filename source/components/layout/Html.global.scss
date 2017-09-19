@@ -1,4 +1,4 @@
-@import "../theme/config";
+@import "../../theme/config";
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -14,17 +14,17 @@ body {
 
 @font-face {
   font-family: 'Freight-Sans-Light';
-  src: url('../theme/fonts/freight/Freight-Sans-Light.otf') format('opentype');
+  src: url('../../theme/fonts/freight/Freight-Sans-Light.otf') format('opentype');
 }
 
 @font-face {
   font-family: 'Freight-Sans-Medium';
-  src: url('../theme/fonts/freight/Freight-Sans-Medium.ttf') format('truetype');
+  src: url('../../theme/fonts/freight/Freight-Sans-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Freight-Sans-Book';
-  src: url('../theme/fonts/freight/Freight-Sans-Book.otf') format('opentype');
+  src: url('../../theme/fonts/freight/Freight-Sans-Book.otf') format('opentype');
 }
 
 h1, h2 {

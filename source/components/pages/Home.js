@@ -1,9 +1,9 @@
 import React from "react";
-import Layout from '../containers/Layout';
+import Layout from '../layout/Layout';
 import Head from "react-helmet";
 // import { Link } from "react-router";
 import styles from './Home.scss';
-import josoorLogo from '../theme/images/josoor-logo-vertical-white.svg';
+import josoorLogo from '../../theme/images/josoor-logo-vertical-white.svg';
 
 export default ({ isLoading, posts }) => (
   <Layout>

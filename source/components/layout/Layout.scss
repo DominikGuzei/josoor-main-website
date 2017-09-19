@@ -1,5 +1,5 @@
-@import "../theme/config.scss";
-@import "../theme/mixins/container";
+@import "../../theme/config";
+@import "../../theme/mixins/container";
 
 .topMenu {
   height: $theme-top-menu-height;
@@ -8,7 +8,7 @@
 }
 
 .homeLink {
-  background: url('../theme/images/josoor-logo-wordmark.svg') center no-repeat;
+  background: url('../../theme/images/josoor-logo-wordmark.svg') center no-repeat;
   background-size: 120px;
   width: 130px;
   display: block;

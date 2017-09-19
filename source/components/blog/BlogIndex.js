@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from '../../containers/Layout';
+import Layout from '../layout/Layout';
 import Head from "react-helmet";
 import styles from './BlogIndex.scss';
 import josoorLogo from '../../theme/images/josoor-blog-logo.svg';
