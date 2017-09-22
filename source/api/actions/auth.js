@@ -9,5 +9,9 @@ export const login = (authToken) => {
 export const logout = (apolloClient) => {
   setAuthToken(null);
   browserHistory.push({ pathname: '/' });
-  apolloClient.resetStore();
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      apolloClient.resetStore().then(resolve).catch(reject);
+    });
+  });
 };

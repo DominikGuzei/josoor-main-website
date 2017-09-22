@@ -1,0 +1,53 @@
+@import "../../theme/config";
+
+.josoorLogo {
+  width: 50%;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.emailInput, .passwordInput {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: #e34e3c;
+  font-family: $theme-font-sans-medium;
+  text-align: center;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.actionSeparator {
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    display: block;
+    border-top: 1px solid $theme-color-main-light;
+    width: 100%;
+    z-index: -1;
+  }
+  margin: 10px 0;
+  text-align: center;
+  span {
+    font-family: $theme-font-sans-medium;
+    color: $theme-color-main-light;
+    background-color: white;
+    padding: 5px 10px;
+    display: inline-block;
+  }
+}
+
+.createAccountButton {
+  background-color: white !important;
+  border: 1px solid $theme-color-main-light !important;
+  color: $theme-color-main-light !important;
+
+  &:hover {
+    background-color: $theme-color-main-light !important;
+    color: white !important;
+  }
+}

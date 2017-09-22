@@ -20,16 +20,18 @@
   flex-grow: 1;
 }
 
-.itemsRight{
+.itemsRight {
   flex-grow: 0;
   display: flex;
   align-items: center;
+
+  > * {
+    margin-left: 10px;
+  }
 }
 
 .blogLink {
   color: $theme-color-main-light;
-  font-size: 18px;
-  text-decoration: none;
   font-family: $theme-font-sans-medium;
   &:hover {
     text-decoration: underline;

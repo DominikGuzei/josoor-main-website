@@ -1,32 +1,46 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { graphql, compose, withApollo } from 'react-apollo';
+import { FormattedHTMLMessage } from 'react-intl'
 import LoginMutation from '../../api/mutations/LoginMutation';
-import CurrentUserQuery from '../../api/queries/CurrentUserQuery';
-import { login as loginAction, logout } from "../../api/actions/auth";
+import { login, logout } from "../../api/actions/auth";
+import LoginForm from './LoginForm';
+import getApiErrors from "../../i18n/getApiErrors";
+import Layout from '../layout/Layout';
+import styles from './LoginContainer.scss';
 
-export default withApollo(compose(
-  graphql(CurrentUserQuery),
-  graphql(LoginMutation, { name: 'login' }),
-)
-(({ login, data: { loading, error, currentUser, refetch } }) => {
-  return (
-    <div>
-      { currentUser ? (
-        <div>Current User: {currentUser.name}</div>
-      ) : (
-        <div>Not logged in</div>
-      )}
-      <button onClick={() => {
-        login({
-          variables: { email: "dominik.guzei@gmail.com", password: "timeline" }
+class LoginContainer extends Component {
+
+  state = {
+    loginErrors: null,
+  };
+
+  handleLogin = ({ email, password }) => {
+    const { serverLogin } = this.props;
+    serverLogin({ variables: { email, password }})
+      .then(result => login(result.data.login.token))
+      .catch(errors => {
+        this.setState({
+          loginErrors: getApiErrors(errors.graphQLErrors).map(error => (
+            <FormattedHTMLMessage {...error} />
+          ))
         })
-          .then((result) => loginAction(result.data.login.token));
-      }}>
-        Login
-      </button>
-      <button onClick={() => logout(this.props.client)}>
-        Logout
-      </button>
-    </div>
-  );
-}));
+      });
+  };
+
+  render() {
+    return (
+      <Layout>
+        <div className={styles.root}>
+          <LoginForm
+            onSubmit={this.handleLogin}
+            errors={this.state.loginErrors}
+          />
+        </div>
+      </Layout>
+    );
+  }
+}
+
+export default compose(
+  graphql(LoginMutation, { name: 'serverLogin' }),
+)(LoginContainer);
