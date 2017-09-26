@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { graphql, compose, withApollo } from 'react-apollo';
 import { FormattedHTMLMessage } from 'react-intl'
 import LoginMutation from '../../api/mutations/LoginMutation';
-import { login, logout } from "../../api/actions/auth";
+import { login } from "../../api/actions/auth";
 import LoginForm from './LoginForm';
 import getApiErrors from "../../i18n/getApiErrors";
 import Layout from '../layout/Layout';
@@ -15,9 +15,9 @@ class LoginContainer extends Component {
   };
 
   handleLogin = ({ email, password }) => {
-    const { serverLogin } = this.props;
+    const { client, serverLogin } = this.props;
     serverLogin({ variables: { email, password }})
-      .then(result => login(result.data.login.token))
+      .then(result => login(client, result.data.login.token))
       .catch(errors => {
         this.setState({
           loginErrors: getApiErrors(errors.graphQLErrors).map(error => (
@@ -41,6 +41,6 @@ class LoginContainer extends Component {
   }
 }
 
-export default compose(
+export default withApollo(compose(
   graphql(LoginMutation, { name: 'serverLogin' }),
-)(LoginContainer);
+)(LoginContainer));

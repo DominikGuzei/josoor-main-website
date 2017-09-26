@@ -8,13 +8,11 @@ import styles from './ProfileMenuItem.scss';
 class ProfileMenuItem extends Component {
 
   handleLogout = () => {
-    const { client } = this.props;
-    logout(client).catch(error => console.log(error));
+    logout(this.props.client);
   };
 
   render() {
-    const { data: { error, currentUser } } = this.props;
-    console.log(currentUser);
+    const { data: { currentUser } } = this.props;
     return (
       <div className={styles.root}>
         { currentUser ? (
