@@ -4,6 +4,7 @@ import { getAuthToken } from './storage/authToken';
 export const setupApolloClient = () => {
   const networkInterface = createNetworkInterface({
     uri: 'http://localhost:4000',
+    // uri: 'https://josoor-staging.gigalixirapp.com',
   });
 
   networkInterface.use([{
