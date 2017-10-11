@@ -1,12 +1,11 @@
 import React from "react";
-import Layout from '../layout/Layout';
 import Head from "react-helmet";
 import styles from './BlogIndex.scss';
 import josoorLogo from '../../theme/images/josoor-blog-logo.svg';
 import BlogPostsList from "./BlogPostsList";
 
 export default ({ posts }) => (
-  <Layout>
+  <div>
     <Head>
       <title>Blog | Josoor Answers</title>
     </Head>
@@ -24,5 +23,5 @@ export default ({ posts }) => (
       </div>
       {<BlogPostsList posts={posts} />}
     </div>
-  </Layout>
+  </div>
 );

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import styles from './LoginForm.scss';
 import Button from 'react-polymorph/lib/components/Button';
+import ButtonSkin from 'react-polymorph/lib/skins/simple/raw/ButtonSkin';
 import Input from 'react-polymorph/lib/components/Input';
-import ButtonSkin from 'react-polymorph/lib/skins/simple/ButtonSkin';
-import InputSkin from 'react-polymorph/lib/skins/simple/InputSkin';
+import InputSkin from 'react-polymorph/lib/skins/simple/raw/InputSkin';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
+import styles from './LoginForm.scss';
 
 export default class LoginForm extends Component {
 

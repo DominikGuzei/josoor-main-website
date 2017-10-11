@@ -14,14 +14,12 @@ export default graphql(gql`
   if (loading) return <p>Loading ...</p>;
   if (error) return <p>{error.message}</p>;
   return (
-    <Layout>
-      <ul>
-        {translations.map(t => (
-          <li key={t.id}>
-            {t.language}: {t.content}
-          </li>
-        ))}
-      </ul>
-    </Layout>
+    <ul>
+      {translations.map(t => (
+        <li key={t.id}>
+          {t.language}: {t.content}
+        </li>
+      ))}
+    </ul>
   );
 });

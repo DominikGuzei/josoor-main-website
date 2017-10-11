@@ -5,7 +5,6 @@ import LoginMutation from '../../api/mutations/LoginMutation';
 import { login } from "../../api/actions/auth";
 import LoginForm from './LoginForm';
 import getApiErrors from "../../i18n/getApiErrors";
-import Layout from '../layout/Layout';
 import styles from './LoginContainer.scss';
 
 class LoginContainer extends Component {
@@ -29,14 +28,12 @@ class LoginContainer extends Component {
 
   render() {
     return (
-      <Layout>
-        <div className={styles.root}>
-          <LoginForm
-            onSubmit={this.handleLogin}
-            errors={this.state.loginErrors}
-          />
-        </div>
-      </Layout>
+      <div className={styles.root}>
+        <LoginForm
+          onSubmit={this.handleLogin}
+          errors={this.state.loginErrors}
+        />
+      </div>
     );
   }
 }

@@ -6,7 +6,7 @@ import styles from './Impress.scss';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
 
 export default () => (
-  <Layout>
+  <div>
     <Head>
       <title>Impress | Josoor Answers</title>
     </Head>
@@ -27,5 +27,5 @@ export default () => (
         </p>
       </div>
     </div>
-  </Layout>
+  </div>
 );

@@ -6,7 +6,7 @@ import styles from './Home.scss';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-white.svg';
 
 export default ({ isLoading, posts }) => (
-  <Layout>
+  <div>
     <Head>
       <title>Josoor Answers</title>
     </Head>
@@ -65,5 +65,5 @@ export default ({ isLoading, posts }) => (
         </div>
       </div>
     </div>
-  </Layout>
+  </div>
 );
