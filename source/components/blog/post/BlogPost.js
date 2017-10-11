@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router";
 import Head from "react-helmet";
 import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
-import Layout from '../layout/Layout'
+import Layout from '../../layout/Layout'
 import styles from './BlogPost.scss';
 
 const PostLayout = ({ title, body, image }) => (
@@ -18,13 +18,11 @@ const PostLayout = ({ title, body, image }) => (
 
 export default ({ page }) => {
   return (
-    <Layout>
-      <div className={styles.root}>
-        {page.node && <PostLayout {...page.node} />}
-        <footer>
-          <Link to="/blog">Go to home</Link>
-        </footer>
-      </div>
-    </Layout>
+    <div className={styles.root}>
+      {page.node && <PostLayout {...page.node} />}
+      <footer>
+        <Link to="/blog">Go to home</Link>
+      </footer>
+    </div>
   );
 };

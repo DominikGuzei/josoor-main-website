@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "react-helmet";
 import styles from './BlogIndex.scss';
-import josoorLogo from '../../theme/images/josoor-blog-logo.svg';
+import josoorLogo from '../../../theme/images/josoor-blog-logo.svg';
 import BlogPostsList from "./BlogPostsList";
 
 export default ({ posts }) => (
