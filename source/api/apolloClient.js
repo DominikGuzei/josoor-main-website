@@ -1,12 +1,16 @@
 import { ApolloClient, createNetworkInterface } from 'react-apollo';
 import { getAuthToken } from './storage/authToken';
 
-export const setupApolloClient = () => {
-  const networkInterface = createNetworkInterface({
-    uri: 'http://localhost:4000',
-    // uri: 'https://josoor-staging.gigalixirapp.com',
-  });
+let api;
 
+switch (process.env.CONTEXT) {
+  case 'development': api = 'http://localhost:4000'; break;
+  case 'production': api = 'https://josoor-staging.gigalixirapp.com'; break;
+  default: api = 'https://josoor-staging.gigalixirapp.com';
+}
+
+export const setupApolloClient = () => {
+  const networkInterface = createNetworkInterface({ uri: api });
   networkInterface.use([{
     applyMiddleware(req, next) {
       if (!req.options.headers) {

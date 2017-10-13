@@ -5,9 +5,10 @@ import OptimizeCssAssetsPlugin from 'optimize-css-assets-webpack-plugin';
 import LodashModuleReplacementPlugin from 'lodash-webpack-plugin';
 
 const IS_STATIC = process.env.PHENOMIC_ENV === 'static';
-const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+const IS_PRODUCTION = process.env.CONTEXT === 'production';
 
 module.exports = (config) => ({
+  devtool: !IS_PRODUCTION ? 'cheap-module-eval-source-map' : 'false',
   entry: {
     [config.bundleName]: [
       !IS_STATIC && require.resolve('webpack-hot-middleware/client'),
@@ -68,6 +69,9 @@ module.exports = (config) => ({
     new LodashModuleReplacementPlugin(),
     !IS_STATIC && new webpack.HotModuleReplacementPlugin(),
     IS_PRODUCTION && new webpack.optimize.UglifyJsPlugin(),
+    new webpack.DefinePlugin({
+      'process.env.CONTEXT': JSON.stringify(process.env.CONTEXT || 'development'),
+    }),
   ].filter(item => item),
 
   resolve: {
