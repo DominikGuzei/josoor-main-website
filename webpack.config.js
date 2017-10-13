@@ -61,6 +61,12 @@ module.exports = (config) => ({
     ]
   },
   plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(process.env.NODE_ENV),
+        CONTEXT: JSON.stringify(process.env.CONTEXT || 'development'),
+      },
+    }),
     new ExtractTextPlugin({
       filename: 'phenomic/[name].[contenthash:8].css',
       disable: !IS_STATIC
@@ -69,9 +75,6 @@ module.exports = (config) => ({
     new LodashModuleReplacementPlugin(),
     !IS_STATIC && new webpack.HotModuleReplacementPlugin(),
     IS_PRODUCTION && new webpack.optimize.UglifyJsPlugin(),
-    new webpack.DefinePlugin({
-      'process.env.CONTEXT': JSON.stringify(process.env.CONTEXT || 'development'),
-    }),
   ].filter(item => item),
 
   resolve: {
