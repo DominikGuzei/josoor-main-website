@@ -3,8 +3,6 @@ import { getAuthToken } from './storage/authToken';
 
 let api;
 
-console.log('CONTEXT:', process.env.CONTEXT);
-
 switch (process.env.CONTEXT) {
   case 'development': api = 'http://localhost:4000'; break;
   case 'production': api = 'https://josoor-staging.gigalixirapp.com'; break;
