@@ -10,22 +10,26 @@ html {
 body {
   margin: 0 0 $theme-footer-height;
   padding-bottom: 60px;
+
+  &.loading {
+    display: none;
+  }
 }
 
-@font-face {
-  font-family: 'Freight-Sans-Light';
-  src: url('fonts/freight/Freight-Sans-Light.otf') format('opentype');
-}
+//@font-face {
+//  font-family: 'Freight-Sans-Light';
+//  src: url('fonts/freight/Freight-Sans-Light.otf') format('opentype');
+//}
 
 @font-face {
   font-family: 'Freight-Sans-Medium';
   src: url('fonts/freight/Freight-Sans-Medium.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Freight-Sans-Book';
-  src: url('fonts/freight/Freight-Sans-Book.otf') format('opentype');
-}
+//@font-face {
+//  font-family: 'Freight-Sans-Book';
+//  src: url('fonts/freight/Freight-Sans-Book.otf') format('opentype');
+//}
 
 @font-face {
   font-family: 'TisaPro-Bold';

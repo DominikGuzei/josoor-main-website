@@ -39,14 +39,15 @@ module.exports = (config) => ({
       },
       {
         test: /\.(?:png|jpg|svg)$/,
-        loader: 'file-loader',
+        loader: 'url-loader',
         options: {
+          limit: 50000,
           name: './assets/[name]-[hash].[ext]',
         }
       },
       {
         test: /\.(?:otf|ttf)$/,
-        loader: 'file-loader',
+        loader: 'url-loader',
         options: {
           name: './fonts/[name]-[hash].[ext]',
         }

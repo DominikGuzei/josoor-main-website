@@ -8,7 +8,7 @@ import { ThemeProvider } from 'react-css-themr';
 import styles from './Layout.scss';
 import { theme } from '../../theme/polymorph/theme';
 import translations from '../../i18n/translations';
-import ProfileMenuItem from './menu/ProfileMenuItem';
+// import ProfileMenuItem from './menu/ProfileMenuItem';
 const locale = 'en-US';
 
 export default ({ children }) => (
