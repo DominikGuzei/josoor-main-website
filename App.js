@@ -16,12 +16,12 @@ const routes = () => (
     <Route path="/impress" component={Impress} />
     <Route component={Layout}>
       <Route path="/" component={Home} />
-      <Route path="/login" component={LoginContainer} />
-      <Route path="/feed" component={FeedContainer} />
-      <Route path="/blog" component={BlogIndexContainer} />
-      <Route path="/blog/after/:after" component={BlogIndexContainer} />
-      <Route path="/blog/posts/*" component={BlogPostContainer} />
-      <Route path="/admin/users" component={AdminUsersListContainer} />
+      {/*<Route path="/login" component={LoginContainer} />*/}
+      {/*<Route path="/feed" component={FeedContainer} />*/}
+      {/*<Route path="/blog" component={BlogIndexContainer} />*/}
+      {/*<Route path="/blog/after/:after" component={BlogIndexContainer} />*/}
+      {/*<Route path="/blog/posts/*" component={BlogPostContainer} />*/}
+      {/*<Route path="/admin/users" component={AdminUsersListContainer} />*/}
       <Route path="*" component={Home} />
     </Route>
   </Router>
