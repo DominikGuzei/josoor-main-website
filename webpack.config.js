@@ -40,17 +40,17 @@ module.exports = (config) => ({
       {
         test: /\.png$|\.jpg$|\.svg$/,
         loader: require.resolve('url-loader'),
-        options: {
-          limit: 50000,
-          name: './assets/[name]-[hash].[ext]',
-        }
+        // options: {
+        //   limit: 50000,
+        //   name: './assets/[name]-[hash].[ext]',
+        // }
       },
       {
         test: /\.otf$|\.ttf$/,
         loader: require.resolve('url-loader'),
-        options: {
-          name: './fonts/[name]-[hash].[ext]',
-        }
+        // options: {
+        //   name: './fonts/[name]-[hash].[ext]',
+        // }
       },
       {
         test: /\.global\.scss/,
