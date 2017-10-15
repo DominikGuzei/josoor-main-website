@@ -95,12 +95,6 @@ module.exports = (config) => ({
     }
   },
 
-  resolveLoader: {
-    alias: {
-      'file-loader': require.resolve('file-loader')
-    }
-  },
-
   // eslint-disable-next-line max-len
   // https://github.com/facebookincubator/create-react-app/blob/fbdff9d722d6ce669a090138022c4d3536ae95bb/packages/react-scripts/config/webpack.config.prod.js#L279-L285
   node: {
