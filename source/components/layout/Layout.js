@@ -2,9 +2,9 @@ import React from "react";
 import Head from "react-helmet";
 import { Link } from "react-router";
 import { IntlProvider } from 'react-intl';
-import { ApolloProvider } from 'react-apollo';
+// import { ApolloProvider } from 'react-apollo';
 import { ThemeProvider } from 'react-css-themr';
-import { setupApolloClient } from '../../api/apolloClient';
+// import { setupApolloClient } from '../../api/apolloClient';
 import styles from './Layout.scss';
 import { theme } from '../../theme/polymorph/theme';
 import translations from '../../i18n/translations';
@@ -13,7 +13,7 @@ const locale = 'en-US';
 
 export default ({ children }) => (
   <ThemeProvider theme={theme}>
-    <ApolloProvider client={setupApolloClient()}>
+    {/*<ApolloProvider client={setupApolloClient()}>*/}
       <IntlProvider {...{ locale, key: locale, messages: translations[locale] }}>
         <div>
           <Head>
@@ -26,8 +26,8 @@ export default ({ children }) => (
               <Link to="/" className={styles.homeLink}>Home</Link>
             </div>
             <div className={styles.itemsRight}>
-              <ProfileMenuItem />
-              <Link to="/blog" className={styles.blogLink}>Blog</Link>
+              {/*<ProfileMenuItem />*/}
+              {/*<Link to="/blog" className={styles.blogLink}>Blog</Link>*/}
             </div>
           </div>
           <div className={styles.content}>
@@ -38,6 +38,6 @@ export default ({ children }) => (
           </footer>
         </div>
       </IntlProvider>
-    </ApolloProvider>
+    {/*</ApolloProvider>*/}
   </ThemeProvider>
 );

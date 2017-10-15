@@ -27,6 +27,11 @@ body {
   src: url('fonts/freight/Freight-Sans-Book.otf') format('opentype');
 }
 
+@font-face {
+  font-family: 'TisaPro-Bold';
+  src: url('fonts/tisa/TisaPro-Bold.otf') format('opentype');
+}
+
 h1, h2 {
   font-family: $theme-font-sans-medium;
   color: $theme-color-main-dark;

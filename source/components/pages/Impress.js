@@ -1,7 +1,6 @@
 import React from "react";
-import Layout from '../layout/Layout';
 import Head from "react-helmet";
-// import { Link } from "react-router";
+import { Link } from "react-router";
 import styles from './Impress.scss';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
 
@@ -12,7 +11,9 @@ export default () => (
     </Head>
     <div className={styles.impress}>
 
-      <img src={josoorLogo} className={styles.josoorLogo} />
+      <Link to="/" >
+        <img src={josoorLogo} className={styles.josoorLogo} />
+      </Link>
 
       <div className={styles.text}>
 
