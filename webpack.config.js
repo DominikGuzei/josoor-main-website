@@ -38,9 +38,18 @@ module.exports = (config) => ({
         }
       },
       {
-        test: /\.(?:png|jpg|svg|otf|ttf)$/,
-        loader: require.resolve('url-loader'),
-        exclude: /\.inline\.svg$/,
+        test: /\.(?:png|jpg|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: './assets/[name]-[hash].[ext]',
+        }
+      },
+      {
+        test: /\.(?:otf|ttf)$/,
+        loader: 'file-loader',
+        options: {
+          name: './fonts/[name]-[hash].[ext]',
+        }
       },
       {
         test: /\.global\.scss/,
