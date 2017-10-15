@@ -41,6 +41,7 @@ module.exports = (config) => ({
         test: /\.(?:png|jpg|svg)$/,
         loader: require.resolve('url-loader'),
         options: {
+          fallback: require.resolve('file-loader'),
           limit: 50000,
           name: './assets/[name]-[hash].[ext]',
         }
@@ -49,6 +50,7 @@ module.exports = (config) => ({
         test: /\.(?:otf|ttf)$/,
         loader: require.resolve('url-loader'),
         options: {
+          fallback: require.resolve('file-loader'),
           name: './fonts/[name]-[hash].[ext]',
         }
       },
