@@ -40,17 +40,17 @@ module.exports = (config) => ({
       {
         test: /\.(?:png|jpg|svg)$/,
         loader: require.resolve('url-loader'),
-        // options: {
-        //   limit: 50000,
-        //   name: './assets/[name]-[hash].[ext]',
-        // }
+        options: {
+          limit: 50000,
+          name: './assets/[name]-[hash].[ext]',
+        }
       },
       {
         test: /\.(?:otf|ttf)$/,
         loader: require.resolve('url-loader'),
-        // options: {
-        //   name: './fonts/[name]-[hash].[ext]',
-        // }
+        options: {
+          name: './fonts/[name]-[hash].[ext]',
+        }
       },
       {
         test: /\.global\.scss/,
@@ -92,6 +92,12 @@ module.exports = (config) => ({
     extensions: ['.web.js', '.js', '.json'],
     alias: {
       'react-native': 'react-native-web'
+    }
+  },
+
+  resolveLoader: {
+    alias: {
+      'file-loader': require.resolve('file-loader')
     }
   },
 
