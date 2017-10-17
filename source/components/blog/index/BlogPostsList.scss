@@ -1,0 +1,38 @@
+@import "../../../theme/config";
+@import "../../../theme/mixins/container";
+
+.root {
+  @include container;
+  max-width: 640px;
+  margin-top: 80px;
+}
+
+.postsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.postTitle {
+  text-align: center;
+  display: block;
+  font-size: 24px;
+  color: $theme-color-main-dark !important;
+}
+
+.postSubtitle {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.postDate {
+  text-align: center;
+  font-size: 13px;
+  font-family: $theme-font-sans-book;
+  margin-top: 0;
+}
+
+.postImage {
+  width: 100%;
+}

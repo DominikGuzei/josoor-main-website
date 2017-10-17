@@ -1,0 +1,11 @@
+@import "../../../theme/config";
+@import "../../../theme/mixins/container";
+
+.root {
+  @include container;
+  max-width: 640px;
+}
+
+.image {
+  width: 100%;
+}
