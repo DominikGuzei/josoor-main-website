@@ -17,8 +17,13 @@ class ProfileMenuItem extends Component {
       <div className={styles.root}>
         { currentUser ? (
           <div className={styles.profile}>
-            <div>{currentUser.name}</div>
-            <button onClick={this.handleLogout}>Logout</button>
+            <span className={styles.userName}>{currentUser.name}</span>
+            <button
+              className={styles.logoutButton}
+              onClick={this.handleLogout}
+            >
+              Logout
+            </button>
           </div>
         ) : (
           <Link to="/login" className={styles.loginLink}>Login</Link>

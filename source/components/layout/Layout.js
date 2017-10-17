@@ -26,7 +26,7 @@ export default ({ children }) => (
               <Link to="/" className={styles.homeLink}>Home</Link>
             </div>
             <div className={styles.itemsRight}>
-              <Link to="/blog" className={styles.blogLink}>Blog</Link>
+              {/*<Link to="/blog" className={styles.blogLink}>Blog</Link>*/}
               <ProfileMenuItem />
             </div>
           </div>

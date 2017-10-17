@@ -1,0 +1,23 @@
+@import "../../../theme/config";
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.userName {
+  font-family: $theme-font-sans-medium;
+}
+
+.logoutButton {
+  border: 0;
+  padding: 0;
+  background: none;
+  display: inline-block;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
