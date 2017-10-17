@@ -38,6 +38,22 @@ module.exports = (config) => ({
         }
       },
       {
+        test: /\.global\.scss/,
+        loader: ExtractTextPlugin.extract({
+          use: (IS_STATIC ? '' : 'style-loader?sourceMap!') +
+          'css-loader?sourceMap!' +
+          'sass-loader?sourceMap',
+        }),
+      },
+      {
+        test: /^((?!\.global).)*\.scss/,
+        loader: ExtractTextPlugin.extract({
+          use: (IS_STATIC ? '' : 'style-loader?sourceMap!') +
+          'css-loader?sourceMap&importLoaders=1&modules&localIdentName=[name]_[local]!' +
+          'sass-loader?sourceMap',
+        })
+      },
+      {
         test: /\.png$|\.jpg$|\.svg$/,
         loader: require.resolve('url-loader'),
         options: {
@@ -49,22 +65,6 @@ module.exports = (config) => ({
       {
         test: /\.otf$|\.ttf$/,
         loader: require.resolve('url-loader'),
-      },
-      {
-        test: /\.global\.scss/,
-        loader: ExtractTextPlugin.extract({
-          use: (IS_STATIC ? '' : 'style-loader?sourceMap!') +
-            'css-loader?sourceMap!' +
-            'sass-loader?sourceMap',
-        }),
-      },
-      {
-        test: /^((?!\.global).)*\.scss/,
-        loader: ExtractTextPlugin.extract({
-          use: (IS_STATIC ? '' : 'style-loader?sourceMap!') +
-            'css-loader?sourceMap&importLoaders=1&modules&localIdentName=[name]_[local]!' +
-            'sass-loader?sourceMap',
-        })
       }
     ]
   },
