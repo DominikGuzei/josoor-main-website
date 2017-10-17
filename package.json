@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "author": "Dominik Guzei <dominik.guzei@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@phenomic/cli": "1.0.0-alpha.12",
     "@phenomic/core": "1.0.0-alpha.12",
     "@phenomic/preset-react-app": "1.0.0-alpha.12",

@@ -38,6 +38,19 @@ module.exports = (config) => ({
         }
       },
       {
+        test: /\.png$|\.jpg$|\.svg$/,
+        loader: 'url-loader',
+        options: {
+          fallback: 'file-loader',
+          limit: 50000,
+          name: './assets/[name]-[hash].[ext]',
+        }
+      },
+      {
+        test: /\.otf$|\.ttf$/,
+        loader: 'url-loader',
+      },
+      {
         test: /\.global\.scss/,
         loader: ExtractTextPlugin.extract({
           use: (IS_STATIC ? '' : 'style-loader?sourceMap!') +
@@ -53,19 +66,6 @@ module.exports = (config) => ({
           'sass-loader?sourceMap',
         })
       },
-      {
-        test: /\.png$|\.jpg$|\.svg$/,
-        loader: 'url-loader',
-        options: {
-          fallback: 'file-loader',
-          limit: 50000,
-          name: './assets/[name]-[hash].[ext]',
-        }
-      },
-      {
-        test: /\.otf$|\.ttf$/,
-        loader: 'url-loader',
-      }
     ]
   },
   plugins: [
