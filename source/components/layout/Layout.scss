@@ -26,11 +26,12 @@
   align-items: center;
 
   > * {
-    margin-left: 10px;
+    margin-left: 20px;
   }
 }
 
 .blogLink {
+  font-size: 15px;
   color: $theme-color-main-light;
   font-family: $theme-font-sans-medium;
   &:hover {

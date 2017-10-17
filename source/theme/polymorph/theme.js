@@ -12,11 +12,11 @@ import SimpleModal from './simple/SimpleModal.scss';
 import SimpleButton from './simple/SimpleButton.scss';
 
 export const theme = {
-  // [FORM_FIELD]: SimpleFormField,
-  // [INPUT]: SimpleInput,
-  // [SELECT]: SimpleSelect,
-  // [CHECKBOX]: SimpleCheckbox,
-  // [SWITCH]: SimpleSwitch,
-  // [MODAL]: SimpleModal,
-  // [BUTTON]: SimpleButton,
+  [FORM_FIELD]: SimpleFormField,
+  [INPUT]: SimpleInput,
+  [SELECT]: SimpleSelect,
+  [CHECKBOX]: SimpleCheckbox,
+  [SWITCH]: SimpleSwitch,
+  [MODAL]: SimpleModal,
+  [BUTTON]: SimpleButton,
 };
