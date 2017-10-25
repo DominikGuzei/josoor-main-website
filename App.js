@@ -7,6 +7,7 @@ import Home from './source/components/pages/Home';
 import Impress from './source/components/pages/Impress';
 // import AdminUsersListContainer from './source/components/admin/users/UsersListContainer';
 import LoginContainer from './source/components/auth/LoginContainer';
+import RegistrationContainer from './source/components/auth/RegistrationContainer';
 import FeedContainer from "./source/components/feed/FeedContainer";
 import './source/theme/App.global.scss';
 import Layout from "./source/components/layout/Layout";
@@ -17,6 +18,7 @@ const routes = () => (
     <Route component={Layout}>
       <Route path="/" component={Home} />
       <Route path="/login" component={LoginContainer} />
+      <Route path="/register" component={RegistrationContainer} />
       <Route path="/feed" component={FeedContainer} />
       {/*<Route path="/blog" component={BlogIndexContainer} />*/}
       {/*<Route path="/blog/after/:after" component={BlogIndexContainer} />*/}
