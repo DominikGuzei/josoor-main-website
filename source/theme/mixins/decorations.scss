@@ -1,0 +1,5 @@
+@mixin separator {
+  width: 30px;
+  margin: 0 auto;
+  border-top: 2px solid $theme-color-main-light;
+}

@@ -4,7 +4,7 @@ import { getAuthToken } from './storage/authToken';
 let api;
 
 switch (process.env.CONTEXT) {
-  case 'development': api = 'http://localhost:4000'; break;
+  case 'development': api = 'http://0.0.0.0:4000'; break;
   case 'production': api = 'https://josoor-staging.gigalixirapp.com'; break;
   default: api = 'https://josoor-staging.gigalixirapp.com';
 }

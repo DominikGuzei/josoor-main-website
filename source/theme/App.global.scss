@@ -16,10 +16,10 @@ body {
   }
 }
 
-//@font-face {
-//  font-family: 'Freight-Sans-Light';
-//  src: url('fonts/freight/Freight-Sans-Light.otf') format('opentype');
-//}
+@font-face {
+  font-family: 'Freight-Sans-Light';
+  src: url('fonts/freight/Freight-Sans-Light.otf') format('opentype');
+}
 
 @font-face {
   font-family: 'Freight-Sans-Medium';
@@ -34,6 +34,11 @@ body {
 @font-face {
   font-family: 'TisaPro-Bold';
   src: url('fonts/tisa/TisaPro-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'TisaPro-Regular';
+  src: url('fonts/tisa/TisaPro-Regular.otf') format('opentype');
 }
 
 h1, h2 {

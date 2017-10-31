@@ -1,5 +1,6 @@
 @import "../../theme/config";
 @import "../../theme/mixins/container";
+@import "../../theme/mixins/decorations";
 
 .header {
   background: url('../../theme/images/home/header.jpg') no-repeat center center;
@@ -37,9 +38,7 @@
 }
 
 .separator {
-  width: 30px;
-  margin: 0 auto;
-  border-top: 2px solid $theme-color-main-light;
+  @include separator;
 }
 
 .how {

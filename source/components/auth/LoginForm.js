@@ -4,7 +4,7 @@ import ButtonSkin from 'react-polymorph/lib/skins/simple/raw/ButtonSkin';
 import Input from 'react-polymorph/lib/components/Input';
 import InputSkin from 'react-polymorph/lib/skins/simple/raw/InputSkin';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
-import styles from './LoginForm.scss';
+import styles from './AuthForms.scss';
 
 export default class LoginForm extends Component {
 
@@ -21,19 +21,20 @@ export default class LoginForm extends Component {
   };
 
   render() {
-    const { errors } = this.props;
+    const { errors, onSignupButtonClick } = this.props;
     return (
       <div className={styles.root}>
         <img src={josoorLogo} className={styles.josoorLogo} />
+        <h1>Login to your Josoor Account</h1>
         <Input
-          className={styles.emailInput}
+          className={styles.input}
           placeholder="Email"
           value={this.state.emailValue}
           onChange={v => this.setState({ emailValue: v })}
           skin={<InputSkin />}
         />
         <Input
-          className={styles.passwordInput}
+          className={styles.input}
           type="password"
           placeholder="Password"
           value={this.state.passwordValue}
@@ -58,6 +59,7 @@ export default class LoginForm extends Component {
           className={styles.createAccountButton}
           label="Create an Account"
           skin={<ButtonSkin />}
+          onClick={onSignupButtonClick}
         />
       </div>
     );

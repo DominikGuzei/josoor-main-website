@@ -16,7 +16,11 @@ export default ({ posts }) => {
               {post.title}
             </Link>
             <p className={styles.postSubtitle}>{post.subtitle}</p>
-            <p className={styles.postDate}>{post.date}</p>
+            <div className={styles.postMeta}>
+              <p className={styles.postAuthor}>{post.author}</p>
+              <p className={styles.postDate}>{post.date}</p>
+            </div>
+            <div className={styles.separator} />
             <Link to={`/blog/posts/${post.id}/`}>
               <img className={styles.postImage} src={post.image} />
             </Link>

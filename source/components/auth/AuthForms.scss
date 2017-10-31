@@ -1,12 +1,20 @@
 @import "../../theme/config";
 
+.root {
+  h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: $theme-font-sans-light;
+  }
+}
+
 .josoorLogo {
   width: 50%;
   display: block;
   margin: 0 auto 20px auto;
 }
 
-.emailInput, .passwordInput {
+.input {
   display: block;
   margin-bottom: 20px;
 }

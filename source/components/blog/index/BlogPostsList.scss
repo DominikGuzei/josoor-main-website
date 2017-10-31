@@ -1,9 +1,10 @@
 @import "../../../theme/config";
 @import "../../../theme/mixins/container";
+@import "../../../theme/mixins/decorations";
 
 .root {
   @include container;
-  max-width: 640px;
+  max-width: 680px;
   margin-top: 80px;
 }
 
@@ -17,22 +18,42 @@
   text-align: center;
   display: block;
   font-size: 24px;
+  font-family: $theme-font-serif-bold !important;
   color: $theme-color-main-dark !important;
 }
 
 .postSubtitle {
   text-align: center;
   font-size: 16px;
-  margin-bottom: 0;
+  max-width: 540px;
+  margin: 10px auto 20px auto;
 }
 
-.postDate {
-  text-align: center;
-  font-size: 13px;
-  font-family: $theme-font-sans-book;
+.postMeta {
+  display: flex;
+  justify-content: center;
   margin-top: 0;
+}
+
+.postAuthor, .postDate {
+  font-family: $theme-font-sans-medium;
+  font-size: 15px;
+  &.postAuthor:after {
+    content: '|';
+    padding: 0 5px;
+  }
+}
+
+.separator {
+  @include separator;
 }
 
 .postImage {
   width: 100%;
+  margin-top: 20px;
+}
+
+.postTeaser {
+  font-family: $theme-font-serif-regular;
+  font-size: 15px;
 }
