@@ -1,4 +1,4 @@
-import apiErrors from './messages/api-errors';
+import { apiErrors } from './global-messages';
 
 export default (errorCodes) => errorCodes.map(e => {
   const knownError = apiErrors[e.code];

@@ -5,6 +5,7 @@ import ButtonSkin from 'react-polymorph/lib/skins/simple/raw/ButtonSkin';
 import Input from 'react-polymorph/lib/components/Input';
 import InputSkin from 'react-polymorph/lib/skins/simple/raw/InputSkin';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
+import { formMessages } from '../../i18n/global-messages';
 import styles from './AuthForms.scss';
 
 const messages = defineMessages({
@@ -18,20 +19,10 @@ const messages = defineMessages({
     defaultMessage: '!!!Enter your full name …',
     description: 'Placeholder of the "name" input field in the signup form'
   },
-  emailLabel: {
-    id: 'signup.form.email.label',
-    defaultMessage: '!!!Email',
-    description: 'Label of the "email" input field in the signup form'
-  },
   emailPlaceholder: {
     id: 'signup.form.email.placeholder',
     defaultMessage: '!!!E.g: example@test.com …',
     description: 'Placeholder of the "email" input field in the signup form'
-  },
-  passwordLabel: {
-    id: 'signup.form.password.label',
-    defaultMessage: '!!!Password',
-    description: 'Label of the "password" input field in the signup form'
   },
   passwordPlaceholder: {
     id: 'signup.form.password.placeholder',
@@ -42,11 +33,6 @@ const messages = defineMessages({
     id: 'signup.form.submit.button.label',
     defaultMessage: '!!!Sign up',
     description: 'Label of the submit button in the signup form'
-  },
-  orText: {
-    id: 'signup.form.or.text',
-    defaultMessage: '!!!or',
-    description: 'Text of the separator between signup and login button'
   },
   loginButtonLabel: {
     id: 'signup.form.login.button.label',
@@ -93,7 +79,7 @@ export default class SignupForm extends Component {
         />
         <Input
           className={styles.input}
-          label={intl.formatMessage(messages.emailLabel)}
+          label={intl.formatMessage(formMessages.emailLabel)}
           placeholder={intl.formatMessage(messages.emailPlaceholder)}
           value={this.state.emailValue}
           onChange={v => this.setState({ emailValue: v })}
@@ -103,7 +89,7 @@ export default class SignupForm extends Component {
         <Input
           className={styles.input}
           type="password"
-          label={intl.formatMessage(messages.passwordLabel)}
+          label={intl.formatMessage(formMessages.passwordLabel)}
           placeholder={intl.formatMessage(messages.passwordPlaceholder)}
           value={this.state.passwordValue}
           onChange={v => this.setState({ passwordValue: v })}
@@ -122,7 +108,7 @@ export default class SignupForm extends Component {
           skin={<ButtonSkin />}
         />
         <div className={styles.actionSeparator}>
-          <span>{intl.formatMessage(messages.orText)}</span>
+          <span>{intl.formatMessage(formMessages.orLabel)}</span>
         </div>
         <Button
           className={styles.createAccountButton}

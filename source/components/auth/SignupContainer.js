@@ -7,7 +7,7 @@ import SignupForm from './SignupForm';
 import getApiErrors from "../../i18n/getApiErrors";
 import styles from './LoginContainer.scss';
 import { browserHistory } from 'react-router';
-import apiErrors from '../../i18n/messages/api-errors';
+import { apiErrors } from '../../i18n/global-messages';
 
 const _setupEmptyErrorState = () => ({
   name: null,
