@@ -1,6 +1,6 @@
 import { defineMessages } from 'react-intl';
 
-export default defineMessages({
+export const apiErrors = defineMessages({
   UknownError: {
     id: 'api.errors.UknownError',
     defaultMessage: '!!!An error occurred, please try again later.',
@@ -25,5 +25,23 @@ export default defineMessages({
     id: 'api.errors.AuthInvalidPassword',
     defaultMessage: '!!!Invalid password provided.',
     description: 'Error message when invalid password has been submitted.'
+  },
+});
+
+export const formMessages = defineMessages({
+  orLabel: {
+    id: 'forms.or.label',
+    defaultMessage: '!!!or',
+    description: 'Text of the separator between main and secondary action on auth forms'
+  },
+  emailLabel: {
+    id: 'forms.email.label',
+    defaultMessage: '!!!Email Address',
+    description: 'Label for all email form fields.'
+  },
+  passwordLabel: {
+    id: 'forms.password.label',
+    defaultMessage: '!!!Password',
+    description: 'Label for all password form fields.'
   },
 });

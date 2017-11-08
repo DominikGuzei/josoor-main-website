@@ -19,14 +19,20 @@ const _setupEmptyErrorState = () => ({
 class SignupContainer extends Component {
 
   state = {
+    isSubmitting: false,
     formErrors: _setupEmptyErrorState(),
   };
 
   handleRegistration = ({name, email, password}) => {
+    if (this.state.isSubmitting) return;
     const {client, serverSignup} = this.props;
     serverSignup({variables: {name, email, password}})
-      .then(result => login(client, result.data.signup.token))
+      .then(result => {
+        this.setState({ isSubmitting: false });
+        login(client, result.data.signup.token);
+      })
       .catch(this.handleRegistrationErrors);
+    this.setState({ loginErrors: null, isSubmitting: true });
   };
 
   handleRegistrationErrors = (serverErrors) => {
@@ -41,7 +47,7 @@ class SignupContainer extends Component {
         default: errors.general.push(errorMessage);
       }
     });
-    this.setState({ formErrors: errors });
+    this.setState({ formErrors: errors, isSubmitting: false });
   };
 
   handleLoginButtonClick = () => {
@@ -53,6 +59,7 @@ class SignupContainer extends Component {
       <div className={styles.root}>
         <SignupForm
           onSubmit={this.handleRegistration}
+          isSubmitting={this.state.isSubmitting}
           errors={this.state.formErrors}
           onLoginButtonClick={this.handleLoginButtonClick}
         />

@@ -12,19 +12,26 @@ class LoginContainer extends Component {
 
   state = {
     loginErrors: null,
+    isSubmitting: false,
   };
 
   handleLogin = ({ email, password }) => {
+    if (this.state.isSubmitting) return;
     const { client, serverLogin } = this.props;
     serverLogin({ variables: { email, password }})
-      .then(result => login(client, result.data.login.token))
+      .then(result => {
+        this.setState({ isSubmitting: false });
+        login(client, result.data.login.token);
+      })
       .catch(errors => {
         this.setState({
+          isSubmitting: false,
           loginErrors: getApiErrors(errors.graphQLErrors).map(error => (
             <FormattedHTMLMessage {...error} />
           ))
         })
       });
+    this.setState({ loginErrors: null, isSubmitting: true });
   };
 
   handleSignupButtonClick = () => {
@@ -37,6 +44,7 @@ class LoginContainer extends Component {
         <LoginForm
           onSubmit={this.handleLogin}
           errors={this.state.loginErrors}
+          isSubmitting={this.state.isSubmitting}
           onSignupButtonClick={this.handleSignupButtonClick}
         />
       </div>

@@ -5,6 +5,8 @@ import ButtonSkin from 'react-polymorph/lib/skins/simple/raw/ButtonSkin';
 import Input from 'react-polymorph/lib/components/Input';
 import InputSkin from 'react-polymorph/lib/skins/simple/raw/InputSkin';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
+import LoadingSpinner from '../shared/LoadingSpinner';
+import SubmitButton from '../shared/SubmitButton';
 import { formMessages } from '../../i18n/global-messages';
 import styles from './AuthForms.scss';
 
@@ -50,7 +52,7 @@ export default class LoginForm extends Component {
   };
 
   render() {
-    const { errors, onSignupButtonClick } = this.props;
+    const { isSubmitting, errors, onSignupButtonClick } = this.props;
     const { intl } = this.context;
     return (
       <div className={styles.root}>
@@ -80,10 +82,12 @@ export default class LoginForm extends Component {
             <div key={error} className={styles.error}>{error}</div>
           ))
         ) : null}
-        <Button
+        <SubmitButton
           className={styles.loginButton}
           onClick={this.submit}
           label={intl.formatMessage(messages.loginButtonLabel)}
+          spinner={<LoadingSpinner />}
+          isSubmitting={isSubmitting}
           skin={<ButtonSkin />}
         />
         <div className={styles.actionSeparator}>
