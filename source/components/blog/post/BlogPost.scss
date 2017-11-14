@@ -1,9 +1,29 @@
 @import "../../../theme/config";
 @import "../../../theme/mixins/container";
 
-.root {
+.content {
   @include container;
   max-width: 640px;
+}
+
+.blogHeader {
+  @media (min-width: 640px) {
+    background: url('../../../theme/images/home/header.jpg') no-repeat center center;
+    background-size: cover;
+    height: 200px;
+  }
+}
+
+.imageBox {
+  background: white;
+  margin-bottom: 20px;
+
+  @media (min-width: 640px) {
+    @include container;
+    max-width: 640px;
+    padding: 30px;
+    margin: -120px auto 0 auto;
+  }
 }
 
 .image {

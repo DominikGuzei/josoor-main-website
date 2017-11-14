@@ -1,28 +1,32 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from "react-router";
-import Head from "react-helmet";
-import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
-import Layout from '../../layout/Layout'
 import styles from './BlogPost.scss';
+import BlogPostHeader from '../BlogPostHeader';
+import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
 
-const PostLayout = ({ title, body, image }) => (
-  <article>
-    <Head>
-      <title>{title}</title>
-    </Head>
-    <h1>{title}</h1>
-    <img className={styles.image} src={image} />
-    <BodyRenderer>{body}</BodyRenderer>
-  </article>
-);
+export default class BlogPost extends Component {
 
-export default ({ page }) => {
-  return (
-    <div className={styles.root}>
-      {page.node && <PostLayout {...page.node} />}
-      <footer>
-        <Link to="/blog">Go to home</Link>
-      </footer>
-    </div>
-  );
-};
+  render() {
+    const { page } = this.props;
+    if (!page || !page.node) return null;
+    const post = page.node;
+    return (
+      <div className={styles.root}>
+        <div className={styles.header}>
+          <div className={styles.blogHeader} />
+          <div className={styles.imageBox}>
+            <img className={styles.image} src={post.image} />
+          </div>
+
+        </div>
+        <div className={styles.content}>
+          <BlogPostHeader post={post} hasTitleLink={false} />
+          <BodyRenderer>{post.body}</BodyRenderer>
+          <footer>
+            <Link to="/blog">Go to home</Link>
+          </footer>
+        </div>
+      </div>
+    );
+  }
+}

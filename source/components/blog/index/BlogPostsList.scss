@@ -14,40 +14,6 @@
   margin: 0;
 }
 
-.postTitle {
-  text-align: center;
-  display: block;
-  font-size: 24px;
-  font-family: $theme-font-serif-bold !important;
-  color: $theme-color-main-dark !important;
-}
-
-.postSubtitle {
-  text-align: center;
-  font-size: 16px;
-  max-width: 540px;
-  margin: 10px auto 20px auto;
-}
-
-.postMeta {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
-}
-
-.postAuthor, .postDate {
-  font-family: $theme-font-sans-medium;
-  font-size: 15px;
-  &.postAuthor:after {
-    content: '|';
-    padding: 0 5px;
-  }
-}
-
-.separator {
-  @include separator;
-}
-
 .postImage {
   width: 100%;
   margin-top: 20px;

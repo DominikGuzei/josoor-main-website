@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
 import styles from './BlogPostsList.scss';
+import BlogPostHeader from '../BlogPostHeader';
 
 export default ({ posts }) => {
 
@@ -12,15 +13,7 @@ export default ({ posts }) => {
       <ul className={styles.postsList}>
         {node.list.map(post =>
           <li className={styles.post} key={post.id}>
-            <Link className={styles.postTitle} to={`/blog/posts/${post.id}/`}>
-              {post.title}
-            </Link>
-            <p className={styles.postSubtitle}>{post.subtitle}</p>
-            <div className={styles.postMeta}>
-              <p className={styles.postAuthor}>{post.author}</p>
-              <p className={styles.postDate}>{post.date}</p>
-            </div>
-            <div className={styles.separator} />
+            <BlogPostHeader post={post} hasTitleLink />
             <Link to={`/blog/posts/${post.id}/`}>
               <img className={styles.postImage} src={post.image} />
             </Link>
