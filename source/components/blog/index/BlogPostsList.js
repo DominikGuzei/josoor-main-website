@@ -4,7 +4,7 @@ import styles from './BlogPostsList.scss';
 import BlogPostHeader from '../BlogPostHeader';
 import { ROUTES } from '../../../routes';
 
-class BlogPostsList extends Component {
+export default class BlogPostsList extends Component {
 
   render() {
     const { node,  posts } = this.props;

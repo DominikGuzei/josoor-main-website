@@ -1,4 +1,17 @@
 {
+  "home.title": "Josoor Answers",
+  "home.headline": "Josoor Answers",
+  "home.subline": "The place for refugees and supporters to unite through sharing knowledge and translating information",
+  "home.how": "How?",
+  "home.howToAskHeadline": "Ask",
+  "home.howToAskDescription": "Get the information you need by asking questions in the community!",
+  "home.howToAnswerHeadline": "Answer",
+  "home.howToAnswerDescription": "Share your knowledge and help fellow members by answering their questions!",
+  "home.howToTranslateHeadline": "Translate",
+  "home.howToTranslateDescription": "Help the community breach the language barrier by translating information!",
+  "blog.title": "Blog | Josoor Answers",
+  "blog.headline": "The Josoor Blog",
+  "blog.subline": "News, Articles & Events from the Josoor Community",
   "api.errors.UnknownError": "An error occurred, please try again later.",
   "api.errors.AuthInvalid": "Invalid credentials provided.",
   "api.errors.AuthNameRequired": "Please enter your name.",
@@ -18,8 +31,5 @@
   "signup.form.email.placeholder": "E.g: example@test.com …",
   "signup.form.password.placeholder": "Enter a password with a minimum of 5 characters …",
   "signup.form.submit.button.label": "Sign up",
-  "signup.form.login.button.label": "Login with your Account",
-  "blog.title": "Blog | Josoor Answers",
-  "blog.headline": "The Josoor Blog",
-  "blog.subline": "News, Articles & Events from the Josoor Community"
+  "signup.form.login.button.label": "Login with your Account"
 }

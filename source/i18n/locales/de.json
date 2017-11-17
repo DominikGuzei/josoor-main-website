@@ -1,4 +1,17 @@
 {
+  "home.title": "Josoor Answers",
+  "home.headline": "Josoor Answers",
+  "home.subline": "Der Ort wo Flüchtlinge und Helfer_innen sich vernetzen können, um Wissen auszutauschen und Informationen zu übersetzen",
+  "home.how": "Wie?",
+  "home.howToAskHeadline": "Frag",
+  "home.howToAskDescription": "Erhalte die Infos, die du brauchst: stell Fragen an die Gemeinschaft!",
+  "home.howToAnswerHeadline": "Antworte",
+  "home.howToAnswerDescription": "Teile dein Wissen und hilf anderen Mitgliedern, indem du ihre Fragen beantwortest!",
+  "home.howToTranslateHeadline": "Übersetze",
+  "home.howToTranslateDescription": "Hilf der Gemeinschaft die Sprachbarriere zu durchbrechen: übersetze Informationen!",
+  "blog.title": "Blog | Josoor Answers",
+  "blog.headline": "Der Josoor Blog",
+  "blog.subline": "Neues, Artikel & Events von der Josoor Community",
   "api.errors.UnknownError": "Es ist ein unbekannter Fehler aufgetreten.",
   "api.errors.AuthInvalid": "Email oder Passwort sind falsch.",
   "api.errors.AuthNameRequired": "Bitte gib deinen Namen ein.",
@@ -18,8 +31,5 @@
   "signup.form.email.placeholder": "z.B: beispiel@test.com …",
   "signup.form.password.placeholder": "Gib ein Passwort mit min. 5 Zeichen an …",
   "signup.form.submit.button.label": "Registrieren",
-  "signup.form.login.button.label": "Mit deinem Account einloggem",
-  "blog.title": "Blog | Josoor Answers",
-  "blog.headline": "Der Josoor Blog",
-  "blog.subline": "Neues, Artikel & Events von der Josoor Community"
+  "signup.form.login.button.label": "Mit deinem Account einloggem"
 }

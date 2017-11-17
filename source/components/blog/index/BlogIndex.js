@@ -22,7 +22,6 @@ const messages = defineMessages({
   },
 });
 
-
 export default class BlogIndex extends Component {
 
   static contextTypes = {
