@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { graphql, compose, withApollo } from 'react-apollo';
+import { browserHistory } from 'react-router';
 import { FormattedHTMLMessage } from 'react-intl'
 import SignupMutation from '../../api/mutations/SignupMutation';
 import { login } from "../../api/actions/auth";
 import SignupForm from './SignupForm';
 import getApiErrors from "../../i18n/getApiErrors";
 import styles from './LoginContainer.scss';
-import { browserHistory } from 'react-router';
 import { apiErrors } from '../../i18n/global-messages';
 
 const _setupEmptyErrorState = () => ({
@@ -25,7 +25,8 @@ class SignupContainer extends Component {
 
   handleRegistration = ({name, email, password}) => {
     if (this.state.isSubmitting) return;
-    const {client, serverSignup} = this.props;
+    const { client, serverSignup } = this.props;
+    const { router } = this.context;
     serverSignup({variables: {name, email, password}})
       .then(result => {
         this.setState({ isSubmitting: false });
@@ -51,7 +52,7 @@ class SignupContainer extends Component {
   };
 
   handleLoginButtonClick = () => {
-    browserHistory.push({pathname: '/login'});
+    browserHistory.push('/login');
   };
 
   render() {

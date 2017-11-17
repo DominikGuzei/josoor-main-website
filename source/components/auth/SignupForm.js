@@ -11,6 +11,11 @@ import { formMessages } from '../../i18n/global-messages';
 import styles from './AuthForms.scss';
 
 const messages = defineMessages({
+  headline: {
+    id: 'signup.form.headline',
+    defaultMessage: '!!!Create a new Josoor Account',
+    description: 'Signup form headline'
+  },
   nameLabel: {
     id: 'signup.form.name.label',
     defaultMessage: '!!!Name',
@@ -69,7 +74,7 @@ export default class SignupForm extends Component {
     return (
       <div className={styles.root}>
         <img src={josoorLogo} className={styles.josoorLogo} />
-        <h1>Create a new Josoor Account</h1>
+        <h1>{intl.formatMessage(messages.headline)}</h1>
         <Input
           className={styles.input}
           label={intl.formatMessage(messages.nameLabel)}

@@ -3,6 +3,7 @@ import { Link } from "react-router";
 import styles from './BlogPost.scss';
 import BlogPostHeader from '../BlogPostHeader';
 import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
+import { ROUTES } from '../../../routes';
 
 export default class BlogPost extends Component {
 
@@ -23,7 +24,7 @@ export default class BlogPost extends Component {
           <BlogPostHeader post={post} hasTitleLink={false} />
           <BodyRenderer>{post.body}</BodyRenderer>
           <footer>
-            <Link to="/blog">Go to home</Link>
+            <Link to={ROUTES.BLOG.INDEX}>Go to home</Link>
           </footer>
         </div>
       </div>

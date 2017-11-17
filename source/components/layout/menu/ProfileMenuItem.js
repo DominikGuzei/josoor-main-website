@@ -4,11 +4,17 @@ import { Link } from "react-router";
 import CurrentUserQuery from '../../../api/queries/CurrentUserQuery';
 import { logout } from "../../../api/actions/auth";
 import styles from './ProfileMenuItem.scss';
+import PropTypes from 'prop-types';
+import { ROUTES } from '../../../routes';
 
 class ProfileMenuItem extends Component {
 
+  static contextTypes = {
+    router: PropTypes.object.isRequired
+  };
+
   handleLogout = () => {
-    logout(this.props.client);
+    logout(this.props.client, this.context.router.location);
   };
 
   render() {
@@ -26,7 +32,7 @@ class ProfileMenuItem extends Component {
             </button>
           </div>
         ) : (
-          <Link to="/login" className={styles.loginLink}>Login</Link>
+          <Link to={ROUTES.LOGIN} className={styles.loginLink}>Login</Link>
         )}
       </div>
     );

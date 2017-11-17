@@ -2,14 +2,20 @@ import React, { Component } from 'react';
 import { graphql, compose, withApollo } from 'react-apollo';
 import { FormattedHTMLMessage } from 'react-intl'
 import { browserHistory } from "react-router";
+import PropTypes from 'prop-types';
 import LoginMutation from '../../api/mutations/LoginMutation';
 import { login } from "../../api/actions/auth";
 import LoginForm from './LoginForm';
 import getApiErrors from "../../i18n/getApiErrors";
 import styles from './LoginContainer.scss';
+import { ROUTES } from '../../routes';
 
 class LoginContainer extends Component {
 
+  static contextTypes = {
+    router: PropTypes.object.isRequired
+  };
+  
   state = {
     loginErrors: null,
     isSubmitting: false,
@@ -21,7 +27,7 @@ class LoginContainer extends Component {
     serverLogin({ variables: { email, password }})
       .then(result => {
         this.setState({ isSubmitting: false });
-        login(client, result.data.login.token);
+        login(client, result.data.login.token, this.context.router.location);
       })
       .catch(errors => {
         this.setState({
@@ -35,7 +41,7 @@ class LoginContainer extends Component {
   };
 
   handleSignupButtonClick = () => {
-    browserHistory.push({ pathname: '/signup' });
+    browserHistory.push(ROUTES.SIGNUP);
   };
 
   render() {

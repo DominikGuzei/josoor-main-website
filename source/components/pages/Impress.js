@@ -3,6 +3,7 @@ import Head from "react-helmet";
 import { Link } from "react-router";
 import styles from './Impress.scss';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
+import { ROUTES } from '../../routes';
 
 export default () => (
   <div>
@@ -11,7 +12,7 @@ export default () => (
     </Head>
     <div className={styles.impress}>
 
-      <Link to="/" >
+      <Link to={ROUTES.INDEX} >
         <img src={josoorLogo} className={styles.josoorLogo} />
       </Link>
 

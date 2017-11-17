@@ -1,4 +1,5 @@
 ---
+language: en
 title: "Announcing Josoor Answers"
 subtitle: "“The place for refugees and supporters to unite through sharing knowledge and translating information.“"
 author: "Natalie Gruber"
