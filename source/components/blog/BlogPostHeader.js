@@ -9,7 +9,7 @@ export default class BlogPostHeader extends Component {
     return (
       <div>
         {hasTitleLink ? (
-          <Link className={styles.title} to={`/blog/posts/${post.id}/`}>
+          <Link className={styles.title} to={`${ROUTES.BLOG.POST}/${post.id}/`}>
             {post.title}
           </Link>
         ) : (
