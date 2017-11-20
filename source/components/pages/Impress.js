@@ -1,33 +1,56 @@
-import React from "react";
+import React, { Component } from 'react';
 import Head from "react-helmet";
 import { Link } from "react-router";
 import styles from './Impress.scss';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
 import { ROUTES } from '../../routes';
+import { defineMessages, intlShape, FormattedHTMLMessage } from 'react-intl';
 
-export default () => (
-  <div>
-    <Head>
-      <title>Impress | Josoor Answers</title>
-    </Head>
-    <div className={styles.impress}>
+const messages = defineMessages({
+  title: {
+    id: 'impress.title',
+    defaultMessage: '!!!Impress | Josoor Answers',
+    description: 'Title of impress page'
+  },
+  headline: {
+    id: 'impress.headline',
+    defaultMessage: '!!!Impress',
+    description: 'Title of impress page'
+  },
+  info: {
+    id: 'impress.info',
+    defaultMessage: '!!!Copyright © 2016 Josoor',
+    description: 'Info about Josoor on the impress page'
+  },
+});
 
-      <Link to={ROUTES.INDEX} >
-        <img src={josoorLogo} className={styles.josoorLogo} />
-      </Link>
+export default class Impress extends Component {
 
-      <div className={styles.text}>
+  static contextTypes = {
+    intl: intlShape.isRequired,
+  };
 
-        <h1>Impress</h1>
+  render() {
+    const { intl } = this.context;
+    return (
+      <div>
+        <Head>
+          <title>{intl.formatMessage(messages.title)}</title>
+        </Head>
+        <div className={styles.impress}>
 
-        <p>
-          Copyright © 2016 Josoor. All rights reserved.<br/>
-          Josoor – Verein zur Vernetzung von Flüchtlingen und Unterstützungsinitiativen<br/>
-          Wipplingerstraße 20/18, 1010 Wien<br/>
-          +43 1 532 12 43 – <a href="mailto:info@josoor.eu">info@josoor.eu</a><br/>
-          DVR Nr.: 4016208 – ZVR Nr.: 560373607 VAT Nr.: ATU71261323<br/>
-        </p>
+          <Link to={ROUTES.INDEX} >
+            <img src={josoorLogo} className={styles.josoorLogo} />
+          </Link>
+
+          <div className={styles.text}>
+
+            <h1>{intl.formatMessage(messages.headline)}</h1>
+            <FormattedHTMLMessage {...messages.info} />
+
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-);
+    );
+  };
+}

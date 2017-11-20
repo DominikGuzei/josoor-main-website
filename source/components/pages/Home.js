@@ -5,7 +5,7 @@ import howToAnswerImage from '../../theme/images/home/answer-illustration.svg';
 import howToTranslateImage from '../../theme/images/home/translate-illustration.svg';
 import whyHeader from '../../theme/images/home/why-header.jpg';
 import styles from './Home.scss';
-import { defineMessages, intlShape } from 'react-intl';
+import { defineMessages, intlShape, FormattedHTMLMessage } from 'react-intl';
 
 const messages = defineMessages({
   title: {
@@ -26,7 +26,7 @@ const messages = defineMessages({
   how: {
     id: 'home.how',
     defaultMessage: '!!!How?',
-    description: 'Landing page how section headline'
+    description: 'Landing page "how" section headline',
   },
   howToAskHeadline: {
     id: 'home.howToAskHeadline',
@@ -57,6 +57,26 @@ const messages = defineMessages({
     id: 'home.howToTranslateDescription',
     defaultMessage: '!!!Help the community breach the language barrier by translating information!',
     description: 'Landing page how to translate description'
+  },
+  why: {
+    id: 'home.why',
+    defaultMessage: '!!!Why?',
+    description: 'Landing page "why" section headline'
+  },
+  whyText: {
+    id: 'home.whyText',
+    defaultMessage: '!!!text about why',
+    description: 'Landing page "why" section text'
+  },
+  vision: {
+    id: 'home.vision',
+    defaultMessage: '!!!Our Vision',
+    description: 'Landing page "vision" section headline'
+  },
+  visionText: {
+    id: 'home.visionText',
+    defaultMessage: '!!!text about our vision',
+    description: 'Landing page "vision" section text'
   },
 });
 
@@ -110,31 +130,17 @@ export default class Home extends Component {
           </div>
 
           <div className={styles.why}>
-            <img src={whyHeader} alt="Three people looking at a smartphone"/>
-            <h2>Why?</h2>
-            <div className={styles.separator} />
-            <p>
-              Both refugees and locals use tools to exchange information online. However, in
-              all those currently available, they remain in two separated groups due to the
-              language barrier, while the knowledge that is being exchanged within those two
-              groups is mostly badly organised and oftentimes lost altogether.
-            </p>
+            <img src={whyHeader}/>
+            <div className={styles.content}>
+              <h2>{intl.formatMessage(messages.why)}</h2>
+              <div className={styles.separator} />
+              <FormattedHTMLMessage {...messages.whyText} />
+            </div>
           </div>
 
           <div className={styles.vision}>
-            <h1>Our Vision</h1>
-            <p>
-              The vision of Josoor, which means “Bridges” in Arabic, is to provide an easily
-              accessible social network to connect everybody involved in the “refugee crisis”
-              to enable the creation of empowered communities and provide them with the tools
-              to help facilitate the inclusion of refugees into local societies.
-            </p>
-
-            <p>
-              Starting with Josoor Answers, we will keep adding features to keep up with the
-              Josoor Community’s changing needs and wishes.
-            </p>
-
+            <h1>{intl.formatMessage(messages.vision)}</h1>
+            <FormattedHTMLMessage {...messages.visionText} />
           </div>
         </div>
       </div>

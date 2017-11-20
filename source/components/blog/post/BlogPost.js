@@ -4,11 +4,25 @@ import styles from './BlogPost.scss';
 import BlogPostHeader from '../BlogPostHeader';
 import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
 import { ROUTES } from '../../../routes';
+import { defineMessages, intlShape } from 'react-intl';
+
+const messages = defineMessages({
+  backHomeLink: {
+    id: 'blog.backHomeLink',
+    defaultMessage: '!!!Back home',
+    description: 'Blog back home link'
+  },
+});
 
 export default class BlogPost extends Component {
 
+  static contextTypes = {
+    intl: intlShape.isRequired,
+  };
+
   render() {
     const { page } = this.props;
+    const { intl } = this.context;
     if (!page || !page.node) return null;
     const post = page.node;
     return (
@@ -24,7 +38,9 @@ export default class BlogPost extends Component {
           <BlogPostHeader post={post} hasTitleLink={false} />
           <BodyRenderer>{post.body}</BodyRenderer>
           <footer>
-            <Link to={ROUTES.BLOG.INDEX}>Go to home</Link>
+            <Link to={ROUTES.BLOG.INDEX}>
+              {intl.formatMessage(messages.backHomeLink)}
+            </Link>
           </footer>
         </div>
       </div>

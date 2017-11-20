@@ -41,6 +41,12 @@
   @include separator;
 }
 
+.content {
+  margin: 0 auto;
+  width: calc(100% - 40px);
+  max-width: 640px;
+}
+
 .how {
   h2 {
     font-family: $theme-font-serif-bold;
@@ -127,9 +133,6 @@
   }
   p {
     text-align: center;
-    margin: 0 auto;
-    width: calc(100% - 40px);
-    max-width: 640px;
   }
 }
 

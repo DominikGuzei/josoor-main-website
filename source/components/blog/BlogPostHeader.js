@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router";
 import styles from './BlogPostHeader.scss';
+import { ROUTES } from '../../routes';
 
 export default class BlogPostHeader extends Component {
 

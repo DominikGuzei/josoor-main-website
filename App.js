@@ -12,20 +12,31 @@ import FeedContainer from "./source/components/feed/FeedContainer";
 import './source/theme/App.global.scss';
 import Layout from "./source/components/layout/Layout";
 import { ROUTES } from './source/routes';
+import Provider from './source/components/Provider';
+import { pushLocation } from './source/utils/routing';
+
+/**
+ * Override browserHistory.push to merge pathname, query and hash of
+ * current and next location (e.g: to keep the language query param
+ * between pages)
+ */
+browserHistory.push = pushLocation;
 
 const routes = () => (
   <Router history={browserHistory}>
-    <Route path={ROUTES.IMPRESS} component={Impress} />
-    <Route component={Layout}>
-      <Route path={ROUTES.INDEX} component={Home} />
-      <Route path={ROUTES.LOGIN} component={LoginContainer} />
-      <Route path={ROUTES.SIGNUP} component={SignupContainer} />
-      <Route path={ROUTES.FEED} component={FeedContainer} />
-      <Route path={ROUTES.BLOG.INDEX} component={BlogIndexContainer} />
-      {/*<Route path="/blog/after/:after" component={BlogIndexContainer} />*/}
-      <Route path={`${ROUTES.BLOG.POST}/*`} component={BlogPostContainer} />
-      {/*<Route path="/admin/users" component={AdminUsersListContainer} />*/}
-      <Route path="*" component={Home} />
+    <Route component={Provider}>
+      <Route path={ROUTES.IMPRESS} component={Impress} />
+      <Route component={Layout}>
+        <Route path={ROUTES.INDEX} component={Home} />
+        <Route path={ROUTES.LOGIN} component={LoginContainer} />
+        <Route path={ROUTES.SIGNUP} component={SignupContainer} />
+        <Route path={ROUTES.FEED} component={FeedContainer} />
+        <Route path={ROUTES.BLOG.INDEX} component={BlogIndexContainer} />
+        {/*<Route path="/blog/after/:after" component={BlogIndexContainer} />*/}
+        <Route path={`${ROUTES.BLOG.POST}/*`} component={BlogPostContainer} />
+        {/*<Route path="/admin/users" component={AdminUsersListContainer} />*/}
+        <Route path="*" component={Home} />
+      </Route>
     </Route>
   </Router>
 );

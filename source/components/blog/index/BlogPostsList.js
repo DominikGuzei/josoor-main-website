@@ -3,11 +3,25 @@ import { Link } from "react-router";
 import styles from './BlogPostsList.scss';
 import BlogPostHeader from '../BlogPostHeader';
 import { ROUTES } from '../../../routes';
+import { defineMessages, intlShape } from 'react-intl';
+
+const messages = defineMessages({
+  readMore: {
+    id: 'blog.readMore',
+    defaultMessage: '!!!read more',
+    description: 'Blog read more label'
+  },
+});
 
 export default class BlogPostsList extends Component {
 
+  static contextTypes = {
+    intl: intlShape.isRequired,
+  };
+
   render() {
-    const { node,  posts } = this.props;
+    const { posts } = this.props;
+    const { intl } = this.context;
     return (
       <div className={styles.root}>
         <ul className={styles.postsList}>
@@ -18,7 +32,9 @@ export default class BlogPostsList extends Component {
                 <img className={styles.postImage} src={post.image} />
               </Link>
               <p className={styles.postTeaser}>
-                {post.teaser} … <Link to={`${ROUTES.BLOG.POST}/${post.id}/`}>Read more</Link>
+                {post.teaser} … <Link to={`${ROUTES.BLOG.POST}/${post.id}/`}>
+                {intl.formatMessage(messages.readMore)}
+              </Link>
               </p>
             </li>
           )}
