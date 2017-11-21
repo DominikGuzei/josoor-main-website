@@ -20,7 +20,7 @@ import { pushLocation } from './source/utils/routing';
  * current and next location (e.g: to keep the language query param
  * between pages)
  */
-browserHistory.push = pushLocation;
+if (browserHistory) browserHistory.push = pushLocation;
 
 const routes = () => (
   <Router history={browserHistory}>
