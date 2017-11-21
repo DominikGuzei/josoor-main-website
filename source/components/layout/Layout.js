@@ -5,6 +5,7 @@ import { defineMessages, intlShape } from 'react-intl';
 import styles from './Layout.scss';
 import ProfileMenuItem from './menu/ProfileMenuItem';
 import { ROUTES } from '../../routes';
+import LanguageSelect from './menu/LanguageSelect';
 
 const messages = defineMessages({
   homeLink: {
@@ -50,7 +51,8 @@ export default class Layout extends Component {
             <Link to={ROUTES.BLOG.INDEX} className={styles.blogLink}>
               {intl.formatMessage(messages.blogLink)}
             </Link>
-            <ProfileMenuItem/>
+            <ProfileMenuItem />
+            <LanguageSelect />
           </div>
         </div>
         <div className={styles.content}>
