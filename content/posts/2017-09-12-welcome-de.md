@@ -1,5 +1,6 @@
 ---
 language: de
+slug: 2017-11-21-announcing-josoor
 title: "Ankündigung: Josoor Answers"
 subtitle: "“Der Ort wo Flüchtlinge und Helfer_innen sich vernetzen können, um Wissen auszutauschen und Informationen zu übersetzen“"
 author: "Natalie Gruber"

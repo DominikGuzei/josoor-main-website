@@ -26,13 +26,13 @@ export default class BlogPostsList extends Component {
       <div className={styles.root}>
         <ul className={styles.postsList}>
           {posts.map(post =>
-            <li className={styles.post} key={post.id}>
+            <li className={styles.post} key={post.slug}>
               <BlogPostHeader post={post} hasTitleLink />
-              <Link to={`${ROUTES.BLOG.POST}/${post.id}/`}>
+              <Link to={`${ROUTES.BLOG.POST}/${post.slug}/`}>
                 <img className={styles.postImage} src={post.image} />
               </Link>
               <p className={styles.postTeaser}>
-                {post.teaser} … <Link to={`${ROUTES.BLOG.POST}/${post.id}/`}>
+                {post.teaser} … <Link to={`${ROUTES.BLOG.POST}/${post.slug}/`}>
                 {intl.formatMessage(messages.readMore)}
               </Link>
               </p>

@@ -24,7 +24,8 @@ export default class BlogPost extends Component {
     const { page } = this.props;
     const { intl } = this.context;
     if (!page || !page.node) return null;
-    const post = page.node;
+    let post = page.node;
+    if (post.list) post = post.list.find(p => p.language === intl.locale);
     return (
       <div className={styles.root}>
         <div className={styles.header}>
