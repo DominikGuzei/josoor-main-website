@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Head from "react-helmet";
 import { addLocaleData, IntlProvider } from 'react-intl';
 import de from 'react-intl/locale-data/de';
 import en from 'react-intl/locale-data/en';
@@ -26,14 +27,20 @@ export default class Provider extends Component {
     const { router } = this.context;
     const languageFromRoute = router.location.query.lang;
     const locale = languageFromRoute ? languageFromRoute: defaultLocale;
+    const readDirection = locale === 'ar' ? 'rtl' : 'ltr';
     return (
-      <ThemeProvider theme={theme}>
-        <ApolloProvider client={setupApolloClient()}>
-          <IntlProvider {...{ locale, key: locale, messages: translations[locale] }}>
-            {children}
-          </IntlProvider>
-        </ApolloProvider>
-      </ThemeProvider>
+      <div>
+        <Head>
+           <body dir={readDirection} />
+        </Head>
+        <ThemeProvider theme={theme}>
+          <ApolloProvider client={setupApolloClient()}>
+            <IntlProvider {...{ locale, key: locale, messages: translations[locale] }}>
+              {children}
+            </IntlProvider>
+          </ApolloProvider>
+        </ThemeProvider>
+      </div>
     );
   }
 }

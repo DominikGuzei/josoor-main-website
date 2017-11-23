@@ -3,3 +3,11 @@
 .select {
   width: 7em;
 }
+
+:global {
+  body[dir="rtl"] {
+    .SimpleSelect_selectInput:after {
+      left: 15px;
+    }
+  }
+}
