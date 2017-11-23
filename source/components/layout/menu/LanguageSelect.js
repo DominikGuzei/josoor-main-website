@@ -9,6 +9,7 @@ import styles from './LanguageSelect.scss';
 const SUPPORTED_LANGUAGES = [
   { label: 'English', value: 'en' },
   { label: 'Deutsch', value: 'de' },
+  { label: 'Arabisch', value: 'ar' },
 ];
 
 export default class LanguageSelect extends Component {

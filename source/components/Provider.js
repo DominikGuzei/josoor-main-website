@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { addLocaleData, IntlProvider } from 'react-intl';
 import de from 'react-intl/locale-data/de';
 import en from 'react-intl/locale-data/en';
+import ar from 'react-intl/locale-data/ar';
 import { ApolloProvider } from 'react-apollo';
 import { setupApolloClient } from '../api/apolloClient';
 import { ThemeProvider } from 'react-css-themr';
@@ -12,7 +13,7 @@ import { ROUTES } from '../routes';
 const defaultLocale = 'en';
 
 // https://github.com/yahoo/react-intl/wiki#loading-locale-data
-addLocaleData([...en, ...de]);
+addLocaleData([...en, ...de, ...ar]);
 
 export default class Provider extends Component {
 
