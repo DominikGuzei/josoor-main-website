@@ -6,9 +6,9 @@ export const mergeLocations = (current, next) => (
 );
 
 let originalPush;
+if (browserHistory) originalPush = browserHistory.push;
 
 export const pushLocation = (location) => {
-  if (!originalPush) originalPush = browserHistory.push;
   let newLocation = location;
   if (isString(newLocation)) newLocation = { pathname: newLocation };
   originalPush(mergeLocations(browserHistory.getCurrentLocation(), newLocation));
