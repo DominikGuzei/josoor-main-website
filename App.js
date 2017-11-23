@@ -33,7 +33,7 @@ const routes = () => (
         <Route path={ROUTES.FEED} component={FeedContainer} />
         <Route path={ROUTES.BLOG.INDEX} component={BlogIndexContainer} />
         {/*<Route path="/blog/after/:after" component={BlogIndexContainer} />*/}
-        <Route path={`${ROUTES.BLOG.POST}/*`} component={BlogPostContainer} />
+        <Route path={`${ROUTES.BLOG.POST}/:slug`} component={BlogPostContainer} />
         {/*<Route path="/admin/users" component={AdminUsersListContainer} />*/}
         <Route path="*" component={Home} />
       </Route>
@@ -45,4 +45,11 @@ export default createApp(routes);
 
 if (module.hot) {
   module.hot.accept(() => renderApp(routes));
+}
+
+// kill previous website ServiceWorker
+if (typeof navigator !== "undefined" && "serviceWorker" in navigator) {
+  navigator.serviceWorker.getRegistrations().then(registrations => {
+    for (const registration of registrations) registration.unregister();
+  });
 }
