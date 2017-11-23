@@ -2,7 +2,7 @@
 language: ar
 slug: 2017-11-21-announcing-josoor
 title: "إعلان جسور إجابات"
-subtitle: "“The place for refugees and supporters to unite through sharing knowledge and translating information.“"
+subtitle: "المكان الذي يتحد فيه المهاجرون والسكان المحليون عن طريق مشاركة المعلومات وترجمتها معا"
 author: "Natalie Gruber"
 image: "/images/refugees.jpg"
 date: "August 2, 2017"
