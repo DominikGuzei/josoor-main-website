@@ -1,14 +1,11 @@
 import React from "react";
 import { Router, Route, browserHistory } from "react-router";
 import { createApp, renderApp } from "@phenomic/preset-react-app/lib/client";
+import { anchorate } from 'anchorate'
 import BlogIndexContainer from './source/components/blog/index/BlogIndexContainer';
 import BlogPostContainer from './source/components/blog/post/BlogPostContainer';
 import Home from './source/components/pages/Home';
 import Impress from './source/components/pages/Impress';
-// import AdminUsersListContainer from './source/components/admin/users/UsersListContainer';
-import LoginContainer from './source/components/auth/LoginContainer';
-import SignupContainer from './source/components/auth/SignupContainer';
-import FeedContainer from "./source/components/feed/FeedContainer";
 import './source/theme/App.global.scss';
 import Layout from "./source/components/layout/Layout";
 import { ROUTES } from './source/routes';
@@ -23,14 +20,11 @@ import { pushLocation } from './source/utils/routing';
 if (browserHistory) browserHistory.push = pushLocation;
 
 const routes = () => (
-  <Router history={browserHistory}>
+  <Router history={browserHistory} onUpdate={anchorate}>
     <Route component={Provider}>
       <Route path={ROUTES.IMPRESS} component={Impress} />
       <Route component={Layout}>
         <Route path={ROUTES.INDEX} component={Home} />
-        <Route path={ROUTES.LOGIN} component={LoginContainer} />
-        <Route path={ROUTES.SIGNUP} component={SignupContainer} />
-        <Route path={ROUTES.FEED} component={FeedContainer} />
         <Route path={ROUTES.BLOG.INDEX} component={BlogIndexContainer} />
         {/*<Route path="/blog/after/:after" component={BlogIndexContainer} />*/}
         <Route path={`${ROUTES.BLOG.POST}/:slug`} component={BlogPostContainer} />
@@ -52,4 +46,9 @@ if (typeof navigator !== "undefined" && "serviceWorker" in navigator) {
   navigator.serviceWorker.getRegistrations().then(registrations => {
     for (const registration of registrations) registration.unregister();
   });
+}
+
+if (typeof window !== "undefined") {
+  // Scroll to URL anchors when page was loaded
+  window.onload = anchorate;
 }

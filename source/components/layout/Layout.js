@@ -3,9 +3,9 @@ import Head from "react-helmet";
 import { Link } from 'react-router';
 import { defineMessages, intlShape } from 'react-intl';
 import styles from './Layout.scss';
-import ProfileMenuItem from './menu/ProfileMenuItem';
 import { ROUTES } from '../../routes';
 import LanguageSelect from './menu/LanguageSelect';
+import JoinUsButton from '../shared/JoinUsButton';
 
 const messages = defineMessages({
   homeLink: {
@@ -51,7 +51,7 @@ export default class Layout extends Component {
             <Link to={ROUTES.BLOG.INDEX} className={styles.blogLink}>
               {intl.formatMessage(messages.blogLink)}
             </Link>
-            <ProfileMenuItem />
+            <JoinUsButton />
             <LanguageSelect />
           </div>
         </div>

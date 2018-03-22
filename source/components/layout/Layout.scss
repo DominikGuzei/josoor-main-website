@@ -4,11 +4,13 @@
 .topMenu {
   height: $theme-top-menu-height;
   display: flex;
+  position: sticky;
+  z-index: 1;
   @include container;
 }
 
 .homeLink {
-  background: url('../../theme/images/layout/josoor-logo-horizontal-colored.svg') center no-repeat;
+  background: url('../../theme/images/layout/josoor-logo-horizontal-white.svg') center no-repeat;
   background-size: 150px;
   width: 150px;
   display: block;
@@ -26,15 +28,20 @@
   align-items: center;
 
   > * {
-    margin-left: 20px;
+    margin-left: 30px;
+    text-transform: uppercase;
   }
-}
 
-.blogLink {
-  color: $theme-color-main-light;
-  font-family: $theme-font-sans-medium;
-  &:hover {
-    text-decoration: underline;
+  :global .LanguageSelect_select {
+    margin-left: 0;
+  }
+
+  a:link {
+    color: white;
+    font-family: $theme-font-sans-bold;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 

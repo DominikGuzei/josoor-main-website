@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 import Head from "react-helmet";
-import howToAskImage from '../../theme/images/home/ask-illustration.svg';
-import howToAnswerImage from '../../theme/images/home/answer-illustration.svg';
-import howToTranslateImage from '../../theme/images/home/translate-illustration.svg';
-import whyHeader from '../../theme/images/home/why-header.jpg';
+import howToAskImage from '../../assets/home/ask-illustration.svg';
+import josoorVerticalLogo from '../../theme/images/josoor-logo-vertical-white.svg';
+import howToAnswerImage from '../../assets/home/answer-illustration.svg';
+import howToTranslateImage from '../../assets/home/translate-illustration.svg';
+import whyHeader from '../../assets/home/why-header.jpg';
 import styles from './Home.scss';
 import { defineMessages, intlShape, FormattedHTMLMessage } from 'react-intl';
+import JoinUsButton from '../shared/JoinUsButton';
+import ProjectsSection from './home/ProjectsSection';
+import JoinUsSection from './home/JoinUsSection';
 
 const messages = defineMessages({
   title: {
@@ -80,6 +85,8 @@ const messages = defineMessages({
   },
 });
 
+export const JOIN_US_ANCHOR_ID = 'join-us-anchor';
+
 export default class Home extends Component {
 
   static contextTypes = {
@@ -96,52 +103,25 @@ export default class Home extends Component {
         </Head>
         <div>
           <div className={styles.header}>
+            <img className={styles.logo} src={josoorVerticalLogo} />
             <h1 className={styles.headline}>
               {intl.formatMessage(messages.headline)}
             </h1>
             <div className={styles.pitch}>
               {intl.formatMessage(messages.subline)}
             </div>
+            <JoinUsButton />
           </div>
 
-          <div className={styles.how}>
-            <h2>{intl.formatMessage(messages.how)}</h2>
-
-            <div className={styles.interactions}>
-              <div className={styles.howToAsk}>
-                <img src={howToAskImage} />
-                <h3>{intl.formatMessage(messages.howToAskHeadline)}</h3>
-                <div className={styles.separator} />
-                <p>{intl.formatMessage(messages.howToAskDescription)}</p>
-              </div>
-              <div className={styles.howToAnswer}>
-                <img src={howToAnswerImage} />
-                <h3>{intl.formatMessage(messages.howToAnswerHeadline)}</h3>
-                <div className={styles.separator} />
-                <p>{intl.formatMessage(messages.howToAnswerDescription)}</p>
-              </div>
-              <div className={styles.howToTranslate}>
-                <img src={howToTranslateImage} />
-                <h3>{intl.formatMessage(messages.howToTranslateHeadline)}</h3>
-                <div className={styles.separator} />
-                <p>{intl.formatMessage(messages.howToTranslateDescription)}</p>
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.why}>
-            <img src={whyHeader}/>
-            <div className={styles.content}>
-              <h2>{intl.formatMessage(messages.why)}</h2>
-              <div className={styles.separator} />
-              <FormattedHTMLMessage {...messages.whyText} />
-            </div>
-          </div>
-
-          <div className={styles.vision}>
-            <h1>{intl.formatMessage(messages.vision)}</h1>
-            <FormattedHTMLMessage {...messages.visionText} />
-          </div>
+          <ProjectsSection />
+          <Grid fluid>
+            <Row center="xs" className={styles.factStripeOrange}>
+              <Col xs={12} sm={8}>
+                50% of the biggest host countries experience a  sharp increase of hate crimes against refugees
+              </Col>
+            </Row>
+          </Grid>
+          <JoinUsSection />
         </div>
       </div>
     );

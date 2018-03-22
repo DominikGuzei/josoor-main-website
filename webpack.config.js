@@ -33,6 +33,8 @@ module.exports = (config) => ({
           presets: [require.resolve('@phenomic/babel-preset')],
           plugins: [
             require.resolve('react-hot-loader/babel'),
+            'transform-object-rest-spread',
+            'transform-class-properties',
             'lodash'
           ]
         }
@@ -59,7 +61,7 @@ module.exports = (config) => ({
         }),
       },
       {
-        test: /^((?!\.global).)*\.scss/,
+        test: /^((?!\.global).)*\.s?css/,
         loader: ExtractTextPlugin.extract({
           use: (IS_STATIC ? '' : 'style-loader?sourceMap!') +
           'css-loader?sourceMap&importLoaders=1&modules&localIdentName=[name]_[local]!' +

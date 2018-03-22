@@ -2,7 +2,7 @@
 @import "../../../theme/mixins/container";
 
 .header {
-  background: url('../../../theme/images/home/header.jpg') no-repeat center center;
+  background: url('../../../assets/home/header.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
   display: flex;
@@ -15,7 +15,7 @@
   font-size: 36px;
   margin: 45px 20px 10px 20px;
   color: white;
-  font-family: $theme-font-serif-bold;
+  font-family: $theme-font-sans-bold;
   text-transform: uppercase;
   text-align: center;
 
@@ -28,7 +28,7 @@
   text-align: center;
   width: 80%;
   max-width: 700px;
-  font-family: $theme-font-sans-medium;
+  font-family: $theme-font-sans-regular;
   font-size: 20px;
   color: white;
   line-height: 1.3em;

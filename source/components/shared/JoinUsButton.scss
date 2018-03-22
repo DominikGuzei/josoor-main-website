@@ -1,0 +1,28 @@
+@import "../../theme/polymorph/custom/_config";
+
+.button {
+  display: block;
+  border: 2px solid white;
+  border-radius: 50px;
+  color: white;
+  font-family: $theme-font-sans-light;
+  font-size: 12px;
+  text-align: center;
+  padding: 1em 5em;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: rgba(white, 0.8);
+    color: black;
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: white;
+    color: black;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

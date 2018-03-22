@@ -1,70 +1,135 @@
 @import "config";
 
+// ============ RESET ===========
+// http://meyerweb.com/eric/tools/css/reset
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+// Buttons should not have any special style applied by default
+button {
+  background: none;
+  border: none;
+  padding: 0;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+// ============ BASE ===========
+
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  position: relative;
+}
+
+html, body, :global(#app), :global(#app) > [data-reactroot] {
+  width: 100%;
   min-height: 100%;
+  letter-spacing: 1px;
+  // Make the default font ugly so we immediately see when something
+  // is not yet defined correctly in our UI
+  font-family: "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0 0 $theme-footer-height;
-  padding-bottom: 60px;
-
+  padding-bottom: $theme-footer-height * 2;
+  position: relative;
   &.loading {
     display: none;
   }
 }
 
 @font-face {
-  font-family: 'Freight-Sans-Light';
-  src: url('fonts/freight/Freight-Sans-Light.otf') format('opentype');
+  font-family: 'Tisa-Sans-Light';
+  src: url('fonts/tisa/TisaSansPro-Light.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'Freight-Sans-Medium';
-  src: url('fonts/freight/Freight-Sans-Medium.ttf') format('truetype');
+  font-family: 'Tisa-Sans-Regular';
+  src: url('fonts/tisa/TisaSansPro-Regular.otf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Freight-Sans-Book';
-  src: url('fonts/freight/Freight-Sans-Book.otf') format('opentype');
+  font-family: 'Tisa-Sans-Bold';
+  src: url('fonts/tisa/TisaSansPro-Bold.otf') format('opentype');
 }
 
 @font-face {
-  font-family: 'TisaPro-Bold';
-  src: url('fonts/tisa/TisaPro-Bold.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'TisaPro-Regular';
-  src: url('fonts/tisa/TisaPro-Regular.otf') format('opentype');
+  font-family: 'Tisa-Sans-Medium-Italic';
+  src: url('fonts/tisa/TisaSansPro-MediumItalic.otf') format('opentype');
 }
 
 h1, h2 {
-  font-family: $theme-font-sans-medium;
+  font-family: $theme-font-sans-bold;
   color: $theme-color-main-dark;
   line-height: 1.3em;
   margin: 1.5em 0;
 }
 
 p {
-  font-family: $theme-font-sans-book;
+  font-family: $theme-font-sans-regular;
   color: $theme-color-main-dark;
   line-height: 1.4em;
   font-size: 18px;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 30px;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 a:link, a:visited {
-  font-family: $theme-font-sans-medium;
+  font-family: $theme-font-sans-regular;
   color: $theme-color-main-light;
   text-decoration: none;
   &:hover {
@@ -72,7 +137,4 @@ a:link, a:visited {
   }
 }
 
-@keyframes loading-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+//@import "~flexboxgrid/dist/flexboxgrid.css";

@@ -1,0 +1,24 @@
+@import "../../../theme/polymorph/custom/_config";
+
+.project {
+  border: 1px solid $theme-color-main-light;
+  padding: 40px;
+  margin-bottom: 20px;
+
+  h2 {
+    display: none;
+  }
+}
+
+.info {
+  font-family: $theme-font-sans-regular;
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 1.5em;
+}
+
+.state {
+  color: $theme-color-main-light;
+  font-family: $theme-font-sans-medium-italic;
+  text-transform: uppercase;
+}
