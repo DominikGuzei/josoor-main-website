@@ -117,7 +117,7 @@ export default class Home extends Component {
           <Grid fluid>
             <Row center="xs" className={styles.factStripeOrange}>
               <Col xs={12} sm={8}>
-                50% of the biggest host countries experience a  sharp increase of hate crimes against refugees
+                50% of the biggest host countries experience a sharp increase of hate crimes against refugees
               </Col>
             </Row>
           </Grid>

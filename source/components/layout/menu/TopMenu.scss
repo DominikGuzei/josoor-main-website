@@ -1,0 +1,63 @@
+@import "../../../theme/polymorph/custom/_config";
+@import "../../../theme/mixins/container";
+
+.topMenu {
+  height: $theme-top-menu-height-mobile;
+  display: flex;
+  position: sticky;
+  z-index: 1;
+  @include container;
+
+  .desktopMenu {
+    display: none;
+  }
+
+  @media ($theme-breakpoint-mobile) {
+    .desktopMenu {
+      display: inherit;
+    }
+    .mobileMenu {
+      display: none;
+    }
+  }
+}
+
+.homeLink {
+  width: 35px;
+  background: url('../../../theme/images/layout/menu/josoor-logo-lettermark-orange.svg') center no-repeat;
+  background-size: 35px;
+  display: block;
+  height: $theme-top-menu-height-mobile;
+  text-indent: -9999px;
+}
+
+.itemsLeft {
+  flex-grow: 1;
+}
+
+.itemsRight {
+  flex-grow: 0;
+}
+
+@media (min-width: 640px) {
+  .topMenu {
+    height: $theme-top-menu-height;
+  }
+
+  .homeLink {
+    width: 150px;
+    height: $theme-top-menu-height;
+    background: url('../../../theme/images/layout/josoor-logo-horizontal-white.svg') center no-repeat;
+    background-size: 150px;
+  }
+
+  .itemsLeft {
+    flex-grow: 1;
+  }
+
+  .itemsRight {
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+  }
+}
