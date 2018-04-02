@@ -5,7 +5,6 @@ import { browserHistory } from 'react-router';
 import Select from 'react-polymorph/lib/components/Select';
 import SelectSkin from 'react-polymorph/lib/skins/simple/SelectSkin';
 import { IDENTIFIERS } from 'react-polymorph/lib/themes/API';
-import languageSelectTheme from './LanguageSelect.scss';
 
 const SUPPORTED_LANGUAGES = [
   { label: 'English', value: 'en' },
@@ -27,9 +26,10 @@ export default class LanguageSelect extends Component {
 
   render() {
     const { intl, theme } = this.context;
+    const { selectTheme } = this.props;
     return (
       <Select
-        theme={{ ...theme, [IDENTIFIERS.SELECT]: languageSelectTheme }}
+        theme={{ ...theme, [IDENTIFIERS.SELECT]: selectTheme }}
         options={SUPPORTED_LANGUAGES}
         value={intl.locale}
         onChange={this.handleLanguageSelection}

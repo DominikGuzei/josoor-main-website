@@ -13,7 +13,7 @@
     margin-left: 0;
   }
 
-  a:link {
+  a:link, a:visited {
     color: white;
     font-family: $theme-font-sans-bold;
     &:hover {

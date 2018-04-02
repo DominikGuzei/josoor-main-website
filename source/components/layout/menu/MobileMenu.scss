@@ -26,13 +26,14 @@
   .menuItems {
     margin: 60px auto 0 auto;
     width: calc(100% - 80px);
+    text-transform: uppercase;
   }
 
   .blogLink {
     display: block;
     color: #474d57;
-    font-family: $theme-font-sans-bold;
-    padding-bottom: 14px;
+    font-family: $theme-font-sans-regular;
+    padding-bottom: 20px;
     border-bottom: 1px solid $theme-color-main-light;
     margin-bottom: 20px;
   }
@@ -40,7 +41,8 @@
   .joinUsButton {
     width: 100%;
     background-color: $theme-color-main-light;
-    font-family: $theme-font-sans-bold;
+    font-family: $theme-font-sans-regular;
+    margin-top: 30px;
 
     &:hover, &:active {
       background: none;
@@ -51,7 +53,7 @@
 
 .closeIcon {
   position: absolute;
-  top: 12px;
+  top: 20px;
   right: 20px;
   width: 17px;
   height: 17px;

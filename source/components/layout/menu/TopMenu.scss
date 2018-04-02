@@ -39,7 +39,7 @@
   flex-grow: 0;
 }
 
-@media (min-width: 640px) {
+@media ($theme-breakpoint-mobile) {
   .topMenu {
     height: $theme-top-menu-height;
   }
