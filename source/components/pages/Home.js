@@ -11,6 +11,7 @@ import { defineMessages, intlShape, FormattedHTMLMessage } from 'react-intl';
 import JoinUsButton from '../shared/JoinUsButton';
 import ProjectsSection from './home/ProjectsSection';
 import JoinUsSection from './home/JoinUsSection';
+import ChallengesSocietySection from './home/ChallengesSocietySection';
 
 const messages = defineMessages({
   title: {
@@ -114,6 +115,7 @@ export default class Home extends Component {
           </div>
 
           <ProjectsSection />
+
           <Grid fluid>
             <Row center="xs" className={styles.factStripeOrange}>
               <Col xs={12} sm={8}>
@@ -121,6 +123,9 @@ export default class Home extends Component {
               </Col>
             </Row>
           </Grid>
+
+          <ChallengesSocietySection />
+
           <JoinUsSection />
         </div>
       </div>

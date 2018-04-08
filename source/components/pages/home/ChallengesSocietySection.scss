@@ -1,0 +1,17 @@
+@import "../../../theme/polymorph/custom/_config";
+
+.challenge {
+  h3 {
+    text-transform: uppercase;
+    font-family: $theme-font-sans-regular;
+    font-size: 18px;
+  }
+  p {
+    font-family: $theme-font-sans-light;
+    font-size: 16px;
+  }
+  img {
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+}
