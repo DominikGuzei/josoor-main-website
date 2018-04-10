@@ -19,7 +19,7 @@ const messages = defineMessages({
   },
   info: {
     id: 'impress.info',
-    defaultMessage: '!!!Copyright © 2016 Josoor',
+    defaultMessage: '!!!Copyright © 2018 Josoor',
     description: 'Info about Josoor on the impress page'
   },
 });

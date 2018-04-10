@@ -1,16 +1,28 @@
 import React, { Component } from "react";
 import PropTypes from 'prop-types';
-import { intlShape } from 'react-intl';
+import { defineMessages, intlShape } from 'react-intl';
 import { browserHistory } from 'react-router';
 import Select from 'react-polymorph/lib/components/Select';
 import SelectSkin from 'react-polymorph/lib/skins/simple/SelectSkin';
 import { IDENTIFIERS } from 'react-polymorph/lib/themes/API';
 
-const SUPPORTED_LANGUAGES = [
-  { label: 'English', value: 'en' },
-  { label: 'Deutsch', value: 'de' },
-  { label: 'Arabisch', value: 'ar' },
-];
+const messages = defineMessages({
+  english: {
+    id: 'languages.english',
+    defaultMessage: '!!!English',
+    description: 'Select option for English language'
+  },
+  arabic: {
+    id: 'languages.arabic',
+    defaultMessage: '!!!Arabic',
+    description: 'Select option for Arabic language'
+  },
+  german: {
+    id: 'languages.german',
+    defaultMessage: '!!!German',
+    description: 'Select option for German language'
+  },
+});
 
 export default class LanguageSelect extends Component {
 
@@ -30,7 +42,11 @@ export default class LanguageSelect extends Component {
     return (
       <Select
         theme={{ ...theme, [IDENTIFIERS.SELECT]: selectTheme }}
-        options={SUPPORTED_LANGUAGES}
+        options={[
+          { label: intl.formatMessage(messages.english), value: 'en' },
+          { label: intl.formatMessage(messages.arabic), value: 'ar' },
+          { label: intl.formatMessage(messages.german), value: 'de' },
+        ]}
         value={intl.locale}
         onChange={this.handleLanguageSelection}
         skin={SelectSkin}

@@ -19,6 +19,46 @@ const messages = defineMessages({
     defaultMessage: '!!!Society',
     description: 'Title of society challenges section on the home page'
   },
+  polarizationTitle: {
+    id: 'home.challenges.society.polarization.title',
+    defaultMessage: '!!!Polarization',
+    description: 'Title of society "polarization" challenge on the home page'
+  },
+  polarizationDescription: {
+    id: 'home.challenges.society.polarization.description',
+    defaultMessage: '!!!Societies worldwide are becoming increasingly polarized. Division between political opponents are growing - and are paricularly strong regarding the topic of refugees.',
+    description: 'Description of society "polarization" challenge on the home page'
+  },
+  prejudiceTitle: {
+    id: 'home.challenges.society.prejudice.title',
+    defaultMessage: '!!!Prejudice',
+    description: 'Title of society "prejudice" challenge on the home page'
+  },
+  prejudiceDescription: {
+    id: 'home.challenges.society.prejudice.description',
+    defaultMessage: '!!!Prejudices against both refugees and the people supporting them have reached new levels in recent years. Generalisations, accusations and lies spread faster and easier than ever.',
+    description: 'Description of society "prejudice" challenge on the home page'
+  },
+  fearTitle: {
+    id: 'home.challenges.society.fear.title',
+    defaultMessage: '!!!Fear',
+    description: 'Title of society "fear" challenge on the home page'
+  },
+  fearDescription: {
+    id: 'home.challenges.society.fear.description',
+    defaultMessage: '!!!Labelled lazy social spongers stealing your tax money, cheap work force stealing your jobs and terrorists coming to kill you –populist parties and tabloid papers find many ways to fuel the fear of refugees for their own benefits.',
+    description: 'Description of society "fear" challenge on the home page'
+  },
+  racismTitle: {
+    id: 'home.challenges.society.racism.title',
+    defaultMessage: '!!!Racism',
+    description: 'Title of society "racism" challenge on the home page'
+  },
+  racismDescription: {
+    id: 'home.challenges.society.racism.description',
+    defaultMessage: '!!!Blatant racism and xenophobia towards refugees as well as hatred against people supporting them is the result of all this. Initially mostly visible in verbal attacks, many countries now notice sharp increases of different forms of hate crimes.',
+    description: 'Description of society "racism" challenge on the home page'
+  },
 });
 
 const ChallengeDetail = ({ image, text }) => (
@@ -43,7 +83,7 @@ export default class ChallengesSocietySection extends Component {
     return (
       <Grid fluid>
         <Row center="xs">
-          <Col xs={11} md={8}>
+          <Col xs={11} sm={10} md={9} lg={8} >
             <h1>{intl.formatMessage(messages.challenges)}</h1>
             <h2>{intl.formatMessage(messages.headline)}</h2>
             <Row center="xs" start="md">
@@ -51,54 +91,48 @@ export default class ChallengesSocietySection extends Component {
                 className={styles.challenge}
                 isOpen
                 summary={() => (
-                  <h3>Polarization</h3>
+                  <h3>{intl.formatMessage(messages.polarizationTitle)}</h3>
                 )}
                 details={() => (
                   <ChallengeDetail
                     image={<img src={societyPolarizationImage} />}
-                    text={`Societies worldwide are becoming increasingly polarized. Division between political opponents
-                        are growing - and are paricularly strong regarding the topic of refugees.`}
+                    text={intl.formatMessage(messages.polarizationDescription)}
                   />
                 )}
               />
               <DisclosureBox
                 className={styles.challenge}
                 summary={() => (
-                  <h3>Prejudice</h3>
+                  <h3>{intl.formatMessage(messages.prejudiceTitle)}</h3>
                 )}
                 details={() => (
                   <ChallengeDetail
                     image={<img src={societyPrejudiceImage} />}
-                    text={`Prejudices against both refugees and the people supporting them have reached new
-                        levels in recent years. Generalisations, accusations and lies spread faster and easier than ever.`}
+                    text={intl.formatMessage(messages.prejudiceDescription)}
                   />
                 )}
               />
               <DisclosureBox
                 className={styles.challenge}
                 summary={() => (
-                  <h3>Fear</h3>
+                  <h3>{intl.formatMessage(messages.fearTitle)}</h3>
                 )}
                 details={() => (
                   <ChallengeDetail
                     image={<img src={societyFearImage} />}
-                    text={`Labelled lazy social spongers stealing your tax money, cheap work force stealing
-                    your jobs and terrorists coming to kill you –populist parties and tabloid papers find many
-                    ways to fuel the fear of refugees for their own benefits.`}
+                    text={intl.formatMessage(messages.fearDescription)}
                   />
                 )}
               />
               <DisclosureBox
                 className={styles.challenge}
                 summary={() => (
-                  <h3>Racism</h3>
+                  <h3>{intl.formatMessage(messages.racismTitle)}</h3>
                 )}
                 details={() => (
                   <ChallengeDetail
                     image={<img src={societyRacismImage} />}
-                    text={`Blatant racism and xenophobia towards refugees as well as hatred against people
-                    supporting them is the result of all this. Initially mostly visible in verbal attacks,
-                    many countries now notice sharp increases of different forms of hate crimes.`}
+                    text={intl.formatMessage(messages.racismDescription)}
                   />
                 )}
               />

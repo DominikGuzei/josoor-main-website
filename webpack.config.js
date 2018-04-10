@@ -32,10 +32,14 @@ module.exports = (config) => ({
           babelrc: false,
           presets: [require.resolve('@phenomic/babel-preset')],
           plugins: [
-            require.resolve('react-hot-loader/babel'),
             'transform-object-rest-spread',
             'transform-class-properties',
-            'lodash'
+            'lodash',
+            ['react-intl', {
+              'messagesDir': './translations/messages/',
+              'enforceDescriptions': true,
+              'extractSourceLocation': true
+            }]
           ]
         }
       },

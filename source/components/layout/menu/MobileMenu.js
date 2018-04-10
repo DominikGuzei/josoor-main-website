@@ -64,7 +64,7 @@ export default class MobileMenu extends Component {
 
   _removeCloseListeners = () => {
     window.removeEventListener('resize', this._closeMenu);
-    this._removeRouteListener();
+    if (this._removeRouteListener) this._removeRouteListener();
   };
 
   _toggleMenu = () => {
