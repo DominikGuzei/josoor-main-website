@@ -9,32 +9,26 @@ const messages = defineMessages({
   headline: {
     id: 'home.projects.title',
     defaultMessage: '!!!Our Projects',
-    description: 'Title of projects section on home page'
   },
   connectTitle: {
     id: 'home.projects.connect.title',
     defaultMessage: '!!!connect',
-    description: 'Title of connect project section on home page'
   },
   connectIntro: {
     id: 'home.projects.connect.intro',
     defaultMessage: '!!!Where refugees and supporters connect and build strong, active and inclusive communities',
-    description: 'Intro of connect project section on home page'
   },
   answersTitle: {
     id: 'home.projects.answers.title',
     defaultMessage: '!!!answers',
-    description: 'Title of connect project section on home page'
   },
   answersIntro: {
     id: 'home.projects.answers.intro',
     defaultMessage: '!!!Where refugees and supporters bridge the language barrier and exchange tustworthy information',
-    description: 'Intro of answers project section on home page'
   },
   comingSoon: {
     id: 'home.projects.comingSoon',
     defaultMessage: '!!!coming soon',
-    description: 'Coming soon label for projects on home page'
   },
 });
 

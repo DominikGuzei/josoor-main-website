@@ -10,12 +10,10 @@ const messages = defineMessages({
   homeLink: {
     id: 'layout.topMenu.homeLink',
     defaultMessage: '!!!Home',
-    description: 'Label for "home" link in top menu'
   },
   blogLink: {
     id: 'layout.topMenu.blogLink',
     defaultMessage: '!!!Blog',
-    description: 'Label for "blog" link in top menu'
   },
 });
 

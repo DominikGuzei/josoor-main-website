@@ -13,22 +13,18 @@ const messages = defineMessages({
   title: {
     id: 'home.title',
     defaultMessage: '!!!Josoor',
-    description: 'Title of landing page'
   },
   headline: {
     id: 'home.headline',
     defaultMessage: '!!!Josoor',
-    description: 'Landing page headline'
   },
   subline: {
     id: 'home.subline',
     defaultMessage: '!!!Empowering Refugees & Local Supporters To Unite and Turn Crisis Into Opportunities',
-    description: 'Landing page subline'
   },
   factIncreaseOfHate: {
     id: 'home.factIncreaseOfHate',
     defaultMessage: '!!!50% of the biggest host countries experience a sharp increase of hate crimes against refugees',
-    description: 'Fact stripe "increase of hate"'
   },
 });
 

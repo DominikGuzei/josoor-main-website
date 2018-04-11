@@ -7,7 +7,6 @@ const messages = defineMessages({
   headline: {
     id: 'home.join.title',
     defaultMessage: '!!!Join the Josoor Community',
-    description: 'Title of join us section on home page'
   },
 });
 

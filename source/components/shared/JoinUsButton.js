@@ -10,7 +10,6 @@ const messages = defineMessages({
   joinUsLabel: {
     id: 'buttons.joinUs',
     defaultMessage: '!!!Join Us',
-    description: 'Label for "join us" button'
   },
 });
 

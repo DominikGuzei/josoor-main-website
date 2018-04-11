@@ -10,17 +10,14 @@ const messages = defineMessages({
   english: {
     id: 'languages.english',
     defaultMessage: '!!!English',
-    description: 'Select option for English language'
   },
   arabic: {
     id: 'languages.arabic',
     defaultMessage: '!!!Arabic',
-    description: 'Select option for Arabic language'
   },
   german: {
     id: 'languages.german',
     defaultMessage: '!!!German',
-    description: 'Select option for German language'
   },
 });
 

@@ -10,7 +10,6 @@ const messages = defineMessages({
   impressLink: {
     id: 'layout.footer.impressLink',
     defaultMessage: '!!!Impress',
-    description: 'Label for "impress" link in the footer'
   },
 });
 

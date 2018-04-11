@@ -9,7 +9,6 @@ const messages = defineMessages({
   readMore: {
     id: 'blog.readMore',
     defaultMessage: '!!!read more',
-    description: 'Blog read more label'
   },
 });
 

@@ -10,7 +10,6 @@ const messages = defineMessages({
   backHomeLink: {
     id: 'blog.backHomeLink',
     defaultMessage: '!!!Back home',
-    description: 'Blog back home link'
   },
 });
 

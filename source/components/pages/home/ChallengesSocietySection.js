@@ -12,52 +12,42 @@ const messages = defineMessages({
   challenges: {
     id: 'home.challenges.title',
     defaultMessage: '!!!The Challenges',
-    description: 'Title of challenges sections on the home page'
   },
   headline: {
     id: 'home.challenges.society.headline',
     defaultMessage: '!!!Society',
-    description: 'Title of society challenges section on the home page'
   },
   polarizationTitle: {
     id: 'home.challenges.society.polarization.title',
     defaultMessage: '!!!Polarization',
-    description: 'Title of society "polarization" challenge on the home page'
   },
   polarizationDescription: {
     id: 'home.challenges.society.polarization.description',
     defaultMessage: '!!!Societies worldwide are becoming increasingly polarized. Division between political opponents are growing - and are paricularly strong regarding the topic of refugees.',
-    description: 'Description of society "polarization" challenge on the home page'
   },
   prejudiceTitle: {
     id: 'home.challenges.society.prejudice.title',
     defaultMessage: '!!!Prejudice',
-    description: 'Title of society "prejudice" challenge on the home page'
   },
   prejudiceDescription: {
     id: 'home.challenges.society.prejudice.description',
     defaultMessage: '!!!Prejudices against both refugees and the people supporting them have reached new levels in recent years. Generalisations, accusations and lies spread faster and easier than ever.',
-    description: 'Description of society "prejudice" challenge on the home page'
   },
   fearTitle: {
     id: 'home.challenges.society.fear.title',
     defaultMessage: '!!!Fear',
-    description: 'Title of society "fear" challenge on the home page'
   },
   fearDescription: {
     id: 'home.challenges.society.fear.description',
     defaultMessage: '!!!Labelled lazy social spongers stealing your tax money, cheap work force stealing your jobs and terrorists coming to kill you –populist parties and tabloid papers find many ways to fuel the fear of refugees for their own benefits.',
-    description: 'Description of society "fear" challenge on the home page'
   },
   racismTitle: {
     id: 'home.challenges.society.racism.title',
     defaultMessage: '!!!Racism',
-    description: 'Title of society "racism" challenge on the home page'
   },
   racismDescription: {
     id: 'home.challenges.society.racism.description',
     defaultMessage: '!!!Blatant racism and xenophobia towards refugees as well as hatred against people supporting them is the result of all this. Initially mostly visible in verbal attacks, many countries now notice sharp increases of different forms of hate crimes.',
-    description: 'Description of society "racism" challenge on the home page'
   },
 });
 

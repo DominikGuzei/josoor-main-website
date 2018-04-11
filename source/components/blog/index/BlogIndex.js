@@ -8,17 +8,14 @@ const messages = defineMessages({
   title: {
     id: 'blog.title',
     defaultMessage: '!!!Blog | Josoor Answers',
-    description: 'Blog title'
   },
   headline: {
     id: 'blog.headline',
     defaultMessage: '!!!The Josoor Blog',
-    description: 'Blog headline'
   },
   subline: {
     id: 'blog.subline',
     defaultMessage: '!!!News, Articles & Events from the Josoor Community',
-    description: 'Blog subline'
   },
 });
 

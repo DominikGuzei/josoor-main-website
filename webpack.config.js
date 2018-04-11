@@ -37,7 +37,7 @@ module.exports = (config) => ({
             'lodash',
             ['react-intl', {
               'messagesDir': './translations/messages/',
-              'enforceDescriptions': true,
+              'enforceDescriptions': false,
               'extractSourceLocation': true
             }]
           ]

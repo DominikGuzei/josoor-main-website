@@ -10,17 +10,14 @@ const messages = defineMessages({
   title: {
     id: 'impress.title',
     defaultMessage: '!!!Impress | Josoor Answers',
-    description: 'Title of impress page'
   },
   headline: {
     id: 'impress.headline',
     defaultMessage: '!!!Impress',
-    description: 'Title of impress page'
   },
   info: {
     id: 'impress.info',
     defaultMessage: '!!!Copyright © 2018 Josoor',
-    description: 'Info about Josoor on the impress page'
   },
 });
 
