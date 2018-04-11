@@ -48,13 +48,16 @@ module.exports = (config) => ({
         loader: 'url-loader',
         options: {
           fallback: 'file-loader',
-          limit: 50000,
-          name: './assets/[name]-[hash].[ext]',
+          limit: 5000,
+          name: './assets/images/[name]-[hash].[ext]',
         }
       },
       {
         test: /\.otf$|\.ttf$/,
-        loader: 'url-loader',
+        loader: 'file-loader',
+        options: {
+          name: './assets/fonts/[name]-[hash].[ext]',
+        }
       },
       {
         test: /\.global\.scss/,
