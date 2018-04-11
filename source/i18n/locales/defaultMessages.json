@@ -1,0 +1,566 @@
+[
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!Blog | Josoor Answers",
+        "description": "Blog title",
+        "end": {
+          "column": 3,
+          "line": 12
+        },
+        "file": "source/components/blog/index/BlogIndex.js",
+        "id": "blog.title",
+        "start": {
+          "column": 9,
+          "line": 8
+        }
+      },
+      {
+        "defaultMessage": "!!!The Josoor Blog",
+        "description": "Blog headline",
+        "end": {
+          "column": 3,
+          "line": 17
+        },
+        "file": "source/components/blog/index/BlogIndex.js",
+        "id": "blog.headline",
+        "start": {
+          "column": 12,
+          "line": 13
+        }
+      },
+      {
+        "defaultMessage": "!!!News, Articles & Events from the Josoor Community",
+        "description": "Blog subline",
+        "end": {
+          "column": 3,
+          "line": 22
+        },
+        "file": "source/components/blog/index/BlogIndex.js",
+        "id": "blog.subline",
+        "start": {
+          "column": 11,
+          "line": 18
+        }
+      }
+    ],
+    "path": "source/components/blog/index/BlogIndex.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!read more",
+        "description": "Blog read more label",
+        "end": {
+          "column": 3,
+          "line": 13
+        },
+        "file": "source/components/blog/index/BlogPostsList.js",
+        "id": "blog.readMore",
+        "start": {
+          "column": 12,
+          "line": 9
+        }
+      }
+    ],
+    "path": "source/components/blog/index/BlogPostsList.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!Back home",
+        "description": "Blog back home link",
+        "end": {
+          "column": 3,
+          "line": 14
+        },
+        "file": "source/components/blog/post/BlogPost.js",
+        "id": "blog.backHomeLink",
+        "start": {
+          "column": 16,
+          "line": 10
+        }
+      }
+    ],
+    "path": "source/components/blog/post/BlogPost.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!Impress",
+        "description": "Label for \"impress\" link in the footer",
+        "end": {
+          "column": 3,
+          "line": 14
+        },
+        "file": "source/components/layout/Layout.js",
+        "id": "layout.footer.impressLink",
+        "start": {
+          "column": 15,
+          "line": 10
+        }
+      }
+    ],
+    "path": "source/components/layout/Layout.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!English",
+        "description": "Select option for English language",
+        "end": {
+          "column": 3,
+          "line": 14
+        },
+        "file": "source/components/layout/menu/LanguageSelect/LanguageSelect.js",
+        "id": "languages.english",
+        "start": {
+          "column": 11,
+          "line": 10
+        }
+      },
+      {
+        "defaultMessage": "!!!Arabic",
+        "description": "Select option for Arabic language",
+        "end": {
+          "column": 3,
+          "line": 19
+        },
+        "file": "source/components/layout/menu/LanguageSelect/LanguageSelect.js",
+        "id": "languages.arabic",
+        "start": {
+          "column": 10,
+          "line": 15
+        }
+      },
+      {
+        "defaultMessage": "!!!German",
+        "description": "Select option for German language",
+        "end": {
+          "column": 3,
+          "line": 24
+        },
+        "file": "source/components/layout/menu/LanguageSelect/LanguageSelect.js",
+        "id": "languages.german",
+        "start": {
+          "column": 10,
+          "line": 20
+        }
+      }
+    ],
+    "path": "source/components/layout/menu/LanguageSelect/LanguageSelect.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!Home",
+        "description": "Label for \"home\" link in top menu",
+        "end": {
+          "column": 3,
+          "line": 14
+        },
+        "file": "source/components/layout/menu/TopMenu.js",
+        "id": "layout.topMenu.homeLink",
+        "start": {
+          "column": 12,
+          "line": 10
+        }
+      },
+      {
+        "defaultMessage": "!!!Blog",
+        "description": "Label for \"blog\" link in top menu",
+        "end": {
+          "column": 3,
+          "line": 19
+        },
+        "file": "source/components/layout/menu/TopMenu.js",
+        "id": "layout.topMenu.blogLink",
+        "start": {
+          "column": 12,
+          "line": 15
+        }
+      }
+    ],
+    "path": "source/components/layout/menu/TopMenu.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!Josoor Answers",
+        "description": "Title of landing page",
+        "end": {
+          "column": 3,
+          "line": 17
+        },
+        "file": "source/components/pages/Home.js",
+        "id": "home.title",
+        "start": {
+          "column": 9,
+          "line": 13
+        }
+      },
+      {
+        "defaultMessage": "!!!Josoor Answers",
+        "description": "Landing page headline",
+        "end": {
+          "column": 3,
+          "line": 22
+        },
+        "file": "source/components/pages/Home.js",
+        "id": "home.headline",
+        "start": {
+          "column": 12,
+          "line": 18
+        }
+      },
+      {
+        "defaultMessage": "!!!The place for refugees and supporters to unite through sharing knowledge and translating information",
+        "description": "Landing page subline",
+        "end": {
+          "column": 3,
+          "line": 27
+        },
+        "file": "source/components/pages/Home.js",
+        "id": "home.subline",
+        "start": {
+          "column": 11,
+          "line": 23
+        }
+      },
+      {
+        "defaultMessage": "!!!50% of the biggest host countries experience a sharp increase of hate crimes against refugees",
+        "description": "Fact stripe \"increase of hate\"",
+        "end": {
+          "column": 3,
+          "line": 32
+        },
+        "file": "source/components/pages/Home.js",
+        "id": "home.factIncreaseOfHate",
+        "start": {
+          "column": 22,
+          "line": 28
+        }
+      }
+    ],
+    "path": "source/components/pages/Home.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!The Challenges",
+        "description": "Title of challenges sections on the home page",
+        "end": {
+          "column": 3,
+          "line": 16
+        },
+        "file": "source/components/pages/home/ChallengesSocietySection.js",
+        "id": "home.challenges.title",
+        "start": {
+          "column": 14,
+          "line": 12
+        }
+      },
+      {
+        "defaultMessage": "!!!Society",
+        "description": "Title of society challenges section on the home page",
+        "end": {
+          "column": 3,
+          "line": 21
+        },
+        "file": "source/components/pages/home/ChallengesSocietySection.js",
+        "id": "home.challenges.society.headline",
+        "start": {
+          "column": 12,
+          "line": 17
+        }
+      },
+      {
+        "defaultMessage": "!!!Polarization",
+        "description": "Title of society \"polarization\" challenge on the home page",
+        "end": {
+          "column": 3,
+          "line": 26
+        },
+        "file": "source/components/pages/home/ChallengesSocietySection.js",
+        "id": "home.challenges.society.polarization.title",
+        "start": {
+          "column": 21,
+          "line": 22
+        }
+      },
+      {
+        "defaultMessage": "!!!Societies worldwide are becoming increasingly polarized. Division between political opponents are growing - and are paricularly strong regarding the topic of refugees.",
+        "description": "Description of society \"polarization\" challenge on the home page",
+        "end": {
+          "column": 3,
+          "line": 31
+        },
+        "file": "source/components/pages/home/ChallengesSocietySection.js",
+        "id": "home.challenges.society.polarization.description",
+        "start": {
+          "column": 27,
+          "line": 27
+        }
+      },
+      {
+        "defaultMessage": "!!!Prejudice",
+        "description": "Title of society \"prejudice\" challenge on the home page",
+        "end": {
+          "column": 3,
+          "line": 36
+        },
+        "file": "source/components/pages/home/ChallengesSocietySection.js",
+        "id": "home.challenges.society.prejudice.title",
+        "start": {
+          "column": 18,
+          "line": 32
+        }
+      },
+      {
+        "defaultMessage": "!!!Prejudices against both refugees and the people supporting them have reached new levels in recent years. Generalisations, accusations and lies spread faster and easier than ever.",
+        "description": "Description of society \"prejudice\" challenge on the home page",
+        "end": {
+          "column": 3,
+          "line": 41
+        },
+        "file": "source/components/pages/home/ChallengesSocietySection.js",
+        "id": "home.challenges.society.prejudice.description",
+        "start": {
+          "column": 24,
+          "line": 37
+        }
+      },
+      {
+        "defaultMessage": "!!!Fear",
+        "description": "Title of society \"fear\" challenge on the home page",
+        "end": {
+          "column": 3,
+          "line": 46
+        },
+        "file": "source/components/pages/home/ChallengesSocietySection.js",
+        "id": "home.challenges.society.fear.title",
+        "start": {
+          "column": 13,
+          "line": 42
+        }
+      },
+      {
+        "defaultMessage": "!!!Labelled lazy social spongers stealing your tax money, cheap work force stealing your jobs and terrorists coming to kill you –populist parties and tabloid papers find many ways to fuel the fear of refugees for their own benefits.",
+        "description": "Description of society \"fear\" challenge on the home page",
+        "end": {
+          "column": 3,
+          "line": 51
+        },
+        "file": "source/components/pages/home/ChallengesSocietySection.js",
+        "id": "home.challenges.society.fear.description",
+        "start": {
+          "column": 19,
+          "line": 47
+        }
+      },
+      {
+        "defaultMessage": "!!!Racism",
+        "description": "Title of society \"racism\" challenge on the home page",
+        "end": {
+          "column": 3,
+          "line": 56
+        },
+        "file": "source/components/pages/home/ChallengesSocietySection.js",
+        "id": "home.challenges.society.racism.title",
+        "start": {
+          "column": 15,
+          "line": 52
+        }
+      },
+      {
+        "defaultMessage": "!!!Blatant racism and xenophobia towards refugees as well as hatred against people supporting them is the result of all this. Initially mostly visible in verbal attacks, many countries now notice sharp increases of different forms of hate crimes.",
+        "description": "Description of society \"racism\" challenge on the home page",
+        "end": {
+          "column": 3,
+          "line": 61
+        },
+        "file": "source/components/pages/home/ChallengesSocietySection.js",
+        "id": "home.challenges.society.racism.description",
+        "start": {
+          "column": 21,
+          "line": 57
+        }
+      }
+    ],
+    "path": "source/components/pages/home/ChallengesSocietySection.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!Join the Josoor Community",
+        "description": "Title of join us section on home page",
+        "end": {
+          "column": 3,
+          "line": 11
+        },
+        "file": "source/components/pages/home/JoinUsSection.js",
+        "id": "home.join.title",
+        "start": {
+          "column": 12,
+          "line": 7
+        }
+      }
+    ],
+    "path": "source/components/pages/home/JoinUsSection.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!Our Projects",
+        "description": "Title of projects section on home page",
+        "end": {
+          "column": 3,
+          "line": 13
+        },
+        "file": "source/components/pages/home/ProjectsSection.js",
+        "id": "home.projects.title",
+        "start": {
+          "column": 12,
+          "line": 9
+        }
+      },
+      {
+        "defaultMessage": "!!!connect",
+        "description": "Title of connect project section on home page",
+        "end": {
+          "column": 3,
+          "line": 18
+        },
+        "file": "source/components/pages/home/ProjectsSection.js",
+        "id": "home.projects.connect.title",
+        "start": {
+          "column": 16,
+          "line": 14
+        }
+      },
+      {
+        "defaultMessage": "!!!Where refugees and supporters connect and build strong, active and inclusive communities",
+        "description": "Intro of connect project section on home page",
+        "end": {
+          "column": 3,
+          "line": 23
+        },
+        "file": "source/components/pages/home/ProjectsSection.js",
+        "id": "home.projects.connect.intro",
+        "start": {
+          "column": 16,
+          "line": 19
+        }
+      },
+      {
+        "defaultMessage": "!!!answers",
+        "description": "Title of connect project section on home page",
+        "end": {
+          "column": 3,
+          "line": 28
+        },
+        "file": "source/components/pages/home/ProjectsSection.js",
+        "id": "home.projects.answers.title",
+        "start": {
+          "column": 16,
+          "line": 24
+        }
+      },
+      {
+        "defaultMessage": "!!!Where refugees and supporters bridge the language barrier and exchange tustworthy information",
+        "description": "Intro of answers project section on home page",
+        "end": {
+          "column": 3,
+          "line": 33
+        },
+        "file": "source/components/pages/home/ProjectsSection.js",
+        "id": "home.projects.answers.intro",
+        "start": {
+          "column": 16,
+          "line": 29
+        }
+      },
+      {
+        "defaultMessage": "!!!coming soon",
+        "description": "Coming soon label for projects on home page",
+        "end": {
+          "column": 3,
+          "line": 38
+        },
+        "file": "source/components/pages/home/ProjectsSection.js",
+        "id": "home.projects.comingSoon",
+        "start": {
+          "column": 14,
+          "line": 34
+        }
+      }
+    ],
+    "path": "source/components/pages/home/ProjectsSection.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!Impress | Josoor Answers",
+        "description": "Title of impress page",
+        "end": {
+          "column": 3,
+          "line": 14
+        },
+        "file": "source/components/pages/Impress.js",
+        "id": "impress.title",
+        "start": {
+          "column": 9,
+          "line": 10
+        }
+      },
+      {
+        "defaultMessage": "!!!Impress",
+        "description": "Title of impress page",
+        "end": {
+          "column": 3,
+          "line": 19
+        },
+        "file": "source/components/pages/Impress.js",
+        "id": "impress.headline",
+        "start": {
+          "column": 12,
+          "line": 15
+        }
+      },
+      {
+        "defaultMessage": "!!!Copyright © 2018 Josoor",
+        "description": "Info about Josoor on the impress page",
+        "end": {
+          "column": 3,
+          "line": 24
+        },
+        "file": "source/components/pages/Impress.js",
+        "id": "impress.info",
+        "start": {
+          "column": 8,
+          "line": 20
+        }
+      }
+    ],
+    "path": "source/components/pages/Impress.json"
+  },
+  {
+    "descriptors": [
+      {
+        "defaultMessage": "!!!Join Us",
+        "description": "Label for \"join us\" button",
+        "end": {
+          "column": 3,
+          "line": 14
+        },
+        "file": "source/components/shared/JoinUsButton.js",
+        "id": "buttons.joinUs",
+        "start": {
+          "column": 15,
+          "line": 10
+        }
+      }
+    ],
+    "path": "source/components/shared/JoinUsButton.json"
+  }
+]
