@@ -1,7 +1,7 @@
-import { createContainer, query } from "@phenomic/preset-react-app/lib/client";
+import { withPhenomicApi, query } from "@phenomic/preset-react-app/lib/client";
 import BlogPost from './BlogPost';
 
-export default createContainer(BlogPost, props => ({
+export default withPhenomicApi(BlogPost, props => ({
   page: query({
     path: 'posts',
     by: 'slug',
