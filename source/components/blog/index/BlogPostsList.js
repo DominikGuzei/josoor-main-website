@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from "react-router";
 import styles from './BlogPostsList.scss';
 import BlogPostHeader from '../BlogPostHeader';
 import { ROUTES } from '../../../routes';
 import { defineMessages, intlShape } from 'react-intl';
+import LocaleAwareLink from '../../shared/LocaleAwareLink';
 
 const messages = defineMessages({
   readMore: {
@@ -27,13 +27,13 @@ export default class BlogPostsList extends Component {
           {posts.map(post =>
             <li className={styles.post} key={post.slug}>
               <BlogPostHeader post={post} hasTitleLink />
-              <Link to={`${ROUTES.BLOG.POST}/${post.slug}/`}>
+              <LocaleAwareLink to={`${ROUTES.BLOG.POST}/${post.slug}/`}>
                 <img className={styles.postImage} src={post.image} />
-              </Link>
+              </LocaleAwareLink>
               <p className={styles.postTeaser}>
-                {post.teaser} … <Link to={`${ROUTES.BLOG.POST}/${post.slug}/`}>
+                {post.teaser} … <LocaleAwareLink to={`${ROUTES.BLOG.POST}/${post.slug}/`}>
                 {intl.formatMessage(messages.readMore)}
-              </Link>
+              </LocaleAwareLink>
               </p>
             </li>
           )}

@@ -1,11 +1,8 @@
 export const ROUTES = {
-  INDEX: '/',
-  IMPRESS: '/impress',
-  LOGIN: '/login',
-  SIGNUP: '/signup',
-  FEED: '/feed',
+  INDEX: '/(:lang(/))',
+  IMPRESS: '/(:lang/)impress',
   BLOG: {
-    INDEX: '/blog',
-    POST: '/blog/posts',
+    INDEX: '/(:lang/)blog',
+    POST: '/(:lang/)blog/posts/:slug',
   },
 };

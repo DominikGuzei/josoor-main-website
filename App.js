@@ -10,7 +10,14 @@ import './source/theme/App.global.scss';
 import Layout from "./source/components/layout/Layout";
 import { ROUTES } from './source/routes';
 import Provider from './source/components/Provider';
-import { pushLocation } from './source/utils/routing';
+import { pushLocation, replaceLanguageParts } from './source/utils/routing';
+import { supportedLanguages } from './source/i18n';
+
+const generateRoute = (path, component) => [
+  <Route path={replaceLanguageParts(path, '')} component={component} key={0} />
+].concat(supportedLanguages.map((lang, index) => (
+  <Route path={replaceLanguageParts(path, `${lang}/`)} component={component} key={index + 1} />
+)));
 
 /**
  * Override browserHistory.push to merge pathname, query and hash of
@@ -18,16 +25,16 @@ import { pushLocation } from './source/utils/routing';
  * between pages)
  */
 if (browserHistory) browserHistory.push = pushLocation;
-
 const routes = () => (
   <Router history={browserHistory} onUpdate={anchorate}>
     <Route component={Provider}>
-      <Route path={ROUTES.IMPRESS} component={Impress} />
+      {generateRoute(ROUTES.IMPRESS, Impress)}
       <Route component={Layout}>
-        <Route path={ROUTES.INDEX} component={Home} />
-        <Route path={ROUTES.BLOG.INDEX} component={BlogIndexContainer} />
+        {generateRoute(ROUTES.INDEX, Home)}
+        {/*{generateRoute(ROUTES.BLOG.INDEX, BlogIndexContainer)}*/}
+        {/*<Route path={ROUTES.BLOG.INDEX} component={BlogIndexContainer} />*/}
         {/*<Route path="/blog/after/:after" component={BlogIndexContainer} />*/}
-        <Route path={`${ROUTES.BLOG.POST}/:slug`} component={BlogPostContainer} />
+        {/*<Route path={`${ROUTES.BLOG.POST}/:slug`} component={BlogPostContainer} />*/}
         {/*<Route path="/admin/users" component={AdminUsersListContainer} />*/}
         <Route path="*" component={Home} />
       </Route>

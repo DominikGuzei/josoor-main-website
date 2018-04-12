@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Head from "react-helmet";
-import { Link } from 'react-router';
 import { defineMessages, intlShape } from 'react-intl';
 import styles from './Layout.scss';
 import { ROUTES } from '../../routes';
 import TopMenu from './menu/TopMenu';
+import LocaleAwareLink from '../shared/LocaleAwareLink';
 
 const messages = defineMessages({
   impressLink: {
@@ -34,9 +34,9 @@ export default class Layout extends Component {
           {children}
         </div>
         <footer className={styles.footer}>
-          <Link to={ROUTES.IMPRESS} className={styles.impressLink}>
+          <LocaleAwareLink to={ROUTES.IMPRESS} className={styles.impressLink}>
             {intl.formatMessage(messages.impressLink)}
-          </Link>
+          </LocaleAwareLink>
         </footer>
       </div>
     );

@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router';
 import { defineMessages, intlShape } from 'react-intl';
 import { ROUTES } from '../../../routes';
 import styles from './TopMenu.scss';
 import MobileMenu from './MobileMenu';
 import DesktopMenu from './DesktopMenu';
+import LocaleAwareLink from '../../shared/LocaleAwareLink';
 
 const messages = defineMessages({
   homeLink: {
@@ -28,9 +28,9 @@ export default class TopMenu extends Component {
     return (
       <div className={styles.topMenu}>
         <div className={styles.itemsLeft}>
-          <Link to={ROUTES.INDEX} className={styles.homeLink}>
+          <LocaleAwareLink to={ROUTES.INDEX} className={styles.homeLink}>
             {intl.formatMessage(messages.homeLink)}
-          </Link>
+          </LocaleAwareLink>
         </div>
         <div className={styles.itemsRight}>
           <DesktopMenu

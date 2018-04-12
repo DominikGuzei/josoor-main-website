@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Head from "react-helmet";
-import { Link } from "react-router";
 import styles from './Impress.scss';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
 import { ROUTES } from '../../routes';
 import { defineMessages, intlShape, FormattedHTMLMessage } from 'react-intl';
+import LocaleAwareLink from '../shared/LocaleAwareLink';
 
 const messages = defineMessages({
   title: {
@@ -36,9 +36,9 @@ export default class Impress extends Component {
         </Head>
         <div className={styles.impress}>
 
-          <Link to={ROUTES.INDEX} >
+          <LocaleAwareLink to={ROUTES.INDEX} >
             <img src={josoorLogo} className={styles.josoorLogo} />
-          </Link>
+          </LocaleAwareLink>
 
           <div className={styles.text}>
 

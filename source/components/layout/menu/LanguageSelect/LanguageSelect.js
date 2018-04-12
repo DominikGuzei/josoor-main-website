@@ -30,7 +30,12 @@ export default class LanguageSelect extends Component {
   };
 
   handleLanguageSelection = (value) => {
-    browserHistory.push({ query: { lang: value } });
+    const { router, intl } = this.context;
+    const currentPath = router.location.pathname;
+    const currentLocale = intl.locale;
+    browserHistory.push({
+      pathname: currentPath.replace(new RegExp(`^/${currentLocale}`), `/${value}`)
+    });
   };
 
   render() {

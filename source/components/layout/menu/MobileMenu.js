@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { intlShape } from 'react-intl';
 import classnames from 'classnames';
-import { Link } from 'react-router';
 import styles from './MobileMenu.scss';
 import { ROUTES } from '../../../routes';
 import LanguageSelect from './LanguageSelect/LanguageSelect';
 import JoinUsButton from '../../shared/JoinUsButton';
 import PropTypes from 'prop-types';
 import MobileSelectTheme from './LanguageSelect/LanguageSelectMobile.scss';
+import LocaleAwareLink from '../../shared/LocaleAwareLink';
 
 export default class MobileMenu extends Component {
 
@@ -46,9 +46,9 @@ export default class MobileMenu extends Component {
             onClick={this._toggleMenu}
           />
           <div className={styles.menuItems}>
-            <Link to={ROUTES.BLOG.INDEX} className={styles.blogLink}>
-              {intl.formatMessage(linkTitles.blogLink)}
-            </Link>
+            {/*<LocaleAwareLink to={ROUTES.BLOG.INDEX} className={styles.blogLink}>*/}
+              {/*{intl.formatMessage(linkTitles.blogLink)}*/}
+            {/*</LocaleAwareLink>*/}
             <LanguageSelect selectTheme={MobileSelectTheme} />
             <JoinUsButton className={styles.joinUsButton} />
           </div>

@@ -3,6 +3,7 @@ import webpack from 'webpack';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import OptimizeCssAssetsPlugin from 'optimize-css-assets-webpack-plugin';
 import LodashModuleReplacementPlugin from 'lodash-webpack-plugin';
+import BabelPlugin from 'babel-webpack-plugin';
 
 const IS_STATIC = process.env.PHENOMIC_ENV === 'static';
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
@@ -90,6 +91,23 @@ module.exports = (config) => ({
     }),
     new OptimizeCssAssetsPlugin(),
     new LodashModuleReplacementPlugin(),
+    new BabelPlugin({
+      test: /\.js$/,
+      presets: [
+        [
+          'env',
+          {
+            exclude: ['transform-regenerator'],
+            loose: true,
+            modules: false,
+            targets: { browsers: ['>1%'] },
+            useBuiltIns: true
+          }
+        ]
+      ],
+      sourceMaps: false,
+      compact: false
+    }),
     !IS_STATIC && new webpack.HotModuleReplacementPlugin(),
     IS_PRODUCTION && new webpack.optimize.UglifyJsPlugin(),
   ].filter(item => item)

@@ -38,9 +38,9 @@ export default class BlogPost extends Component {
           <BlogPostHeader post={post} hasTitleLink={false} />
           <BodyRenderer>{post.body}</BodyRenderer>
           <footer>
-            <Link to={ROUTES.BLOG.INDEX}>
+            <LocaleAwareLink to={ROUTES.BLOG.INDEX}>
               {intl.formatMessage(messages.backHomeLink)}
-            </Link>
+            </LocaleAwareLink>
           </footer>
         </div>
       </div>

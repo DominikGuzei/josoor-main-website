@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router';
 import { intlShape } from 'react-intl';
 import classnames from 'classnames';
 import LanguageSelect from './LanguageSelect/LanguageSelect';
@@ -7,6 +6,7 @@ import JoinUsButton from '../../shared/JoinUsButton';
 import { ROUTES } from '../../../routes';
 import styles from './DesktopMenu.scss';
 import DesktopSelectTheme from './LanguageSelect/LanguageSelectDesktop.scss';
+import LocaleAwareLink from '../../shared/LocaleAwareLink';
 
 export default class DesktopMenu extends Component {
 
@@ -19,9 +19,9 @@ export default class DesktopMenu extends Component {
     const { linkTitles, className } = this.props;
     return (
       <div className={classnames([styles.desktopMenu, className])}>
-        <Link to={ROUTES.BLOG.INDEX} className={styles.blogLink}>
-          {intl.formatMessage(linkTitles.blogLink)}
-        </Link>
+        {/*<LocaleAwareLink to={ROUTES.BLOG.INDEX} className={styles.blogLink}>*/}
+          {/*{intl.formatMessage(linkTitles.blogLink)}*/}
+        {/*</LocaleAwareLink>*/}
         <JoinUsButton />
         <LanguageSelect selectTheme={DesktopSelectTheme} />
       </div>
