@@ -51,7 +51,7 @@ module.exports = (config) => ({
         loader: 'url-loader',
         options: {
           fallback: 'file-loader',
-          limit: 5000,
+          limit: 20000,
           name: './assets/images/[name]-[hash].[ext]',
         }
       },
