@@ -88,22 +88,26 @@ body {
 
 @font-face {
   font-family: 'Tisa-Sans-Light';
-  src: url('fonts/tisa/TisaSansPro-Light.otf') format('opentype');
+  src: url('fonts/tisa-pro/TisaSansPro-Light.woff2') format('woff2'),
+       url('fonts/tisa-pro/TisaSansPro-Light.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Tisa-Sans-Regular';
-  src: url('fonts/tisa/TisaSansPro-Regular.otf') format('truetype');
+  src: url('fonts/tisa-pro/TisaSansPro-Regular.woff2') format('woff2'),
+       url('fonts/tisa-pro/TisaSansPro-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Tisa-Sans-Bold';
-  src: url('fonts/tisa/TisaSansPro-Bold.otf') format('opentype');
+  src: url('fonts/tisa-pro/TisaSansPro-Bold.woff2') format('woff2'),
+       url('fonts/tisa-pro/TisaSansPro-Bold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Tisa-Sans-Medium-Italic';
-  src: url('fonts/tisa/TisaSansPro-MediumItalic.otf') format('opentype');
+  src: url('fonts/tisa-pro/TisaSansPro-MediumItalic.woff2') format('woff2'),
+       url('fonts/tisa-pro/TisaSansPro-MediumItalic.woff') format('woff');
 }
 
 h1, h2 {
@@ -139,4 +143,8 @@ a:link, a:visited {
 
 .flexboxgrid2_container-fluid {
   padding: 0 !important;
+}
+
+.flexboxgrid2_row {
+  margin: 0;
 }
