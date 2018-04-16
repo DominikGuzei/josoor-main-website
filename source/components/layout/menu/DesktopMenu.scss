@@ -5,7 +5,7 @@
   align-items: center;
 
   > * {
-    margin-left: 30px;
+    margin-left: 20px;
     text-transform: uppercase;
   }
 
@@ -15,7 +15,7 @@
 
   a:link, a:visited {
     color: white;
-    font-family: $theme-font-sans-bold;
+    font-family: $theme-font-sans-regular;
     &:hover {
       text-decoration: underline;
     }

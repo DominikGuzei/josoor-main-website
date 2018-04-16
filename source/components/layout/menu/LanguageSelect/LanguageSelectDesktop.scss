@@ -7,7 +7,7 @@ $select-down-arrow-focus-url: $select-down-arrow-url;
 $select-input-bg-color: transparent;
 $select-down-arrow-position-left: 100%;
 $select-input-padding: 0 1em 0 0;
-$select-down-arrow-position-bottom: 8px;
+$select-down-arrow-position-bottom: 6px;
 @import "../../../../../node_modules/react-polymorph/source/themes/simple/SimpleSelect";
 // Css module overrides go here …
 
@@ -22,7 +22,7 @@ $select-down-arrow-position-bottom: 8px;
       border: none;
     }
     .SimpleBubble_root:not(.SimpleBubble_openUpward) .SimpleBubble_bubble {
-      margin-top: -16px;
+      margin-top: -10px;
     }
   }
 }
@@ -33,7 +33,7 @@ $select-down-arrow-position-bottom: 8px;
     color: white;
     text-align: right;
     text-transform: uppercase;
-    font-family: $theme-font-sans-bold;
+    font-family: $theme-font-sans-regular;
     font-size: 15px;
   }
 }
