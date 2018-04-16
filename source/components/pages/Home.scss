@@ -58,6 +58,14 @@
   margin-top: 20px;
 }
 
+.factStripeOrange {
+  background: url('../../assets/home/world-map-stripe-orange.png') no-repeat;
+}
+
+.factStripeDark {
+  background: url('../../assets/home/world-map-stripe-dark.png') no-repeat;
+}
+
 .factStripeOrange, .factStripeDark {
   margin-top: 40px;
   margin-bottom: 30px;
@@ -80,14 +88,6 @@
     margin-top: 100px;
     margin-bottom: 80px;
   }
-}
-
-.factStripeOrange {
-  background: url('../../assets/home/world-map-stripe-orange.png') no-repeat;
-}
-
-.factStripeDark {
-  background: url('../../assets/home/world-map-stripe-dark.png') no-repeat;
 }
 
 .societyChallengesSection {
