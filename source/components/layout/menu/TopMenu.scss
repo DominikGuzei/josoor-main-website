@@ -12,7 +12,7 @@
     display: none;
   }
 
-  @media ($theme-breakpoint-mobile) {
+  @media ($theme-breakpoint-small) {
     .desktopMenu {
       display: inherit;
     }
@@ -39,7 +39,7 @@
   flex-grow: 0;
 }
 
-@media ($theme-breakpoint-mobile) {
+@media ($theme-breakpoint-small) {
   .topMenu {
     height: $theme-top-menu-height;
   }

@@ -56,17 +56,21 @@ export default class Home extends Component {
             <JoinUsButton />
           </div>
 
-          <ProjectsSection />
+          <div className={styles.projectsSection}>
+            <ProjectsSection />
+          </div>
 
-          <Grid fluid>
-            <Row center="xs" className={styles.factStripeOrange}>
+          <Grid fluid className={styles.factStripeOrange}>
+            <Row center="xs">
               <Col xs={12} sm={8}>
                 {intl.formatMessage(messages.factIncreaseOfHate)}
               </Col>
             </Row>
           </Grid>
 
-          <ChallengesSocietySection />
+          <div className={styles.societyChallengesSection}>
+            <ChallengesSocietySection />
+          </div>
 
           {/*<JoinUsSection />*/}
         </div>

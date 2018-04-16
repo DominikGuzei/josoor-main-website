@@ -1,5 +1,17 @@
 @import "../../../theme/polymorph/custom/_config";
 
+.root {
+  h1 {
+    margin-bottom: 40px;
+    @media ($theme-breakpoint-small) {
+      margin-bottom: 50px;
+    }
+    @media ($theme-breakpoint-middle) {
+      margin-bottom: 60px;
+    }
+  }
+}
+
 .project {
   border: 1px solid $theme-color-main-light;
   padding: 40px;
