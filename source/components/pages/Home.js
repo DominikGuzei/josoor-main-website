@@ -8,6 +8,7 @@ import JoinUsButton from '../shared/JoinUsButton';
 import ProjectsSection from './home/ProjectsSection';
 import JoinUsSection from './home/JoinUsSection';
 import ChallengesSocietySection from './home/ChallengesSocietySection';
+import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
 
 const messages = defineMessages({
   title: {
@@ -25,6 +26,10 @@ const messages = defineMessages({
   factIncreaseOfHate: {
     id: 'home.factIncreaseOfHate',
     defaultMessage: '!!!50% of the biggest host countries experience a sharp increase of hate crimes against refugees',
+  },
+  factDisplaced: {
+    id: 'home.factDisplaced',
+    defaultMessage: '!!!65.6 million forcibly displaced people worldwide',
   },
 });
 
@@ -70,6 +75,18 @@ export default class Home extends Component {
 
           <div className={styles.societyChallengesSection}>
             <ChallengesSocietySection />
+          </div>
+
+          <Grid fluid className={styles.factStripeDark}>
+            <Row center="xs">
+              <Col xs={12} sm={8}>
+                {intl.formatMessage(messages.factDisplaced)}
+              </Col>
+            </Row>
+          </Grid>
+
+          <div className={styles.refugeesChallengesSection}>
+            <ChallengesRefugeesSection />
           </div>
 
           {/*<JoinUsSection />*/}

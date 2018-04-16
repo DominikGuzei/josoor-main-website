@@ -71,7 +71,7 @@ export default class ChallengesSocietySection extends Component {
   render() {
     const { intl } = this.context;
     return (
-      <Grid fluid>
+      <Grid fluid className={styles.root}>
         <Row center="xs">
           <Col xs={11} sm={10} md={9} lg={8} >
             <h1>{intl.formatMessage(messages.challenges)}</h1>
