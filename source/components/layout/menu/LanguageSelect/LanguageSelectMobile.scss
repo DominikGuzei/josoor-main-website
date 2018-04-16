@@ -12,7 +12,8 @@ $select-down-arrow-position-bottom: 8px;
 // Css module overrides go here …
 
 .select {
-  width: calc(100% - 9px);
+  width: calc(100% - 25px);
+  margin-left: 8px;
   :global {
     .SimpleBubble_bubble {
       box-shadow: none;
