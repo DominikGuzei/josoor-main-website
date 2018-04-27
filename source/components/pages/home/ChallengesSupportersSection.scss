@@ -1,0 +1,10 @@
+@import "../../../theme/polymorph/custom/_config";
+@import "mixins";
+
+.root {
+  @include challengeSection;
+}
+
+.challenge {
+  @include challenge;
+}
