@@ -39,11 +39,11 @@ export default class LanguageSelect extends Component {
   };
 
   render() {
-    const { intl, theme } = this.context;
+    const { intl } = this.context;
     const { selectTheme } = this.props;
     return (
       <Select
-        theme={{ ...theme, [IDENTIFIERS.SELECT]: selectTheme }}
+        themeOverrides={{ [IDENTIFIERS.SELECT]: selectTheme }}
         options={[
           { label: intl.formatMessage(messages.english), value: 'en' },
           { label: intl.formatMessage(messages.arabic), value: 'ar' },
