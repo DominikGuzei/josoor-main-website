@@ -7,7 +7,12 @@ backend:
 collections:
   - name: "translations"
     label: "Translations"
+    label_singular: "Translation"
     folder: "source/i18n/locales"
     create: false
+    delete: false
+    extension: json
     fields:
-      - { label: "Contents", name: "contents", widget: "text" }
+      - { label: "Contents", name: "body", widget: "text" }
+    editor:
+      preview: false
