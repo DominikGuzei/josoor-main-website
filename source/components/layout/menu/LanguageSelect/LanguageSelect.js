@@ -11,18 +11,6 @@ const messages = defineMessages({
     id: 'title',
     defaultMessage: '!!!English',
   },
-  english: {
-    id: 'languages.english',
-    defaultMessage: '!!!English',
-  },
-  arabic: {
-    id: 'languages.arabic',
-    defaultMessage: '!!!Arabic',
-  },
-  german: {
-    id: 'languages.german',
-    defaultMessage: '!!!German',
-  },
 });
 
 export default class LanguageSelect extends Component {
@@ -49,9 +37,9 @@ export default class LanguageSelect extends Component {
       <Select
         themeOverrides={{ [IDENTIFIERS.SELECT]: selectTheme }}
         options={[
-          { label: intl.formatMessage(messages.english), value: 'en' },
-          { label: intl.formatMessage(messages.arabic), value: 'ar' },
-          { label: intl.formatMessage(messages.german), value: 'de' },
+          { label: 'English', value: 'en' },
+          { label: 'العربية', value: 'ar' },
+          { label: 'Deutsch', value: 'de' },
         ]}
         value={intl.locale}
         onChange={this.handleLanguageSelection}
