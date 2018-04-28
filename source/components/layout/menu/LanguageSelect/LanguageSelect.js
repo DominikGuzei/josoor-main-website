@@ -7,6 +7,10 @@ import SelectSkin from 'react-polymorph/lib/skins/simple/SelectSkin';
 import { IDENTIFIERS } from 'react-polymorph/lib/themes/API';
 
 const messages = defineMessages({
+  title: {
+    id: 'title',
+    defaultMessage: '!!!English',
+  },
   english: {
     id: 'languages.english',
     defaultMessage: '!!!English',

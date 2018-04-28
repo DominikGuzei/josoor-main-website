@@ -54,5 +54,6 @@
   "languages.german": "Deutsch",
   "layout.footer.impressLink": "Impressum",
   "layout.topMenu.blogLink": "Blog",
-  "layout.topMenu.homeLink": "Home"
+  "layout.topMenu.homeLink": "Home",
+  "title": "Deutsch"
 }

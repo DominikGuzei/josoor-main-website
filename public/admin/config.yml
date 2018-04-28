@@ -3,7 +3,7 @@ media_folder: public/images
 public_folder: /images
 backend:
   name: git-gateway
-  branch: development
+  branch: feature/locale-cms
 collections:
   - name: translations
     label: Translations
@@ -180,6 +180,9 @@ collections:
         widget: text
       - label: layout.topMenu.homeLink
         name: layout.topMenu.homeLink
+        widget: text
+      - label: title
+        name: title
         widget: text
     editor:
       preview: false
