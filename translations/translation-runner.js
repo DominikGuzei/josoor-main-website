@@ -20,7 +20,7 @@ const cmsConfig = yaml.safeLoad(fs.readFileSync(cmsConfigPath, 'utf8'));
 cmsConfig.collections[0].fields = Object.keys(enLocaleFile).map((key) => ({
   label: key.toString(),
   name: key.toString(),
-  widget: "text"
+  widget: key === 'title' ? 'string' : 'text'
 }));
 
 fs.writeFileSync(cmsConfigPath, yaml.safeDump(cmsConfig));

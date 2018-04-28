@@ -183,6 +183,6 @@ collections:
         widget: text
       - label: title
         name: title
-        widget: text
+        widget: string
     editor:
       preview: false
