@@ -21,8 +21,8 @@ $select-down-arrow-position-bottom: 6px;
     .SimpleBubble_root:not(.SimpleBubble_transparent) .SimpleBubble_bubble {
       border: none;
     }
-    .SimpleBubble_root:not(.SimpleBubble_openUpward) .SimpleBubble_bubble {
-      margin-top: -10px;
+    .SimpleOptions_option.SimpleOptions_selectedOption:after {
+      display: none;
     }
   }
 }

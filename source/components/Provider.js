@@ -52,11 +52,9 @@ export default class Provider extends Component {
         <Head>
            <body dir={readDirection} />
         </Head>
-        <ThemeProvider theme={theme}>
-          <IntlProvider {...{ locale, key: locale, messages: translations[locale] }}>
-            {children}
-          </IntlProvider>
-        </ThemeProvider>
+        <IntlProvider {...{ locale, key: locale, messages: translations[locale] }}>
+          {children}
+        </IntlProvider>
       </Fragment>
     );
   }

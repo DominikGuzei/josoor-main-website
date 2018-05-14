@@ -3,7 +3,6 @@ import webpack from 'webpack';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import OptimizeCssAssetsPlugin from 'optimize-css-assets-webpack-plugin';
 import LodashModuleReplacementPlugin from 'lodash-webpack-plugin';
-import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import ImageminPlugin from 'imagemin-webpack-plugin'
 import imageminMozjpeg from 'imagemin-mozjpeg'
 
@@ -104,6 +103,5 @@ module.exports = (config) => ({
         })
       ]
     }),
-    // new BundleAnalyzerPlugin()
   ].filter(item => item)
 });

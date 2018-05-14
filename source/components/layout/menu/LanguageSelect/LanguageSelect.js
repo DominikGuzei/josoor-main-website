@@ -7,17 +7,9 @@ import SelectSkin from 'react-polymorph/lib/skins/simple/SelectSkin';
 import { IDENTIFIERS } from 'react-polymorph/lib/themes/API';
 
 const messages = defineMessages({
-  english: {
-    id: 'languages.english',
+  title: {
+    id: 'title',
     defaultMessage: '!!!English',
-  },
-  arabic: {
-    id: 'languages.arabic',
-    defaultMessage: '!!!Arabic',
-  },
-  german: {
-    id: 'languages.german',
-    defaultMessage: '!!!German',
   },
 });
 
@@ -39,15 +31,15 @@ export default class LanguageSelect extends Component {
   };
 
   render() {
-    const { intl, theme } = this.context;
+    const { intl } = this.context;
     const { selectTheme } = this.props;
     return (
       <Select
-        theme={{ ...theme, [IDENTIFIERS.SELECT]: selectTheme }}
+        themeOverrides={{ [IDENTIFIERS.SELECT]: selectTheme }}
         options={[
-          { label: intl.formatMessage(messages.english), value: 'en' },
-          { label: intl.formatMessage(messages.arabic), value: 'ar' },
-          { label: intl.formatMessage(messages.german), value: 'de' },
+          { label: 'English', value: 'en' },
+          { label: 'العربية', value: 'ar' },
+          { label: 'Deutsch', value: 'de' },
         ]}
         value={intl.locale}
         onChange={this.handleLanguageSelection}
