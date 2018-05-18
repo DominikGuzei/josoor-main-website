@@ -8,8 +8,8 @@
   "home.challenges.refugees.headline": "Flüchtlinge",
   "home.challenges.refugees.inclusion.description": "Anstatt Flüchtlinge in Lösungen zu inkludieren, werden sie in die Rolle der passiven Empfänger*innen von Hilfe und Wohlwollen gedrängt. Ihre eigenen Fähigkeiten und Kenntnisse werden ignoriert anstatt genutzt und gefördert.",
   "home.challenges.refugees.inclusion.title": "Inklusion",
-  "home.challenges.refugees.information.description": "Informationen über Bürokratie, rechtliche Fragen und andere für Flüchtlinge elementare Bereiche zu finden, ist oft selbst für Einheimische eine Herausforderung. Ohne jedoch die lokale Sprache zu sprechen ist dies nicht nur schwierig, sondern oftmals unmöglich.",
-  "home.challenges.refugees.information.title": "Informationen",
+  "home.challenges.refugees.information.description": "Information über Bürokratie, rechtliche Fragen und andere für Flüchtlinge elementare Bereiche zu finden, ist oft selbst für Einheimische eine Herausforderung. Ohne jedoch die lokale Sprache zu sprechen ist dies nicht nur schwierig, sondern oftmals unmöglich.",
+  "home.challenges.refugees.information.title": "Information",
   "home.challenges.refugees.language.description": "Gezwungenermaßen in ein neues Land zu ziehen ohne die lokale Sprache zu sprechen führt zu Isolation, Abhängigkeit und Depression. Selbst die kleinsten Aufgaben können zu großen Herausforderungen oder gar unüberwindbaren Hindernissen werden.",
   "home.challenges.refugees.language.title": "Sprache",
   "home.challenges.refugees.social.description": "Ein neues Sozialleben aufzubauen ist schwer. Umsomehr, wenn man noch keine Arbeit hat und das Geld für die Teilnahme an Veranstaltungen und Aktivitäten fehlt. Ein gesundes Sozialleben ist jedoch nicht nur Voraussetzung für Integration, sondern menschliches Grundbedürfnis.",
@@ -52,10 +52,8 @@
   "impress.headline": "Impressum",
   "impress.info": "Copyright © 2018 Josoor",
   "impress.title": "Impressum | Josoor",
-  "languages.arabic": "Arabisch",
-  "languages.english": "Englisch",
-  "languages.german": "Deutsch",
   "layout.footer.impressLink": "Impressum",
   "layout.topMenu.blogLink": "Blog",
-  "layout.topMenu.homeLink": "Home"
+  "layout.topMenu.homeLink": "Home",
+  "title": "Deutsch"
 }

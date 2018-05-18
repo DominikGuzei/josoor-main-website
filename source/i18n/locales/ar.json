@@ -52,10 +52,8 @@
   "impress.headline": "دمغة الناش",
   "impress.info": "جميع الحقوق محفوظة © ٢٠١٧ جسور ",
   "impress.title": "جسور | دمغة الناش",
-  "languages.arabic": "العربية",
-  "languages.english": "الإنجليزية",
-  "languages.german": "الألمانية",
   "layout.footer.impressLink": "دمغة الناش",
   "layout.topMenu.blogLink": "المدونة",
-  "layout.topMenu.homeLink": "Home"
+  "layout.topMenu.homeLink": "Home",
+  "title": "العربية"
 }

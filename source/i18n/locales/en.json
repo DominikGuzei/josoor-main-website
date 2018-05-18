@@ -52,10 +52,8 @@
   "impress.headline": "Impress",
   "impress.info": "Copyright © 2018 Josoor",
   "impress.title": "Impress | Josoor",
-  "languages.arabic": "Arabic",
-  "languages.english": "English",
-  "languages.german": "German",
   "layout.footer.impressLink": "Impress",
   "layout.topMenu.blogLink": "Blog",
-  "layout.topMenu.homeLink": "Home"
+  "layout.topMenu.homeLink": "Home",
+  "title": "English"
 }

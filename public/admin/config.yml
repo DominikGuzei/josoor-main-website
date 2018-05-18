@@ -1,0 +1,187 @@
+media_folder: public/images
+public_folder: /images
+backend:
+  name: git-gateway
+  branch: development
+collections:
+  - name: translations
+    label: Translations
+    label_singular: Translation
+    folder: source/i18n/locales
+    create: false
+    delete: false
+    extension: json
+    fields:
+      - label: blog.backHomeLink
+        name: blog.backHomeLink
+        widget: text
+      - label: blog.headline
+        name: blog.headline
+        widget: text
+      - label: blog.readMore
+        name: blog.readMore
+        widget: text
+      - label: blog.subline
+        name: blog.subline
+        widget: text
+      - label: blog.title
+        name: blog.title
+        widget: text
+      - label: buttons.joinUs
+        name: buttons.joinUs
+        widget: text
+      - label: home.challenges.refugees.headline
+        name: home.challenges.refugees.headline
+        widget: text
+      - label: home.challenges.refugees.inclusion.description
+        name: home.challenges.refugees.inclusion.description
+        widget: text
+      - label: home.challenges.refugees.inclusion.title
+        name: home.challenges.refugees.inclusion.title
+        widget: text
+      - label: home.challenges.refugees.information.description
+        name: home.challenges.refugees.information.description
+        widget: text
+      - label: home.challenges.refugees.information.title
+        name: home.challenges.refugees.information.title
+        widget: text
+      - label: home.challenges.refugees.language.description
+        name: home.challenges.refugees.language.description
+        widget: text
+      - label: home.challenges.refugees.language.title
+        name: home.challenges.refugees.language.title
+        widget: text
+      - label: home.challenges.refugees.social.description
+        name: home.challenges.refugees.social.description
+        widget: text
+      - label: home.challenges.refugees.social.title
+        name: home.challenges.refugees.social.title
+        widget: text
+      - label: home.challenges.society.fear.description
+        name: home.challenges.society.fear.description
+        widget: text
+      - label: home.challenges.society.fear.title
+        name: home.challenges.society.fear.title
+        widget: text
+      - label: home.challenges.society.headline
+        name: home.challenges.society.headline
+        widget: text
+      - label: home.challenges.society.polarization.description
+        name: home.challenges.society.polarization.description
+        widget: text
+      - label: home.challenges.society.polarization.title
+        name: home.challenges.society.polarization.title
+        widget: text
+      - label: home.challenges.society.prejudice.description
+        name: home.challenges.society.prejudice.description
+        widget: text
+      - label: home.challenges.society.prejudice.title
+        name: home.challenges.society.prejudice.title
+        widget: text
+      - label: home.challenges.society.racism.description
+        name: home.challenges.society.racism.description
+        widget: text
+      - label: home.challenges.society.racism.title
+        name: home.challenges.society.racism.title
+        widget: text
+      - label: home.challenges.supporters.confusion.description
+        name: home.challenges.supporters.confusion.description
+        widget: text
+      - label: home.challenges.supporters.confusion.title
+        name: home.challenges.supporters.confusion.title
+        widget: text
+      - label: home.challenges.supporters.frustration.description
+        name: home.challenges.supporters.frustration.description
+        widget: text
+      - label: home.challenges.supporters.frustration.title
+        name: home.challenges.supporters.frustration.title
+        widget: text
+      - label: home.challenges.supporters.headline
+        name: home.challenges.supporters.headline
+        widget: text
+      - label: home.challenges.supporters.information.description
+        name: home.challenges.supporters.information.description
+        widget: text
+      - label: home.challenges.supporters.information.title
+        name: home.challenges.supporters.information.title
+        widget: text
+      - label: home.challenges.supporters.isolation.description
+        name: home.challenges.supporters.isolation.description
+        widget: text
+      - label: home.challenges.supporters.isolation.title
+        name: home.challenges.supporters.isolation.title
+        widget: text
+      - label: home.challenges.title
+        name: home.challenges.title
+        widget: text
+      - label: home.factDisplaced
+        name: home.factDisplaced
+        widget: text
+      - label: home.factIncreaseOfHate
+        name: home.factIncreaseOfHate
+        widget: text
+      - label: home.factSupportersTranslation
+        name: home.factSupportersTranslation
+        widget: text
+      - label: home.headline
+        name: home.headline
+        widget: text
+      - label: home.join.title
+        name: home.join.title
+        widget: text
+      - label: home.projects.answers.intro
+        name: home.projects.answers.intro
+        widget: text
+      - label: home.projects.answers.title
+        name: home.projects.answers.title
+        widget: text
+      - label: home.projects.comingSoon
+        name: home.projects.comingSoon
+        widget: text
+      - label: home.projects.connect.intro
+        name: home.projects.connect.intro
+        widget: text
+      - label: home.projects.connect.title
+        name: home.projects.connect.title
+        widget: text
+      - label: home.projects.title
+        name: home.projects.title
+        widget: text
+      - label: home.subline
+        name: home.subline
+        widget: text
+      - label: home.title
+        name: home.title
+        widget: text
+      - label: home.whatwedo.description1
+        name: home.whatwedo.description1
+        widget: text
+      - label: home.whatwedo.description2
+        name: home.whatwedo.description2
+        widget: text
+      - label: home.whatwedo.title
+        name: home.whatwedo.title
+        widget: text
+      - label: impress.headline
+        name: impress.headline
+        widget: text
+      - label: impress.info
+        name: impress.info
+        widget: text
+      - label: impress.title
+        name: impress.title
+        widget: text
+      - label: layout.footer.impressLink
+        name: layout.footer.impressLink
+        widget: text
+      - label: layout.topMenu.blogLink
+        name: layout.topMenu.blogLink
+        widget: text
+      - label: layout.topMenu.homeLink
+        name: layout.topMenu.homeLink
+        widget: text
+      - label: title
+        name: title
+        widget: string
+    editor:
+      preview: false

@@ -58,4 +58,14 @@ if (typeof navigator !== "undefined" && "serviceWorker" in navigator) {
 if (typeof window !== "undefined") {
   // Scroll to URL anchors when page was loaded
   window.onload = anchorate;
+  // Setup Netlify Identity redirect to admin page
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
 }

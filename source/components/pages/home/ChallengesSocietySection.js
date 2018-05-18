@@ -7,12 +7,9 @@ import societyPolarizationImage from '../../../assets/home/challenges/polarizati
 import societyPrejudiceImage from '../../../assets/home/challenges/prejudice-refugees.png';
 import societyFearImage from '../../../assets/home/challenges/fear-society.png';
 import societyRacismImage from '../../../assets/home/challenges/racism-society.png';
+import { globalMessages } from '../../../i18n/global-messages';
 
 const messages = defineMessages({
-  challenges: {
-    id: 'home.challenges.title',
-    defaultMessage: '!!!The Challenges',
-  },
   headline: {
     id: 'home.challenges.society.headline',
     defaultMessage: '!!!Society',
@@ -74,7 +71,7 @@ export default class ChallengesSocietySection extends Component {
       <Grid fluid className={styles.root}>
         <Row center="xs">
           <Col xs={11} sm={10} md={9} lg={8} >
-            <h1>{intl.formatMessage(messages.challenges)}</h1>
+            <h1>{intl.formatMessage(globalMessages.challengesTitle)}</h1>
             <h2>{intl.formatMessage(messages.headline)}</h2>
             <Row center="xs" start="md">
               <DisclosureBox
