@@ -10,11 +10,11 @@ const messages = defineMessages({
   },
   description1: {
     id: 'home.whatwedo.description1',
-    defaultMessage: `!!!description1`
+    defaultMessage: `!!!home.whatwedo.description1`
   },
   description2: {
     id: 'home.whatwedo.description2',
-    defaultMessage: `!!!description2`
+    defaultMessage: `!!!home.whatwedo.description2`
   },
 });
 

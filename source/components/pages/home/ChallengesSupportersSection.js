@@ -28,7 +28,7 @@ const messages = defineMessages({
   },
   confusionDescription: {
     id: 'home.challenges.supporters.confusion.description',
-    defaultMessage: '!!!With the lack of an overview of initiatives, needs, solutions and information in general, many supporters don’t know where to effectively put their efforts – or even how to help, while other supporters are overwhelmed with all their duties.',
+    defaultMessage: '!!!home.challenges.supporters.confusion.description',
   },
   isolationTitle: {
     id: 'home.challenges.supporters.isolation.title',
@@ -36,7 +36,7 @@ const messages = defineMessages({
   },
   isolationDescription: {
     id: 'home.challenges.supporters.isolation.description',
-    defaultMessage: '!!!Many supporters, especially those who are not organised in initiatives, feel alone in their efforts to help. Especially in the current political climate, that leads to feelings of isolation - and even depression.',
+    defaultMessage: '!!!home.challenges.supporters.isolation.description',
   },
   frustrationTitle: {
     id: 'home.challenges.supporters.frustration.title',
@@ -44,7 +44,7 @@ const messages = defineMessages({
   },
   frustrationDescription: {
     id: 'home.challenges.supporters.frustration.description',
-    defaultMessage: '!!!The result of all that is frustration. Many people who once got active to support refugees have since quit – oftentimes frustrated and exhausted to the point of burnout.',
+    defaultMessage: '!!!home.challenges.supporters.frustration.description',
   },
 });
 

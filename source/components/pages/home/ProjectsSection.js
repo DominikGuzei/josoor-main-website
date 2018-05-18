@@ -16,7 +16,7 @@ const messages = defineMessages({
   },
   connectIntro: {
     id: 'home.projects.connect.intro',
-    defaultMessage: '!!!Where refugees and supporters connect and build strong, active and inclusive communities',
+    defaultMessage: '!!!home.projects.connect.intro',
   },
   answersTitle: {
     id: 'home.projects.answers.title',
@@ -24,7 +24,7 @@ const messages = defineMessages({
   },
   answersIntro: {
     id: 'home.projects.answers.intro',
-    defaultMessage: '!!!Where refugees and supporters bridge the language barrier and exchange tustworthy information',
+    defaultMessage: '!!!home.projects.answers.intro',
   },
   comingSoon: {
     id: 'home.projects.comingSoon',

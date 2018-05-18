@@ -20,7 +20,7 @@ const messages = defineMessages({
   },
   polarizationDescription: {
     id: 'home.challenges.society.polarization.description',
-    defaultMessage: '!!!Societies worldwide are becoming increasingly polarized. Division between political opponents are growing - and are paricularly strong regarding the topic of refugees.',
+    defaultMessage: '!!!home.challenges.society.polarization.description',
   },
   prejudiceTitle: {
     id: 'home.challenges.society.prejudice.title',
@@ -28,7 +28,7 @@ const messages = defineMessages({
   },
   prejudiceDescription: {
     id: 'home.challenges.society.prejudice.description',
-    defaultMessage: '!!!Prejudices against both refugees and the people supporting them have reached new levels in recent years. Generalisations, accusations and lies spread faster and easier than ever.',
+    defaultMessage: '!!!home.challenges.society.prejudice.description',
   },
   fearTitle: {
     id: 'home.challenges.society.fear.title',
@@ -36,7 +36,7 @@ const messages = defineMessages({
   },
   fearDescription: {
     id: 'home.challenges.society.fear.description',
-    defaultMessage: '!!!Labelled lazy social spongers stealing your tax money, cheap work force stealing your jobs and terrorists coming to kill you –populist parties and tabloid papers find many ways to fuel the fear of refugees for their own benefits.',
+    defaultMessage: '!!!home.challenges.society.fear.description',
   },
   racismTitle: {
     id: 'home.challenges.society.racism.title',
@@ -44,7 +44,7 @@ const messages = defineMessages({
   },
   racismDescription: {
     id: 'home.challenges.society.racism.description',
-    defaultMessage: '!!!Blatant racism and xenophobia towards refugees as well as hatred against people supporting them is the result of all this. Initially mostly visible in verbal attacks, many countries now notice sharp increases of different forms of hate crimes.',
+    defaultMessage: '!!!home.challenges.society.racism.description',
   },
 });
 

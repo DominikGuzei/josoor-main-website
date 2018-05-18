@@ -23,19 +23,19 @@ const messages = defineMessages({
   },
   subline: {
     id: 'home.subline',
-    defaultMessage: '!!!Empowering Refugees & Local Supporters To Unite and Turn Crisis Into Opportunities',
+    defaultMessage: '!!!home.subline',
   },
   factIncreaseOfHate: {
     id: 'home.factIncreaseOfHate',
-    defaultMessage: '!!!50% of the biggest host countries experience a sharp increase of hate crimes against refugees',
+    defaultMessage: '!!!home.factIncreaseOfHate',
   },
   factDisplaced: {
     id: 'home.factDisplaced',
-    defaultMessage: '!!!65.6 million forcibly displaced people worldwide',
+    defaultMessage: '!!!home.factDisplaced',
   },
   factSupportersTranslation: {
     id: 'home.factSupportersTranslation',
-    defaultMessage: '!!!40% of supporter’s time spent on research and translation of information',
+    defaultMessage: '!!!home.factSupportersTranslation',
   },
 });
 

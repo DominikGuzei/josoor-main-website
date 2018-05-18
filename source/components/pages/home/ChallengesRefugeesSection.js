@@ -20,7 +20,7 @@ const messages = defineMessages({
   },
   informationDescription: {
     id: 'home.challenges.refugees.information.description',
-    defaultMessage: '!!!Accessing information about bureaucracy, legal questions and other subjects vital to refugees is a challenge even for locals. Finding and understanding this information without speaking the local language is difficult at least and oftentimes impossible.',
+    defaultMessage: '!!!home.challenges.refugees.information.description',
   },
   socialTitle: {
     id: 'home.challenges.refugees.social.title',
@@ -28,7 +28,7 @@ const messages = defineMessages({
   },
   socialDescription: {
     id: 'home.challenges.refugees.social.description',
-    defaultMessage: '!!!Building a social life in a new place is hard. Much more so when you don’t have a job yet and no money to attend costly events and activities. Yet a healthy social life is the prerequisite not only for integration, but mental sanity and wellbeing.',
+    defaultMessage: '!!!home.challenges.refugees.social.description',
   },
   inclusionTitle: {
     id: 'home.challenges.refugees.inclusion.title',
@@ -36,7 +36,7 @@ const messages = defineMessages({
   },
   inclusionDescription: {
     id: 'home.challenges.refugees.inclusion.description',
-    defaultMessage: '!!!Instead of being included in solutions, refugees are put into the roles of passive recipients of help and goodwill. Their own skills, talents and knowledge is disregarded instead of used and fostered.',
+    defaultMessage: '!!!home.challenges.refugees.inclusion.description',
   },
   languageTitle: {
     id: 'home.challenges.refugees.language.title',
@@ -44,7 +44,7 @@ const messages = defineMessages({
   },
   languageDescription: {
     id: 'home.challenges.refugees.language.description',
-    defaultMessage: '!!!Getting settled in a new country is never easy. Doing so without speaking the local language however can turn the smallest tasks into major challenges and insurmountable obstacles.',
+    defaultMessage: '!!!home.challenges.refugees.language.description',
   },
 });
 
