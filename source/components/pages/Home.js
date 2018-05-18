@@ -10,6 +10,7 @@ import JoinUsSection from './home/JoinUsSection';
 import ChallengesSocietySection from './home/ChallengesSocietySection';
 import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
 import ChallengesSupportersSection from './home/ChallengesSupportersSection';
+import WhatWeDoSection from './home/WhatWeDoSection';
 
 const messages = defineMessages({
   title: {
@@ -104,6 +105,10 @@ export default class Home extends Component {
 
           <div className={styles.supportersChallengesSection}>
             <ChallengesSupportersSection />
+          </div>
+
+          <div className={styles.whatWeDoSection}>
+            <WhatWeDoSection />
           </div>
 
           {/*<JoinUsSection />*/}
