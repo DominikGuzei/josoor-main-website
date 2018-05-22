@@ -39,7 +39,7 @@ const messages = defineMessages({
   },
 });
 
-export const JOIN_US_ANCHOR_ID = 'join-us-anchor';
+export const JOIN_US_ANCHOR_ID = 'join-us';
 
 export default class Home extends Component {
 
