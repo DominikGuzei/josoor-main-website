@@ -111,7 +111,9 @@ export default class Home extends Component {
             <WhatWeDoSection />
           </div>
 
-          {/*<JoinUsSection />*/}
+          <div className={styles.joinUsSection}>
+            <JoinUsSection />
+          </div>
         </div>
       </div>
     );

@@ -126,6 +126,24 @@ collections:
       - label: home.headline
         name: home.headline
         widget: text
+      - label: home.join.newsletter.email
+        name: home.join.newsletter.email
+        widget: text
+      - label: home.join.newsletter.firstName
+        name: home.join.newsletter.firstName
+        widget: text
+      - label: home.join.newsletter.ht
+        name: home.join.newsletter.ht
+        widget: text
+      - label: home.join.newsletter.id
+        name: home.join.newsletter.id
+        widget: text
+      - label: home.join.newsletter.lastName
+        name: home.join.newsletter.lastName
+        widget: text
+      - label: home.join.newsletter.submitLabel
+        name: home.join.newsletter.submitLabel
+        widget: text
       - label: home.join.title
         name: home.join.title
         widget: text
