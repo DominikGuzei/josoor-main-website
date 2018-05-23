@@ -83,6 +83,7 @@ export default class JoinUsSection extends Component {
                         type="text"
                         name="MERGE1"
                         id="MERGE1"
+                        autoComplete="given-name"
                       />
                     )}
                   />
@@ -101,6 +102,7 @@ export default class JoinUsSection extends Component {
                         type="text"
                         name="MERGE2"
                         id="MERGE2"
+                        autoComplete="family-name"
                       />
                     )}
                   />
@@ -120,6 +122,7 @@ export default class JoinUsSection extends Component {
                         autoCorrect="off"
                         name="MERGE0"
                         id="MERGE0"
+                        autoComplete="email"
                       />
                     )}
                   />
