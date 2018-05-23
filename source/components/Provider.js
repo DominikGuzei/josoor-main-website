@@ -6,8 +6,6 @@ import { addLocaleData, IntlProvider } from 'react-intl';
 import de from 'react-intl/locale-data/de';
 import en from 'react-intl/locale-data/en';
 import ar from 'react-intl/locale-data/ar';
-import { ThemeProvider } from 'react-polymorph/lib/components';
-import theme from '../theme/polymorph/theme';
 // import theme from 'react-polymorph/lib/themes/simple';
 import translations from '../i18n/translations';
 import { parseRoute } from '../utils/routing';

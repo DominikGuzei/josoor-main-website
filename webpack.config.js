@@ -84,6 +84,7 @@ module.exports = (config) => ({
       'process.env': {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
         CONTEXT: JSON.stringify(process.env.CONTEXT || 'development'),
+        CMS: JSON.stringify(process.env.CMS || false),
       },
     }),
     new ExtractTextPlugin({

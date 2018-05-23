@@ -1,0 +1,11 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# The environment for development builds (deploy previews)
+[context.development.environment]
+  CMS = true # Enable admin interface for editing translations and blog posts
+
+# The environment for production builds (public facing website)
+[context.production.environment]
+  CMS = false
