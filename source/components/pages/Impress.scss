@@ -5,8 +5,15 @@
   @include container;
   max-width: 640px;
   text-align: center;
+
   .text {
-    color: white !important;
+    font-family: $theme-font-sans-light;
+    line-height: 1.5em;
+
+    span {
+      display: block;
+      margin: 1em 0;
+    }
   }
 }
 

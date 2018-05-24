@@ -1,80 +1,121 @@
-import React from "react";
+import React, { Component } from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 import Head from "react-helmet";
-// import { Link } from "react-router";
-import howToAskImage from '../../theme/images/home/ask-illustration.svg';
-import howToAnswerImage from '../../theme/images/home/answer-illustration.svg';
-import howToTranslateImage from '../../theme/images/home/translate-illustration.svg';
-import whyHeader from '../../theme/images/home/why-header.jpg';
+import josoorVerticalLogo from '../../theme/images/josoor-logo-vertical-white.svg';
 import styles from './Home.scss';
+import { defineMessages, intlShape, FormattedHTMLMessage } from 'react-intl';
+import JoinUsButton from '../shared/JoinUsButton';
+import ProjectsSection from './home/ProjectsSection';
+import JoinUsSection from './home/JoinUsSection';
+import ChallengesSocietySection from './home/ChallengesSocietySection';
+import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
+import ChallengesSupportersSection from './home/ChallengesSupportersSection';
+import WhatWeDoSection from './home/WhatWeDoSection';
 
-export default ({ isLoading, posts }) => (
-  <div>
-    <Head>
-      <title>Josoor Answers</title>
-    </Head>
-    <div>
-      <div className={styles.header}>
-        <h1 className={styles.headline}>
-          Josoor Answers
-        </h1>
-        <div className={styles.pitch}>
-          The place for refugees and supporters to unite through
-          sharing knowledge and translating information
+const messages = defineMessages({
+  title: {
+    id: 'home.title',
+    defaultMessage: '!!!Josoor',
+  },
+  headline: {
+    id: 'home.headline',
+    defaultMessage: '!!!Josoor',
+  },
+  subline: {
+    id: 'home.subline',
+    defaultMessage: '!!!home.subline',
+  },
+  factIncreaseOfHate: {
+    id: 'home.factIncreaseOfHate',
+    defaultMessage: '!!!home.factIncreaseOfHate',
+  },
+  factDisplaced: {
+    id: 'home.factDisplaced',
+    defaultMessage: '!!!home.factDisplaced',
+  },
+  factSupportersTranslation: {
+    id: 'home.factSupportersTranslation',
+    defaultMessage: '!!!home.factSupportersTranslation',
+  },
+});
+
+export const JOIN_US_ANCHOR_ID = 'join-us';
+
+export default class Home extends Component {
+
+  static contextTypes = {
+    intl: intlShape.isRequired,
+  };
+
+  render() {
+    const { isLoading, posts } = this.props;
+    const { intl } = this.context;
+    return (
+      <div>
+        <Head>
+          <title>{intl.formatMessage(messages.title)}</title>
+        </Head>
+        <div>
+          <div className={styles.header}>
+            <img className={styles.logo} src={josoorVerticalLogo} />
+            <h1 className={styles.headline}>
+              {intl.formatMessage(messages.headline)}
+            </h1>
+            <div className={styles.pitch}>
+              {intl.formatMessage(messages.subline)}
+            </div>
+            <JoinUsButton />
+          </div>
+
+          <div className={styles.projectsSection}>
+            <ProjectsSection />
+          </div>
+
+          <Grid fluid className={styles.factStripeOrange}>
+            <Row center="xs">
+              <Col xs={12} sm={8}>
+                {intl.formatMessage(messages.factIncreaseOfHate)}
+              </Col>
+            </Row>
+          </Grid>
+
+          <div className={styles.societyChallengesSection}>
+            <ChallengesSocietySection />
+          </div>
+
+          <Grid fluid className={styles.factStripeDark}>
+            <Row center="xs">
+              <Col xs={12} sm={8}>
+                {intl.formatMessage(messages.factDisplaced)}
+              </Col>
+            </Row>
+          </Grid>
+
+          <div className={styles.refugeesChallengesSection}>
+            <ChallengesRefugeesSection />
+          </div>
+
+          <Grid fluid className={styles.factStripeOrange}>
+            <Row center="xs">
+              <Col xs={12} sm={8}>
+                {intl.formatMessage(messages.factSupportersTranslation)}
+              </Col>
+            </Row>
+          </Grid>
+
+          <div className={styles.supportersChallengesSection}>
+            <ChallengesSupportersSection />
+          </div>
+
+          <div className={styles.whatWeDoSection}>
+            <WhatWeDoSection />
+          </div>
+
+          <div className={styles.joinUsSection}>
+            <JoinUsSection />
+          </div>
         </div>
       </div>
-
-      <div className={styles.how}>
-        <h2>How can you contribute & connect with other memebers of the community?</h2>
-
-        <div className={styles.interactions}>
-          <div className={styles.howToAsk}>
-            <img src={howToAskImage} />
-            <h3>Ask</h3>
-            <div className={styles.separator} />
-            <p>Get the information you need by asking questions in the community!</p>
-          </div>
-          <div className={styles.howToAnswer}>
-            <img src={howToAnswerImage} />
-            <h3>Answer</h3>
-            <div className={styles.separator} />
-            <p>Share your knowledge and help fellow members by answering their questions!</p>
-          </div>
-          <div className={styles.howToTranslate}>
-            <img src={howToTranslateImage} />
-            <h3>Translate</h3>
-            <div className={styles.separator} />
-            <p>Help the community breach the language barrier by translating information!</p>
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.why}>
-        <img src={whyHeader} alt="Three people looking at a smartphone"/>
-        <h2>Why?</h2>
-        <div className={styles.separator} />
-        <p>
-          Both refugees and locals use tools to exchange information online. However, in
-          all those currently available, they remain in two separated groups due to the
-          language barrier, while the knowledge that is being exchanged within those two
-          groups is mostly badly organised and oftentimes lost altogether.
-        </p>
-      </div>
-
-      <div className={styles.vision}>
-        <h1>Our Vision</h1>
-        <p>
-          The vision of Josoor, which means “Bridges” in Arabic, is to provide an easily
-          accessible social network to connect everybody involved in the “refugee crisis”
-          to enable the creation of empowered communities and provide them with the tools
-          to help facilitate the inclusion of refugees into local societies.
-        </p>
-
-        <p>
-          Starting with Josoor Answers, we will keep adding features to keep up with the
-          Josoor Community’s changing needs and wishes.
-        </p>
-
-      </div>
-    </div>
-  </div>
-);
+    );
+  }
+}

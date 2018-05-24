@@ -1,32 +1,83 @@
-import React from "react";
+import React, { Component } from 'react';
 import Head from "react-helmet";
-import { Link } from "react-router";
 import styles from './Impress.scss';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
+import { ROUTES } from '../../routes';
+import { defineMessages, intlShape, FormattedMessage } from 'react-intl';
+import LocaleAwareLink from '../shared/LocaleAwareLink';
 
-export default () => (
-  <div>
-    <Head>
-      <title>Impress | Josoor Answers</title>
-    </Head>
-    <div className={styles.impress}>
+const messages = defineMessages({
+  title: {
+    id: 'impress.title',
+    defaultMessage: '!!!Impress | Josoor Answers',
+  },
+  headline: {
+    id: 'impress.headline',
+    defaultMessage: '!!!Impress',
+  },
+  intro: {
+    id: 'impress.intro',
+    defaultMessage: '!!!impress intro',
+  },
+  address: {
+    id: 'impress.address',
+    defaultMessage: '!!!impress address',
+  },
+  contact: {
+    id: 'impress.contact',
+    defaultMessage: '!!!impress contact',
+  },
+  copyright: {
+    id: 'impress.copyright',
+    defaultMessage: '!!!impress copyright',
+  },
+});
 
-      <Link to="/" >
-        <img src={josoorLogo} className={styles.josoorLogo} />
-      </Link>
+export default class Impress extends Component {
 
-      <div className={styles.text}>
+  static contextTypes = {
+    intl: intlShape.isRequired,
+  };
 
-        <h1>Impress</h1>
+  render() {
+    const { intl } = this.context;
+    return (
+      <div>
+        <Head>
+          <title>{intl.formatMessage(messages.title)}</title>
+        </Head>
+        <div className={styles.impress}>
 
-        <p>
-          Copyright © 2016 Josoor. All rights reserved.<br/>
-          Josoor – Verein zur Vernetzung von Flüchtlingen und Unterstützungsinitiativen<br/>
-          Wipplingerstraße 20/18, 1010 Wien<br/>
-          +43 1 532 12 43 – <a href="mailto:info@josoor.eu">info@josoor.eu</a><br/>
-          DVR Nr.: 4016208 – ZVR Nr.: 560373607 VAT Nr.: ATU71261323<br/>
-        </p>
+          <LocaleAwareLink to={ROUTES.INDEX}>
+            <img src={josoorLogo} className={styles.josoorLogo} />
+          </LocaleAwareLink>
+
+          <div className={styles.text}>
+
+            <h1>{intl.formatMessage(messages.headline)}</h1>
+
+            <FormattedMessage
+              {...messages.intro}
+              values={{
+                linkToIndex: <LocaleAwareLink to={ROUTES.INDEX}>www.josoor.net</LocaleAwareLink>
+              }}
+            />
+
+            <FormattedMessage {...messages.address} values={{ lineBreak: <br/> }} />
+
+            <FormattedMessage
+              {...messages.contact}
+              values={{
+                lineBreak: <br/>,
+                mailtoInfo: <a href="mailto:info@josoor.net">info@josoor.net</a>
+              }}
+            />
+
+            <FormattedMessage {...messages.copyright} />
+
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-);
+    );
+  };
+}

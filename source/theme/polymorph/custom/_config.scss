@@ -1,0 +1,13 @@
+@import "../../config.scss";
+// THEME CONFIGURATION
+
+$path: "react-polymorph/lib/themes/simple/";
+$theme-assets-path: "react-polymorph/lib/themes/simple/assets";
+
+$theme-font-thin: $theme-font-sans-light;
+$theme-font-light: $theme-font-sans-light;
+$theme-font-medium: $theme-font-sans-regular;
+$theme-font-regular: $theme-font-sans-regular;
+$theme-font-bold: $theme-font-sans-bold;
+
+@import "~react-polymorph/lib/themes/simple/_theme";

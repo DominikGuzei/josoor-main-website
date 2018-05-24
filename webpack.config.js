@@ -3,6 +3,9 @@ import webpack from 'webpack';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import OptimizeCssAssetsPlugin from 'optimize-css-assets-webpack-plugin';
 import LodashModuleReplacementPlugin from 'lodash-webpack-plugin';
+import ImageminPlugin from 'imagemin-webpack-plugin';
+import imageminMozjpeg from 'imagemin-mozjpeg';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const IS_STATIC = process.env.PHENOMIC_ENV === 'static';
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
@@ -32,8 +35,14 @@ module.exports = (config) => ({
           babelrc: false,
           presets: [require.resolve('@phenomic/babel-preset')],
           plugins: [
-            require.resolve('react-hot-loader/babel'),
-            'lodash'
+            'transform-object-rest-spread',
+            'transform-class-properties',
+            'lodash',
+            ['react-intl', {
+              'messagesDir': './translations/messages/',
+              'enforceDescriptions': false,
+              'extractSourceLocation': true
+            }]
           ]
         }
       },
@@ -42,13 +51,16 @@ module.exports = (config) => ({
         loader: 'url-loader',
         options: {
           fallback: 'file-loader',
-          limit: 50000,
-          name: './assets/[name]-[hash].[ext]',
+          limit: 20000,
+          name: './assets/images/[name]-[hash].[ext]',
         }
       },
       {
-        test: /\.otf$|\.ttf$/,
-        loader: 'url-loader',
+        test: /\.woff$|\.woff2$/,
+        loader: 'file-loader',
+        options: {
+          name: './assets/fonts/[name]-[hash].[ext]',
+        }
       },
       {
         test: /\.global\.scss/,
@@ -59,7 +71,7 @@ module.exports = (config) => ({
         }),
       },
       {
-        test: /^((?!\.global).)*\.scss/,
+        test: /^((?!\.global).)*\.s?css/,
         loader: ExtractTextPlugin.extract({
           use: (IS_STATIC ? '' : 'style-loader?sourceMap!') +
           'css-loader?sourceMap&importLoaders=1&modules&localIdentName=[name]_[local]!' +
@@ -73,6 +85,7 @@ module.exports = (config) => ({
       'process.env': {
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
         CONTEXT: JSON.stringify(process.env.CONTEXT || 'development'),
+        CMS: JSON.stringify(process.env.CMS || false),
       },
     }),
     new ExtractTextPlugin({
@@ -83,5 +96,17 @@ module.exports = (config) => ({
     new LodashModuleReplacementPlugin(),
     !IS_STATIC && new webpack.HotModuleReplacementPlugin(),
     IS_PRODUCTION && new webpack.optimize.UglifyJsPlugin(),
+    new ImageminPlugin({
+      disable: !IS_STATIC,
+      plugins: [
+        imageminMozjpeg({
+          quality: 90,
+          progressive: true
+        })
+      ]
+    }),
+    process.env.CMS === 'true' ? new CopyWebpackPlugin([
+      { from: 'source/cms', to: 'cms' },
+    ]) : null
   ].filter(item => item)
 });

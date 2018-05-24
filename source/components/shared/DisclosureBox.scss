@@ -1,0 +1,43 @@
+@import "../../theme/polymorph/custom/_config";
+
+.box {
+  width: 100%;
+}
+.summary {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccced1;
+  cursor: pointer;
+}
+
+.details {
+  padding: 40px 0;
+}
+
+// ==== STATES ====
+
+.box {
+  &.isOpen {
+    .summary {
+      background: url('./assets/disclosure-arrow-up.svg') no-repeat right center;
+    }
+    .details {
+      display: block;
+    }
+  }
+
+  &:not(.isOpen) {
+    .summary {
+      background: url('./assets/disclosure-arrow-down.svg') no-repeat right center;
+    }
+    .details {
+      display: none;
+    }
+  }
+}
+
+body[dir="rtl"] {
+  .summary {
+    background-position: left center !important;
+  }
+}

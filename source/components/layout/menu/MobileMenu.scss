@@ -1,0 +1,82 @@
+@import "../../../theme/polymorph/custom/_config";
+@import "../../../theme/mixins/container";
+
+.mobileMenu {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.menuIcon {
+  width: 15px;
+  height: 15px;
+  background: url('../../../theme/images/layout/menu/mobile-menu-icon.svg') center no-repeat;
+  cursor: pointer;
+}
+
+.menuOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+
+  .menuItems {
+    margin: 60px auto 0 auto;
+    width: calc(100% - 80px);
+    text-transform: uppercase;
+  }
+
+  .blogLink {
+    display: block;
+    color: #474d57;
+    font-family: $theme-font-sans-regular;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $theme-color-main-light;
+    margin-bottom: 20px;
+  }
+
+  .joinUsButton {
+    width: 100%;
+    background-color: $theme-color-main-light;
+    font-family: $theme-font-sans-bold;
+    margin-top: 30px;
+
+    &:hover, &:active {
+      background: none;
+      border: 2px solid $theme-color-main-light;
+    }
+  }
+}
+
+.closeIcon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 17px;
+  height: 17px;
+  background: url('../../../theme/images/layout/menu/mobile-menu-close-icon.svg') center no-repeat;
+  cursor: pointer;
+}
+
+// ======= STATES ========
+
+.isOpen {
+  .closeIcon {
+    display: block;
+  }
+  .menuIcon {
+    display: none;
+  }
+}
+
+.mobileMenu:not(.isOpen) {
+  .closeIcon {
+    display: none;
+  }
+  .menuOverlay {
+    display: none;
+  }
+}

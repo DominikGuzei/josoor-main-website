@@ -1,0 +1,23 @@
+@import "../../../theme/polymorph/custom/_config";
+
+.desktopMenu {
+  display: flex;
+  align-items: center;
+
+  > * {
+    margin-left: 20px;
+    text-transform: uppercase;
+  }
+
+  :global .LanguageSelect_select {
+    margin-left: 0;
+  }
+
+  a:link, a:visited {
+    color: white;
+    font-family: $theme-font-sans-regular;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

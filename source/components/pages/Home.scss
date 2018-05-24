@@ -1,142 +1,105 @@
 @import "../../theme/config";
 @import "../../theme/mixins/container";
+@import "../../theme/mixins/decorations";
 
 .header {
-  background: url('../../theme/images/home/header.jpg') no-repeat center center;
+  background: url('../../assets/home/header.jpg') no-repeat center center;
   background-size: cover;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 540px;
+  padding-bottom: 40px;
+  @media ($theme-breakpoint-small) {
+    margin-top: -$theme-top-menu-height;
+  }
+}
+
+.logo {
+  height: 200px;
+  margin-bottom: -10px;
+  margin-top: 20px;
+  @media ($theme-breakpoint-small) {
+    height: 300px;
+    margin-bottom: -40px;
+    margin-top: 60px;
+  }
 }
 
 .headline {
-  font-size: 48px;
-  margin: 80px 20px 40px 20px;
-  color: white;
-  font-family: $theme-font-serif-bold;
-  text-transform: uppercase;
-  text-align: center;
-
-  @media (min-width: 640px) {
-    font-size: 60px;
-    margin-top: 120px;
-  }
+  display: none;
 }
 
 .pitch {
   text-align: center;
   width: 80%;
   max-width: 700px;
-  font-family: $theme-font-sans-medium;
-  font-size: 30px;
+  font-family: $theme-font-sans-regular;
+  font-size: 24px;
   color: white;
   line-height: 1.3em;
   margin-bottom: 40px;
+  @media ($theme-breakpoint-small) {
+    font-size: 27px;
+  }
 }
 
 .separator {
-  width: 30px;
+  @include separator;
+}
+
+.content {
   margin: 0 auto;
-  border-top: 2px solid $theme-color-main-light;
+  width: calc(100% - 40px);
+  max-width: 640px;
 }
 
-.how {
-  h2 {
-    font-family: $theme-font-serif-bold;
-    font-size: 24px;
-    text-align: center;
-    margin: 60px 20px;
-
-    @media (min-width: 640px) {
-      font-size: 38px;
-      max-width: 600px;
-      margin: 60px auto;
-    }
-  }
-
-  .interactions {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    > div {
-      padding: 20px 40px;
-    }
-    img {
-      max-width: 220px;
-      max-height: 180px;
-    }
-    h3 {
-      font-family: $theme-font-serif-bold;
-      font-size: 20px;
-      text-transform: uppercase;
-      color: #484c53;
-    }
-    p {
-      font-size: 18px;
-    }
-
-    @media (min-width: 640px) {
-      flex-direction: row;
-      justify-content: center;
-      > div {
-        flex-basis: 0;
-        flex-grow: 1;
-        max-width: 240px;
-        padding: 0 20px;
-        &:first-child {
-          margin-right: 40px;
-        }
-        &:last-child {
-          margin-left: 40px;
-        }
-      }
-    }
-  }
+.projectsSection {
+  margin-top: 20px;
 }
 
-.why {
-  margin-top: 60px;
-  img {
-    display: block;
-    max-width: 900px;
-    margin: 0 auto;
-    position: relative;
-    left: -200px;
+.factStripeOrange {
+  background: url('../../assets/home/world-map-stripe-orange.png') no-repeat;
+}
 
-    @media (min-width: 640px) {
-      left: 0;
-    }
+.factStripeDark {
+  background: url('../../assets/home/world-map-stripe-dark.png') no-repeat;
+}
+
+.factStripeOrange, .factStripeDark {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-size: cover;
+  text-transform: uppercase;
+  padding: 40px 10px;
+  font-family: $theme-font-sans-bold;
+  color: white;
+  font-size: 24px;
+  line-height: 1.5em;
+
+  @media ($theme-breakpoint-small) {
+    font-size: 28px;
+    margin-top: 80px;
+    margin-bottom: 50px;
   }
-  h2 {
-    padding: 10px 0;
-    position: relative;
-    top: -30px;
-    width: 300px;
-    text-align: center;
-    color: white;
-    margin: 0 auto;
-    background-color: $theme-color-main-light;
-    font-family: $theme-font-serif-bold;
+
+  @media ($theme-breakpoint-middle) {
     font-size: 32px;
-  }
-  .separator {
-    border-color: $theme-color-main-dark;
-    margin-bottom: 20px;
-  }
-  p {
-    text-align: center;
-    margin: 0 auto;
-    width: calc(100% - 40px);
-    max-width: 640px;
+    margin-top: 100px;
+    margin-bottom: 80px;
   }
 }
 
-.vision {
-  @include container;
-  margin-top: 80px;
-  text-align: center;
-  max-width: 600px;
+.societyChallengesSection {
+  margin-bottom: 40px;
+}
+
+.whatWeDoSection {
+  margin: 4em 0;
+  background: url('../../assets/home/josoor-what-we-do.jpg') no-repeat;
+  background-size: cover;
+}
+
+.joinUsSection {
+  margin-bottom: 60px;
 }

@@ -1,42 +1,4 @@
 @import "../../theme/config";
-@import "../../theme/mixins/container";
-
-.topMenu {
-  height: $theme-top-menu-height;
-  display: flex;
-  @include container;
-}
-
-.homeLink {
-  background: url('../../theme/images/layout/josoor-logo-horizontal-colored.svg') center no-repeat;
-  background-size: 150px;
-  width: 150px;
-  display: block;
-  height: $theme-top-menu-height;
-  text-indent: -9999px;
-}
-
-.itemsLeft {
-  flex-grow: 1;
-}
-
-.itemsRight {
-  flex-grow: 0;
-  display: flex;
-  align-items: center;
-
-  > * {
-    margin-left: 10px;
-  }
-}
-
-.blogLink {
-  color: $theme-color-main-light;
-  font-family: $theme-font-sans-medium;
-  &:hover {
-    text-decoration: underline;
-  }
-}
 
 .footer {
   position: absolute;

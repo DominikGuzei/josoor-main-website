@@ -2,37 +2,39 @@
 @import "../../../theme/mixins/container";
 
 .header {
-  background: $theme-color-main-light;
+  background: url('../../../assets/home/header.jpg') no-repeat center center;
+  background-size: cover;
   position: relative;
-  &:after {
-    top: 100%;
-    left: 50%;
-    border: 30px solid rgba(237, 168, 122, 0);
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-top-color: $theme-color-main-light;
-    margin-left: -30px;
-  }
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 200px;
 }
 
-.josoorLogo {
-  margin: 20px 0;
-  width: 240px;
+.headline {
+  font-size: 36px;
+  margin: 45px 20px 10px 20px;
+  color: white;
+  font-family: $theme-font-sans-bold;
+  text-transform: uppercase;
+  text-align: center;
+
+  @media (min-width: 640px) {
+    font-size: 48px;
+  }
 }
 
-.introduction {
+.pitch {
   text-align: center;
   width: 80%;
-  max-width: 500px;
-  font-family: $theme-font-sans-light;
-  font-size: 25px;
+  max-width: 700px;
+  font-family: $theme-font-sans-regular;
+  font-size: 20px;
   color: white;
   line-height: 1.3em;
   margin-bottom: 40px;
+
+  @media (min-width: 480px) {
+    font-size: 25px;
+  }
 }

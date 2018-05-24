@@ -1,0 +1,37 @@
+@import "../../theme/config";
+@import "../../theme/mixins/container";
+@import "../../theme/mixins/decorations";
+
+.title {
+  text-align: center;
+  display: block;
+  font-size: 24px;
+  font-family: $theme-font-sans-bold !important;
+  color: $theme-color-main-dark !important;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 16px;
+  max-width: 540px;
+  margin: 10px auto 20px auto;
+}
+
+.meta {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.author, .date {
+  font-family: $theme-font-sans-regular;
+  font-size: 15px;
+  &.author:after {
+    content: '|';
+    padding: 0 5px;
+  }
+}
+
+.separator {
+  @include separator;
+}

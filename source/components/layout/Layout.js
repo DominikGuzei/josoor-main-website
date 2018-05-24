@@ -1,43 +1,44 @@
-import React from "react";
+import React, { Component } from 'react';
 import Head from "react-helmet";
-import { Link } from "react-router";
-import { IntlProvider } from 'react-intl';
-// import { ApolloProvider } from 'react-apollo';
-import { ThemeProvider } from 'react-css-themr';
-// import { setupApolloClient } from '../../api/apolloClient';
+import { defineMessages, intlShape } from 'react-intl';
 import styles from './Layout.scss';
-import { theme } from '../../theme/polymorph/theme';
-import translations from '../../i18n/translations';
-// import ProfileMenuItem from './menu/ProfileMenuItem';
-const locale = 'en-US';
+import { ROUTES } from '../../routes';
+import TopMenu from './menu/TopMenu';
+import LocaleAwareLink from '../shared/LocaleAwareLink';
 
-export default ({ children }) => (
-  <ThemeProvider theme={theme}>
-    {/*<ApolloProvider client={setupApolloClient()}>*/}
-      <IntlProvider {...{ locale, key: locale, messages: translations[locale] }}>
-        <div>
-          <Head>
-            <html lang="en" />
-            <meta charSet="utf-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
-          </Head>
-          <div className={styles.topMenu}>
-            <div className={styles.itemsLeft}>
-              <Link to="/" className={styles.homeLink}>Home</Link>
-            </div>
-            <div className={styles.itemsRight}>
-              {/*<ProfileMenuItem />*/}
-              {/*<Link to="/blog" className={styles.blogLink}>Blog</Link>*/}
-            </div>
-          </div>
-          <div className={styles.content}>
-            {children}
-          </div>
-          <footer className={styles.footer}>
-            <Link to="/impress" className={styles.impressLink}>Impress</Link>
-          </footer>
+const messages = defineMessages({
+  impressLink: {
+    id: 'layout.footer.impressLink',
+    defaultMessage: '!!!Impress',
+  },
+});
+
+export default class Layout extends Component {
+
+  static contextTypes = {
+    intl: intlShape.isRequired,
+  };
+
+  render() {
+    const { children } = this.props;
+    const { intl } = this.context;
+    return (
+      <div className={styles.layout}>
+        <Head>
+          <html lang={intl.locale} />
+          <meta charSet="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+        </Head>
+        <TopMenu />
+        <div className={styles.content}>
+          {children}
         </div>
-      </IntlProvider>
-    {/*</ApolloProvider>*/}
-  </ThemeProvider>
-);
+        <footer className={styles.footer}>
+          <LocaleAwareLink to={ROUTES.IMPRESS} className={styles.impressLink}>
+            {intl.formatMessage(messages.impressLink)}
+          </LocaleAwareLink>
+        </footer>
+      </div>
+    );
+  }
+}
