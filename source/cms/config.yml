@@ -165,11 +165,20 @@ collections:
       - label: home.whatwedo.title
         name: home.whatwedo.title
         widget: text
+      - label: impress.address
+        name: impress.address
+        widget: text
+      - label: impress.contact
+        name: impress.contact
+        widget: text
+      - label: impress.copyright
+        name: impress.copyright
+        widget: text
       - label: impress.headline
         name: impress.headline
         widget: text
-      - label: impress.info
-        name: impress.info
+      - label: impress.intro
+        name: impress.intro
         widget: text
       - label: impress.title
         name: impress.title

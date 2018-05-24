@@ -3,7 +3,7 @@ import Head from "react-helmet";
 import styles from './Impress.scss';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
 import { ROUTES } from '../../routes';
-import { defineMessages, intlShape, FormattedHTMLMessage } from 'react-intl';
+import { defineMessages, intlShape, FormattedMessage } from 'react-intl';
 import LocaleAwareLink from '../shared/LocaleAwareLink';
 
 const messages = defineMessages({
@@ -15,9 +15,21 @@ const messages = defineMessages({
     id: 'impress.headline',
     defaultMessage: '!!!Impress',
   },
-  info: {
-    id: 'impress.info',
-    defaultMessage: '!!!Copyright © 2018 Josoor',
+  intro: {
+    id: 'impress.intro',
+    defaultMessage: '!!!impress intro',
+  },
+  address: {
+    id: 'impress.address',
+    defaultMessage: '!!!impress address',
+  },
+  contact: {
+    id: 'impress.contact',
+    defaultMessage: '!!!impress contact',
+  },
+  copyright: {
+    id: 'impress.copyright',
+    defaultMessage: '!!!impress copyright',
   },
 });
 
@@ -36,14 +48,32 @@ export default class Impress extends Component {
         </Head>
         <div className={styles.impress}>
 
-          <LocaleAwareLink to={ROUTES.INDEX} >
+          <LocaleAwareLink to={ROUTES.INDEX}>
             <img src={josoorLogo} className={styles.josoorLogo} />
           </LocaleAwareLink>
 
           <div className={styles.text}>
 
             <h1>{intl.formatMessage(messages.headline)}</h1>
-            <FormattedHTMLMessage {...messages.info} />
+
+            <FormattedMessage
+              {...messages.intro}
+              values={{
+                linkToIndex: <LocaleAwareLink to={ROUTES.INDEX}>www.josoor.net</LocaleAwareLink>
+              }}
+            />
+
+            <FormattedMessage {...messages.address} values={{ lineBreak: <br/> }} />
+
+            <FormattedMessage
+              {...messages.contact}
+              values={{
+                lineBreak: <br/>,
+                mailtoInfo: <a href="mailto:info@josoor.net">info@josoor.net</a>
+              }}
+            />
+
+            <FormattedMessage {...messages.copyright} />
 
           </div>
         </div>
