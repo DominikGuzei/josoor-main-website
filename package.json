@@ -51,6 +51,7 @@
   "scripts": {
     "dev": "phenomic start",
     "build": "phenomic build",
+    "purge-translations": "rimraf ./translations/messages/source",
     "manage-translations": "node ./translations/translation-runner.js"
   }
 }

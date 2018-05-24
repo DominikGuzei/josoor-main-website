@@ -15,11 +15,11 @@ const messages = defineMessages({
   },
   newsletterId: {
     id: 'home.join.newsletter.id',
-    defaultMessage: 'e79d59e0b8',
+    defaultMessage: 'mailchimp form builder id value',
   },
   newsletterHt: {
     id: 'home.join.newsletter.ht',
-    defaultMessage: 'eb6c990a85b64055f7aa2ebfffe9cc7c1c33641d:MTUyNzAwMDI4NS40OTQz',
+    defaultMessage: 'mailchimp form builder ht value',
   },
   firstName: {
     id: 'home.join.newsletter.firstName',

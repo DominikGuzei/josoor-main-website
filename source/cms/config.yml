@@ -12,21 +12,6 @@ collections:
     delete: false
     extension: json
     fields:
-      - label: blog.backHomeLink
-        name: blog.backHomeLink
-        widget: text
-      - label: blog.headline
-        name: blog.headline
-        widget: text
-      - label: blog.readMore
-        name: blog.readMore
-        widget: text
-      - label: blog.subline
-        name: blog.subline
-        widget: text
-      - label: blog.title
-        name: blog.title
-        widget: text
       - label: buttons.joinUs
         name: buttons.joinUs
         widget: text
