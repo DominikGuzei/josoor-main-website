@@ -5,7 +5,7 @@ const yaml = require('js-yaml');
 const manageTranslations = require('react-intl-translations-manager').default;
 
 const enLocalePath = path.join(__dirname, '../source/i18n/locales/en.json');
-const cmsConfigPath = path.join(__dirname, '../public/admin/config.yml');
+const cmsConfigPath = path.join(__dirname, '../source/cms/config.yml');
 
 manageTranslations({
   messagesDirectory: 'translations/messages',
