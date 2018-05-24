@@ -114,9 +114,6 @@ collections:
       - label: home.join.newsletter.email
         name: home.join.newsletter.email
         widget: text
-      - label: home.join.newsletter.firstName
-        name: home.join.newsletter.firstName
-        widget: text
       - label: home.join.newsletter.ht
         name: home.join.newsletter.ht
         widget: text

@@ -21,10 +21,6 @@ const messages = defineMessages({
     id: 'home.join.newsletter.ht',
     defaultMessage: 'mailchimp form builder ht value',
   },
-  firstName: {
-    id: 'home.join.newsletter.firstName',
-    defaultMessage: '!!!First Name *',
-  },
   email: {
     id: 'home.join.newsletter.email',
     defaultMessage: '!!!Email Address *',
@@ -82,24 +78,6 @@ export default class JoinUsSection extends Component {
                         name="MERGE0"
                         id="MERGE0"
                         autoComplete="email"
-                      />
-                    )}
-                  />
-                </Col>
-                <Col xs={12}>
-                  <FormField
-                    className={styles.formField}
-                    label={intl.formatMessage(messages.firstName)}
-                    skin={FormFieldSkin}
-                    render={() => (
-                      <Input
-                        skin={InputSkin}
-                        onChange={(firstName) => this.setState({ firstName })}
-                        value={this.state.firstName}
-                        type="text"
-                        name="MERGE1"
-                        id="MERGE1"
-                        autoComplete="given-name"
                       />
                     )}
                   />
