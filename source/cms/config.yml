@@ -123,9 +123,6 @@ collections:
       - label: home.join.newsletter.id
         name: home.join.newsletter.id
         widget: text
-      - label: home.join.newsletter.lastName
-        name: home.join.newsletter.lastName
-        widget: text
       - label: home.join.newsletter.submitLabel
         name: home.join.newsletter.submitLabel
         widget: text

@@ -25,10 +25,6 @@ const messages = defineMessages({
     id: 'home.join.newsletter.firstName',
     defaultMessage: '!!!First Name *',
   },
-  lastName: {
-    id: 'home.join.newsletter.lastName',
-    defaultMessage: '!!!Last Name *',
-  },
   email: {
     id: 'home.join.newsletter.email',
     defaultMessage: '!!!Email Address *',
@@ -70,43 +66,6 @@ export default class JoinUsSection extends Component {
 
 
               <Row center="xs" start="sm">
-                <Col xs={12} sm={6}>
-                  <FormField
-                    className={styles.formField}
-                    label={intl.formatMessage(messages.firstName)}
-                    skin={FormFieldSkin}
-                    render={() => (
-                      <Input
-                        skin={InputSkin}
-                        onChange={(firstName) => this.setState({ firstName })}
-                        value={this.state.firstName}
-                        type="text"
-                        name="MERGE1"
-                        id="MERGE1"
-                        autoComplete="given-name"
-                      />
-                    )}
-                  />
-                </Col>
-                <Col xs={12} sm={6}>
-                  <FormField
-                    className={styles.formField}
-                    label={intl.formatMessage(messages.lastName)}
-                    skin={FormFieldSkin}
-                    render={() => (
-                      <Input
-                        skin={InputSkin}
-                        label={intl.formatMessage(messages.lastName)}
-                        onChange={(lastName) => this.setState({ lastName })}
-                        value={this.state.lastName}
-                        type="text"
-                        name="MERGE2"
-                        id="MERGE2"
-                        autoComplete="family-name"
-                      />
-                    )}
-                  />
-                </Col>
                 <Col xs={12}>
                   <FormField
                     className={styles.formField}
@@ -123,6 +82,24 @@ export default class JoinUsSection extends Component {
                         name="MERGE0"
                         id="MERGE0"
                         autoComplete="email"
+                      />
+                    )}
+                  />
+                </Col>
+                <Col xs={12}>
+                  <FormField
+                    className={styles.formField}
+                    label={intl.formatMessage(messages.firstName)}
+                    skin={FormFieldSkin}
+                    render={() => (
+                      <Input
+                        skin={InputSkin}
+                        onChange={(firstName) => this.setState({ firstName })}
+                        value={this.state.firstName}
+                        type="text"
+                        name="MERGE1"
+                        id="MERGE1"
+                        autoComplete="given-name"
                       />
                     )}
                   />
