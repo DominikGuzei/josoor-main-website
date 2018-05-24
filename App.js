@@ -12,7 +12,6 @@ import { ROUTES } from './source/routes';
 import Provider from './source/components/Provider';
 import { pushLocation, replaceLanguageParts } from './source/utils/routing';
 import { supportedLanguages } from './source/i18n';
-import Admin from './source/components/pages/Admin';
 
 const generateRoute = (path, component) => [
   <Route path={replaceLanguageParts(path, '')} component={component} key={0} />
@@ -28,7 +27,6 @@ const generateRoute = (path, component) => [
 if (browserHistory) browserHistory.push = pushLocation;
 const routes = () => (
   <Router history={browserHistory} onUpdate={anchorate}>
-    <Route path="/admin" component={Admin} />
     <Route component={Provider}>
       {generateRoute(ROUTES.IMPRESS, Impress)}
       <Route component={Layout}>

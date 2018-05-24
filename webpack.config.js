@@ -3,8 +3,9 @@ import webpack from 'webpack';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 import OptimizeCssAssetsPlugin from 'optimize-css-assets-webpack-plugin';
 import LodashModuleReplacementPlugin from 'lodash-webpack-plugin';
-import ImageminPlugin from 'imagemin-webpack-plugin'
-import imageminMozjpeg from 'imagemin-mozjpeg'
+import ImageminPlugin from 'imagemin-webpack-plugin';
+import imageminMozjpeg from 'imagemin-mozjpeg';
+import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const IS_STATIC = process.env.PHENOMIC_ENV === 'static';
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
@@ -104,5 +105,8 @@ module.exports = (config) => ({
         })
       ]
     }),
+    process.env.CMS === 'true' ? new CopyWebpackPlugin([
+      { from: 'source/cms', to: 'cms' },
+    ]) : null
   ].filter(item => item)
 });
