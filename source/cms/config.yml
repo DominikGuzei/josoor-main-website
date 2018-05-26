@@ -126,6 +126,9 @@ collections:
       - label: home.join.title
         name: home.join.title
         widget: text
+      - label: home.pitch
+        name: home.pitch
+        widget: text
       - label: home.projects.answers.intro
         name: home.projects.answers.intro
         widget: text
@@ -143,9 +146,6 @@ collections:
         widget: text
       - label: home.projects.title
         name: home.projects.title
-        widget: text
-      - label: home.subline
-        name: home.subline
         widget: text
       - label: home.title
         name: home.title

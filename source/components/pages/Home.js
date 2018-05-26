@@ -3,7 +3,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import Head from "react-helmet";
 import josoorVerticalLogo from '../../theme/images/josoor-logo-vertical-white.svg';
 import styles from './Home.scss';
-import { defineMessages, intlShape, FormattedHTMLMessage } from 'react-intl';
+import { defineMessages, intlShape } from 'react-intl';
 import JoinUsButton from '../shared/JoinUsButton';
 import ProjectsSection from './home/ProjectsSection';
 import JoinUsSection from './home/JoinUsSection';
@@ -11,6 +11,7 @@ import ChallengesSocietySection from './home/ChallengesSocietySection';
 import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
 import ChallengesSupportersSection from './home/ChallengesSupportersSection';
 import WhatWeDoSection from './home/WhatWeDoSection';
+import refugeesLanguageImage from '../../assets/home/challenges/language-refugees.png';
 
 const messages = defineMessages({
   title: {
@@ -21,9 +22,9 @@ const messages = defineMessages({
     id: 'home.headline',
     defaultMessage: '!!!Josoor',
   },
-  subline: {
-    id: 'home.subline',
-    defaultMessage: '!!!home.subline',
+  pitch: {
+    id: 'home.pitch',
+    defaultMessage: '!!!home.pitch',
   },
   factIncreaseOfHate: {
     id: 'home.factIncreaseOfHate',
@@ -54,6 +55,10 @@ export default class Home extends Component {
       <div>
         <Head>
           <title>{intl.formatMessage(messages.title)}</title>
+          <meta property="og:url" content="https://www.josoor.net" />
+          <meta property="og:title" content={intl.formatMessage(messages.title)} />
+          <meta property="og:description" content={intl.formatMessage(messages.pitch)} />
+          <meta property="og:image" content={refugeesLanguageImage} />
         </Head>
         <div>
           <div className={styles.header}>
@@ -62,7 +67,7 @@ export default class Home extends Component {
               {intl.formatMessage(messages.headline)}
             </h1>
             <div className={styles.pitch}>
-              {intl.formatMessage(messages.subline)}
+              {intl.formatMessage(messages.pitch)}
             </div>
             <JoinUsButton />
           </div>
