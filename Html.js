@@ -8,13 +8,13 @@ export default ({ App, render }) => {
   const { Main, State, Script, Style } = render(<App />);
   const helmet = Head.renderStatic();
   // Remove 'data-react-helmet' attributes from meta tags because this breaks crawlers (like Facebook!)
-  const cleanedMetaTags = helmet.meta.toComponent().map((meta) => React.cloneElement(meta, {
-    'data-react-helmet': undefined
-  }));
+  // const cleanedMetaTags = helmet.meta.toComponent().map((meta) => React.cloneElement(meta, {
+  //   'data-react-helmet': undefined
+  // }));
   return (
     <html {...helmet.htmlAttributes.toComponent()}>
       <head>
-        {cleanedMetaTags}
+        {helmet.meta.toComponent()}
         {helmet.title.toComponent()}
         {helmet.base.toComponent()}
         <Style />
