@@ -56,6 +56,7 @@ export default class Home extends Component {
       <div>
         <Head>
           <title>{intl.formatMessage(messages.title)}</title>
+          <meta name="description" content={intl.formatMessage(messages.pitch)} />
           <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.josoor.net" />
           <meta property="og:title" content={intl.formatMessage(messages.title)} />
@@ -64,7 +65,7 @@ export default class Home extends Component {
         </Head>
         <div>
           <div className={styles.header}>
-            <img className={styles.logo} src={josoorVerticalLogo} />
+            <img className={styles.logo} src={josoorVerticalLogo} alt="Josoor Logo" />
             <h1 className={styles.headline}>
               {intl.formatMessage(messages.headline)}
             </h1>
