@@ -51,7 +51,7 @@ export default class ProjectsSection extends Component {
               <Col xs={12} sm={10} md={5} lg={4} className={`${styles.project} ${styles.connect}`}>
                 <Row center="xs">
                   <Col xs={8}>
-                    <img src={connectLogo} />
+                    <img src={connectLogo} alt="Josoor Connect logo" />
                   </Col>
                   <Col xs={12}>
                     <span className={styles.state}>
@@ -67,7 +67,7 @@ export default class ProjectsSection extends Component {
               <Col xs={12} sm={10} md={5} lg={4} className={`${styles.project} ${styles.answers}`}>
                 <Row center="xs">
                   <Col xs={8}>
-                    <img src={answersLogo} />
+                    <img src={answersLogo} alt="Josoor Answers logo" />
                   </Col>
                   <Col xs={12}>
                     <span className={styles.state}>

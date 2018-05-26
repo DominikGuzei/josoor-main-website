@@ -82,7 +82,7 @@ export default class ChallengesRefugeesSection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={refugeesInformationImage} />}
+                    image={<img src={refugeesInformationImage} alt="Image symbolizing locked information" />}
                     text={intl.formatMessage(messages.informationDescription)}
                   />
                 )}
@@ -94,7 +94,7 @@ export default class ChallengesRefugeesSection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={refugeesSocialImage} />}
+                    image={<img src={refugeesSocialImage} alt="Group of people hugging each other and smiling" />}
                     text={intl.formatMessage(messages.socialDescription)}
                   />
                 )}
@@ -106,7 +106,7 @@ export default class ChallengesRefugeesSection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={refugeesInclusionImage} />}
+                    image={<img src={refugeesInclusionImage} alt="A group on the left side and an excluded person on the right" />}
                     text={intl.formatMessage(messages.inclusionDescription)}
                   />
                 )}
@@ -118,7 +118,7 @@ export default class ChallengesRefugeesSection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={refugeesLanguageImage} />}
+                    image={<img src={refugeesLanguageImage} alt="Image showing bubbles saying 'hello' in multiple languages" />}
                     text={intl.formatMessage(messages.languageDescription)}
                   />
                 )}
