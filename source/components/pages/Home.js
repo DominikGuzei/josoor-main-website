@@ -56,6 +56,7 @@ export default class Home extends Component {
       <div>
         <Head>
           <title>{intl.formatMessage(messages.title)}</title>
+          <meta property="og:type" content="website" />
           <meta property="og:url" content="https://www.josoor.net" />
           <meta property="og:title" content={intl.formatMessage(messages.title)} />
           <meta property="og:description" content={intl.formatMessage(messages.pitch)} />
