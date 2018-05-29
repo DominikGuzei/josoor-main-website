@@ -34,7 +34,7 @@ export const setupLocaleData = () => {
 };
 
 export const getLanguageByLocale = (locale) => {
-  return values(SUPPORTED_LANGUAGES).find((lang) => lang.locale === locale);
+  return values(SUPPORTED_LANGUAGES).find((lang) => lang.locale.toLowerCase() === locale.toLowerCase());
 };
 
 export const getLanguageByParentLocale = (parentLocale) => {
