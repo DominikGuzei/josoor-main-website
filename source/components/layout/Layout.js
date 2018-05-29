@@ -5,6 +5,10 @@ import styles from './Layout.scss';
 import { ROUTES } from '../../routes';
 import TopMenu from './menu/TopMenu';
 import LocaleAwareLink from '../shared/LocaleAwareLink';
+import {
+  getLanguageByParentLocale,
+  getAlternateLanguagesTo
+} from '../../i18n';
 
 const messages = defineMessages({
   impressLink: {
@@ -22,10 +26,11 @@ export default class Layout extends Component {
   render() {
     const { children } = this.props;
     const { intl } = this.context;
+    const currentLanguage = getLanguageByParentLocale(intl.locale);
     return (
       <div className={styles.layout}>
         <Head>
-          <html lang={intl.locale} />
+          <html lang={currentLanguage.parentLocale} />
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
@@ -45,6 +50,10 @@ export default class Layout extends Component {
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff" />
+          <meta property="og:locale" content={currentLanguage.locale} />
+          {getAlternateLanguagesTo(currentLanguage).map(altLang => (
+            <meta property="og:locale:alternate" content={altLang.locale} key={altLang.locale} />
+          ))}
         </Head>
         <TopMenu />
         <div className={styles.content}>
