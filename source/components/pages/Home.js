@@ -57,7 +57,6 @@ export default class Home extends Component {
           <title>{intl.formatMessage(messages.title)}</title>
           <meta name="description" content={intl.formatMessage(messages.pitch)} />
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.josoor.net" />
           <meta property="og:title" content={intl.formatMessage(messages.title)} />
           <meta property="og:description" content={intl.formatMessage(messages.pitch)} />
           <meta property="og:image" content={environment.URL + '/images/fb-home-share.png'} />
