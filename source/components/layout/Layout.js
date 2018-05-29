@@ -51,9 +51,6 @@ export default class Layout extends Component {
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff" />
           <meta property="og:locale" content={currentLanguage.locale} />
-          {getAlternateLanguagesTo(currentLanguage).map(altLang => (
-            <meta property="og:locale:alternate" content={altLang.locale} key={altLang.locale} />
-          ))}
         </Head>
         <TopMenu />
         <div className={styles.content}>

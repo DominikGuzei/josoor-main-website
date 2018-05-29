@@ -32,18 +32,10 @@ export default class Provider extends Component {
 
   componentWillMount() {
     const { router } = this.context;
-    // If the Facebook crawler visits the website with ?fb_locale=ll_CC param
-    // then we redirect to the correct locale to make multi-lang posts possible
-    const fbLocale = router.location.query.fb_locale;
-    if (fbLocale) {
-      const fbLang = getLanguageByLocale(fbLocale);
-      browserHistory.push({ pathname: '/' + fbLang.parentLocale });
-    } else {
-      const locale = this.getLocaleFromRoute();
-      const isSupportedLocale = Provider.isSupportedLocale(locale);
-      if (!isSupportedLocale && browserHistory) {
-        browserHistory.push({ pathname: '/' + defaultLanguage.parentLocale + router.location.pathname });
-      }
+    const locale = this.getLocaleFromRoute();
+    const isSupportedLocale = Provider.isSupportedLocale(locale);
+    if (!isSupportedLocale && browserHistory) {
+      browserHistory.push({ pathname: '/' + defaultLanguage.parentLocale + router.location.pathname });
     }
   }
 
