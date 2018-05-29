@@ -82,7 +82,7 @@ export default class ChallengesSocietySection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={societyPolarizationImage} />}
+                    image={<img src={societyPolarizationImage} alt="Two people being angry at each other" />}
                     text={intl.formatMessage(messages.polarizationDescription)}
                   />
                 )}
@@ -94,7 +94,7 @@ export default class ChallengesSocietySection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={societyPrejudiceImage} />}
+                    image={<img src={societyPrejudiceImage} alt="Two people gossiping about refugees" />}
                     text={intl.formatMessage(messages.prejudiceDescription)}
                   />
                 )}
@@ -106,7 +106,7 @@ export default class ChallengesSocietySection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={societyFearImage} />}
+                    image={<img src={societyFearImage} alt="Person looking at a sign that warns about refugees" />}
                     text={intl.formatMessage(messages.fearDescription)}
                   />
                 )}
@@ -118,7 +118,7 @@ export default class ChallengesSocietySection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={societyRacismImage} />}
+                    image={<img src={societyRacismImage} alt="Angry mob shouting and pointing at a group of refugees" />}
                     text={intl.formatMessage(messages.racismDescription)}
                   />
                 )}

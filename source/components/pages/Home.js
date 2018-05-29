@@ -11,7 +11,7 @@ import ChallengesSocietySection from './home/ChallengesSocietySection';
 import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
 import ChallengesSupportersSection from './home/ChallengesSupportersSection';
 import WhatWeDoSection from './home/WhatWeDoSection';
-import refugeesLanguageImage from '../../assets/home/challenges/language-refugees.png';
+import environment from '../../environment';
 
 const messages = defineMessages({
   title: {
@@ -55,14 +55,17 @@ export default class Home extends Component {
       <div>
         <Head>
           <title>{intl.formatMessage(messages.title)}</title>
-          <meta property="og:url" content="https://www.josoor.net" />
+          <meta name="description" content={intl.formatMessage(messages.pitch)} />
+          <meta property="og:type" content="website" />
           <meta property="og:title" content={intl.formatMessage(messages.title)} />
           <meta property="og:description" content={intl.formatMessage(messages.pitch)} />
-          <meta property="og:image" content={refugeesLanguageImage} />
+          <meta property="og:image" content={environment.URL + '/images/fb-home-share.png'} />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
         </Head>
         <div>
           <div className={styles.header}>
-            <img className={styles.logo} src={josoorVerticalLogo} />
+            <img className={styles.logo} src={josoorVerticalLogo} alt="Josoor Logo" />
             <h1 className={styles.headline}>
               {intl.formatMessage(messages.headline)}
             </h1>

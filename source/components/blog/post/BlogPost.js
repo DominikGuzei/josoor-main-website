@@ -30,7 +30,7 @@ export default class BlogPost extends Component {
         <div className={styles.header}>
           <div className={styles.blogHeader} />
           <div className={styles.imageBox}>
-            <img className={styles.image} src={post.image} />
+            <img className={styles.image} src={post.image} alt="Blog post title image" />
           </div>
 
         </div>

@@ -28,7 +28,7 @@ export default class BlogPostsList extends Component {
             <li className={styles.post} key={post.slug}>
               <BlogPostHeader post={post} hasTitleLink />
               <LocaleAwareLink to={`${ROUTES.BLOG.POST}/${post.slug}/`}>
-                <img className={styles.postImage} src={post.image} />
+                <img className={styles.postImage} src={post.image} alt="Blog post title image" />
               </LocaleAwareLink>
               <p className={styles.postTeaser}>
                 {post.teaser} … <LocaleAwareLink to={`${ROUTES.BLOG.POST}/${post.slug}/`}>

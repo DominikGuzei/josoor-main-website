@@ -11,11 +11,12 @@ import Layout from "./source/components/layout/Layout";
 import { ROUTES } from './source/routes';
 import Provider from './source/components/Provider';
 import { pushLocation, replaceLanguageParts } from './source/utils/routing';
-import { supportedLanguages } from './source/i18n';
+import { SUPPORTED_LOCALES } from './source/i18n';
+import environment from './source/environment';
 
 const generateRoute = (path, component) => [
   <Route path={replaceLanguageParts(path, '')} component={component} key={0} />
-].concat(supportedLanguages.map((lang, index) => (
+].concat(SUPPORTED_LOCALES.map((lang, index) => (
   <Route path={replaceLanguageParts(path, `${lang}/`)} component={component} key={index + 1} />
 )));
 
@@ -59,7 +60,7 @@ if (typeof window !== "undefined") {
   // Scroll to URL anchors when page was loaded
   window.onload = anchorate;
   // Setup Netlify Identity redirect to admin page
-  if (window.netlifyIdentity) {
+  if (environment.CMS && window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
       if (!user) {
         window.netlifyIdentity.on("login", () => {

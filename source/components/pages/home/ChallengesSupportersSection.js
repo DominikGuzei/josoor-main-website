@@ -82,7 +82,7 @@ export default class ChallengesSupportersSection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={supportersInformationImage} />}
+                    image={<img src={supportersInformationImage} alt="Person looking overwhelmed by confusing information"  />}
                     text={intl.formatMessage(messages.informationDescription)}
                   />
                 )}
@@ -94,7 +94,7 @@ export default class ChallengesSupportersSection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={supportersConfusionImage} />}
+                    image={<img src={supportersConfusionImage} alt="Person looking confused"  />}
                     text={intl.formatMessage(messages.confusionDescription)}
                   />
                 )}
@@ -106,7 +106,7 @@ export default class ChallengesSupportersSection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={supportersIsolationImage} />}
+                    image={<img src={supportersIsolationImage} alt="Person looking at two others" />}
                     text={intl.formatMessage(messages.isolationDescription)}
                   />
                 )}
@@ -118,7 +118,7 @@ export default class ChallengesSupportersSection extends Component {
                 )}
                 details={() => (
                   <ChallengeDetail
-                    image={<img src={supportersFrustrationImage} />}
+                    image={<img src={supportersFrustrationImage} alt="Person looking frustrated" />}
                     text={intl.formatMessage(messages.frustrationDescription)}
                   />
                 )}

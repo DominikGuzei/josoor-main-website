@@ -2,18 +2,18 @@ import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Head from "react-helmet";
 import { browserHistory } from 'react-router';
-import { addLocaleData, IntlProvider } from 'react-intl';
-import de from 'react-intl/locale-data/de';
-import en from 'react-intl/locale-data/en';
-import ar from 'react-intl/locale-data/ar';
-// import theme from 'react-polymorph/lib/themes/simple';
+import { IntlProvider } from 'react-intl';
 import translations from '../i18n/translations';
 import { parseRoute } from '../utils/routing';
-import { supportedLanguages } from '../i18n';
-const defaultLocale = 'en';
+import {
+  defaultLanguage,
+  setupLocaleData,
+  getLanguageByLocale,
+  SUPPORTED_LANGUAGES,
+  SUPPORTED_LOCALES
+} from '../i18n';
 
-// https://github.com/yahoo/react-intl/wiki#loading-locale-data
-addLocaleData([...en, ...de, ...ar]);
+setupLocaleData();
 
 export default class Provider extends Component {
 
@@ -21,30 +21,30 @@ export default class Provider extends Component {
     router: PropTypes.object.isRequired,
   };
 
+  static isSupportedLocale(locale) {
+    return SUPPORTED_LOCALES.includes(locale);
+  }
+
   getLocaleFromRoute() {
     const { router } = this.context;
     return parseRoute('/(:lang(/))(*rest)', router.location.pathname).lang;
   }
 
-  isSupportedLocale(locale) {
-    return supportedLanguages.includes(locale);
-  }
-
   componentWillMount() {
     const { router } = this.context;
     const locale = this.getLocaleFromRoute();
-    const isSupportedLocale = this.isSupportedLocale(locale);
+    const isSupportedLocale = Provider.isSupportedLocale(locale);
     if (!isSupportedLocale && browserHistory) {
-      browserHistory.push({ pathname: '/' + defaultLocale + router.location.pathname });
+      browserHistory.push({ pathname: '/' + defaultLanguage.parentLocale + router.location.pathname });
     }
   }
 
   render() {
     const { children } = this.props;
     let locale = this.getLocaleFromRoute();
-    const isSupportedLocale = this.isSupportedLocale(locale);
-    if (!isSupportedLocale) locale = defaultLocale;
-    const readDirection = locale === 'ar' ? 'rtl' : 'ltr';
+    const isSupportedLocale = Provider.isSupportedLocale(locale);
+    if (!isSupportedLocale) locale = defaultLanguage.parentLocale;
+    const readDirection = locale === SUPPORTED_LANGUAGES.ARABIC.parentLocale ? 'rtl' : 'ltr';
     return (
       <Fragment>
         <Head>

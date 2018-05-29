@@ -49,7 +49,7 @@ export default class Impress extends Component {
         <div className={styles.impress}>
 
           <LocaleAwareLink to={ROUTES.INDEX}>
-            <img src={josoorLogo} className={styles.josoorLogo} />
+            <img src={josoorLogo} className={styles.josoorLogo} alt="Josoor logo" />
           </LocaleAwareLink>
 
           <div className={styles.text}>
