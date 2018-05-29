@@ -11,7 +11,6 @@ import ChallengesSocietySection from './home/ChallengesSocietySection';
 import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
 import ChallengesSupportersSection from './home/ChallengesSupportersSection';
 import WhatWeDoSection from './home/WhatWeDoSection';
-import refugeesLanguageImage from '../../assets/home/challenges/language-refugees.png';
 import environment from '../../environment';
 
 const messages = defineMessages({
@@ -61,7 +60,7 @@ export default class Home extends Component {
           <meta property="og:url" content="https://www.josoor.net" />
           <meta property="og:title" content={intl.formatMessage(messages.title)} />
           <meta property="og:description" content={intl.formatMessage(messages.pitch)} />
-          <meta property="og:image" content={environment.URL + refugeesLanguageImage.substring(2)} />
+          <meta property="og:image" content={environment.URL + '/images/fb-home-share.png'} />
         </Head>
         <div>
           <div className={styles.header}>
