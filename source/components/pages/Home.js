@@ -60,6 +60,8 @@ export default class Home extends Component {
           <meta property="og:title" content={intl.formatMessage(messages.title)} />
           <meta property="og:description" content={intl.formatMessage(messages.pitch)} />
           <meta property="og:image" content={environment.URL + '/images/fb-home-share.png'} />
+          <meta property="og:image:width" content="1200" />
+          <meta property="og:image:height" content="630" />
         </Head>
         <div>
           <div className={styles.header}>
