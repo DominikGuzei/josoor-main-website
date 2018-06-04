@@ -31,10 +31,10 @@ export default class BlogPost extends Component {
     return (
       <div className={styles.root}>
         <Head>
-          <title>{post.title}</title>
+          <title>{post.headline}</title>
           <meta name="description" content={post.teaser} />
           <meta property="og:type" content="article" />
-          <meta property="og:title" content={post.title} />
+          <meta property="og:title" content={post.headline} />
           <meta property="og:description" content={post.teaser} />
           <meta property="og:image" content={environment.URL + post.image} />
           <meta property="og:image:width" content="680" />

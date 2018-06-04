@@ -220,8 +220,11 @@ collections:
           - en
           - de
           - ar
-      - label: Titel
+      - label: URL Slug
         name: title
+        widget: string
+      - label: Titel
+        name: headline
         widget: string
       - label: Untertitel
         name: subtitle
@@ -255,8 +258,11 @@ collections:
           - en
           - de
           - ar
-      - label: Title
+      - label: URL Slug
         name: title
+        widget: string
+      - label: Title
+        name: headline
         widget: string
       - label: Subtitle
         name: subtitle
@@ -290,8 +296,11 @@ collections:
           - en
           - de
           - ar
-      - label: Title
+      - label: URL Slug
         name: title
+        widget: string
+      - label: Title
+        name: headline
         widget: string
       - label: Subtitle
         name: subtitle

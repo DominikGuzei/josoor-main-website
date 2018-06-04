@@ -12,10 +12,10 @@ export default class BlogPostHeader extends Component {
       <div>
         {hasTitleLink ? (
           <LocaleAwareLink className={styles.title} to={buildRoute(ROUTES.BLOG.POST, { id: post.id.substring(3) })}>
-            {post.title}
+            {post.headline}
           </LocaleAwareLink>
         ) : (
-          <h1 className={styles.title}>{post.title}</h1>
+          <h1 className={styles.title}>{post.headline}</h1>
         )}
         <p className={styles.subtitle}>{post.subtitle}</p>
         <div className={styles.meta}>
