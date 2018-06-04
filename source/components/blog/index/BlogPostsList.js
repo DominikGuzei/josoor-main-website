@@ -3,7 +3,7 @@ import styles from './BlogPostsList.scss';
 import BlogPostHeader from '../BlogPostHeader';
 import { ROUTES } from '../../../routes';
 import { defineMessages, intlShape } from 'react-intl';
-import LocaleAwareLink from '../../shared/LocaleAwareLink';
+import { Link } from 'react-router';
 import { buildRoute } from '../../../utils/routing';
 
 const messages = defineMessages({
@@ -25,17 +25,17 @@ export default class BlogPostsList extends Component {
     return (
       <div className={styles.root}>
         <ul className={styles.postsList}>
-          {posts.map(p => p.value).map(post =>
-            <li className={styles.post} key={post.slug}>
+          {posts.map(post =>
+            <li className={styles.post} key={post.id}>
               <BlogPostHeader post={post} hasTitleLink />
-              <LocaleAwareLink to={buildRoute(ROUTES.BLOG.POST, { slug: post.slug })}>
+              <Link to={buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: post.id.substring(3) })}>
                 <img className={styles.postImage} src={post.image} alt="Blog post title image" />
-              </LocaleAwareLink>
+              </Link>
               <p className={styles.postTeaser}>
                 {post.teaser} …
-                <LocaleAwareLink to={buildRoute(ROUTES.BLOG.POST, { slug: post.slug})}>
+                <Link to={buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: post.id.substring(3) })}>
                   {intl.formatMessage(messages.readMore)}
-                </LocaleAwareLink>
+                </Link>
               </p>
             </li>
           )}

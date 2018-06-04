@@ -1,10 +1,9 @@
 ---
 language: ar
-slug: 2018-06-03-announcing-josoor-answers
 title: "إعلان جسور إجابات"
 subtitle: "المكان الذي يتحد فيه المهاجرون والسكان المحليون عن طريق مشاركة المعلومات وترجمتها معا"
 author: "Natalie Gruber"
-image: "/images/refugees.jpg"
+image: "/images/refugee-fence-rise-above.jpg"
 date: "August 2, 2017"
 teaser:  في عام ٢٠١٥، ولدت فكرة جسور. ومنذ ذلك الحين، يعمل فريق متغير من الناس، كلا من اللاجئين والسكان المحليين، على مراحل مختلفة من تنفيذ الفكرة.
 ---

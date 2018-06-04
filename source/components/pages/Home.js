@@ -6,7 +6,7 @@ import styles from './Home.scss';
 import { defineMessages, intlShape } from 'react-intl';
 import JoinUsButton from '../shared/JoinUsButton';
 import ProjectsSection from './home/ProjectsSection';
-import JoinUsSection from './home/JoinUsSection';
+import JoinUsSection from '../shared/JoinUsSection';
 import ChallengesSocietySection from './home/ChallengesSocietySection';
 import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
 import ChallengesSupportersSection from './home/ChallengesSupportersSection';

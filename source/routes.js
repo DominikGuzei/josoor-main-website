@@ -4,6 +4,6 @@ export const ROUTES = {
   ADMIN: '/admin',
   BLOG: {
     INDEX: '/(:language/)blog',
-    POST: '/(:language/)blog/posts/*slug',
+    POST: '/(:language/)blog/posts/*id',
   },
 };

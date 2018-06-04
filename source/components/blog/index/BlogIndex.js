@@ -3,6 +3,7 @@ import { defineMessages, intlShape } from 'react-intl';
 import Head from "react-helmet";
 import styles from './BlogIndex.scss';
 import BlogPostsList from "./BlogPostsList";
+import JoinUsSection from '../../shared/JoinUsSection';
 
 const messages = defineMessages({
   title: {
@@ -51,6 +52,10 @@ export default class BlogIndex extends Component {
               posts={node.list}
             />
           )}
+
+          <div className={styles.joinUsSection}>
+            <JoinUsSection />
+          </div>
 
         </div>
       </div>

@@ -11,7 +11,7 @@ export default class BlogPostHeader extends Component {
     return (
       <div>
         {hasTitleLink ? (
-          <LocaleAwareLink className={styles.title} to={buildRoute(ROUTES.BLOG.POST, { slug: post.slug })}>
+          <LocaleAwareLink className={styles.title} to={buildRoute(ROUTES.BLOG.POST, { id: post.id.substring(3) })}>
             {post.title}
           </LocaleAwareLink>
         ) : (
