@@ -1,10 +1,9 @@
 ---
 language: en
-slug: 2017-11-21-announcing-josoor
 title: "Announcing Josoor Answers"
 subtitle: "“The place for refugees and supporters to unite through sharing knowledge and translating information.“"
 author: "Natalie Gruber"
-image: "/images/refugees.jpg"
+image: "/images/refugee-fence-rise-above.jpg"
 date: "August 2, 2017"
 teaser: In 2015, the idea of Josoor was born. Since then, a changing team of people, both refugees and 
         locals, has been working on different stages of implementation. In the process, we encountered several 

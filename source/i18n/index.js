@@ -44,3 +44,8 @@ export const getLanguageByParentLocale = (parentLocale) => {
 export const getAlternateLanguagesTo = (language) => {
   return without(values(SUPPORTED_LANGUAGES), language);
 };
+
+export const getParentLocaleOrDefault = (parentLocale, defaultLanguage) => {
+  const language = getLanguageByParentLocale(parentLocale);
+  return language ? language.parentLocale : defaultLanguage.parentLocale;
+};

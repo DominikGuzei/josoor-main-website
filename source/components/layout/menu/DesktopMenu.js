@@ -19,9 +19,9 @@ export default class DesktopMenu extends Component {
     const { linkTitles, className } = this.props;
     return (
       <div className={classnames([styles.desktopMenu, className])}>
-        {/*<LocaleAwareLink to={ROUTES.BLOG.INDEX} className={styles.blogLink}>*/}
-          {/*{intl.formatMessage(linkTitles.blogLink)}*/}
-        {/*</LocaleAwareLink>*/}
+        <LocaleAwareLink to={ROUTES.BLOG.INDEX} className={styles.blogLink}>
+          {intl.formatMessage(linkTitles.blogLink)}
+        </LocaleAwareLink>
         <JoinUsButton />
         <LanguageSelect selectTheme={DesktopSelectTheme} />
       </div>
