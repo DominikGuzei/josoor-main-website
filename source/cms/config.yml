@@ -219,25 +219,25 @@ collections:
           - en
           - de
           - ar
-      - label: Title
+      - label: Titel
         name: title
         widget: string
-      - label: Subtitle
+      - label: Untertitel
         name: subtitle
         widget: string
-      - label: Author
+      - label: Autor
         name: author
         widget: string
-      - label: Date
+      - label: Datum
         name: date
         widget: string
-      - label: image
+      - label: Bild
         name: image
         widget: image
-      - label: teaser
+      - label: Einleitung
         name: teaser
         widget: string
-      - label: Body
+      - label: Artikel
         name: body
         widget: markdown
   - name: blog-en
