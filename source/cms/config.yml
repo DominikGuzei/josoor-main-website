@@ -211,6 +211,7 @@ collections:
     folder: content/blog/de
     extension: md
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: Language
         name: language
@@ -245,6 +246,7 @@ collections:
     folder: content/blog/en
     extension: md
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: Language
         name: language
@@ -279,6 +281,7 @@ collections:
     folder: content/blog/ar
     extension: md
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - label: Language
         name: language
