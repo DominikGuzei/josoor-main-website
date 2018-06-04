@@ -5,9 +5,9 @@
   "author": "Dominik Guzei <dominik.guzei@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@phenomic/cli": "v1.0.0-beta.2",
-    "@phenomic/core": "v1.0.0-beta.2",
-    "@phenomic/preset-react-app": "v1.0.0-beta.2",
+    "@phenomic/cli": "v1.0.0-beta.3",
+    "@phenomic/core": "v1.0.0-beta.3",
+    "@phenomic/preset-react-app": "v1.0.0-beta.3",
     "babel-plugin-lodash": "3.2.11",
     "babel-plugin-react-intl": "^2.4.0",
     "babel-plugin-transform-class-properties": "6.24.1",
@@ -40,7 +40,7 @@
     "react-intl": "2.4.0",
     "react-intl-translations-manager": "5.0.3",
     "react-polymorph": "input-output-hk/react-polymorph#feature/ddw-149-render-props-architecture",
-    "react-router": "3.2.0",
+    "react-router": "3.2.1",
     "route-parser": "0.0.5"
   },
   "phenomic": {
@@ -50,6 +50,7 @@
   },
   "scripts": {
     "dev": "phenomic start",
+    "preview": "phenomic preview",
     "build": "phenomic build",
     "translations:purge": "rimraf ./translations/messages/source",
     "translations:manage": "node ./translations/translation-runner.js"

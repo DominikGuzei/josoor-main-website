@@ -1,6 +1,6 @@
 ---
 language: ar
-slug: 2017-11-21-announcing-josoor
+slug: 2018-06-03-announcing-josoor-answers
 title: "إعلان جسور إجابات"
 subtitle: "المكان الذي يتحد فيه المهاجرون والسكان المحليون عن طريق مشاركة المعلومات وترجمتها معا"
 author: "Natalie Gruber"

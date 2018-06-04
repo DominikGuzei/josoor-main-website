@@ -48,7 +48,7 @@ export default class BlogIndex extends Component {
           {node && (
             <BlogPostsList
               node={posts.node}
-              posts={node.list.filter(p => p.language === intl.locale)}
+              posts={node.list}
             />
           )}
 

@@ -5,6 +5,7 @@ import BlogPostHeader from '../BlogPostHeader';
 import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
 import { ROUTES } from '../../../routes';
 import { defineMessages, intlShape } from 'react-intl';
+import LocaleAwareLink from '../../shared/LocaleAwareLink';
 
 const messages = defineMessages({
   backHomeLink: {
@@ -20,11 +21,12 @@ export default class BlogPost extends Component {
   };
 
   render() {
-    const { page } = this.props;
+    const { isLoading } = this.props;
     const { intl } = this.context;
-    if (!page || !page.node) return null;
-    let post = page.node;
-    if (post.list) post = post.list.find(p => p.language === intl.locale);
+    const { posts } = this.props;
+    if (isLoading || !posts || !posts.node) return null;
+    console.log(posts);
+    const post = posts.node.list.find(p => p.value.language === intl.locale).value;
     return (
       <div className={styles.root}>
         <div className={styles.header}>

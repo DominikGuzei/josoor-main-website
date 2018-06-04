@@ -4,6 +4,7 @@ import BlogPostHeader from '../BlogPostHeader';
 import { ROUTES } from '../../../routes';
 import { defineMessages, intlShape } from 'react-intl';
 import LocaleAwareLink from '../../shared/LocaleAwareLink';
+import { buildRoute } from '../../../utils/routing';
 
 const messages = defineMessages({
   readMore: {
@@ -24,16 +25,17 @@ export default class BlogPostsList extends Component {
     return (
       <div className={styles.root}>
         <ul className={styles.postsList}>
-          {posts.map(post =>
+          {posts.map(p => p.value).map(post =>
             <li className={styles.post} key={post.slug}>
               <BlogPostHeader post={post} hasTitleLink />
-              <LocaleAwareLink to={`${ROUTES.BLOG.POST}/${post.slug}/`}>
+              <LocaleAwareLink to={buildRoute(ROUTES.BLOG.POST, { slug: post.slug })}>
                 <img className={styles.postImage} src={post.image} alt="Blog post title image" />
               </LocaleAwareLink>
               <p className={styles.postTeaser}>
-                {post.teaser} … <LocaleAwareLink to={`${ROUTES.BLOG.POST}/${post.slug}/`}>
-                {intl.formatMessage(messages.readMore)}
-              </LocaleAwareLink>
+                {post.teaser} …
+                <LocaleAwareLink to={buildRoute(ROUTES.BLOG.POST, { slug: post.slug})}>
+                  {intl.formatMessage(messages.readMore)}
+                </LocaleAwareLink>
               </p>
             </li>
           )}

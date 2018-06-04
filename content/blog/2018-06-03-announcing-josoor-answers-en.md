@@ -1,6 +1,6 @@
 ---
 language: en
-slug: 2017-11-21-announcing-josoor
+slug: 2018-06-03-announcing-josoor-answers
 title: "Announcing Josoor Answers"
 subtitle: "“The place for refugees and supporters to unite through sharing knowledge and translating information.“"
 author: "Natalie Gruber"

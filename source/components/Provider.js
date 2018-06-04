@@ -27,7 +27,7 @@ export default class Provider extends Component {
 
   getLocaleFromRoute() {
     const { router } = this.context;
-    return parseRoute('/(:lang(/))(*rest)', router.location.pathname).lang;
+    return parseRoute('/(:language(/))(*rest)', router.location.pathname).language;
   }
 
   componentWillMount() {
