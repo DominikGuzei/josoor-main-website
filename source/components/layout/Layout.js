@@ -51,7 +51,6 @@ export default class Layout extends Component {
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff" />
-          <meta property="og:url" content={`${environment.URL}/${currentLanguage.parentLocale}`} />
           <meta property="og:locale" content={currentLanguage.locale} />
         </Head>
         <TopMenu />

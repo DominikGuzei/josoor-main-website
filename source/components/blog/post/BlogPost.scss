@@ -4,13 +4,31 @@
 .content {
   @include container;
   max-width: 640px;
+
+  p, li {
+    margin-bottom: 1.5em;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 18px;
+  }
+
+  li {
+    padding-left: 10px;
+  }
+
+  strong {
+    font-family: $theme-font-sans-bold;
+  }
 }
 
 .blogHeader {
   @media (min-width: 640px) {
     background: url('../../../assets/home/header.jpg') no-repeat center center;
     background-size: cover;
-    height: 200px;
+    height: 240px;
+    margin-top: -80px;
   }
 }
 
@@ -28,4 +46,9 @@
 
 .image {
   width: 100%;
+}
+
+.joinUsSection {
+  margin-top: 60px;
+  border-top: 1px solid #eee;
 }

@@ -6,7 +6,7 @@ import FormField from 'react-polymorph/lib/components/FormField';
 import FormFieldSkin from 'react-polymorph/lib/skins/simple/FormFieldSkin';
 import Input from 'react-polymorph/lib/components/Input';
 import InputSkin from 'react-polymorph/lib/skins/simple/InputSkin';
-import { JOIN_US_ANCHOR_ID } from '../Home';
+import { JOIN_US_ANCHOR_ID } from '../pages/Home';
 
 const messages = defineMessages({
   headline: {

@@ -1,9 +1,9 @@
 export const ROUTES = {
-  INDEX: '/(:lang(/))',
-  IMPRESS: '/(:lang/)impress',
+  INDEX: '/(:language(/))',
+  IMPRESS: '/(:language/)impress',
   ADMIN: '/admin',
   BLOG: {
-    INDEX: '/(:lang/)blog',
-    POST: '/(:lang/)blog/posts/:slug',
+    INDEX: '/(:language/)blog',
+    POST: '/(:language/)blog/posts/*id',
   },
 };

@@ -5,9 +5,10 @@
 .title {
   text-align: center;
   display: block;
-  font-size: 24px;
+  font-size: 28px;
   font-family: $theme-font-sans-bold !important;
   color: $theme-color-main-dark !important;
+  margin: 0;
 }
 
 .subtitle {
@@ -21,6 +22,10 @@
   display: flex;
   justify-content: center;
   margin-top: 0;
+
+  p {
+    margin-bottom: 1em;
+  }
 }
 
 .author, .date {

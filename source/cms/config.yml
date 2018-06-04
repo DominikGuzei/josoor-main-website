@@ -12,6 +12,21 @@ collections:
     delete: false
     extension: json
     fields:
+      - label: blog.backHomeLink
+        name: blog.backHomeLink
+        widget: text
+      - label: blog.headline
+        name: blog.headline
+        widget: text
+      - label: blog.readMore
+        name: blog.readMore
+        widget: text
+      - label: blog.subline
+        name: blog.subline
+        widget: text
+      - label: blog.title
+        name: blog.title
+        widget: text
       - label: buttons.joinUs
         name: buttons.joinUs
         widget: text
@@ -191,3 +206,117 @@ collections:
         widget: string
     editor:
       preview: false
+  - name: blog-de
+    label: Blog DE
+    folder: content/blog/de
+    extension: md
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: Language
+        name: language
+        widget: select
+        options:
+          - en
+          - de
+          - ar
+      - label: URL Slug
+        name: title
+        widget: string
+      - label: Titel
+        name: headline
+        widget: string
+      - label: Untertitel
+        name: subtitle
+        widget: string
+      - label: Autor
+        name: author
+        widget: string
+      - label: Datum
+        name: date
+        widget: string
+      - label: Bild
+        name: image
+        widget: image
+      - label: Einleitung
+        name: teaser
+        widget: string
+      - label: Artikel
+        name: body
+        widget: markdown
+  - name: blog-en
+    label: Blog EN
+    folder: content/blog/en
+    extension: md
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: Language
+        name: language
+        widget: select
+        options:
+          - en
+          - de
+          - ar
+      - label: URL Slug
+        name: title
+        widget: string
+      - label: Title
+        name: headline
+        widget: string
+      - label: Subtitle
+        name: subtitle
+        widget: string
+      - label: Author
+        name: author
+        widget: string
+      - label: Date
+        name: date
+        widget: string
+      - label: image
+        name: image
+        widget: image
+      - label: teaser
+        name: teaser
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+  - name: blog-ar
+    label: Blog AR
+    folder: content/blog/ar
+    extension: md
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - label: Language
+        name: language
+        widget: select
+        options:
+          - en
+          - de
+          - ar
+      - label: URL Slug
+        name: title
+        widget: string
+      - label: Title
+        name: headline
+        widget: string
+      - label: Subtitle
+        name: subtitle
+        widget: string
+      - label: Author
+        name: author
+        widget: string
+      - label: Date
+        name: date
+        widget: string
+      - label: image
+        name: image
+        widget: image
+      - label: teaser
+        name: teaser
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown

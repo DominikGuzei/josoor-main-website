@@ -17,6 +17,8 @@ export const pushLocation = (location) => {
 
 export const parseRoute = (pattern, route) => new Route(pattern).match(route);
 
+export const buildRoute = (pattern, params) => new Route(pattern).reverse(params);
+
 export const replaceLanguageParts = (path, replacement) => (
-  path.replace('(:lang/)', replacement).replace('(:lang(/))', replacement)
+  path.replace('(:language/)', replacement).replace('(:language(/))', replacement)
 );

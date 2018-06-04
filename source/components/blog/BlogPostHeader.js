@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from './BlogPostHeader.scss';
 import { ROUTES } from '../../routes';
 import LocaleAwareLink from '../shared/LocaleAwareLink';
+import { buildRoute } from '../../utils/routing';
 
 export default class BlogPostHeader extends Component {
 
@@ -10,11 +11,11 @@ export default class BlogPostHeader extends Component {
     return (
       <div>
         {hasTitleLink ? (
-          <LocaleAwareLink className={styles.title} to={`${ROUTES.BLOG.POST}/${post.slug}/`}>
-            {post.title}
+          <LocaleAwareLink className={styles.title} to={buildRoute(ROUTES.BLOG.POST, { id: post.id.substring(3) })}>
+            {post.headline}
           </LocaleAwareLink>
         ) : (
-          <div className={styles.title}>{post.title}</div>
+          <h1 className={styles.title}>{post.headline}</h1>
         )}
         <p className={styles.subtitle}>{post.subtitle}</p>
         <div className={styles.meta}>
