@@ -6,6 +6,7 @@ import { ROUTES } from '../../../routes';
 import { defineMessages, intlShape } from 'react-intl';
 import LocaleAwareLink from '../../shared/LocaleAwareLink';
 import JoinUsSection from '../../shared/JoinUsSection';
+import environment from '../../../environment';
 
 const messages = defineMessages({
   backHomeLink: {
@@ -28,6 +29,16 @@ export default class BlogPost extends Component {
     post = post.node;
     return (
       <div className={styles.root}>
+        <Head>
+          <title>{post.title}</title>
+          <meta name="description" content={post.teaser} />
+          <meta property="og:type" content="article" />
+          <meta property="og:title" content={post.title} />
+          <meta property="og:description" content={post.teaser} />
+          <meta property="og:image" content={environment.URL + post.image} />
+          <meta property="og:image:width" content="680" />
+        </Head>
+
         <div className={styles.header}>
           <div className={styles.blogHeader} />
           <div className={styles.imageBox}>

@@ -8,7 +8,7 @@ import JoinUsSection from '../../shared/JoinUsSection';
 const messages = defineMessages({
   title: {
     id: 'blog.title',
-    defaultMessage: '!!!Blog | Josoor Answers',
+    defaultMessage: '!!!Blog | Josoor',
   },
   headline: {
     id: 'blog.headline',
