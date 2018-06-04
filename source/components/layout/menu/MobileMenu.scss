@@ -27,12 +27,16 @@
     margin: 60px auto 0 auto;
     width: calc(100% - 80px);
     text-transform: uppercase;
+
+    a {
+      padding-left: 8px;
+      font-family: $theme-font-sans-bold;
+    }
   }
 
   .blogLink {
     display: block;
     color: #474d57;
-    font-family: $theme-font-sans-regular;
     padding-bottom: 20px;
     border-bottom: 1px solid $theme-color-main-light;
     margin-bottom: 20px;
