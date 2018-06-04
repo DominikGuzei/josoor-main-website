@@ -10,14 +10,34 @@ collections:
     extension: md
     create: true
     fields:
-      - {label: "Language", name: "language", widget: "select", options: ["en", "de", "ar"]}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Subtitle", name: "subtitle", widget: "string"}
-      - {label: "Author", name: "author", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "image", name: "image", widget: "image"}
-      - {label: "teaser", name: "teaser", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Language
+        name: language
+        widget: select
+        options:
+          - en
+          - de
+          - ar
+      - label: Title
+        name: title
+        widget: string
+      - label: Subtitle
+        name: subtitle
+        widget: string
+      - label: Author
+        name: author
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: image
+        name: image
+        widget: image
+      - label: teaser
+        name: teaser
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
   - name: translations
     label: Translations
     label_singular: Translation
@@ -26,6 +46,21 @@ collections:
     delete: false
     extension: json
     fields:
+      - label: blog.backHomeLink
+        name: blog.backHomeLink
+        widget: text
+      - label: blog.headline
+        name: blog.headline
+        widget: text
+      - label: blog.readMore
+        name: blog.readMore
+        widget: text
+      - label: blog.subline
+        name: blog.subline
+        widget: text
+      - label: blog.title
+        name: blog.title
+        widget: text
       - label: buttons.joinUs
         name: buttons.joinUs
         widget: text
