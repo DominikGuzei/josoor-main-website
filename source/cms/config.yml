@@ -28,7 +28,7 @@ collections:
         widget: string
       - label: Date
         name: date
-        widget: datetime
+        widget: string
       - label: image
         name: image
         widget: image

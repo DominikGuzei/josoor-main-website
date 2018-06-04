@@ -4,7 +4,7 @@ title: "Warum Josoor?"
 subtitle: "Krisen in Chancen verwandeln"
 author: "Natalie Gruber"
 image: "/images/refugee-fence-rise-above.jpg"
-date: "August 2, 2017"
+date: "4. Juni 2018"
 teaser: 
   Über 65 Millionen Menschen mussten ihre Heimat verlassen. In ihrem neuen Zuhause werden sie 
   von Millionen Freiwilligen unterstützt. Trotz der großen Anzahl an Betroffenen fehlt bislang ein 
