@@ -5,10 +5,21 @@
   @include container;
   max-width: 640px;
 
-  p {
-    font-size: 15px;
-    line-height: 1.5em;
+  p, li {
     margin-bottom: 1.5em;
+  }
+
+  ul {
+    list-style: disc;
+    margin-left: 18px;
+  }
+
+  li {
+    padding-left: 10px;
+  }
+
+  strong {
+    font-family: $theme-font-sans-bold;
   }
 }
 

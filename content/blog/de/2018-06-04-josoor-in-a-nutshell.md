@@ -14,7 +14,6 @@ teaser: >-
   Instrumente die allen an der globalen Flüchtlingskrise Beteiligten das Leben
   leichter machen sollen.
 ---
-Um die Vision einer Welt zu verwirklichen, in der sich Flüchtlinge überall zu Hause fühlen, arbeiten wir an einem Netzwerk für Flüchtlinge und Unterstützer. Beginnend mit einer Online-Plattform zum Informationsaustausch und lokalen Gemeinschaften zur Vernetzung mit anderen entwickeln wir verschiedene Instrumente die allen an der globalen Flüchtlingskrise Beteiligten das Leben leichter machen sollen.
 
 ## Was ist Josoor?
 
@@ -56,9 +55,9 @@ Einen genaueren Überblick gibt es auf www.josoor.net/about zu finden.
 
 ## Wie kannst du Josoor unterstützen?
 
-* **Teilen, teilen teilen!**\
+* **Teilen, teilen teilen!**
   Je mehr Menschen Josoor kennen und uns folgen, desto mehr Geld können wir in der Crowdfunding-Kampagne im August sammeln!
-* **Spenden** \
+* **Spenden**
   Die Entwicklung einer Plattform wie Josoor Answers ist sehr kostenintensiv. Da wir von Regierungen und politischen Parteien unabhängig sind und bleiben, sind wir auf die Zivilgesellschaft angewiesen um das dafür benötigte Geld zu erhalten. Ab sofort kann man auf unserer Website spenden!
-* **Zeit spenden** \
-  Wir suchen noch Freiwillige mit speziellen Fähigkeiten. Du bist erfahrene_r Webentwickler_in? Oder hast ein Talent im Schreiben von Förderanträgen? Werde Teil unseres Teams! Mehr Info: www.josoor.net/jointeam
+* **Zeit spenden** 
+  Wir suchen noch Freiwillige mit speziellen Fähigkeiten. Du bist erfahrene_r Webentwickler_in? Oder hast ein Talent im Schreiben von Förderanträgen? Werde Teil unseres Teams!
