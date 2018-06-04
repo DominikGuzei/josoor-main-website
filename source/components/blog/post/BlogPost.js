@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './BlogPost.scss';
 import BlogPostHeader from '../BlogPostHeader';
+import Head from "react-helmet";
 import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
 import { ROUTES } from '../../../routes';
 import { defineMessages, intlShape } from 'react-intl';
