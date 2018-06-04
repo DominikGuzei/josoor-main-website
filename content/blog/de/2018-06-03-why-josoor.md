@@ -1,6 +1,7 @@
 ---
 language: de
-title: "Warum Josoor?"
+title: "why-josoor"
+headline: "Warum Josoor?"
 subtitle: "Krisen in Chancen verwandeln"
 author: "Natalie Gruber"
 image: "/images/refugee-fence-rise-above.jpg"

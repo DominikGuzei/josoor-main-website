@@ -1,6 +1,7 @@
 ---
 language: ar
-title: "إعلان جسور إجابات"
+title: "why-josoor"
+headline: "إعلان جسور إجابات"
 subtitle: "المكان الذي يتحد فيه المهاجرون والسكان المحليون عن طريق مشاركة المعلومات وترجمتها معا"
 author: "Natalie Gruber"
 image: "/images/refugee-fence-rise-above.jpg"

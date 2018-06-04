@@ -16,13 +16,14 @@
 
 .headline {
   font-size: 36px;
-  margin: 115px 20px 10px 20px;
+  margin: 90px 20px 10px 20px;
   color: white;
   font-family: $theme-font-sans-bold;
   text-transform: uppercase;
   text-align: center;
 
   @media (min-width: 640px) {
+    margin-top: 115px;
     font-size: 48px;
   }
 }
