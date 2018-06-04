@@ -17,7 +17,6 @@ export default withPhenomicApi(BlogPost, props => {
   } else {
     staticLocale = SUPPORTED_LOCALES[lastUsedLocaleIndex++];
   }
-  console.log(lastUsedLocaleIndex, '/' + staticLocale);
   const pathname = location ? location.pathname : '/' + staticLocale;
   const inferredLocale = pathname.substring(1, 3);
   const usedLocale = getParentLocaleOrDefault(inferredLocale, SUPPORTED_LANGUAGES.ENGLISH);
