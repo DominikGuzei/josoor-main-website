@@ -1,6 +1,6 @@
 ---
 language: ar
-title: لماذا جسور؟
+title: لماذا-جسور؟
 headline: لماذا جسور؟
 subtitle: تحويل الأزمات إلى فرص إيجابية
 author: Natalie Gruber
