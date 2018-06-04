@@ -4,40 +4,6 @@ backend:
   name: git-gateway
   branch: development
 collections:
-  - name: blog-de
-    label: Blog DE
-    folder: content/blog/de
-    extension: md
-    create: true
-    fields:
-      - label: Language
-        name: language
-        widget: select
-        options:
-          - en
-          - de
-          - ar
-      - label: Title
-        name: title
-        widget: string
-      - label: Subtitle
-        name: subtitle
-        widget: string
-      - label: Author
-        name: author
-        widget: string
-      - label: Date
-        name: date
-        widget: string
-      - label: image
-        name: image
-        widget: image
-      - label: teaser
-        name: teaser
-        widget: string
-      - label: Body
-        name: body
-        widget: markdown
   - name: translations
     label: Translations
     label_singular: Translation
@@ -240,3 +206,105 @@ collections:
         widget: string
     editor:
       preview: false
+  - name: blog-de
+    label: Blog DE
+    folder: content/blog/de
+    extension: md
+    create: true
+    fields:
+      - label: Language
+        name: language
+        widget: select
+        options:
+          - en
+          - de
+          - ar
+      - label: Title
+        name: title
+        widget: string
+      - label: Subtitle
+        name: subtitle
+        widget: string
+      - label: Author
+        name: author
+        widget: string
+      - label: Date
+        name: date
+        widget: string
+      - label: image
+        name: image
+        widget: image
+      - label: teaser
+        name: teaser
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+  - name: blog-en
+    label: Blog EN
+    folder: content/blog/en
+    extension: md
+    create: true
+    fields:
+      - label: Language
+        name: language
+        widget: select
+        options:
+          - en
+          - de
+          - ar
+      - label: Title
+        name: title
+        widget: string
+      - label: Subtitle
+        name: subtitle
+        widget: string
+      - label: Author
+        name: author
+        widget: string
+      - label: Date
+        name: date
+        widget: string
+      - label: image
+        name: image
+        widget: image
+      - label: teaser
+        name: teaser
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
+  - name: blog-ar
+    label: Blog AR
+    folder: content/blog/ar
+    extension: md
+    create: true
+    fields:
+      - label: Language
+        name: language
+        widget: select
+        options:
+          - en
+          - de
+          - ar
+      - label: Title
+        name: title
+        widget: string
+      - label: Subtitle
+        name: subtitle
+        widget: string
+      - label: Author
+        name: author
+        widget: string
+      - label: Date
+        name: date
+        widget: string
+      - label: image
+        name: image
+        widget: image
+      - label: teaser
+        name: teaser
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown

@@ -17,7 +17,7 @@ manageTranslations({
 const enLocaleFile = jsonfile.readFileSync(enLocalePath);
 const cmsConfig = yaml.safeLoad(fs.readFileSync(cmsConfigPath, 'utf8'));
 
-cmsConfig.collections[1].fields = Object.keys(enLocaleFile).map((key) => ({
+cmsConfig.collections[0].fields = Object.keys(enLocaleFile).map((key) => ({
   label: key.toString(),
   name: key.toString(),
   widget: key === 'title' ? 'string' : 'text'
