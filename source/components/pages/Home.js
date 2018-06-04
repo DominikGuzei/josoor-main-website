@@ -12,6 +12,7 @@ import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
 import ChallengesSupportersSection from './home/ChallengesSupportersSection';
 import WhatWeDoSection from './home/WhatWeDoSection';
 import environment from '../../environment';
+import { getLanguageByParentLocale } from '../../i18n';
 
 const messages = defineMessages({
   title: {
@@ -56,6 +57,7 @@ export default class Home extends Component {
         <Head>
           <title>{intl.formatMessage(messages.title)}</title>
           <meta name="description" content={intl.formatMessage(messages.pitch)} />
+          <meta property="og:url" content={`${environment.URL}/${intl.locale}`} />
           <meta property="og:type" content="website" />
           <meta property="og:title" content={intl.formatMessage(messages.title)} />
           <meta property="og:description" content={intl.formatMessage(messages.pitch)} />

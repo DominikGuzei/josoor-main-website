@@ -8,6 +8,7 @@ import { defineMessages, intlShape } from 'react-intl';
 import LocaleAwareLink from '../../shared/LocaleAwareLink';
 import JoinUsSection from '../../shared/JoinUsSection';
 import environment from '../../../environment';
+import { buildRoute } from '../../../utils/routing';
 
 const messages = defineMessages({
   backHomeLink: {
@@ -28,11 +29,13 @@ export default class BlogPost extends Component {
     let { post } = this.props;
     if (isLoading || !post || !post.node) return null;
     post = post.node;
+    const postId = post.filename.substring(0, post.filename.indexOf('.md'));
     return (
       <div className={styles.root}>
         <Head>
           <title>{post.headline}</title>
           <meta name="description" content={post.teaser} />
+          <meta property="og:url" content={`${environment.URL}${buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: postId })}`} />
           <meta property="og:type" content="article" />
           <meta property="og:title" content={post.headline} />
           <meta property="og:description" content={post.teaser} />
