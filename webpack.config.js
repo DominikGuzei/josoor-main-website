@@ -86,7 +86,7 @@ module.exports = (config) => ({
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
         CONTEXT: JSON.stringify(process.env.CONTEXT || 'development'),
         CMS: JSON.stringify(process.env.CMS || false),
-        DEPLOY_URL: JSON.stringify(process.env.DEPLOY_URL || 'http://localhost:3333'),
+        DEPLOY_URL: IS_PRODUCTION ? process.env.URL : JSON.stringify(process.env.DEPLOY_URL || 'http://localhost:3333'),
       },
     }),
     new ExtractTextPlugin({
