@@ -9,7 +9,9 @@
   flex-direction: column;
   align-items: center;
   height: 300px;
-  margin-top: -80px;
+  @media ($theme-breakpoint-small) {
+    margin-top: -$theme-top-menu-height;
+  }
 }
 
 .headline {
