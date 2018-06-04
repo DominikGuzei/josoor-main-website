@@ -32,7 +32,7 @@ export default class BlogPostsList extends Component {
                 <img className={styles.postImage} src={post.image} alt="Blog post title image" />
               </Link>
               <p className={styles.postTeaser}>
-                {post.teaser} …
+                {post.teaser} …&nbsp;
                 <Link to={buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: post.id.substring(3) })}>
                   {intl.formatMessage(messages.readMore)}
                 </Link>

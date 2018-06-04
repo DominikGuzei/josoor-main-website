@@ -1,49 +1,37 @@
 ---
 language: en
-title: "Announcing Josoor Answers"
-subtitle: "“The place for refugees and supporters to unite through sharing knowledge and translating information.“"
+title: "Why Josoor?"
+subtitle: "Turning Crisis into Opportunities"
 author: "Natalie Gruber"
 image: "/images/refugee-fence-rise-above.jpg"
 date: "June 4, 2018"
-teaser: In 2015, the idea of Josoor was born. Since then, a changing team of people, both refugees and 
-        locals, has been working on different stages of implementation. In the process, we encountered several 
-        problems that we first had to
+teaser:
+  More than 65 million people worldwide had to leave everything behind. Millions of others 
+  support them in building new homes. Despite the numbers of people affected, there is still 
+  no organized network for exchange and support or a place for cooperation where true 
+  integration is facilitated.
 ---
 
-In 2015, the idea of Josoor was born. Since then, a changing team of people, both refugees and 
-locals, has been working on different stages of implementation.
- 
-In the process, we encountered several problems that we first had to overcome. We hit 
-roadblocks and had setbacks. After a period of reassessment, we decided to restructure 
-and dive right into it again. And now we are finally able to say: we are starting to test 
-our first product: Josoor Answers!
- 
-Josoor Answers will be the promised “information guide” – but better. Instead of just a 
-collection of information, it will be an instant question and answer network that 
-simultaneously saves all the information exchanged among the users into a coherent 
-database easily accessible for both refugees and local supporters.
- 
-“Ask- Answer-Translate” is its slogan as that’s exactly what it enables you to do: ask 
-the questions you don’t know the answers to, share your knowledge with the rest of the 
-community by answering other member’s questions, and translate knowledge from one 
-language to another!
- 
-Josoor Answers will not only be a forever growing, organised database for all information 
-relevant to refugees and those supporting them. More than that, refugees and locals 
-will finally be able to breach the language barrier in exchanging information by 
-enabling those that speak two languages to easily translate relevant content and thus 
-provide their skills for the benefit of the whole community.  
- 
-We hope to thereby enable refugees to put their time to good use and give them better 
-access to information than before while reducing the workload on supporters with 
-translating information and simultaneously jointly build the largest information 
-database for anybody involved in the “refugee crisis”.
- 
-Each and every person is an expert in something, and with Josoor, everyone can 
-contribute their expertise to the benefit of the whole.
- 
-Our Team is still working on developing and testing Josoor Answers – but in a short 
-time, we will open Beta testing for a limited number of users.
+## 2015: the year that changed Europe
 
-If you want to be part of the first users to test Josoor Answers, sign up here!
+In 2015, millions of people were on their way through Europe in search of a new home, having had to flee their countries. Millions welcomed and supported them, helped them settle down and find their way around in their new homes. Although this has been the most prominent crisis, it is far from the only one. With other refugee crisis such as in Central and Eastern Africa or Southeast Asia, there are now more than 65 million displaced people worldwide. That’s the highest number ever recorded - and they are all faced with similar difficulties and challenges.
 
+Josoor’s team consists of people who are all either refugees from the Middle East or who volunteered to support refugees. We joined forces because we felt that something is missing - and formed the idea of ​​Josoor to fill that gap.
+
+## Cooperation and exchange at eye level
+ 
+Josoor shall provide refugees and supporters with a community where they can find help and actively participate and contribute. It shall be a place in which exchange on eye- level is not only possible but the norm.
+
+From the first moment of arrival in their host country on, refugees shall be able to get involved in and contribute to their community in different ways, as fits their interests and abilities. Their dependence on locals shall thus be reduced and their agency strengthened. Participation of refugees shall be promoted, and they shall be enabled to use the months and years of waiting for their asylum meaningfully - instead of being forced into the role of passive aid recipients whose hopes and motivation are slowly replaced by frustration and depression.
+ 
+Supporters shall find a community where they can share experiences, worries, problems and joys - and a space where they can support each other. We want to counteract isolation and prevent frustration by making the work of volunteers more efficient and joyful.
+ 
+Most important, however, is that Josoor shall be a place of cooperation. Where we work together to analyze problems and develop solutions, develop and implement ideas and, if successful, spread them internationally.
+ 
+Last but not least, Josoor shall also promote the often mentioned integration of refugees into local societies. Especially in times like these, in which populism, racism and xenophobia are rapidly increasing worldwide, Josoor shall be an alternative to the growing division of society.
+
+## Building bridges
+
+Because everything has to start somewhere, we start in Europe in Arabic, English and German. As many languages ​​as possible shall follow as soon as possible - and eventually, Josoor shall be available in all countries which host larger number of refugees, worldwide.
+
+Josoor means "bridges" in Arabic. We chose this name because we want to connect people - refugees and volunteers among and with each other, across language barriers and borders and bridge the gaps that divide them. We believe in Josoor because we are convinced that this crisis holds big opportunities - if we only work together.

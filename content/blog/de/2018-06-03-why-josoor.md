@@ -12,13 +12,13 @@ teaser:
 
 ---
 
-# 2015: das Jahr, das Europa änderte
+## 2015: das Jahr, das Europa änderte
  
 2015 waren Millionen Menschen auf der Flucht durch Europa –  Millionen halfen ihnen und hießen sie willkommen und unterstützten sie dabei, sich in ihrer neuen Heimat zurechtzufinden und Zuhause zu fühlen. Auch wenn diese Krise die präsenteste ist, ist sie bei weitem nicht die einzige. Gemeinsam mit anderen Flüchtlingskrisen wie etwa in Ostafrika oder Südostasien gibt es weltweit mehr als 65 Millionen Vetriebene - und alle haben ähnliche Probleme und Schwierigkeiten.
  
 Das Team von Josoor besteht aus Menschen, die entweder selbst aus dem Nahen Osten nach Europa geflohen sind oder Geflüchtete als Freiwillige unterstützt haben. Wir haben uns zusammengeschlossen, weil uns allen etwas gefehlt hat – und die Idee von Josoor geboren, um diese Lücke zu füllen.
  
-# Kooperation & Austausch auf Augenhöhe
+## Kooperation & Austausch auf Augenhöhe
  
 Josoor soll Flüchtlingen und Freiwilligen eine Gemeinschaft bieten, in der sie Unterstützung erfahren und sich selbst aktiv einbringen können. Es soll ein Raum sein, in dem ehrlicher Austausch auf gleicher Augenhöhe nicht nur möglich, sondern die Norm ist.
  
@@ -30,7 +30,7 @@ Am wichtigsten ist uns jedoch, dass Josoor ein Raum ist, in dem wir zusammenarbe
  
 Nicht zuletzt soll Josoor auch die vielbeschworene Integration fördern. Gerade in Zeiten wie diesen, in denen weltweit Populismus, Rassismus und Ausländerfeindlichkeit rasant ansteigen, soll Josoor einen Gegenentwurf zur Spaltung der Gesellschaft bilden.
  
-# Brücken bauen
+## Brücken bauen
  
 Weil alles klein anfangen muss, starten wir in Europa auf Arabisch, Englisch und Deutsch. So bald wie möglich sollen viele weitere Sprachen folgen, und irgendwann soll Josoor in all jenen Ländern zur Verfügung stehen, in denen eine größere Anzahl von Flüchtlingen lebt.  
  

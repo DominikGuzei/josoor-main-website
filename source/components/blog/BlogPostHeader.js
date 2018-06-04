@@ -15,7 +15,7 @@ export default class BlogPostHeader extends Component {
             {post.title}
           </LocaleAwareLink>
         ) : (
-          <div className={styles.title}>{post.title}</div>
+          <h1 className={styles.title}>{post.title}</h1>
         )}
         <p className={styles.subtitle}>{post.subtitle}</p>
         <div className={styles.meta}>
