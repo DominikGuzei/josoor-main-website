@@ -1,7 +1,7 @@
 ---
 language: de
 title: josoor-in-a-nutshell
-headline: Josoor kurz erklärt
+headline: 'Josoor: kurz erklärt'
 subtitle: Flüchtlinge & Freiwillige vereinen
 author: Natalie Gruber
 date: 03.06.2018
