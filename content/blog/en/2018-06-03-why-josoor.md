@@ -1,16 +1,16 @@
 ---
 language: en
-title: "why-josoor"
-headline: "Why Josoor?"
-subtitle: "Turning Crisis into Opportunities"
-author: "Natalie Gruber"
-image: "/images/refugee-fence-rise-above.jpg"
-date: "June 4, 2018"
-teaser:
-  More than 65 million people worldwide had to leave everything behind. Millions of others 
-  support them in building new homes. Despite the numbers of people affected, there is still 
-  no organized network for exchange and support or a place for cooperation where true 
-  integration is facilitated.
+title: why-josoor
+headline: Why Josoor?
+subtitle: Turning Crisis into Opportunities
+author: Natalie Zarzour
+date: 'June 3, 2018'
+image: /images/refugee-fence-rise-above.jpg
+teaser: >-
+  65 million people worldwide had to leave everything behind. Millions support
+  them in re-building a home - but there is no organized network for exchange
+  and support among them, or a place for cooperation where true integration is
+  facilitated.
 ---
 
 ## 2015: the year that changed Europe
