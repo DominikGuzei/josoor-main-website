@@ -20,7 +20,7 @@ export default class BlogPostHeader extends Component {
         <p className={styles.subtitle}>{post.subtitle}</p>
         <div className={styles.meta}>
           <p className={styles.author}>{post.author}</p>
-          <p className={styles.date}>{post.date}</p>
+          <p className={styles.date}>{post.readable_date}</p>
         </div>
         <div className={styles.separator} />
       </div>

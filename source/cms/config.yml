@@ -234,6 +234,9 @@ collections:
         widget: string
       - label: Datum
         name: date
+        widget: date
+      - label: Lesbares Datum
+        name: readable_date
         widget: string
       - label: Bild
         name: image
@@ -272,6 +275,9 @@ collections:
         widget: string
       - label: Date
         name: date
+        widget: date
+      - label: Readable Date
+        name: readable_date
         widget: string
       - label: image
         name: image
@@ -310,6 +316,9 @@ collections:
         widget: string
       - label: Date
         name: date
+        widget: date
+      - label: Readable Date
+        name: readable_date
         widget: string
       - label: image
         name: image

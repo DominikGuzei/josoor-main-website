@@ -4,7 +4,8 @@ title: why-josoor
 headline: Warum Josoor?
 subtitle: Krisen in Chancen verwandeln
 author: Natalie Zarzour
-date: 4. Juni 2018
+date: 2018-06-04
+readable_date: 4. Juni 2018
 image: /images/refugee-fence-rise-above.jpg
 teaser: >-
   Über 65 Millionen Menschen mussten ihre Heimat verlassen. In ihrem neuen

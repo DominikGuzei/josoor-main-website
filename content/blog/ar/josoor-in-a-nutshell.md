@@ -4,8 +4,9 @@ title: josoor-in-a-nutshell
 headline: جسور باختصار
 subtitle: جسور باختصار
 author: ناتالي زرزور
-date: ١ حزيران ٢٠١٨
-image: /images/josoor_in_a_nutshell.png
+date: 2018-06-05
+readable_date: ١ حزيران ٢٠١٨
+image: /images/three-people-laughing-at-smartphone.jpg
 teaser: >-
   لتحقيق رؤية عالم يشعر فيه اللاجئون في المنزل أينما كانوا ، فإننا نعمل على بناء
   منصة مجتمعية للاجئين والمؤيدين من السكان المحليين. بدءاً بمنصة على الإنترنت

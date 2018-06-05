@@ -4,7 +4,8 @@ title: why-josoor
 headline: Why Josoor?
 subtitle: Turning Crisis into Opportunities
 author: Natalie Zarzour
-date: 'June 4, 2018'
+date: 2018-06-04
+readable_date: 'June 4, 2018'
 image: /images/refugee-fence-rise-above.jpg
 teaser: >-
   65 million people worldwide had to leave everything behind. Millions support
