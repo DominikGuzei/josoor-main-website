@@ -68,7 +68,6 @@ html {
 html, body, :global(#app), :global(#app) > [data-reactroot] {
   width: 100%;
   min-height: 100%;
-  letter-spacing: 1px;
   // Make the default font ugly so we immediately see when something
   // is not yet defined correctly in our UI
   font-family: "Times New Roman", serif;

@@ -66,6 +66,9 @@ export default class Home extends Component {
           <meta property="og:image" content={environment.URL + '/images/fb-home-share.png'} />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
+          {environment.CMS && (
+            <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
+          )}
         </Head>
         <div>
           <ProgressiveImage
