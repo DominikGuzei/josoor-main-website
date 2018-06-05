@@ -34,14 +34,14 @@ export default class BlogPostsList extends Component {
           {posts.filter(byIsPublished).map(post =>
             <li className={styles.post} key={post.id}>
               <BlogPostHeader post={post} language={intl.locale} hasTitleLink />
-              <a href={buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: post.id.substring(3) })}>
+              <Link to={buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: post.id.substring(3) })}>
                 <img className={styles.postImage} src={post.image} alt="Blog post title image" />
-              </a>
+              </Link>
               <p className={styles.postTeaser}>
                 {post.teaser} …&nbsp;
-                <a href={buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: post.id.substring(3) })}>
+                <Link to={buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: post.id.substring(3) })}>
                   {intl.formatMessage(messages.readMore)}
-                </a>
+                </Link>
               </p>
             </li>
           )}
