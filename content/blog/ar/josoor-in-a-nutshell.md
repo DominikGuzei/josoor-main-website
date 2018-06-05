@@ -4,7 +4,7 @@ title: josoor-in-a-nutshell
 headline: جسور باختصار
 subtitle: جسور باختصار
 author: ناتالي زرزور
-date: 2018-06-05
+date: 2018-06-06
 readable_date: ١ حزيران ٢٠١٨
 published: false
 image: /images/three-people-laughing-at-smartphone.jpg
