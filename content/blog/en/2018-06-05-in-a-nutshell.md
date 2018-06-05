@@ -4,7 +4,7 @@ title: josoor-in-a-nutshell
 headline: Josoor in a Nutshell
 subtitle: 'Uniting Refugees & Supporters '
 author: Natalie Zarzour
-date: 'June 4, 2018'
+date: 'June 5, 2018'
 image: /images/josoor-answers.png
 teaser: >-
   For the vision of a world where refugees feel at home wherever they are, we
