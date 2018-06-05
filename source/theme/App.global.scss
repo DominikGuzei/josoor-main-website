@@ -61,6 +61,7 @@ button {
 // ============ BASE ===========
 
 html {
+  position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -73,13 +74,16 @@ html, body, :global(#app), :global(#app) > [data-reactroot] {
   font-family: "Times New Roman", serif;
 }
 
+body {
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
   padding-bottom: $theme-footer-height * 2;
-  position: relative;
   &.loading {
     display: none;
   }
