@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Head from "react-helmet";
+import { defineMessages, intlShape } from 'react-intl';
+import ProgressiveImage from "react-progressive-image-loading";
+import headerImagePreview from '../../assets/home/header-preview.jpg';
+import headerImage from '../../assets/home/header.jpg';
 import josoorVerticalLogo from '../../theme/images/josoor-logo-vertical-white.svg';
 import styles from './Home.scss';
-import { defineMessages, intlShape } from 'react-intl';
 import JoinUsButton from '../shared/JoinUsButton';
 import ProjectsSection from './home/ProjectsSection';
 import JoinUsSection from '../shared/JoinUsSection';
@@ -66,16 +69,25 @@ export default class Home extends Component {
           <meta property="og:image:height" content="630" />
         </Head>
         <div>
-          <div className={styles.header}>
-            <img className={styles.logo} src={josoorVerticalLogo} alt="Josoor Logo" />
-            <h1 className={styles.headline}>
-              {intl.formatMessage(messages.headline)}
-            </h1>
-            <div className={styles.pitch}>
-              {intl.formatMessage(messages.pitch)}
-            </div>
-            <JoinUsButton />
-          </div>
+          <ProgressiveImage
+            preview={headerImagePreview}
+            src={headerImage}
+            transitionTime={100}
+            transitionFunction="ease-in-out"
+            render={(src, style) => (
+              <div className={styles.header} style={Object.assign(style, { backgroundImage: `url(${src})` })}>
+                <img className={styles.logo} src={josoorVerticalLogo} alt="Josoor Logo" />
+                <h1 className={styles.headline}>
+                  {intl.formatMessage(messages.headline)}
+                </h1>
+                <div className={styles.pitch}>
+                  {intl.formatMessage(messages.pitch)}
+                </div>
+                <JoinUsButton />
+              </div>
+            )}
+          />
+
 
           <div className={styles.projectsSection}>
             <ProjectsSection />
