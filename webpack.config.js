@@ -9,7 +9,8 @@ import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const IS_STATIC = process.env.PHENOMIC_ENV === 'static';
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
-const DEPLOY_URL = IS_PRODUCTION ? (
+const IS_MASTER = process.env.CONTEXT === 'production';
+const DEPLOY_URL = IS_MASTER ? (
   JSON.stringify(process.env.URL)
 ) : (
   JSON.stringify(process.env.DEPLOY_URL || 'http://localhost:3333')
