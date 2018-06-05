@@ -4,7 +4,7 @@ title: josoor-in-a-nutshell
 headline: Josoor in a Nutshell
 subtitle: 'Uniting Refugees & Supporters '
 author: Natalie Zarzour
-date: 2018-06-06
+date: 2018-06-06T00:00:00.000Z
 readable_date: 'June 6, 2018'
 published: false
 image: /images/three-people-laughing-at-smartphone.jpg
@@ -31,8 +31,6 @@ Josoor Answers is an online platform connecting refugees & supporters to exchang
 
 By asking and answering questions, users automatically contribute to building the largest database of information for everybody involved in the global refugee crisis.
 
-
-
 ## Josoor Connect
 
 With Josoor Connect, we bring the Josoor community offline to connect “in real life”.
@@ -42,8 +40,6 @@ The biggest challenge for refugees in their new homes is to rebuild a social lif
 With the help of local representatives called “Ambassadors” we can build strong, active and inclusive local communities all over the world, connected in the global Josoor community. 
 
 All members of Josoor are welcome to attend monthly events and mingle with other refugees and supporters to find human connection and support, spend a fun time and make new friends.
-
-
 
 ## When will it be launched?
 
@@ -55,16 +51,12 @@ While working on fund applications, searching for grants and collecting donation
 
 If everything goes well and we receive the funds necessary, we will start with the first events of Josoor Connect in September and start developing Josoor Answers in October. 
 
-
-
 ## What can you do to support Josoor?
 
-* **Share, share share!**\
-  The more people know about and follow Josoor, the more money we can generate in the crowdfunding campaign in August
-  https://www.facebook.com/josoor.net/ 
-
-* **Donate**\
+* **Share, share share!**
+  The more people know about and follow Josoor, the more money we can generate in the crowdfunding campaign in August <https://www.facebook.com/josoor.net>
+* **Donate**
   Developing Josoor Answers is costly. Since we are and will stay independent from governments and political parties, we rely on civil society - you! - to generate the funds needed.
-* **Donate your skills & time**\
-  Apart from donating your time to spread the word about Josoor, we are still looking for volunteers with specific skills.\
-  E- mail us to info@josoor.net !
+* **Donate your skills & time**
+  Apart from donating your time to spread the word about Josoor, we are still looking for volunteers with specific skills.
+  E-mail us to <mailto:info@josoor.net>!
