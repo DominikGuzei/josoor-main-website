@@ -2,9 +2,9 @@
 language: de
 title: josoor-in-a-nutshell
 headline: 'Josoor: kurz erklärt'
-subtitle: Flüchtlinge & Freiwillige vereinen
+subtitle: Flüchtlinge & Freiwillige vernetzen
 author: Natalie Gruber
-date: 03.06.2018
+date: 05.06.2018
 image: /images/refugees.jpg
 teaser: >-
   Für die Vision einer Welt, in der sich Flüchtlinge daheim fühlen, wo auch
