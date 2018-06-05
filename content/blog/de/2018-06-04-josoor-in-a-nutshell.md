@@ -56,7 +56,7 @@ Während wir uns um Fördergelder bewerben, an unserer Reichweite arbeiten und S
   Je mehr Menschen Josoor kennen und uns "liken", desto mehr Geld können wir in der Crowdfunding-Kampagne im August sammeln
   https://www.facebook.com/josoor.deutsch/
 * **Spenden**
-  Die Entwicklung einer Plattform wie Josoor Answers ist teuer. Wir verlassen uns größtenteils auf die Zivilgesellschaft, also dich, um das nötige Geld zu bekommen. Ab sofort kannst du für Josoor Spenden!
+  Die Entwicklung von Josoor Answers ist teuer. Wir verlassen uns größtenteils auf die Zivilgesellschaft, also dich, um das nötige Geld zu bekommen. Ab sofort kannst du für Josoor Spenden!
 * **Zeit spenden** 
   Wir suchen noch Freiwillige mit speziellen Fähigkeiten. Du bist erfahrene\*r Webentwickler\*in? Oder hast ein Talent im Schreiben von Förderanträgen? Werde Teil unseres Teams! \
-  Schreib uns an info@josoor.net
+  Schreib uns an info@josoor.net!
