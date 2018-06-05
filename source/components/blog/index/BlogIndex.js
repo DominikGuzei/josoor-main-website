@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import { defineMessages, intlShape } from 'react-intl';
 import Head from "react-helmet";
+import ProgressiveImage from 'react-progressive-image-loading';
 import styles from './BlogIndex.scss';
 import BlogPostsList from "./BlogPostsList";
 import JoinUsSection from '../../shared/JoinUsSection';
+import headerImagePreview from '../../../assets/home/header-preview.jpg';
+import headerImage from '../../../assets/home/header.jpg';
 
 const messages = defineMessages({
   title: {
@@ -37,14 +40,25 @@ export default class BlogIndex extends Component {
         </Head>
         <div className={styles.blog}>
 
-          <div className={styles.header}>
-            <h1 className={styles.headline}>
-              {intl.formatMessage(messages.headline)}
-            </h1>
-            <div className={styles.pitch}>
-              {intl.formatMessage(messages.subline)}
-            </div>
-          </div>
+          <ProgressiveImage
+            preview={headerImagePreview}
+            src={headerImage}
+            transitionTime={100}
+            transitionFunction="ease-in-out"
+            render={(src, style) => (
+              <div
+                className={styles.header}
+                style={Object.assign(style, { backgroundImage: `url(${src})` })}
+              >
+                <h1 className={styles.headline}>
+                  {intl.formatMessage(messages.headline)}
+                </h1>
+                <div className={styles.pitch}>
+                  {intl.formatMessage(messages.subline)}
+                </div>
+              </div>
+            )}
+          />
 
           {node && (
             <BlogPostsList

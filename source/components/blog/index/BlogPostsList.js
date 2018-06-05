@@ -6,6 +6,7 @@ import { defineMessages, intlShape } from 'react-intl';
 import { Link } from 'react-router';
 import { buildRoute } from '../../../utils/routing';
 
+
 const messages = defineMessages({
   readMore: {
     id: 'blog.readMore',

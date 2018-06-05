@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Head from "react-helmet";
 import { defineMessages, intlShape } from 'react-intl';
-import ProgressiveImage from "react-progressive-image-loading";
+import ProgressiveImage from 'react-progressive-image-loading';
 import headerImagePreview from '../../assets/home/header-preview.jpg';
 import headerImage from '../../assets/home/header.jpg';
 import josoorVerticalLogo from '../../theme/images/josoor-logo-vertical-white.svg';
@@ -135,7 +135,10 @@ export default class Home extends Component {
             transitionTime={100}
             transitionFunction="ease-in-out"
             render={(src, style) => (
-              <div className={styles.whatWeDoSection} style={Object.assign(style, { backgroundImage: `url(${src})` })}>
+              <div
+                className={styles.whatWeDoSection}
+                style={Object.assign(style, { backgroundImage: `url(${src})` })}
+              >
                 <WhatWeDoSection />
               </div>
             )}
