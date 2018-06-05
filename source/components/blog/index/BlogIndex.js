@@ -43,6 +43,7 @@ export default class BlogIndex extends Component {
           <ProgressiveImage
             preview={headerImagePreview}
             src={headerImage}
+            initialBlur={1}
             transitionTime={0}
             render={(src, style) => (
               <div

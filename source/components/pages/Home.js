@@ -74,6 +74,7 @@ export default class Home extends Component {
           <ProgressiveImage
             preview={headerImagePreview}
             src={headerImage}
+            initialBlur={1}
             transitionTime={0}
             render={(src, style) => (
               <div className={styles.header} style={Object.assign(style, { backgroundImage: `url(${src})` })}>
@@ -133,6 +134,7 @@ export default class Home extends Component {
           <ProgressiveImage
             preview={headerImagePreview}
             src={headerImage}
+            initialBlur={1}
             transitionTime={0}
             render={(src, style) => (
               <div
