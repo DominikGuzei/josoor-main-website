@@ -5,7 +5,7 @@ headline: 'Josoor: kurz erklärt'
 subtitle: Flüchtlinge & Freiwillige vernetzen
 author: Natalie Gruber
 date: 05.06.2018
-image: /images/refugees.jpg
+image: /images/three-people-laughing-at-smartphone.jpg
 teaser: >-
   Für die Vision einer Welt, in der sich Flüchtlinge daheim fühlen, wo auch
   immer sie sind, entwickeln wir ein Netzwerk für Flüchtlinge und Freiwillige.

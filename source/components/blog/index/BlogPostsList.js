@@ -27,7 +27,7 @@ export default class BlogPostsList extends Component {
         <ul className={styles.postsList}>
           {posts.map(post =>
             <li className={styles.post} key={post.id}>
-              <BlogPostHeader post={post} hasTitleLink />
+              <BlogPostHeader post={post} language={intl.locale} hasTitleLink />
               <Link to={buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: post.id.substring(3) })}>
                 <img className={styles.postImage} src={post.image} alt="Blog post title image" />
               </Link>

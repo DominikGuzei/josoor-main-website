@@ -9,6 +9,11 @@ import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const IS_STATIC = process.env.PHENOMIC_ENV === 'static';
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+const DEPLOY_URL = IS_PRODUCTION ? (
+  JSON.stringify(process.env.URL)
+) : (
+  JSON.stringify(process.env.DEPLOY_URL || 'http://localhost:3333')
+);
 
 module.exports = (config) => ({
   devtool: IS_PRODUCTION ? 'false' : 'cheap-module-eval-source-map',
@@ -86,7 +91,7 @@ module.exports = (config) => ({
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
         CONTEXT: JSON.stringify(process.env.CONTEXT || 'development'),
         CMS: JSON.stringify(process.env.CMS || false),
-        DEPLOY_URL: JSON.stringify(process.env.DEPLOY_URL || 'http://localhost:3333'),
+        DEPLOY_URL,
       },
     }),
     new ExtractTextPlugin({
