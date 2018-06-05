@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 import styles from './BlogPostHeader.scss';
 import { ROUTES } from '../../routes';
 import { buildRoute } from '../../utils/routing';
@@ -11,9 +10,10 @@ export default class BlogPostHeader extends Component {
     return (
       <div>
         {hasTitleLink ? (
-          <Link className={styles.title} to={buildRoute(ROUTES.BLOG.POST, { language, id: post.id.substring(3) })}>
+          <a className={styles.title}
+             href={buildRoute(ROUTES.BLOG.POST, { language, id: post.id.substring(3) })}>
             {post.headline}
-          </Link>
+          </a>
         ) : (
           <h1 className={styles.title}>{post.headline}</h1>
         )}

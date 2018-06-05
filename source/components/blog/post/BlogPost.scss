@@ -21,6 +21,17 @@
   strong {
     font-family: $theme-font-sans-bold;
   }
+
+  .teaser {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #eee;
+    font-family: $theme-font-sans-light;
+    line-height: 1.5em;
+    font-size: 18px;
+    text-align: center;
+  }
 }
 
 .blogHeader {

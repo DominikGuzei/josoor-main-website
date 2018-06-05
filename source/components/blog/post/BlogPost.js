@@ -52,6 +52,11 @@ export default class BlogPost extends Component {
         </div>
         <div className={styles.content}>
           <BlogPostHeader post={post} hasTitleLink={false} />
+
+          <p className={styles.teaser}>
+            {post.teaser}
+          </p>
+
           <BodyRenderer>{post.body}</BodyRenderer>
 
           <footer>
