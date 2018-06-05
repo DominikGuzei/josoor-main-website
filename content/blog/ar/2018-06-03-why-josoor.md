@@ -3,7 +3,7 @@ language: ar
 title: لماذا-جسور؟
 headline: لماذا جسور؟
 subtitle: تحويل الأزمات إلى فرص إيجابية
-author: Natalie Gruber
+author: Natalie Zarzour
 date: ٤ حزيران ٢٠١٨
 image: /images/refugee-fence-rise-above.jpg
 teaser: >-
