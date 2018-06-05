@@ -15,7 +15,6 @@ import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
 import ChallengesSupportersSection from './home/ChallengesSupportersSection';
 import WhatWeDoSection from './home/WhatWeDoSection';
 import environment from '../../environment';
-import { getLanguageByParentLocale } from '../../i18n';
 
 const messages = defineMessages({
   title: {
@@ -72,8 +71,7 @@ export default class Home extends Component {
           <ProgressiveImage
             preview={headerImagePreview}
             src={headerImage}
-            transitionTime={100}
-            transitionFunction="ease-in-out"
+            transitionTime={0}
             render={(src, style) => (
               <div className={styles.header} style={Object.assign(style, { backgroundImage: `url(${src})` })}>
                 <img className={styles.logo} src={josoorVerticalLogo} alt="Josoor Logo" />
@@ -132,8 +130,7 @@ export default class Home extends Component {
           <ProgressiveImage
             preview={headerImagePreview}
             src={headerImage}
-            transitionTime={100}
-            transitionFunction="ease-in-out"
+            transitionTime={0}
             render={(src, style) => (
               <div
                 className={styles.whatWeDoSection}
