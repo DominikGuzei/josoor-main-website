@@ -3,7 +3,7 @@ language: de
 title: why-josoor
 headline: Warum Josoor?
 subtitle: Krisen in Chancen verwandeln
-author: Natalie Gruber
+author: Natalie Zarzour
 date: 4. Juni 2018
 image: /images/refugee-fence-rise-above.jpg
 teaser: >-
