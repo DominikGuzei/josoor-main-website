@@ -223,28 +223,31 @@ collections:
       - label: URL Slug
         name: title
         widget: string
-      - label: Titel
+      - label: Title
         name: headline
         widget: string
-      - label: Untertitel
+      - label: Subtitle
         name: subtitle
         widget: string
-      - label: Autor
+      - label: Author
         name: author
         widget: string
-      - label: Datum
+      - label: Date
         name: date
         widget: date
-      - label: Lesbares Datum
+      - label: Readable Date
         name: readable_date
         widget: string
-      - label: Bild
+      - label: Published
+        name: published
+        widget: boolean
+      - label: Feature Image
         name: image
         widget: image
-      - label: Einleitung
+      - label: Teaser
         name: teaser
         widget: string
-      - label: Artikel
+      - label: Body
         name: body
         widget: markdown
   - name: blog-en
@@ -279,7 +282,10 @@ collections:
       - label: Readable Date
         name: readable_date
         widget: string
-      - label: image
+      - label: Published
+        name: published
+        widget: boolean
+      - label: Feature Image
         name: image
         widget: image
       - label: teaser
@@ -320,10 +326,13 @@ collections:
       - label: Readable Date
         name: readable_date
         widget: string
-      - label: image
+      - label: Published
+        name: published
+        widget: boolean
+      - label: Feature Image
         name: image
         widget: image
-      - label: teaser
+      - label: Teaser
         name: teaser
         widget: string
       - label: Body
