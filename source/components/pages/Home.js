@@ -129,9 +129,17 @@ export default class Home extends Component {
             <ChallengesSupportersSection />
           </div>
 
-          <div className={styles.whatWeDoSection}>
-            <WhatWeDoSection />
-          </div>
+          <ProgressiveImage
+            preview={headerImagePreview}
+            src={headerImage}
+            transitionTime={100}
+            transitionFunction="ease-in-out"
+            render={(src, style) => (
+              <div className={styles.whatWeDoSection} style={Object.assign(style, { backgroundImage: `url(${src})` })}>
+                <WhatWeDoSection />
+              </div>
+            )}
+          />
 
           <div className={styles.joinUsSection}>
             <JoinUsSection />
