@@ -1,6 +1,6 @@
 ---
 language: en
-title: in-a-nutshell
+title: josoor-in-a-nutshell
 headline: Josoor in a Nutshell
 subtitle: 'Uniting Refugees & Supporters '
 author: Natalie Zarzour
