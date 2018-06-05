@@ -40,9 +40,11 @@ export default class DisclosureBox extends Component {
         >
           {summary()}
         </div>
-        <div className={styles.details}>
-          {details()}
-        </div>
+        {this.state.isOpen && (
+          <div className={styles.details}>
+            {details()}
+          </div>
+        )}
       </div>
     )
   }
