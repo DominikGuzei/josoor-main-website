@@ -1,6 +1,6 @@
 ---
 language: ar
-title: Josoor-in-a-nutshell
+title: josoor-in-a-nutshell
 headline: جسور باختصار
 subtitle: جسور باختصار
 author: ناتالي زرزور
