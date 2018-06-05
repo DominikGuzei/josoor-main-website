@@ -15,7 +15,7 @@ const messages = defineMessages({
 
 const byIsPublished = (post) => {
   // Only in production we filter the posts by the `published` flag
-  // if (process.env.CONTEXT !== 'production') return true;
+  if (process.env.CONTEXT !== 'production') return true;
   return post.published === true;
 };
 
