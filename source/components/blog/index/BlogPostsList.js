@@ -13,6 +13,12 @@ const messages = defineMessages({
   },
 });
 
+const byIsPublished = (post) => {
+  // Only in production we filter the posts by the `published` flag
+  // if (process.env.CONTEXT !== 'production') return true;
+  return post.published === true;
+};
+
 export default class BlogPostsList extends Component {
 
   static contextTypes = {
@@ -25,7 +31,7 @@ export default class BlogPostsList extends Component {
     return (
       <div className={styles.root}>
         <ul className={styles.postsList}>
-          {posts.map(post =>
+          {posts.filter(byIsPublished).map(post =>
             <li className={styles.post} key={post.id}>
               <BlogPostHeader post={post} language={intl.locale} hasTitleLink />
               <Link to={buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: post.id.substring(3) })}>

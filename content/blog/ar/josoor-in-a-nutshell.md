@@ -6,6 +6,7 @@ subtitle: جسور باختصار
 author: ناتالي زرزور
 date: 2018-06-05
 readable_date: ١ حزيران ٢٠١٨
+published: false
 image: /images/three-people-laughing-at-smartphone.jpg
 teaser: >-
   لتحقيق رؤية عالم يشعر فيه اللاجئون في المنزل أينما كانوا ، فإننا نعمل على بناء

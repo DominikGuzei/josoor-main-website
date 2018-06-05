@@ -6,6 +6,7 @@ subtitle: تحويل الأزمات إلى فرص إيجابية
 author: Natalie Zarzour
 date: 2018-06-04
 readable_date: ٤ حزيران ٢٠١٨
+published: true
 image: /images/refugee-fence-rise-above.jpg
 teaser: >-
   اضطر أكثر من ٦٥ مليون شخص إلى ترك كل شيء وراءهم. وهناك ملايين الناس الذين

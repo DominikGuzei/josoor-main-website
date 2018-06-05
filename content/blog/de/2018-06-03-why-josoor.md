@@ -6,6 +6,7 @@ subtitle: Krisen in Chancen verwandeln
 author: Natalie Zarzour
 date: 2018-06-04
 readable_date: 4. Juni 2018
+published: true
 image: /images/refugee-fence-rise-above.jpg
 teaser: >-
   Über 65 Millionen Menschen mussten ihre Heimat verlassen. In ihrem neuen
