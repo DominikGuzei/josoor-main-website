@@ -23,6 +23,7 @@ export default class WhatYouCanDoSection extends Component {
   };
 
   render() {
+    const { shareUrl } = this.props;
     const { intl } = this.context;
     const locale = getLanguageByParentLocale(intl.locale).locale;
 
@@ -49,7 +50,7 @@ export default class WhatYouCanDoSection extends Component {
             <div className={styles.facebookShare}>
               <FacebookButton
                 locale={locale}
-                url={location.href}
+                url={shareUrl}
                 layout="button_count"
                 share={true}
               />

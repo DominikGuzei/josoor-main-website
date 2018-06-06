@@ -147,7 +147,7 @@ export default class Home extends Component {
             )}
           />
 
-          <WhatYouCanDoSection />
+          <WhatYouCanDoSection shareUrl={`${environment.URL}/${intl.locale}/`} />
 
           <div className={styles.joinUsSection}>
             <JoinUsSection />

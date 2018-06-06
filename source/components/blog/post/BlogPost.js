@@ -31,12 +31,13 @@ export default class BlogPost extends Component {
     if (isLoading || !post || !post.node) return null;
     post = post.node;
     const postId = post.filename.substring(0, post.filename.indexOf('.md'));
+    const shareUrl = `${environment.URL}${buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: postId })}`;
     return (
       <div className={styles.root}>
         <Head>
           <title>{post.headline}</title>
           <meta name="description" content={post.teaser} />
-          <meta property="og:url" content={`${environment.URL}${buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: postId })}`} />
+          <meta property="og:url" content={shareUrl} />
           <meta property="og:type" content="article" />
           <meta property="og:title" content={post.headline} />
           <meta property="og:description" content={post.teaser} />
@@ -68,7 +69,8 @@ export default class BlogPost extends Component {
 
         </div>
 
-        <WhatYouCanDoSection />
+        <WhatYouCanDoSection shareUrl={shareUrl} />
+
         <JoinUsSection />
       </div>
     );
