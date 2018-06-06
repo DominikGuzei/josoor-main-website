@@ -9,6 +9,7 @@ import LocaleAwareLink from '../../shared/LocaleAwareLink';
 import JoinUsSection from '../../shared/JoinUsSection';
 import environment from '../../../environment';
 import { buildRoute } from '../../../utils/routing';
+import WhatYouCanDoSection from '../../pages/home/WhatYouCanDoSection';
 
 const messages = defineMessages({
   backHomeLink: {
@@ -67,9 +68,8 @@ export default class BlogPost extends Component {
 
         </div>
 
-        <div className={styles.joinUsSection}>
-          <JoinUsSection />
-        </div>
+        <WhatYouCanDoSection />
+        <JoinUsSection />
       </div>
     );
   }

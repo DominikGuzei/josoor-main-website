@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import styles from './WhatYouCanDoSection.scss';
 import { defineMessages, intlShape } from 'react-intl';
-import environment from '../../../environment';
 import FacebookButton from '../../shared/FacebookButton';
 import { getLanguageByParentLocale, SUPPORTED_LANGUAGES, SUPPORTED_LOCALES } from '../../../i18n';
 
@@ -50,7 +49,7 @@ export default class WhatYouCanDoSection extends Component {
             <div className={styles.facebookShare}>
               <FacebookButton
                 locale={locale}
-                url={`${environment.URL}/${intl.locale}`}
+                url={location.href}
                 layout="button_count"
                 share={true}
               />
