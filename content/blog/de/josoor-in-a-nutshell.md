@@ -4,25 +4,25 @@ title: josoor-in-a-nutshell
 headline: 'Josoor: kurz erklärt'
 subtitle: Flüchtlinge & Freiwillige vernetzen
 author: Natalie Gruber
-date: 2018-06-06
+date: 2018-06-06T00:00:00.000Z
 readable_date: 6. Juni 2018
 published: true
 image: /images/three-people-laughing-at-smartphone.jpg
 teaser: >-
   Für die Vision einer Welt, in der sich Flüchtlinge daheim fühlen, wo auch
-  immer sie sind, entwickeln wir ein Netzwerk für Flüchtlinge und Freiwillige.
-  Beginnend mit einer Online-Plattform zum Informationsaustausch und einer App
-  zur Organisation lokaler Communities, entwickeln wir verschiedene Instrumente,
-  die allen an der globalen Flüchtlingskrise Beteiligten das Leben leichter
-  machen sollen.
+  immer sie sind, entwickeln wir eine Community Plattform für Flüchtlinge und
+  Freiwillige. Beginnend mit einer Plattform zum Informationsaustausch und einer
+  App zur Organisation lokaler Communities, entwickeln wir verschiedene
+  Instrumente, die allen an der globalen Flüchtlingskrise Beteiligten das Leben
+  leichter machen sollen.
 ---
 ## Was ist Josoor?
 
-Josoor ist ein gemeinnütziger Verein, der Instrumente entwickelt, die es Flüchtlingen und Freiwilligen ermöglichen, sich zu vernetzen, auszutauschen und einander zu helfen. 
+Josoor ist ein gemeinnütziger Verein, der Apps entwickelt, die es Flüchtlingen und Freiwilligen ermöglichen, sich zu vernetzen, auszutauschen und einander zu helfen. 
 
 Für die Vision einer Welt, in der sich Flüchtlinge daheim fühlen, wo auch immer sie sind, arbeitet unser Team an einer Community- Plattform für Flüchtlinge und Freiwillige weltweit.
 
-Josoor Answers und Josoor Connect sind die ersten von mehreren Instrumente, die allen an der globalen Flüchtlingskrise Beteiligten das Leben leichter machen und ihnen ermöglichen sollen, ihr volles Potenzial zu entfalten.
+Josoor Answers und Josoor Connect sind die ersten von mehreren Apps, die allen an der globalen Flüchtlingskrise Beteiligten das Leben leichter machen und ihnen ermöglichen sollen, ihr volles Potenzial zu entfalten.
 
 ## Josoor Answers
 
