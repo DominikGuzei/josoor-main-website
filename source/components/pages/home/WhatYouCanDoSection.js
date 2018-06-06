@@ -61,11 +61,19 @@ export default class WhatYouCanDoSection extends Component {
               <input type="hidden" name="hosted_button_id" value="CBJ9AFPJX8UGN" />
               <input
                 type="image"
-                src={`https://www.paypalobjects.com/${paypalLocale}/i/btn/btn_donate_SM.gif`}
+                src={`https://www.paypalobjects.com/${paypalLocale}/i/btn/btn_donateCC_LG.gif`}
                 border="0"
                 name="submit"
               />
             </form>
+
+            <p className={styles.bankDetails}>
+              Josoor<br />
+              Erste Bank<br />
+              IBAN: AT03 2011 1828 1446 5000<br />
+              BIC/SWIFT: GIBAATWWXXX<br />
+            </p>
+
           </Col>
         </Row>
       </Grid>
