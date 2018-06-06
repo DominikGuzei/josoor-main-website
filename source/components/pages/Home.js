@@ -15,6 +15,7 @@ import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
 import ChallengesSupportersSection from './home/ChallengesSupportersSection';
 import WhatWeDoSection from './home/WhatWeDoSection';
 import environment from '../../environment';
+import WhatYouCanDoSection from './home/WhatYouCanDoSection';
 
 const messages = defineMessages({
   title: {
@@ -145,6 +146,8 @@ export default class Home extends Component {
               </div>
             )}
           />
+
+          <WhatYouCanDoSection />
 
           <div className={styles.joinUsSection}>
             <JoinUsSection />

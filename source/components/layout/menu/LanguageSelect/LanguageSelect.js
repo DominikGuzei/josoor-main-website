@@ -25,9 +25,7 @@ export default class LanguageSelect extends Component {
     const { router, intl } = this.context;
     const currentPath = router.location.pathname;
     const currentLocale = intl.locale;
-    browserHistory.push({
-      pathname: currentPath.replace(new RegExp(`^/${currentLocale}`), `/${value}`)
-    });
+    location = currentPath.replace(new RegExp(`^/${currentLocale}`), `/${value}`);
   };
 
   render() {
