@@ -6,7 +6,7 @@ subtitle: 'Uniting Refugees & Supporters '
 author: Natalie Zarzour
 date: 2018-06-06T00:00:00.000Z
 readable_date: 'June 6, 2018'
-published: false
+published: true
 image: /images/three-people-laughing-at-smartphone.jpg
 teaser: >-
   For the vision of a world where refugees feel at home wherever they are, we
