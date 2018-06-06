@@ -71,7 +71,9 @@ export default class BlogPost extends Component {
 
         <WhatYouCanDoSection shareUrl={shareUrl} />
 
-        <JoinUsSection />
+        <div className={styles.joinUsSection}>
+          <JoinUsSection />
+        </div>
       </div>
     );
   }
