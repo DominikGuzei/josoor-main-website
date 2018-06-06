@@ -1,0 +1,25 @@
+@import "../../../theme/polymorph/custom/_config";
+
+.root {
+  padding-bottom: 4em;
+  border-bottom: 1px solid #eee;
+}
+
+.headline {
+  margin-bottom: 0.5em;
+}
+
+.description {
+  p {
+    margin-bottom: 1.5em;
+  }
+}
+
+.facebookShare {
+  margin-bottom: 20px;
+}
+
+.bankDetails {
+  margin-top: 20px;
+  font-size: 15px;
+}

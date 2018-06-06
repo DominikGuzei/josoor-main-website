@@ -13,7 +13,7 @@ const IS_MASTER = process.env.CONTEXT === 'production';
 const DEPLOY_URL = IS_MASTER ? (
   JSON.stringify(process.env.URL)
 ) : (
-  JSON.stringify(process.env.DEPLOY_URL || 'http://localhost:3333')
+  JSON.stringify(process.env.DEPLOY_PRIME_URL || 'http://localhost:3333')
 );
 
 module.exports = (config) => ({
