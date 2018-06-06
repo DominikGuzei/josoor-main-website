@@ -10,10 +10,10 @@ published: true
 image: /images/three-people-laughing-at-smartphone.jpg
 teaser: >-
   For the vision of a world where refugees feel at home wherever they are, we
-  are working on a community platform for refugees & supporters. Starting with
-  an online platform to exchange information and local communities to connect
-  with others, we build several tools to empower everyone involved in the global
-  refugee crisis.
+  develop a community platform for refugees & supporters with several
+  applications. Starting with an online platform to exchange information and
+  local communities to connect with others, we empower everyone involved in the
+  global refugee crisis.
 ---
 ## What is Josoor?
 
@@ -21,7 +21,7 @@ Josoor is a non-profit Organisation developing tools to enable refugees & local 
 
 United by the vision of a world where refugees feel at home wherever they are, our team is working on a community platform for refugees & supporters all over the world. 
 
-Starting with Josoor Answers and Josoor Connect, we will build several tools to empower  everybody involved in the global refugee crisis so they can realise their full potential.
+Starting with Josoor Answers and Josoor Connect, we will build applications to empower  everybody involved in the global refugee crisis so they can realise their full potential.
 
 ## Josoor Answers
 
