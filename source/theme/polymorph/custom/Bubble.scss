@@ -1,5 +1,6 @@
 @import "_config";
 // Theme config overrides go here …
+$bubble-border-color: transparent;
 $bubble-border-radius: 0;
 @import "~react-polymorph/lib/themes/simple/SimpleBubble";
 // Css module overrides go here …
