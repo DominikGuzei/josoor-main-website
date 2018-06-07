@@ -3,7 +3,7 @@ import { browserHistory } from 'react-router';
 import Route from 'route-parser';
 
 export const mergeLocations = (current, next) => (
-  merge(pick(current, ['pathname', 'query', 'hash']), next)
+  merge(pick(current, ['pathname', 'query']), next)
 );
 
 let originalPush;
