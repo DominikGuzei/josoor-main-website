@@ -24,6 +24,11 @@ $select-down-arrow-position-bottom: 8px;
   }
 }
 
+[dir="rtl"] .select {
+  width: 100%;
+  margin-left: 0;
+}
+
 .selectInput {
   input {
     border: none;

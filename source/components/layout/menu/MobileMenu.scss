@@ -30,6 +30,7 @@
 
     a {
       padding-left: 8px;
+      padding-right: 17px;
       font-family: $theme-font-sans-bold;
     }
   }
@@ -58,11 +59,16 @@
 .closeIcon {
   position: absolute;
   top: 20px;
-  right: 20px;
+  right: 43px;
   width: 17px;
   height: 17px;
   background: url('../../../theme/images/layout/menu/mobile-menu-close-icon.svg') center no-repeat;
   cursor: pointer;
+}
+
+[dir="rtl"] .closeIcon {
+  right: initial;
+  left: 50px;
 }
 
 // ======= STATES ========

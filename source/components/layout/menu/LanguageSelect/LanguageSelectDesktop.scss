@@ -15,7 +15,7 @@ $select-down-arrow-position-bottom: 6px;
 // Css module overrides go here …
 
 .select {
-  width: 7em;
+  width: 9em;
 
   :global {
     .SimpleBubble_bubble {
@@ -26,6 +26,9 @@ $select-down-arrow-position-bottom: 6px;
     }
     .SimpleOptions_option.SimpleOptions_selectedOption:after {
       display: none;
+    }
+    .Options_label {
+      padding-top: 4px;
     }
   }
 }

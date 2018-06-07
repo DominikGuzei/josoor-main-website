@@ -5,10 +5,11 @@ import { browserHistory } from 'react-router';
 import { IntlProvider } from 'react-intl';
 import translations from '../i18n/translations';
 import { parseRoute } from '../utils/routing';
+import { ThemeProvider } from 'react-polymorph/lib/components';
+import theme from '../theme/polymorph/theme';
 import {
   defaultLanguage,
   setupLocaleData,
-  getLanguageByLocale,
   SUPPORTED_LANGUAGES,
   SUPPORTED_LOCALES
 } from '../i18n';
@@ -50,9 +51,11 @@ export default class Provider extends Component {
         <Head>
            <body dir={readDirection} />
         </Head>
-        <IntlProvider {...{ locale, key: locale, messages: translations[locale] }}>
-          {children}
-        </IntlProvider>
+        <ThemeProvider theme={theme}>
+          <IntlProvider {...{ locale, key: locale, messages: translations[locale] }}>
+            {children}
+          </IntlProvider>
+        </ThemeProvider>
       </Fragment>
     );
   }

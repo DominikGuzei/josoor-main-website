@@ -1,14 +1,16 @@
+import simpleTheme from 'react-polymorph/lib/themes/simple';
+import { IDENTIFIERS } from 'react-polymorph/lib/themes/API';
 import InputTheme from './custom/Input.scss';
 import BubbleTheme from './custom/Bubble.scss';
 import OptionsTheme from './custom/Options.scss';
 import SelectTheme from './custom/Select.scss';
 
-export default {
-  input: { ...InputTheme },
-  bubble: { ...BubbleTheme },
-  options: { ...OptionsTheme },
-  select: { ...SelectTheme },
-}
+export default Object.assign(simpleTheme, {
+  [IDENTIFIERS.INPUT]: { ...InputTheme },
+  [IDENTIFIERS.BUBBLE]: { ...BubbleTheme },
+  [IDENTIFIERS.OPTIONS]: { ...OptionsTheme },
+  [IDENTIFIERS.SELECT]: { ...SelectTheme },
+})
 
 // import {
 //   SELECT, INPUT, FORM_FIELD, CHECKBOX, SWITCH, MODAL,
