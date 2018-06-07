@@ -13,6 +13,7 @@ export const pushLocation = (location) => {
   let newLocation = location;
   if (isString(newLocation)) newLocation = { pathname: newLocation };
   originalPush(mergeLocations(browserHistory.getCurrentLocation(), newLocation));
+  window.scrollTo(0, 0);
 };
 
 export const parseRoute = (pattern, route) => new Route(pattern).match(route);
