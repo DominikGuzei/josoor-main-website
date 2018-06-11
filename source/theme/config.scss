@@ -3,10 +3,10 @@ $theme-color-main-light: #eda87a;
 $theme-color-main-dark: #484c53;
 
 // FONTS
-$theme-font-sans-light: 'Tisa-Sans-Light';
-$theme-font-sans-regular: 'Tisa-Sans-Regular';
-$theme-font-sans-bold: 'Tisa-Sans-Bold';
-$theme-font-sans-medium-italic: 'Tisa-Sans-Medium-Italic';
+$theme-font-sans-light: 'Tisa-Sans-Light', Arial, Helvetica, sans-serif;
+$theme-font-sans-regular: 'Tisa-Sans-Regular', Arial, Helvetica, sans-serif;
+$theme-font-sans-bold: 'Tisa-Sans-Bold', Arial, Helvetica, sans-serif;
+$theme-font-sans-medium-italic: 'Tisa-Sans-Medium-Italic', Arial, Helvetica, sans-serif;
 
 // LAYOUT
 $theme-footer-height: 50px;
