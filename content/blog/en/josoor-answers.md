@@ -7,7 +7,7 @@ subtitle: >-
   trustworthy information
 author: Natalie Zarzour
 date: '2018-06-11'
-readable_date: 06/11/2018
+readable_date: 'June 6, 2018'
 published: true
 image: /images/josoor-answers-main-image-updated.jpg
 teaser: >-
