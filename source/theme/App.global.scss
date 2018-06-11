@@ -69,9 +69,6 @@ html {
 html, body, :global(#app), :global(#app) > [data-reactroot] {
   width: 100%;
   min-height: 100%;
-  // Make the default font ugly so we immediately see when something
-  // is not yet defined correctly in our UI
-  font-family: "Times New Roman", serif;
 }
 
 body {
@@ -87,30 +84,6 @@ body {
   &.loading {
     display: none;
   }
-}
-
-@font-face {
-  font-family: 'Tisa-Sans-Light';
-  src: url('fonts/tisa-pro/TisaSansPro-Light.woff2') format('woff2'),
-       url('fonts/tisa-pro/TisaSansPro-Light.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Tisa-Sans-Regular';
-  src: url('fonts/tisa-pro/TisaSansPro-Regular.woff2') format('woff2'),
-       url('fonts/tisa-pro/TisaSansPro-Regular.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Tisa-Sans-Bold';
-  src: url('fonts/tisa-pro/TisaSansPro-Bold.woff2') format('woff2'),
-       url('fonts/tisa-pro/TisaSansPro-Bold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Tisa-Sans-Medium-Italic';
-  src: url('fonts/tisa-pro/TisaSansPro-MediumItalic.woff2') format('woff2'),
-       url('fonts/tisa-pro/TisaSansPro-MediumItalic.woff') format('woff');
 }
 
 h1, h2 {

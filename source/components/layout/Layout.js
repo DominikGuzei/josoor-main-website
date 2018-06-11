@@ -7,9 +7,7 @@ import TopMenu from './menu/TopMenu';
 import LocaleAwareLink from '../shared/LocaleAwareLink';
 import {
   getLanguageByParentLocale,
-  getAlternateLanguagesTo
 } from '../../i18n';
-import environment from '../../environment';
 
 const messages = defineMessages({
   impressLink: {
@@ -52,6 +50,34 @@ export default class Layout extends Component {
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff" />
           <meta property="og:locale" content={currentLanguage.locale} />
+          <style type="text/css" cssText={`
+            @font-face {
+              font-family: 'Tisa-Sans-Regular';
+              src: url('/fonts/tisa-pro/TisaSansPro-Regular.woff2') format('woff2'),
+              url('/fonts/tisa-pro/TisaSansPro-Regular.woff') format('woff');
+            }
+
+            @font-face {
+              font-family: 'Tisa-Sans-Light';
+              src: url('/fonts/tisa-pro/TisaSansPro-Light.woff2') format('woff2'),
+              url('/fonts/tisa-pro/TisaSansPro-Light.woff') format('woff');
+            }
+
+            @font-face {
+              font-family: 'Tisa-Sans-Bold';
+              src: url('/fonts/tisa-pro/TisaSansPro-Bold.woff2') format('woff2'),
+              url('/fonts/tisa-pro/TisaSansPro-Bold.woff') format('woff');
+            }
+
+            @font-face {
+              font-family: 'Tisa-Sans-Medium-Italic';
+              src: url('/fonts/tisa-pro/TisaSansPro-MediumItalic.woff2') format('woff2'),
+              url('/fonts/tisa-pro/TisaSansPro-MediumItalic.woff') format('woff');
+            }
+            body {
+              font-family: 'Tisa-Sans-Regular', Arial, sans-serif;
+            }
+          `} />
         </Head>
         <TopMenu />
         <div className={styles.content}>

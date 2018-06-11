@@ -17,9 +17,9 @@ teaser: >-
 ---
 ## Das Problem der Informationsbeschaffung
 
-[90%](https://www.excell-mobility.de/wp-content/uploads/2017/11/PACIS_2017_Supporting-Refugees-in-Every-Day-Life-Intercultural-Design-Evaluation_camera-ready.pdf) [1] der Flüchtlinge sagen, ihnen fehlen Informationen.  Ob Rechtliches oder Bürokratisches, bezüglich Arbeits- oder Wohnungsmarkt: Informationen sind verstreut, widersprüchlich oder veraltet. Der Hauptgrund dafür ist die Sprachbarriere - ein weiterer ist die nicht vorhandene Übersicht darüber, wo welche Informationen auffindbar sind.
+[90%](https://www.excell-mobility.de/wp-content/uploads/2017/11/PACIS_2017_Supporting-Refugees-in-Every-Day-Life-Intercultural-Design-Evaluation_camera-ready.pdf) \[1\] der Flüchtlinge sagen, ihnen fehlen Informationen.  Ob Rechtliches oder Bürokratisches, bezüglich Arbeits- oder Wohnungsmarkt: Informationen sind verstreut, widersprüchlich oder veraltet. Der Hauptgrund dafür ist die Sprachbarriere - ein weiterer ist die nicht vorhandene Übersicht darüber, wo welche Informationen auffindbar sind.
 
-[40%](http://www.bim.hu-berlin.de/media/Studie_EFA2_BIM_11082016_V%C3%96.pdf) [2] der Zeit, die Freiwillige zur Unterstützung von Flüchtlingen einsetzen, wird für Recherche und Übersetzen von Informationen aufgewendet - wertvolle Zeit, die für sinnvollere, der Integration zuträglichere gemeinsame Aktivitäten genutzt werden könnte.
+[40%](http://www.bim.hu-berlin.de/media/Studie_EFA2_BIM_11082016_V%C3%96.pdf) \[2\] der Zeit, die Freiwillige zur Unterstützung von Flüchtlingen einsetzen, wird für Recherche und Übersetzen von Informationen aufgewendet - wertvolle Zeit, die für sinnvollere, der Integration zuträglichere gemeinsame Aktivitäten genutzt werden könnte.
 
 Sowohl Flüchtlinge als auch Freiwillige helfen sich gegenseitig indem sie Informationen online austauschen. Doch die momentan verfügbaren Plattformen sind für diesen Zweck nicht geeignet: '
 
@@ -61,10 +61,8 @@ zwei bis drei Monate Testphase sind erforderlich, bis Josoor Answers öffentlich
 Ursprünglich in arabischer, englischer und deutscher Sprache verfügbar, werden wir bald weitere Sprachen wie Dari, 
 Farsi, Französisch, Urdu, Somali hinzufügen.
 
-\
-\
-\
-\
 **Quellenangabe:**
-[1] [Maximilian Schreieck, Jonas Zitzelsberger, Sebastian Siepe, Manuel Wiesche, Helmut Krcmar: Supporting Refugees in Every Day Life – Intercultural Design Evaluation of an Application for Local Information. Twenty First Pacific Asia Conference on Information Systems, Langkawi 2017.](https://www.excell-mobility.de/wp-content/uploads/2017/11/PACIS_2017_Supporting-Refugees-in-Every-Day-Life-Intercultural-Design-Evaluation_camera-ready.pdf)
-[2] [Serhat Karakayali, J. Olaf Kleist: EFA-Studie 2: Strukturen und Motive der ehrenamtlichen Flüchtlingsarbeit in Deutschland, 2. Forschungsbericht: Ergebnisse einer explorativen Umfrage vom November/Dezember 2015, Berlin: Berliner Institut für empirische Integrations- und Migrationsforschung (BIM), Humboldt-Universität zu Berlin 2016](http://www.bim.hu-berlin.de/media/Studie_EFA2_BIM_11082016_V%C3%96.pdf)
+
+\[1\] [Maximilian Schreieck, Jonas Zitzelsberger, Sebastian Siepe, Manuel Wiesche, Helmut Krcmar: Supporting Refugees in Every Day Life – Intercultural Design Evaluation of an Application for Local Information. Twenty First Pacific Asia Conference on Information Systems, Langkawi 2017.](https://www.excell-mobility.de/wp-content/uploads/2017/11/PACIS_2017_Supporting-Refugees-in-Every-Day-Life-Intercultural-Design-Evaluation_camera-ready.pdf)
+
+\[2\] [Serhat Karakayali, J. Olaf Kleist: EFA-Studie 2: Strukturen und Motive der ehrenamtlichen Flüchtlingsarbeit in Deutschland, 2. Forschungsbericht: Ergebnisse einer explorativen Umfrage vom November/Dezember 2015, Berlin: Berliner Institut für empirische Integrations- und Migrationsforschung (BIM), Humboldt-Universität zu Berlin 2016](http://www.bim.hu-berlin.de/media/Studie_EFA2_BIM_11082016_V%C3%96.pdf)
