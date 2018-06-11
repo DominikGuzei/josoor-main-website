@@ -30,9 +30,9 @@ Both refugees and supporters help each other out by exchanging information onlin
 
 ## The solution: Josoor Answers
 
-Josoor Answers is the first online platform connecting refugees & supporters to exchange information by asking and answering questions. Its features enable users to collectively bridge the language barrier and ensure quality and trustworthiness of the content.
+Josoor Answers will be the first online platform connecting refugees & supporters to exchange information by asking and answering questions. Its features will enable users to collectively bridge the language barrier and ensure quality and trustworthiness of the content.
 
-On Josoor Answers, you can:
+On Josoor Answers, you will be able to:
 
 * Search\
   Search the database for the information you need
@@ -47,7 +47,7 @@ On Josoor Answers, you can:
 * Translate\
   Help the community bridge the language barrier by translating information
 
-By asking and answering questions, users automatically contribute to building the largest database of information for everybody involved in the global refugee crisis, accessible to everyone, everywhere and in every language.
+By asking and answering questions, users will automatically contribute to building the largest database of information for everybody involved in the global refugee crisis, accessible to everyone, everywhere and in every language.
 
 ## When will it launch?
 
