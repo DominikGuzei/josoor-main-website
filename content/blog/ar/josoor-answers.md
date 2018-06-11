@@ -7,9 +7,9 @@ subtitle: >-
   ومشاركة المعلومات الموثوقة
 author: ناتالي زرزور
 date: '2018-06-11'
-readable_date: ' ١١ حزيران ٢٠١٨'
+readable_date: ' ٢٠ حزيران ٢٠١٨'
 published: true
-image: /images/answers-image-bright.jpg
+image: /images/josoor-answers-main-image-updated.jpg
 teaser: >-
   أينما كان اللاجئون في العالم: أحد أكبر تحدياتهم هو الوصول إلى المعلومات. جسور
   إجابات  سوف تملأ تلك الفجوة - لأي شخص ، في أي مكان ، وبكل اللغات.
