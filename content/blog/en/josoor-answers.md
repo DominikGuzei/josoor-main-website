@@ -17,9 +17,9 @@ teaser: >-
 ---
 ## **The challenge**
 
-[90% ](https://www.excell-mobility.de/wp-content/uploads/2017/11/PACIS_2017_Supporting-Refugees-in-Every-Day-Life-Intercultural-Design-Evaluation_camera-ready.pdf)\[1] of refugees report a lack of information. Whether it is legal or bureaucratic, the labor or the housing market: information is scattered, contradictory, or outdated. The biggest reason for this is the language barrier - the other one is the lack of an overview of information.
+[90% ](https://www.excell-mobility.de/wp-content/uploads/2017/11/PACIS_2017_Supporting-Refugees-in-Every-Day-Life-Intercultural-Design-Evaluation_camera-ready.pdf) [1] of refugees report a lack of information. Whether it is legal or bureaucratic, the labor or the housing market: information is scattered, contradictory, or outdated. The biggest reason for this is the language barrier - the other one is the lack of an overview of information.
 
-[40%](http://www.bim.hu-berlin.de/media/Studie_EFA2_BIM_11082016_V%C3%96.pdf) \[2] of the time supporters volunteer to help refugees is thus spent on researching and translating information - valuable time that could otherwise be used for much more efficient joint activities regarding integration.
+[40%](http://www.bim.hu-berlin.de/media/Studie_EFA2_BIM_11082016_V%C3%96.pdf) [2] of the time supporters volunteer to help refugees is thus spent on researching and translating information - valuable time that could otherwise be used for much more efficient joint activities regarding integration.
 
 Both refugees and supporters help each other out by exchanging information online. But the platforms available are less than ideal for that purpose: 
 
@@ -34,17 +34,17 @@ Josoor Answers will be the first online platform connecting refugees & supporter
 
 On Josoor Answers, you will be able to:
 
-* Search\
+* **Search**
   Search the database for the information you need
-* Ask\
+* **Ask**
   If the information you are looking for is not available yet, get it by asking the community
-* Answer\
+* **Answer**
   Help fellow members by sharing your knowledge and answering their questions
-* Suggest Edits\
+* **Suggest Edits**
   Collectively, we can put all the information in once place by suggesting edits to an existing answer
-* Review\
+* **Review**
   Help review the content exchanged to ensure its relevance and quality
-* Translate\
+* **Translate**
   Help the community bridge the language barrier by translating information
 
 By asking and answering questions, users will automatically contribute to building the largest database of information for everybody involved in the global refugee crisis, accessible to everyone, everywhere and in every language.
@@ -59,6 +59,7 @@ Initially launched in Arabic, English and German, we will soon scale up by addin
 \
 \
 \
-**Sources:**\
-\[1] [Maximilian Schreieck, Jonas Zitzelsberger, Sebastian Siepe, Manuel Wiesche, Helmut Krcmar: Supporting Refugees in Every Day Life – Intercultural Design Evaluation of an Application for Local Information. Twenty First Pacific Asia Conference on Information Systems, Langkawi 2017.](https://www.excell-mobility.de/wp-content/uploads/2017/11/PACIS_2017_Supporting-Refugees-in-Every-Day-Life-Intercultural-Design-Evaluation_camera-ready.pdf)\
-\[2] [Serhat Karakayali, J. Olaf Kleist: EFA-Studie 2: Strukturen und Motive der ehrenamtlichen Flüchtlingsarbeit in Deutschland, 2. Forschungsbericht: Ergebnisse einer explorativen Umfrage vom November/Dezember 2015, Berlin: Berliner Institut für empirische Integrations- und Migrationsforschung (BIM), Humboldt-Universität zu Berlin 2016](http://www.bim.hu-berlin.de/media/Studie_EFA2_BIM_11082016_V%C3%96.pdf)
+**Sources:**
+[1] [Maximilian Schreieck, Jonas Zitzelsberger, Sebastian Siepe, Manuel Wiesche, Helmut Krcmar: Supporting Refugees in Every Day Life – Intercultural Design Evaluation of an Application for Local Information. Twenty First Pacific Asia Conference on Information Systems, Langkawi 2017.](https://www.excell-mobility.de/wp-content/uploads/2017/11/PACIS_2017_Supporting-Refugees-in-Every-Day-Life-Intercultural-Design-Evaluation_camera-ready.pdf)\
+
+[2] [Serhat Karakayali, J. Olaf Kleist: EFA-Studie 2: Strukturen und Motive der ehrenamtlichen Flüchtlingsarbeit in Deutschland, 2. Forschungsbericht: Ergebnisse einer explorativen Umfrage vom November/Dezember 2015, Berlin: Berliner Institut für empirische Integrations- und Migrationsforschung (BIM), Humboldt-Universität zu Berlin 2016](http://www.bim.hu-berlin.de/media/Studie_EFA2_BIM_11082016_V%C3%96.pdf)
