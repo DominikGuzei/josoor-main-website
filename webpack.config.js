@@ -8,8 +8,8 @@ import imageminMozjpeg from 'imagemin-mozjpeg';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const IS_STATIC = process.env.PHENOMIC_ENV === 'static';
-const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 const IS_MASTER = process.env.CONTEXT === 'production';
+const IS_PRODUCTION = IS_MASTER || process.env.NODE_ENV === 'production';
 const DEPLOY_URL = IS_MASTER ? (
   JSON.stringify(process.env.URL)
 ) : (
@@ -17,7 +17,7 @@ const DEPLOY_URL = IS_MASTER ? (
 );
 
 module.exports = (config) => ({
-  devtool: IS_PRODUCTION ? 'false' : 'cheap-module-eval-source-map',
+  devtool: IS_PRODUCTION ? false : 'cheap-module-eval-source-map',
   entry: {
     [config.bundleName]: [
       !IS_STATIC && require.resolve('webpack-hot-middleware/client'),
@@ -54,19 +54,7 @@ module.exports = (config) => ({
       },
       {
         test: /\.png$|\.jpg$|\.svg$/,
-        loader: 'url-loader',
-        options: {
-          fallback: 'file-loader',
-          limit: 20000,
-          name: './assets/images/[name]-[hash].[ext]',
-        }
-      },
-      {
-        test: /\.woff$|\.woff2$/,
         loader: 'file-loader',
-        options: {
-          name: './assets/fonts/[name]-[hash].[ext]',
-        }
       },
       {
         test: /\.global\.scss/,

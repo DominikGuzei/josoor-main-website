@@ -5,7 +5,7 @@ import { browserHistory } from 'react-router';
 import { IntlProvider } from 'react-intl';
 import translations from '../i18n/translations';
 import { parseRoute } from '../utils/routing';
-import { ThemeProvider } from 'react-polymorph/lib/components';
+import ThemeProvider from 'react-polymorph/lib/components/ThemeProvider';
 import theme from '../theme/polymorph/theme';
 import {
   defaultLanguage,
