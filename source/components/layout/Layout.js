@@ -75,7 +75,7 @@ export default class Layout extends Component {
               url('/fonts/tisa-pro/TisaSansPro-MediumItalic.woff') format('woff');
             }
             body {
-              font-family: 'Tisa-Sans-Regular', Arial, sans-serif;
+              font-family: 'Tisa-Sans-Regular', Arial, Helvetica, sans-serif;
             }
           `} />
         </Head>
