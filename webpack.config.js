@@ -55,6 +55,9 @@ module.exports = (config) => ({
       {
         test: /\.png$|\.jpg$|\.svg$/,
         loader: 'file-loader',
+        options: {
+          name: './assets/images/[name]-[hash].[ext]',
+        }
       },
       {
         test: /\.global\.scss/,
