@@ -7,7 +7,7 @@ subtitle: >-
   ومشاركة المعلومات الموثوقة
 author: ناتالي زرزور
 date: '2018-06-11'
-readable_date: ' ٢٠ حزيران ٢٠١٨'
+readable_date: ' ١١ حزيران ٢٠١٨'
 published: true
 image: /images/josoor-answers-main-image-updated.jpg
 teaser: >-
