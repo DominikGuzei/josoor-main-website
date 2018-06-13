@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Head from "react-helmet";
 import { defineMessages, intlShape } from 'react-intl';
-import headerImagePreview from '../../assets/home/header-preview.jpg';
-import headerImage from '../../assets/home/header.jpg';
-import josoorVerticalLogo from '../../theme/images/josoor-logo-vertical-white.svg';
+import headerImagePreview from '../../assets/answers/header-preview.jpg';
+import headerImage from '../../assets/answers/header.jpg';
+import headerLogo from '../../assets/shared/josoor-answers-logo.svg';
 import styles from '../home/Home.scss';
 import JoinUsSection from '../shared/JoinUsSection';
 import environment from '../../environment';
@@ -52,7 +52,7 @@ export default class Answers extends Component {
           <BrandHeader
             headerImagePreview={headerImagePreview}
             headerImage={headerImage}
-            logo={josoorVerticalLogo}
+            logo={headerLogo}
             headline={intl.formatMessage(messages.headline)}
             pitch={intl.formatMessage(messages.pitch)}
           />

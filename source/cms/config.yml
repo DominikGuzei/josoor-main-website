@@ -12,6 +12,15 @@ collections:
     delete: false
     extension: json
     fields:
+      - label: answers.headline
+        name: answers.headline
+        widget: text
+      - label: answers.pitch
+        name: answers.pitch
+        widget: text
+      - label: answers.title
+        name: answers.title
+        widget: text
       - label: blog.backHomeLink
         name: blog.backHomeLink
         widget: text
