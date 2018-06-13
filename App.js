@@ -35,6 +35,7 @@ const routes = () => (
       {generateRoute(ROUTES.IMPRESS, Impress)}
       <Route component={Layout}>
         {generateRoute(ROUTES.INDEX, Home)}
+        {generateRoute(ROUTES.ANSWERS, Answers)}
         {generateRoute(ROUTES.BLOG.INDEX, BlogIndexContainer)}
         {generateRoute(ROUTES.BLOG.POST, BlogPostContainer)}
         {/*<Route path="/blog/after/:after" component={BlogIndexContainer} />*/}

@@ -7,7 +7,6 @@ import headerImagePreview from '../../assets/home/header-preview.jpg';
 import headerImage from '../../assets/home/header.jpg';
 import josoorVerticalLogo from '../../theme/images/josoor-logo-vertical-white.svg';
 import styles from './Home.scss';
-import JoinUsButton from '../shared/JoinUsButton';
 import ProjectsSection from './ProjectsSection';
 import JoinUsSection from '../shared/JoinUsSection';
 import ChallengesSocietySection from './ChallengesSocietySection';
@@ -16,6 +15,7 @@ import ChallengesSupportersSection from './ChallengesSupportersSection';
 import WhatWeDoSection from './WhatWeDoSection';
 import environment from '../../environment';
 import WhatYouCanDoSection from './WhatYouCanDoSection';
+import { BrandHeader } from '../shared/BrandHeader';
 
 const messages = defineMessages({
   title: {
@@ -67,30 +67,18 @@ export default class Home extends Component {
           <meta property="og:image" content={environment.BASE_URL + '/images/fb-home-share.png'} />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
-          {environment.CMS && (
+          {!environment.isProductionContext() && (
             <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
           )}
         </Head>
         <div>
-          <ProgressiveImage
-            preview={headerImagePreview}
-            src={headerImage}
-            initialBlur={0}
-            transitionTime={0}
-            render={(src, style) => (
-              <div className={styles.header} style={Object.assign(style, { backgroundImage: `url(${src})` })}>
-                <img className={styles.logo} src={josoorVerticalLogo} alt="Josoor Logo" />
-                <h1 className={styles.headline}>
-                  {intl.formatMessage(messages.headline)}
-                </h1>
-                <div className={styles.pitch}>
-                  {intl.formatMessage(messages.pitch)}
-                </div>
-                <JoinUsButton />
-              </div>
-            )}
+          <BrandHeader
+            headerImagePreview={headerImagePreview}
+            headerImage={headerImage}
+            logo={josoorVerticalLogo}
+            headline={intl.formatMessage(messages.headline)}
+            pitch={intl.formatMessage(messages.pitch)}
           />
-
 
           <div className={styles.projectsSection}>
             <ProjectsSection />

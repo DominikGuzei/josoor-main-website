@@ -84,7 +84,6 @@ module.exports = (config) => ({
         NODE_ENV: JSON.stringify(process.env.NODE_ENV || 'development'),
         PHENOMIC_ENV: JSON.stringify(process.env.PHENOMIC_ENV),
         CONTEXT: JSON.stringify(process.env.CONTEXT || 'local'),
-        CMS: JSON.stringify(process.env.CMS || false),
         DEPLOY_URL,
       },
     }),

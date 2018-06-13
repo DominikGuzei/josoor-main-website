@@ -2,6 +2,48 @@
 @import "../../theme/mixins/container";
 @import "../../theme/mixins/decorations";
 
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  @media ($theme-breakpoint-small) {
+    margin-top: -$theme-top-menu-height;
+  }
+}
+
+.logo {
+  height: 200px;
+  margin-bottom: -10px;
+  margin-top: 20px;
+  @media ($theme-breakpoint-small) {
+    height: 300px;
+    margin-bottom: -40px;
+    margin-top: 60px;
+  }
+}
+
+.headline {
+  display: none;
+}
+
+.pitch {
+  text-align: center;
+  width: 80%;
+  max-width: 700px;
+  font-family: $theme-font-sans-regular;
+  font-size: 24px;
+  color: white;
+  line-height: 1.3em;
+  margin-bottom: 40px;
+  @media ($theme-breakpoint-small) {
+    font-size: 27px;
+  }
+}
+
 .separator {
   @include separator;
 }
@@ -10,10 +52,6 @@
   margin: 0 auto;
   width: calc(100% - 40px);
   max-width: 640px;
-}
-
-.projectsSection {
-  margin-top: 20px;
 }
 
 .factStripeOrange {
@@ -46,10 +84,6 @@
     margin-top: 100px;
     margin-bottom: 80px;
   }
-}
-
-.societyChallengesSection {
-  margin-bottom: 40px;
 }
 
 .whatWeDoSection {
