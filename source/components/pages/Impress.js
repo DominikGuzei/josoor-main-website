@@ -5,7 +5,6 @@ import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
 import { ROUTES } from '../../routes';
 import { defineMessages, intlShape, FormattedMessage } from 'react-intl';
 import LocaleAwareLink from '../shared/LocaleAwareLink';
-import latinFonts from '../../../public/styles/fonts/latin.css';
 
 const messages = defineMessages({
   title: {
@@ -46,7 +45,6 @@ export default class Impress extends Component {
       <div>
         <Head>
           <title>{intl.formatMessage(messages.title)}</title>
-          <link type="text/css" rel="stylesheet" href="/styles/fonts/latin.css" />
         </Head>
         <div className={styles.impress}>
 

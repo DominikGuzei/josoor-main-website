@@ -31,7 +31,7 @@ export default class BlogPost extends Component {
     if (isLoading || !post || !post.node) return null;
     post = post.node;
     const postId = post.filename.substring(0, post.filename.indexOf('.md'));
-    const shareUrl = `${environment.URL}${buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: postId })}`;
+    const shareUrl = `${environment.BASE_URL}${buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: postId })}`;
     return (
       <div className={styles.root}>
         <Head>
@@ -41,7 +41,7 @@ export default class BlogPost extends Component {
           <meta property="og:type" content="article" />
           <meta property="og:title" content={post.headline} />
           <meta property="og:description" content={post.teaser} />
-          <meta property="og:image" content={environment.URL + post.image} />
+          <meta property="og:image" content={environment.BASE_URL + post.image} />
           <meta property="og:image:width" content="680" />
         </Head>
 

@@ -6,13 +6,13 @@ import BlogIndexContainer from './source/components/blog/index/BlogIndexContaine
 import BlogPostContainer from './source/components/blog/post/BlogPostContainer';
 import Home from './source/components/pages/Home';
 import Impress from './source/components/pages/Impress';
-import './source/theme/App.global.scss';
 import Layout from "./source/components/layout/Layout";
 import { ROUTES } from './source/routes';
 import Provider from './source/components/Provider';
 import { pushLocation, replaceLanguageParts } from './source/utils/routing';
 import { SUPPORTED_LOCALES } from './source/i18n';
 import environment from './source/environment';
+import './source/theme/App.global.scss';
 
 const removeSplatNames = (route) => route.replace(/(?=\*)(\S+)/, '*');
 

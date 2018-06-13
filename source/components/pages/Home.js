@@ -60,11 +60,11 @@ export default class Home extends Component {
         <Head>
           <title>{intl.formatMessage(messages.title)}</title>
           <meta name="description" content={intl.formatMessage(messages.pitch)} />
-          <meta property="og:url" content={`${environment.URL}/${intl.locale}`} />
+          <meta property="og:url" content={`${environment.BASE_URL}/${intl.locale}`} />
           <meta property="og:type" content="website" />
           <meta property="og:title" content={intl.formatMessage(messages.title)} />
           <meta property="og:description" content={intl.formatMessage(messages.pitch)} />
-          <meta property="og:image" content={environment.URL + '/images/fb-home-share.png'} />
+          <meta property="og:image" content={environment.BASE_URL + '/images/fb-home-share.png'} />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
           {environment.CMS && (
@@ -147,7 +147,7 @@ export default class Home extends Component {
             )}
           />
 
-          <WhatYouCanDoSection shareUrl={`${environment.URL}/${intl.locale}/`} />
+          <WhatYouCanDoSection shareUrl={`${environment.BASE_URL}/${intl.locale}/`} />
 
           <div className={styles.joinUsSection}>
             <JoinUsSection />

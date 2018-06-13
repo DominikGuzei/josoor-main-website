@@ -5,7 +5,7 @@ import { ROUTES } from '../../../routes';
 import { defineMessages, intlShape } from 'react-intl';
 import { Link } from 'react-router';
 import { buildRoute } from '../../../utils/routing';
-
+import environment from '../../../environment';
 
 const messages = defineMessages({
   readMore: {
@@ -16,7 +16,7 @@ const messages = defineMessages({
 
 const byIsPublished = (post) => {
   // Only in production we filter the posts by the `published` flag
-  if (process.env.CONTEXT !== 'production') return true;
+  if (!environment.isProductionContext()) return true;
   return post.published === true;
 };
 
