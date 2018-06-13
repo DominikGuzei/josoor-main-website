@@ -1,4 +1,6 @@
-export const LATIN_FONTS = `
+import React from 'react';
+
+const LATIN_FONTS_CSS = `
   @font-face {
     font-family: 'Tisa-Sans-Regular';
     src: url('/fonts/tisa-pro/tisa-sans-pro-regular.woff2') format('woff2'),
@@ -26,3 +28,5 @@ export const LATIN_FONTS = `
     font-family: 'Tisa-Sans-Regular', Arial, Helvetica, sans-serif;
   }
 `;
+
+export const LATIN_FONTS = () => <style type="text/css" cssText={LATIN_FONTS_CSS} />;
