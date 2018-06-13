@@ -48,8 +48,12 @@ teaser: >-
 
 سيتم إطلاقها في البداية باللغات العربية والإنجليزية والألمانية ، وسنعمل على توسيع نطاقها بإضافة لغات أخرى مثل الفارسية والدارية والفرنسية والصومالية وغير ذلك الكثير.
 
+## إذا كنتم تحبون الفكرة، أخبرونا كيف ستساعدكم هذه المنصة وشاركونا آرائكم حول الميزات التي تفضلون استخدامها في هذا [الإستبيان القصير](https://josoor.typeform.com/to/Cdpn4q)
+
+- - -
+
 ## **//المصادر//**
 
-\[1\] [Maximilian Schreieck, Jonas Zitzelsberger, Sebastian Siepe, Manuel Wiesche, Helmut Krcmar: Supporting Refugees in Every Day Life – Intercultural Design Evaluation of an Application for Local Information. Twenty First Pacific Asia Conference on Information Systems, Langkawi 2017.](https://www.excell-mobility.de/wp-content/uploads/2017/11/PACIS_2017_Supporting-Refugees-in-Every-Day-Life-Intercultural-Design-Evaluation_camera-ready.pdf)
+\[1] [Maximilian Schreieck, Jonas Zitzelsberger, Sebastian Siepe, Manuel Wiesche, Helmut Krcmar: Supporting Refugees in Every Day Life – Intercultural Design Evaluation of an Application for Local Information. Twenty First Pacific Asia Conference on Information Systems, Langkawi 2017.](https://www.excell-mobility.de/wp-content/uploads/2017/11/PACIS_2017_Supporting-Refugees-in-Every-Day-Life-Intercultural-Design-Evaluation_camera-ready.pdf)
 
-\[2\] [Serhat Karakayali, J. Olaf Kleist: EFA-Studie 2: Strukturen und Motive der ehrenamtlichen Flüchtlingsarbeit in Deutschland, 2. Forschungsbericht: Ergebnisse einer explorativen Umfrage vom November/Dezember 2015, Berlin: Berliner Institut für empirische Integrations- und Migrationsforschung (BIM), Humboldt-Universität zu Berlin 2016](https://www.bim.hu-berlin.de/media/Studie_EFA2_BIM_11082016_VÖ.pdf)
+\[2] [Serhat Karakayali, J. Olaf Kleist: EFA-Studie 2: Strukturen und Motive der ehrenamtlichen Flüchtlingsarbeit in Deutschland, 2. Forschungsbericht: Ergebnisse einer explorativen Umfrage vom November/Dezember 2015, Berlin: Berliner Institut für empirische Integrations- und Migrationsforschung (BIM), Humboldt-Universität zu Berlin 2016](https://www.bim.hu-berlin.de/media/Studie_EFA2_BIM_11082016_VÖ.pdf)
