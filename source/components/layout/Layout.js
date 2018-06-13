@@ -8,7 +8,7 @@ import LocaleAwareLink from '../shared/LocaleAwareLink';
 import {
   getLanguageByParentLocale,
 } from '../../i18n';
-import { LATIN_FONTS } from '../shared/fonts';
+import latinFonts from '../../../public/styles/fonts/latin.css';
 
 const messages = defineMessages({
   impressLink: {
@@ -51,7 +51,7 @@ export default class Layout extends Component {
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff" />
           <meta property="og:locale" content={currentLanguage.locale} />
-          {LATIN_FONTS}
+          <link type="text/css" rel="stylesheet" href="/styles/fonts/latin.css" />
         </Head>
         <TopMenu />
         <div className={styles.content}>
