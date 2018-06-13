@@ -3,7 +3,7 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import styles from './ProjectsSection.scss';
 import { defineMessages, intlShape } from 'react-intl';
 import connectLogo from '../../assets/home/josoor-connect-logo.svg';
-import answersLogo from '../../assets/shared/josoor-answers-logo.svg';
+import answersLogo from '../../assets/home/josoor-answers-logo.svg';
 
 const messages = defineMessages({
   headline: {

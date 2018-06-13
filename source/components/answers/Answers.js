@@ -4,7 +4,7 @@ import Head from "react-helmet";
 import { defineMessages, intlShape } from 'react-intl';
 import headerImagePreview from '../../assets/answers/header-preview.jpg';
 import headerImage from '../../assets/answers/header.jpg';
-import headerLogo from '../../assets/shared/josoor-answers-logo.svg';
+import headerLogo from '../../assets/answers/josoor-answers-logo.svg';
 import styles from '../home/Home.scss';
 import JoinUsSection from '../shared/JoinUsSection';
 import environment from '../../environment';
