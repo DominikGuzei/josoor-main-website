@@ -6,6 +6,7 @@ import LodashModuleReplacementPlugin from 'lodash-webpack-plugin';
 import ImageminPlugin from 'imagemin-webpack-plugin';
 import imageminMozjpeg from 'imagemin-mozjpeg';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
+// import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 
 const IS_STATIC = process.env.PHENOMIC_ENV === 'static';
 const IS_MASTER = process.env.CONTEXT === 'production';
@@ -105,6 +106,7 @@ module.exports = (config) => ({
     }),
     process.env.CMS === 'true' ? new CopyWebpackPlugin([
       { from: 'source/cms', to: 'cms' },
-    ]) : null
+    ]) : null,
+    // /*IS_PRODUCTION ? null : */new BundleAnalyzerPlugin()
   ].filter(item => item)
 });
