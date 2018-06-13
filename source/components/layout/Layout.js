@@ -8,6 +8,7 @@ import LocaleAwareLink from '../shared/LocaleAwareLink';
 import {
   getLanguageByParentLocale,
 } from '../../i18n';
+import { latinFonts } from '../../theme/fonts';
 import environment from '../../environment';
 
 const messages = defineMessages({
@@ -51,30 +52,7 @@ export default class Layout extends Component {
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff" />
           <meta property="og:locale" content={currentLanguage.locale} />
-          <style type="text/css" rel="stylesheet" cssText={`
-            @font-face {
-              font-family: 'Tisa-Sans-Regular';
-              src: url('${environment.BASE_URL}/fonts/tisa-pro/tisa-sans-pro-regular.woff2') format('woff2'),
-              url('${environment.BASE_URL}/fonts/tisa-pro/tisa-sans-pro-regular.woff') format('woff');
-            }
-
-            @font-face {
-              font-family: 'Tisa-Sans-Light';
-              src: url('${environment.BASE_URL}/fonts/tisa-pro/tisa-sans-pro-light.woff2') format('woff2'),
-              url('${environment.BASE_URL}/fonts/tisa-pro/tisa-sans-pro-light.woff') format('woff');
-            }
-
-            @font-face {
-              font-family: 'Tisa-Sans-Bold';
-              src: url('${environment.BASE_URL}/fonts/tisa-pro/tisa-sans-pro-bold.woff2') format('woff2'),
-              url('${environment.BASE_URL}/fonts/tisa-pro/tisa-sans-pro-bold.woff') format('woff');
-            }
-
-            body {
-              font-family: 'Tisa-Sans-Regular', Arial, Helvetica, sans-serif;
-            }
-          `}
-          />
+          <style type="text/css" rel="stylesheet" cssText={latinFonts(environment.BASE_URL)} />
         </Head>
         <TopMenu />
         <div className={styles.content}>
