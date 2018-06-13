@@ -2,12 +2,12 @@ import React, { Component, Fragment } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import styles from './ChallengesRefugeesSection.scss';
 import { defineMessages, intlShape } from 'react-intl';
-import DisclosureBox from '../../shared/DisclosureBox';
-import refugeesInformationImage from '../../../assets/home/challenges/information-refugees.png';
-import refugeesSocialImage from '../../../assets/home/challenges/social-refugees.png';
-import refugeesInclusionImage from '../../../assets/home/challenges/inculsion-refugees.png';
-import refugeesLanguageImage from '../../../assets/home/challenges/language-refugees.png';
-import { globalMessages } from '../../../i18n/global-messages';
+import DisclosureBox from '../shared/DisclosureBox';
+import refugeesInformationImage from '../../assets/home/challenges/information-refugees.png';
+import refugeesSocialImage from '../../assets/home/challenges/social-refugees.png';
+import refugeesInclusionImage from '../../assets/home/challenges/inculsion-refugees.png';
+import refugeesLanguageImage from '../../assets/home/challenges/language-refugees.png';
+import { globalMessages } from '../../i18n/global-messages';
 
 const messages = defineMessages({
   headline: {

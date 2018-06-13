@@ -4,7 +4,7 @@ import { defineMessages, intlShape } from 'react-intl';
 import { browserHistory } from 'react-router';
 import classnames from 'classnames';
 import styles from './JoinUsButton.scss';
-import { JOIN_US_ANCHOR_ID } from '../pages/Home';
+import { JOIN_US_ANCHOR_ID } from '../home/Home';
 
 const messages = defineMessages({
   joinUsLabel: {

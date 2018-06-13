@@ -2,12 +2,12 @@ import React, { Component, Fragment } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import styles from './ChallengesSupportersSection.scss';
 import { defineMessages, intlShape } from 'react-intl';
-import DisclosureBox from '../../shared/DisclosureBox';
-import supportersInformationImage from '../../../assets/home/challenges/information-supporters.png';
-import supportersConfusionImage from '../../../assets/home/challenges/confusion-supporters.png';
-import supportersIsolationImage from '../../../assets/home/challenges/isolation-supporters.png';
-import supportersFrustrationImage from '../../../assets/home/challenges/frustration-supporters.png';
-import { globalMessages } from '../../../i18n/global-messages';
+import DisclosureBox from '../shared/DisclosureBox';
+import supportersInformationImage from '../../assets/home/challenges/information-supporters.png';
+import supportersConfusionImage from '../../assets/home/challenges/confusion-supporters.png';
+import supportersIsolationImage from '../../assets/home/challenges/isolation-supporters.png';
+import supportersFrustrationImage from '../../assets/home/challenges/frustration-supporters.png';
+import { globalMessages } from '../../i18n/global-messages';
 
 const messages = defineMessages({
   headline: {

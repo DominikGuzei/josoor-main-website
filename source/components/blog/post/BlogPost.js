@@ -9,7 +9,7 @@ import LocaleAwareLink from '../../shared/LocaleAwareLink';
 import JoinUsSection from '../../shared/JoinUsSection';
 import environment from '../../../environment';
 import { buildRoute } from '../../../utils/routing';
-import WhatYouCanDoSection from '../../pages/home/WhatYouCanDoSection';
+import WhatYouCanDoSection from '../../home/WhatYouCanDoSection';
 
 const messages = defineMessages({
   backHomeLink: {

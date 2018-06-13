@@ -8,14 +8,14 @@ import headerImage from '../../assets/home/header.jpg';
 import josoorVerticalLogo from '../../theme/images/josoor-logo-vertical-white.svg';
 import styles from './Home.scss';
 import JoinUsButton from '../shared/JoinUsButton';
-import ProjectsSection from './home/ProjectsSection';
+import ProjectsSection from './ProjectsSection';
 import JoinUsSection from '../shared/JoinUsSection';
-import ChallengesSocietySection from './home/ChallengesSocietySection';
-import ChallengesRefugeesSection from './home/ChallengesRefugeesSection';
-import ChallengesSupportersSection from './home/ChallengesSupportersSection';
-import WhatWeDoSection from './home/WhatWeDoSection';
+import ChallengesSocietySection from './ChallengesSocietySection';
+import ChallengesRefugeesSection from './ChallengesRefugeesSection';
+import ChallengesSupportersSection from './ChallengesSupportersSection';
+import WhatWeDoSection from './WhatWeDoSection';
 import environment from '../../environment';
-import WhatYouCanDoSection from './home/WhatYouCanDoSection';
+import WhatYouCanDoSection from './WhatYouCanDoSection';
 
 const messages = defineMessages({
   title: {

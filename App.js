@@ -2,16 +2,17 @@ import React from "react";
 import { Router, Route, browserHistory } from "react-router";
 import { createApp, renderApp } from "@phenomic/preset-react-app/lib/client";
 import { anchorate } from 'anchorate'
-import BlogIndexContainer from './source/components/blog/index/BlogIndexContainer';
-import BlogPostContainer from './source/components/blog/post/BlogPostContainer';
-import Home from './source/components/pages/Home';
-import Impress from './source/components/pages/Impress';
-import Layout from "./source/components/layout/Layout";
-import { ROUTES } from './source/routes';
-import Provider from './source/components/Provider';
 import { pushLocation, replaceLanguageParts } from './source/utils/routing';
 import { SUPPORTED_LOCALES } from './source/i18n';
 import environment from './source/environment';
+import { ROUTES } from './source/routes';
+import BlogIndexContainer from './source/components/blog/index/BlogIndexContainer';
+import BlogPostContainer from './source/components/blog/post/BlogPostContainer';
+import Home from './source/components/home/Home';
+import Impress from './source/components/impress/Impress';
+import Layout from "./source/components/layout/Layout";
+import Answers from './source/components/answers/Answers';
+import Provider from './source/components/Provider';
 import './source/theme/App.global.scss';
 
 const removeSplatNames = (route) => route.replace(/(?=\*)(\S+)/, '*');
