@@ -1,7 +1,16 @@
 import React from "react";
+import fs from 'fs';
 import Head from "react-helmet";
 import { omit } from 'lodash';
 import environment from './source/environment';
+
+// memory to avoid reading a css file already read
+// @todo try to get ./dist/ from config somehow
+const stylesMemory = {};
+const readCssFile = css => {
+  if (!stylesMemory[css]) stylesMemory[css] = fs.readFileSync("./dist/" + css, { encoding: "utf8" });
+  return stylesMemory[css];
+};
 
 export default ({ App, render }) => {
   // if needed, you can know if you are in development or in static rendering
@@ -21,12 +30,8 @@ export default ({ App, render }) => {
               __html: Object.keys(assets)
                 .reduce((acc, name) => acc.concat(assets[name]), [])
                 .filter(asset => asset.endsWith(".css"))
-                .map(css =>
-                  // @todo try to get /dist/ from config somehow
-                  require("fs").readFileSync("./dist/" + css, { encoding: "utf8" })
-                )
+                .map(css => readCssFile(css))
                 .join("")
-                .replace(/\n/, "")
             }}
           />
         ) : (
