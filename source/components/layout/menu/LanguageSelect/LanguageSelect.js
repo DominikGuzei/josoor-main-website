@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from 'prop-types';
 import { defineMessages, intlShape } from 'react-intl';
+import { browserHistory } from 'react-router';
 import Select from 'react-polymorph/lib/components/Select';
 import SelectSkin from 'react-polymorph/lib/skins/simple/SelectSkin';
 import { withTheme } from 'react-polymorph/lib/themes/withTheme';
@@ -24,7 +25,9 @@ class LanguageSelect extends Component {
     const { router, intl } = this.context;
     const currentPath = router.location.pathname;
     const currentLocale = intl.locale;
-    location = currentPath.replace(new RegExp(`^/${currentLocale}`), `/${value}`);
+    browserHistory.push({
+      pathname: currentPath.replace(new RegExp(`^/${currentLocale}`), `/${value}`)
+    });
   };
 
   render() {
