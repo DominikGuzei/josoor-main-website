@@ -1,49 +1,43 @@
 import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import styles from './WhatWeDoSection.scss';
-import { defineMessages, intlShape } from 'react-intl';
-
-const messages = defineMessages({
-  headline: {
-    id: 'home.whatwedo.title',
-    defaultMessage: '!!!What We Do',
-  },
-  description1: {
-    id: 'home.whatwedo.description1',
-    defaultMessage: `!!!home.whatwedo.description1`
-  },
-  description2: {
-    id: 'home.whatwedo.description2',
-    defaultMessage: `!!!home.whatwedo.description2`
-  },
-});
+import ProgressiveImage from 'react-progressive-image-loading';
+import classnames from 'classnames';
 
 export default class WhatWeDoSection extends Component {
 
-  static contextTypes = {
-    intl: intlShape.isRequired,
-  };
-
   render() {
-    const { intl } = this.context;
+    const {
+      preview,
+      image,
+      className,
+      headline,
+      description,
+    } = this.props;
     return (
-      <Grid fluid className={styles.root}>
-        <Row center="xs">
-          <Col xs={12}>
-            <h1 className={styles.headline}>
-              {intl.formatMessage(messages.headline)}
-            </h1>
-          </Col>
-          <Col className={styles.description} xs={12} sm={10} md={8}>
-            <p>
-              {intl.formatMessage(messages.description1)}
-            </p>
-            <p>
-              {intl.formatMessage(messages.description2)}
-            </p>
-          </Col>
-        </Row>
-      </Grid>
+      <ProgressiveImage
+        preview={preview}
+        src={image}
+        initialBlur={0}
+        transitionTime={0}
+        render={(src, style) => (
+          <Grid
+            fluid
+            className={classnames([styles.root, className])}
+            style={Object.assign(style, { backgroundImage: `url(${src})` })}
+          >
+            <Row center="xs">
+              <Col xs={12}>
+                <h1 className={styles.headline}>{headline}</h1>
+              </Col>
+              <Col className={styles.description} xs={12} sm={10} md={8}>
+                <p>{description}</p>
+              </Col>
+            </Row>
+          </Grid>
+        )}
+      />
+
     );
   }
 }
