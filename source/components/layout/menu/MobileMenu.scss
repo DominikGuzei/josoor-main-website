@@ -28,7 +28,7 @@
     width: calc(100% - 80px);
     text-transform: uppercase;
 
-    a {
+    > a {
       padding-left: 8px;
       padding-right: 17px;
       font-family: $theme-font-sans-bold;
