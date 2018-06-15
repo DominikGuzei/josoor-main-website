@@ -12,6 +12,42 @@ collections:
     delete: false
     extension: json
     fields:
+      - label: answers.features.answer.description
+        name: answers.features.answer.description
+        widget: text
+      - label: answers.features.answer.title
+        name: answers.features.answer.title
+        widget: text
+      - label: answers.features.ask.description
+        name: answers.features.ask.description
+        widget: text
+      - label: answers.features.ask.title
+        name: answers.features.ask.title
+        widget: text
+      - label: answers.features.headline
+        name: answers.features.headline
+        widget: text
+      - label: answers.features.review.description
+        name: answers.features.review.description
+        widget: text
+      - label: answers.features.review.title
+        name: answers.features.review.title
+        widget: text
+      - label: answers.features.search.description
+        name: answers.features.search.description
+        widget: text
+      - label: answers.features.search.title
+        name: answers.features.search.title
+        widget: text
+      - label: answers.features.title
+        name: answers.features.title
+        widget: text
+      - label: answers.features.translate.description
+        name: answers.features.translate.description
+        widget: text
+      - label: answers.features.translate.title
+        name: answers.features.translate.title
+        widget: text
       - label: answers.headline
         name: answers.headline
         widget: text

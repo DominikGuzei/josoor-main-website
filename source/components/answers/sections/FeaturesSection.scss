@@ -1,0 +1,50 @@
+@import "../../../theme/config";
+
+.title {
+  margin-bottom: 0.5em;
+}
+
+.headline {
+  margin-top: 0;
+  font-family: $theme-font-sans-regular;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.image {
+  width: 100%;
+}
+
+.features {
+  margin-top: 40px;
+}
+
+.feature {
+  text-align: left;
+  padding: 0 1em;
+  margin-bottom: 3em;
+
+  @media ($theme-breakpoint-small) {
+    margin-top: 2em;
+  }
+
+  @media ($theme-breakpoint-medium) {
+    margin-top: 2em;
+    margin-bottom: 4em;
+    padding: 0 2em;
+  }
+
+  @media ($theme-breakpoint-large) {
+    margin-top: 4em;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 1em;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}

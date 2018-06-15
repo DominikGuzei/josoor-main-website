@@ -12,5 +12,6 @@ $theme-font-sans-bold: 'Tisa-Sans-Bold', Arial, Helvetica, sans-serif;
 $theme-footer-height: 50px;
 $theme-top-menu-height-mobile: 40px;
 $theme-top-menu-height: 80px;
-$theme-breakpoint-small: "min-width: 640px";
-$theme-breakpoint-middle: "min-width: 768px";
+$theme-breakpoint-small: "min-width: 48em";
+$theme-breakpoint-medium: "min-width: 64em";
+$theme-breakpoint-large: "min-width: 75em";
