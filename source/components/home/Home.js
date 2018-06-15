@@ -16,6 +16,11 @@ import WhatWeDoSection from './sections/WhatWeDoSection';
 import environment from '../../environment';
 import WhatYouCanDoSection from '../shared/sections/WhatYouCanDoSection';
 import { BrandHeader } from '../shared/BrandHeader';
+import FactStripe from '../shared/sections/FactStripe';
+import worldMapDarkPreview from '../../assets/world-map-stripe-dark-preview.jpg'
+import worldMapDark from '../../assets/world-map-stripe-dark.png'
+import worldMapOrangePreview from '../../assets/world-map-stripe-orange-preview.jpg'
+import worldMapOrange from '../../assets/world-map-stripe-orange.png'
 
 const messages = defineMessages({
   title: {
@@ -84,37 +89,31 @@ export default class Home extends Component {
             <ProjectsSection />
           </div>
 
-          <Grid fluid className={styles.factStripeOrange}>
-            <Row center="xs">
-              <Col xs={12} sm={8}>
-                {intl.formatMessage(messages.factIncreaseOfHate)}
-              </Col>
-            </Row>
-          </Grid>
+          <FactStripe
+            text={intl.formatMessage(messages.factIncreaseOfHate)}
+            preview={worldMapOrangePreview}
+            image={worldMapOrange}
+          />
 
           <div className={styles.societyChallengesSection}>
             <ChallengesSocietySection />
           </div>
 
-          <Grid fluid className={styles.factStripeDark}>
-            <Row center="xs">
-              <Col xs={12} sm={8}>
-                {intl.formatMessage(messages.factDisplaced)}
-              </Col>
-            </Row>
-          </Grid>
+          <FactStripe
+            text={intl.formatMessage(messages.factDisplaced)}
+            preview={worldMapDarkPreview}
+            image={worldMapDark}
+          />
 
           <div className={styles.refugeesChallengesSection}>
             <ChallengesRefugeesSection />
           </div>
 
-          <Grid fluid className={styles.factStripeOrange}>
-            <Row center="xs">
-              <Col xs={12} sm={8}>
-                {intl.formatMessage(messages.factSupportersTranslation)}
-              </Col>
-            </Row>
-          </Grid>
+          <FactStripe
+            text={intl.formatMessage(messages.factSupportersTranslation)}
+            preview={worldMapOrangePreview}
+            image={worldMapOrange}
+          />
 
           <div className={styles.supportersChallengesSection}>
             <ChallengesSupportersSection />

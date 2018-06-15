@@ -1,0 +1,25 @@
+@import "../../../theme/config";
+
+.root {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  background-size: cover;
+  text-transform: uppercase;
+  padding: 40px 10px;
+  font-family: $theme-font-sans-bold;
+  color: white;
+  font-size: 24px;
+  line-height: 1.5em;
+
+  @media ($theme-breakpoint-small) {
+    font-size: 28px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+
+  @media ($theme-breakpoint-medium) {
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+}
