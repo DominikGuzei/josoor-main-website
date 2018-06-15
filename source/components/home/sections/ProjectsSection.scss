@@ -1,4 +1,4 @@
-@import "../../theme/polymorph/custom/config";
+@import "../../../theme/polymorph/custom/config";
 
 .root {
   h1 {
@@ -6,7 +6,7 @@
     @media ($theme-breakpoint-small) {
       margin-bottom: 50px;
     }
-    @media ($theme-breakpoint-middle) {
+    @media ($theme-breakpoint-medium) {
       margin-bottom: 60px;
     }
   }

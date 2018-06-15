@@ -2,12 +2,12 @@ import React, { Component, Fragment } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import styles from './ChallengesSocietySection.scss';
 import { defineMessages, intlShape } from 'react-intl';
-import DisclosureBox from '../shared/DisclosureBox';
-import societyPolarizationImage from '../../assets/home/challenges/polarization-society.png';
-import societyPrejudiceImage from '../../assets/home/challenges/prejudice-refugees.png';
-import societyFearImage from '../../assets/home/challenges/fear-society.png';
-import societyRacismImage from '../../assets/home/challenges/racism-society.png';
-import { globalMessages } from '../../i18n/global-messages';
+import DisclosureBox from '../../shared/DisclosureBox';
+import societyPolarizationImage from '../../../assets/home/challenges/polarization-society.png';
+import societyPrejudiceImage from '../../../assets/home/challenges/prejudice-refugees.png';
+import societyFearImage from '../../../assets/home/challenges/fear-society.png';
+import societyRacismImage from '../../../assets/home/challenges/racism-society.png';
+import { globalMessages } from '../../../i18n/global-messages';
 
 const messages = defineMessages({
   headline: {

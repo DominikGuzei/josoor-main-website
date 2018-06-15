@@ -7,14 +7,14 @@ import headerImagePreview from '../../assets/home/header-preview.jpg';
 import headerImage from '../../assets/home/header.jpg';
 import josoorVerticalLogo from '../../theme/images/josoor-logo-vertical-white.svg';
 import styles from './Home.scss';
-import ProjectsSection from './ProjectsSection';
+import ProjectsSection from './sections/ProjectsSection';
 import JoinUsSection from '../shared/JoinUsSection';
-import ChallengesSocietySection from './ChallengesSocietySection';
-import ChallengesRefugeesSection from './ChallengesRefugeesSection';
-import ChallengesSupportersSection from './ChallengesSupportersSection';
-import WhatWeDoSection from './WhatWeDoSection';
+import ChallengesSocietySection from './sections/ChallengesSocietySection';
+import ChallengesRefugeesSection from './sections/ChallengesRefugeesSection';
+import ChallengesSupportersSection from './sections/ChallengesSupportersSection';
+import WhatWeDoSection from './sections/WhatWeDoSection';
 import environment from '../../environment';
-import WhatYouCanDoSection from './WhatYouCanDoSection';
+import WhatYouCanDoSection from '../shared/sections/WhatYouCanDoSection';
 import { BrandHeader } from '../shared/BrandHeader';
 
 const messages = defineMessages({
