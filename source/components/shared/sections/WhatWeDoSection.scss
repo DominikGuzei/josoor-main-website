@@ -2,6 +2,9 @@
 
 .root {
   padding-bottom: 4em;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 .headline, .description p {
