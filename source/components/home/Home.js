@@ -12,7 +12,7 @@ import JoinUsSection from '../shared/JoinUsSection';
 import ChallengesSocietySection from './sections/ChallengesSocietySection';
 import ChallengesRefugeesSection from './sections/ChallengesRefugeesSection';
 import ChallengesSupportersSection from './sections/ChallengesSupportersSection';
-import WhatWeDoSection from './sections/WhatWeDoSection';
+import WhatWeDoSection from '../shared/sections/WhatWeDoSection';
 import environment from '../../environment';
 import WhatYouCanDoSection from '../shared/sections/WhatYouCanDoSection';
 import { BrandHeader } from '../shared/BrandHeader';
@@ -46,6 +46,18 @@ const messages = defineMessages({
   factSupportersTranslation: {
     id: 'home.factSupportersTranslation',
     defaultMessage: '!!!home.factSupportersTranslation',
+  },
+  whatWeDoHeadline: {
+    id: 'home.whatwedo.title',
+    defaultMessage: '!!!What We Do',
+  },
+  whatWeDoDescription1: {
+    id: 'home.whatwedo.description1',
+    defaultMessage: `!!!home.whatwedo.description1`
+  },
+  whatWeDoDescription2: {
+    id: 'home.whatwedo.description2',
+    defaultMessage: `!!!home.whatwedo.description2`
   },
 });
 
@@ -90,6 +102,7 @@ export default class Home extends Component {
           </div>
 
           <FactStripe
+            className={styles.factStripe}
             text={intl.formatMessage(messages.factIncreaseOfHate)}
             preview={worldMapOrangePreview}
             image={worldMapOrange}
@@ -100,6 +113,7 @@ export default class Home extends Component {
           </div>
 
           <FactStripe
+            className={styles.factStripe}
             text={intl.formatMessage(messages.factDisplaced)}
             preview={worldMapDarkPreview}
             image={worldMapDark}
@@ -110,6 +124,7 @@ export default class Home extends Component {
           </div>
 
           <FactStripe
+            className={styles.factStripe}
             text={intl.formatMessage(messages.factSupportersTranslation)}
             preview={worldMapOrangePreview}
             image={worldMapOrange}
@@ -119,18 +134,17 @@ export default class Home extends Component {
             <ChallengesSupportersSection />
           </div>
 
-          <ProgressiveImage
+          <WhatWeDoSection
+            className={styles.whatWeDoSection}
             preview={headerImagePreview}
-            src={headerImage}
-            initialBlur={0}
-            transitionTime={0}
-            render={(src, style) => (
-              <div
-                className={styles.whatWeDoSection}
-                style={Object.assign(style, { backgroundImage: `url(${src})` })}
-              >
-                <WhatWeDoSection />
-              </div>
+            image={headerImage}
+            headline={intl.formatMessage(messages.whatWeDoHeadline)}
+            description={(
+              <span>
+                {intl.formatMessage(messages.whatWeDoDescription1)}
+                <br /><br />
+                {intl.formatMessage(messages.whatWeDoDescription2)}
+              </span>
             )}
           />
 

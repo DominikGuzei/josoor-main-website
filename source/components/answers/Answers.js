@@ -4,6 +4,8 @@ import Head from "react-helmet";
 import { defineMessages, intlShape } from 'react-intl';
 import headerImagePreview from '../../assets/answers/header-preview.jpg';
 import headerImage from '../../assets/answers/header.jpg';
+import whatWeDo from '../../assets/answers/what-we-do.jpg';
+import whatWeDoPreview from '../../assets/answers/what-we-do-preview.jpg';
 import headerLogo from '../../assets/answers/josoor-answers-logo.svg';
 import styles from './Answers.scss';
 import JoinUsSection from '../shared/JoinUsSection';
@@ -11,6 +13,10 @@ import environment from '../../environment';
 import WhatYouCanDoSection from '../shared/sections/WhatYouCanDoSection';
 import { BrandHeader } from '../shared/BrandHeader';
 import FeaturesSection from './sections/FeaturesSection';
+import FactStripe from '../shared/sections/FactStripe';
+import worldMapOrangePreview from '../../assets/world-map-stripe-orange-preview.jpg'
+import worldMapOrange from '../../assets/world-map-stripe-orange.png'
+import WhatWeDoSection from '../shared/sections/WhatWeDoSection';
 
 const messages = defineMessages({
   title: {
@@ -24,6 +30,18 @@ const messages = defineMessages({
   pitch: {
     id: 'answers.pitch',
     defaultMessage: '!!!home.pitch',
+  },
+  accessToInformation: {
+    id: 'answers.stripe.accessToInformation',
+    defaultMessage: 'answers.stripe.accessToInformation',
+  },
+  whatWeDoHeadline: {
+    id: 'answers.whatwedo.title',
+    defaultMessage: '!!!What We Do',
+  },
+  whatWeDoDescription: {
+    id: 'answers.whatwedo.description',
+    defaultMessage: `!!!answers.whatwedo.description`
   },
 });
 
@@ -61,6 +79,20 @@ export default class Answers extends Component {
           <section className={styles.featuresSection}>
             <FeaturesSection />
           </section>
+
+          <FactStripe
+            text={intl.formatMessage(messages.accessToInformation)}
+            preview={worldMapOrangePreview}
+            image={worldMapOrange}
+          />
+
+          <WhatWeDoSection
+            className={styles.whatWeDoSection}
+            preview={whatWeDoPreview}
+            image={whatWeDo}
+            headline={intl.formatMessage(messages.whatWeDoHeadline)}
+            description={intl.formatMessage(messages.whatWeDoDescription)}
+          />
 
           <WhatYouCanDoSection
             shareUrl={`${environment.BASE_URL}/${intl.locale}/answers/`}

@@ -54,8 +54,17 @@ collections:
       - label: answers.pitch
         name: answers.pitch
         widget: text
+      - label: answers.stripe.accessToInformation
+        name: answers.stripe.accessToInformation
+        widget: text
       - label: answers.title
         name: answers.title
+        widget: text
+      - label: answers.whatwedo.description
+        name: answers.whatwedo.description
+        widget: text
+      - label: answers.whatwedo.title
+        name: answers.whatwedo.title
         widget: text
       - label: blog.backHomeLink
         name: blog.backHomeLink

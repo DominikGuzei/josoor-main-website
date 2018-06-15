@@ -12,6 +12,19 @@
   max-width: 640px;
 }
 
+.factStripe {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  @media ($theme-breakpoint-small) {
+    margin-top: 80px;
+    margin-bottom: 50px;
+  }
+  @media ($theme-breakpoint-medium) {
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+}
+
 .projectsSection {
   margin-top: 20px;
 }
@@ -22,7 +35,6 @@
 
 .whatWeDoSection {
   margin: 4em 0;
-  background-size: cover;
 }
 
 .joinUsSection {
