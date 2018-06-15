@@ -41,13 +41,13 @@ export default class Answers extends Component {
         <Head>
           <title>{intl.formatMessage(messages.title)}</title>
           <meta name="description" content={intl.formatMessage(messages.pitch)} />
-          <meta property="og:url" content={`${environment.BASE_URL}/${intl.locale}`} />
+          <meta property="og:url" content={`${environment.BASE_URL}/${intl.locale}/answers/`} />
           <meta property="og:type" content="website" />
           <meta property="og:title" content={intl.formatMessage(messages.title)} />
           <meta property="og:description" content={intl.formatMessage(messages.pitch)} />
-          <meta property="og:image" content={environment.BASE_URL + '/images/fb-home-share.png'} />
-          <meta property="og:image:width" content="1200" />
-          <meta property="og:image:height" content="630" />
+          <meta property="og:image" content={environment.BASE_URL + '/images/josoor-answers-main-image-updated.jpg'} />
+          <meta property="og:image:width" content="680" />
+          <meta property="og:image:height" content="554" />
         </Head>
         <div>
           <BrandHeader
