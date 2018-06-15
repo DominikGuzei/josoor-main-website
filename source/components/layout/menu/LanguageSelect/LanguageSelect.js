@@ -1,18 +1,12 @@
 import React, { Component } from "react";
 import PropTypes from 'prop-types';
-import { defineMessages, intlShape } from 'react-intl';
-import { browserHistory } from 'react-router';
+import { intlShape } from 'react-intl';
+import { Link } from 'react-router';
 import Select from 'react-polymorph/lib/components/Select';
 import SelectSkin from 'react-polymorph/lib/skins/simple/SelectSkin';
 import { withTheme } from 'react-polymorph/lib/themes/withTheme';
 import { IDENTIFIERS } from 'react-polymorph/lib/themes/API';
-
-const messages = defineMessages({
-  title: {
-    id: 'title',
-    defaultMessage: '!!!English',
-  },
-});
+import styles from './LanguageSelect.scss';
 
 class LanguageSelect extends Component {
 
@@ -21,13 +15,12 @@ class LanguageSelect extends Component {
     intl: intlShape.isRequired,
   };
 
-  handleLanguageSelection = (value) => {
+  renderOption = ({ label, value }) => {
     const { router, intl } = this.context;
     const currentPath = router.location.pathname;
     const currentLocale = intl.locale;
-    browserHistory.push({
-      pathname: currentPath.replace(new RegExp(`^/${currentLocale}`), `/${value}`)
-    });
+    const localeHref = currentPath.replace(new RegExp(`^/${currentLocale}`), `/${value}`);
+    return <Link className={styles.label} to={localeHref}>{label}</Link>;
   };
 
   render() {
@@ -46,8 +39,8 @@ class LanguageSelect extends Component {
           { label: 'Deutsch', value: 'de' },
         ]}
         value={intl.locale}
-        onChange={this.handleLanguageSelection}
         skin={SelectSkin}
+        optionRenderer={this.renderOption}
       />
     );
   }

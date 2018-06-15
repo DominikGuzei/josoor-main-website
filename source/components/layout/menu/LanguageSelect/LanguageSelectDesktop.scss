@@ -18,17 +18,26 @@ $select-down-arrow-position-bottom: 6px;
   width: 9em;
 
   :global {
+    .Options_option {
+      padding: 0;
+      &.Options_selectedOption:after {
+        margin-bottom: 7px;
+        margin-right: 13px;
+      }
+    }
     .SimpleBubble_bubble {
       box-shadow: none;
     }
     .SimpleBubble_root:not(.SimpleBubble_transparent) .SimpleBubble_bubble {
       border: none;
     }
-    .SimpleOptions_option.SimpleOptions_selectedOption:after {
-      display: none;
-    }
-    .Options_label {
-      padding-top: 4px;
+  }
+}
+
+[dir="rtl"] .select {
+  :global {
+    .Options_option.Options_selectedOption:after {
+      margin-right: 40px;
     }
   }
 }

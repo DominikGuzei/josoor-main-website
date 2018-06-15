@@ -13,8 +13,6 @@ export default class LocaleAwareLink extends Component {
     const { intl } = this.context;
     const { to } = this.props;
     const localeHref = replaceLanguageParts(to, intl.locale + '/');
-    return (
-      <Link {...this.props} to={localeHref} />
-    );
+    return <Link {...this.props} to={localeHref} />;
   }
 }
