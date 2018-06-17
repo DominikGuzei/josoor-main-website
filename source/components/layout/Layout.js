@@ -6,9 +6,9 @@ import { ROUTES } from '../../routes';
 import TopMenu from './menu/TopMenu';
 import LocaleAwareLink from '../shared/LocaleAwareLink';
 import {
-  getLanguageByParentLocale,
+  getLanguageByParentLocale, SUPPORTED_LANGUAGES,
 } from '../../i18n';
-import { latinFonts } from '../../theme/fonts';
+import { arabicFonts, latinFonts } from '../../theme/fonts';
 import environment from '../../environment';
 
 const messages = defineMessages({
@@ -28,6 +28,7 @@ export default class Layout extends Component {
     const { children } = this.props;
     const { intl } = this.context;
     const currentLanguage = getLanguageByParentLocale(intl.locale);
+    const fontsCss = currentLanguage === SUPPORTED_LANGUAGES.ARABIC ? arabicFonts : latinFonts;
     return (
       <div className={styles.layout}>
         <Head>
@@ -52,7 +53,7 @@ export default class Layout extends Component {
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
           <meta name="theme-color" content="#ffffff" />
           <meta property="og:locale" content={currentLanguage.locale} />
-          <style type="text/css" rel="stylesheet" cssText={latinFonts(environment.BASE_URL)} />
+          <style type="text/css" rel="stylesheet" cssText={fontsCss(environment.BASE_URL)} />
         </Head>
         <TopMenu />
         <div className={styles.content}>
