@@ -213,6 +213,9 @@ collections:
       - label: home.projects.connect.title
         name: home.projects.connect.title
         widget: text
+      - label: home.projects.learnMore
+        name: home.projects.learnMore
+        widget: text
       - label: home.projects.title
         name: home.projects.title
         widget: text

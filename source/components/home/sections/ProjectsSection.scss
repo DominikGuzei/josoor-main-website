@@ -34,3 +34,32 @@
   font-family: $theme-font-sans-light;
   text-transform: uppercase;
 }
+
+.learnMoreButton {
+  margin-top: 2em;
+  display: block;
+  border: 2px solid $theme-color-main-light;
+  border-radius: 50px;
+  color: white;
+  font-family: $theme-font-sans-bold;
+  font-size: 15px;
+  text-align: center;
+  padding: 1em 2em 0.8em;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $theme-color-main-light;
+    color: white;
+    cursor: pointer;
+    text-decoration: none !important;
+  }
+
+  &:active {
+    background-color: $theme-color-main-light;
+    color: white;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

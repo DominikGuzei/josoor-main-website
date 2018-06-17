@@ -4,6 +4,8 @@ import styles from './ProjectsSection.scss';
 import { defineMessages, intlShape } from 'react-intl';
 import connectLogo from '../../../assets/home/josoor-connect-logo.svg';
 import answersLogo from '../../../assets/home/josoor-answers-logo.svg';
+import { ROUTES } from '../../../routes';
+import LocaleAwareLink from '../../shared/LocaleAwareLink';
 
 const messages = defineMessages({
   headline: {
@@ -30,6 +32,10 @@ const messages = defineMessages({
     id: 'home.projects.comingSoon',
     defaultMessage: '!!!coming soon',
   },
+  learnMore: {
+    id: 'home.projects.learnMore',
+    defaultMessage: '!!!Learn more',
+  },
 });
 
 export default class ProjectsSection extends Component {
@@ -48,22 +54,6 @@ export default class ProjectsSection extends Component {
           </Col>
           <Col xs={10} md={12} xl={8}>
             <Row around="xs">
-              <Col xs={12} sm={10} md={5} lg={4} className={`${styles.project} ${styles.connect}`}>
-                <Row center="xs">
-                  <Col xs={8}>
-                    <img src={connectLogo} alt="Josoor Connect logo" />
-                  </Col>
-                  <Col xs={12}>
-                    <span className={styles.state}>
-                      {intl.formatMessage(messages.comingSoon)}
-                    </span>
-                  </Col>
-                  <h2>{intl.formatMessage(messages.connectTitle)}</h2>
-                  <Col xs={12} sm={10} className={styles.info}>
-                    {intl.formatMessage(messages.connectIntro)}
-                  </Col>
-                </Row>
-              </Col>
               <Col xs={12} sm={10} md={5} lg={4} className={`${styles.project} ${styles.answers}`}>
                 <Row center="xs">
                   <Col xs={8}>
@@ -77,6 +67,25 @@ export default class ProjectsSection extends Component {
                   <h2>{intl.formatMessage(messages.answersTitle)}</h2>
                   <Col xs={12} sm={10} className={styles.info}>
                     {intl.formatMessage(messages.answersIntro)}
+                  </Col>
+                  <LocaleAwareLink className={styles.learnMoreButton} to={ROUTES.ANSWERS}>
+                    {intl.formatMessage(messages.learnMore)}
+                  </LocaleAwareLink>
+                </Row>
+              </Col>
+              <Col xs={12} sm={10} md={5} lg={4} className={`${styles.project} ${styles.connect}`}>
+                <Row center="xs">
+                  <Col xs={8}>
+                    <img src={connectLogo} alt="Josoor Connect logo" />
+                  </Col>
+                  <Col xs={12}>
+                    <span className={styles.state}>
+                      {intl.formatMessage(messages.comingSoon)}
+                    </span>
+                  </Col>
+                  <h2>{intl.formatMessage(messages.connectTitle)}</h2>
+                  <Col xs={12} sm={10} className={styles.info}>
+                    {intl.formatMessage(messages.connectIntro)}
                   </Col>
                 </Row>
               </Col>
