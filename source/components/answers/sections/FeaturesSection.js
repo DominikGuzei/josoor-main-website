@@ -3,8 +3,11 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import { defineMessages, intlShape } from 'react-intl';
 import ProgressiveImage from 'react-progressive-image-loading';
 import styles from './FeaturesSection.scss';
-import featuresPreview from '../../../assets/answers/features-preview.png';
-import featuresImage from '../../../assets/answers/features.png';
+import featuresPreview from '../../../assets/answers/features-preview.jpg';
+import featuresImage from '../../../assets/answers/features.jpg';
+import featuresPreviewArabic from '../../../assets/answers/features-ar-preview.jpg';
+import featuresImageArabic from '../../../assets/answers/features-ar.jpg';
+import { SUPPORTED_LANGUAGES } from '../../../i18n';
 
 const messages = defineMessages({
   title: {
@@ -73,6 +76,7 @@ export default class FeaturesSection extends Component {
   render() {
     const { isLoading, posts } = this.props;
     const { intl } = this.context;
+    const isArabic = intl.locale === SUPPORTED_LANGUAGES.ARABIC.parentLocale;
     return (
       <Grid fluid>
         <Row center="xs">
@@ -82,8 +86,8 @@ export default class FeaturesSection extends Component {
           </Col>
           <Col xs={12} sm={10} md={8} lg={6}>
             <ProgressiveImage
-              preview={featuresPreview}
-              src={featuresImage}
+              preview={isArabic ? featuresPreviewArabic : featuresPreview}
+              src={isArabic ? featuresImageArabic : featuresImage}
               initialBlur={0}
               transitionTime={0}
               render={(src, style) => (
