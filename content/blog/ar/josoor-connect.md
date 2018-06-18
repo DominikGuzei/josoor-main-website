@@ -5,7 +5,7 @@ headline: (جسور كونيكت (تواصل
 subtitle: حيث يتواصل اللاجئون والسكان المحليون معاً ليبنوا مجتمعات متماسكة و نشطة وشاملة
 author: ناتالي زرزور
 date: '2018-06-18'
-readable_date: ١٨جزيران ٢٠١٨
+readable_date: ١٨حزيران ٢٠١٨
 published: true
 image: /images/shutterstock_759169186-1-.jpg
 teaser: >-
