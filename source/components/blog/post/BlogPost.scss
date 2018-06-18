@@ -46,6 +46,7 @@
 .imageBox {
   background: white;
   margin-bottom: 20px;
+  padding-top: $theme-top-menu-height-mobile;
 
   @media (min-width: $theme-breakpoint-small) {
     @include container;
