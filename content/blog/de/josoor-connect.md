@@ -6,8 +6,8 @@ subtitle: >-
   Geflüchtete und Freiwillige vernetzen - starke, aktive und integrative
   Gemeinschaften bilden.
 author: Natalie Zarzour
-date: '2018-06-18'
-readable_date: 18.06.2018
+date: 2018-06-18
+readable_date: 18. Juni 2018
 published: true
 image: /images/shutterstock_759169186-1-.jpg
 teaser: >-

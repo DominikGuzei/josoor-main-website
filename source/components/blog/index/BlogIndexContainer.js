@@ -13,7 +13,8 @@ export default withPhenomicApi(BlogIndex, props => {
       path: 'content/blog',
       by: 'language',
       value: usedLocale,
-      after: props.params.after
+      after: props.params.after,
+      sortBy: 'date',
     })
   };
 });
