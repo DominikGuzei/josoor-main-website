@@ -8,7 +8,7 @@ $select-down-arrow-position-bottom: 6px;
 // Css module overrides go here …
 
 .select {
-  width: calc(100% - 150px);
+  width: 100%;
   margin-right: 50px;
   margin-top: 2px;
   :global {
