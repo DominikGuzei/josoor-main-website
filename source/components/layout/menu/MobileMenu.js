@@ -36,6 +36,7 @@ export default class MobileMenu extends Component {
         className,
         isOpen ? styles.isOpen : null,
       ])}>
+        <LanguageSelect selectTheme={MobileSelectTheme} />
         <button
           className={styles.menuIcon}
           onClick={this._toggleMenu}
@@ -49,7 +50,6 @@ export default class MobileMenu extends Component {
             <LocaleAwareLink to={ROUTES.BLOG.INDEX} className={styles.blogLink}>
               {intl.formatMessage(linkTitles.blogLink)}
             </LocaleAwareLink>
-            <LanguageSelect selectTheme={MobileSelectTheme} />
             <JoinUsButton className={styles.joinUsButton} />
           </div>
         </div>

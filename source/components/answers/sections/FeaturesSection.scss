@@ -24,17 +24,17 @@
   padding: 0 1em;
   margin-bottom: 3em;
 
-  @media ($theme-breakpoint-small) {
+  @media (min-width: $theme-breakpoint-small) {
     margin-top: 2em;
   }
 
-  @media ($theme-breakpoint-medium) {
+  @media (min-width: $theme-breakpoint-medium) {
     margin-top: 2em;
     margin-bottom: 4em;
     padding: 0 2em;
   }
 
-  @media ($theme-breakpoint-large) {
+  @media (min-width: $theme-breakpoint-large) {
     margin-top: 4em;
   }
 

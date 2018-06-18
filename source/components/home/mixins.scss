@@ -20,7 +20,7 @@
     font-family: $theme-font-sans-regular;
     font-size: 17px;
     line-height: 1.5em;
-    @media ($theme-breakpoint-small) {
+    @media (min-width: $theme-breakpoint-small) {
       padding-left: 20px;
     }
   }

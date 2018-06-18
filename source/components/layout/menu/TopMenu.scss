@@ -2,17 +2,29 @@
 @import "../../../theme/mixins/container";
 
 .topMenu {
+  width: 100%;
   height: $theme-top-menu-height-mobile;
+  background-color: white;
   display: flex;
-  position: sticky;
+  position: fixed;
   z-index: 1;
-  @include container;
+  padding: 0 1em;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
 
   .desktopMenu {
     display: none;
   }
 
-  @media ($theme-breakpoint-small) {
+  @media (min-width: $theme-breakpoint-small) {
+    position: sticky;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    @include container;
+
     .desktopMenu {
       display: inherit;
     }
@@ -23,9 +35,9 @@
 }
 
 .homeLink {
-  width: 35px;
-  background: url('../../../theme/images/layout/menu/josoor-logo-lettermark-orange.svg') center no-repeat;
-  background-size: 35px;
+  width: 100px;
+  background: url('../../../theme/images/layout/josoor-logo-horizontal-colored.svg') center no-repeat;
+  background-size: 100px;
   display: block;
   height: $theme-top-menu-height-mobile;
   text-indent: -9999px;
@@ -39,7 +51,7 @@
   flex-grow: 0;
 }
 
-@media ($theme-breakpoint-small) {
+@media (min-width: $theme-breakpoint-small) {
   .topMenu {
     height: $theme-top-menu-height;
   }

@@ -8,7 +8,7 @@
   flex-direction: column;
   align-items: center;
   height: 300px;
-  @media ($theme-breakpoint-small) {
+  @media (min-width: $theme-breakpoint-small) {
     margin-top: -$theme-top-menu-height;
   }
 }
