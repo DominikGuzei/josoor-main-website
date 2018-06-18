@@ -86,6 +86,11 @@ body {
   }
 }
 
+body[dir="rtl"] {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
 h1, h2 {
   font-family: $theme-font-sans-bold;
   color: $theme-color-main-dark;
