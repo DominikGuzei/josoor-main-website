@@ -14,6 +14,8 @@
   height: 15px;
   background: url('../../../theme/images/layout/menu/mobile-menu-icon.svg') center no-repeat;
   cursor: pointer;
+  position: relative;
+  top: -1px;
 }
 
 .menuOverlay {
