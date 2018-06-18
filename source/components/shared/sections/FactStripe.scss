@@ -9,11 +9,11 @@
   font-size: 24px;
   line-height: 1.5em;
 
-  @media ($theme-breakpoint-small) {
+  @media (min-width: $theme-breakpoint-small) {
     font-size: 28px;
   }
 
-  @media ($theme-breakpoint-medium) {
+  @media (min-width: $theme-breakpoint-medium) {
     font-size: 32px;
   }
 }

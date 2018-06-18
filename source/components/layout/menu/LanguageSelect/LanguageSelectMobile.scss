@@ -1,19 +1,20 @@
 @import "../../../../theme/polymorph/custom/config";
 // Theme config overrides go here
-$select-up-arrow-url: url('../assets/select-up-arrow-orange.svg');
-$select-up-arrow-focus-url: $select-up-arrow-url;
-$select-down-arrow-url: url('../assets/select-down-arrow-orange.svg');
-$select-down-arrow-focus-url: $select-down-arrow-url;
+//$select-up-arrow-url: url('../assets/select-up-arrow-orange.svg');
+//$select-up-arrow-focus-url: $select-up-arrow-url;
+//$select-down-arrow-url: url('../assets/select-down-arrow-orange.svg');
+//$select-down-arrow-focus-url: $select-down-arrow-url;
 $select-input-bg-color: transparent;
 $select-down-arrow-position-left: 100%;
-$select-input-padding: 0 1em 0 0;
-$select-down-arrow-position-bottom: 8px;
+$select-input-padding: 0 0.5em 0 0;
+$select-down-arrow-position-bottom: 6px;
 @import "../../../../../node_modules/react-polymorph/source/themes/simple/SimpleSelect";
 // Css module overrides go here …
 
 .select {
-  width: calc(100% - 25px);
-  margin-left: 8px;
+  width: calc(100% - 150px);
+  margin-right: 50px;
+  margin-top: 2px;
   :global {
     .SimpleBubble_bubble {
       box-shadow: none;
@@ -24,16 +25,24 @@ $select-down-arrow-position-bottom: 8px;
   }
 }
 
-[dir="rtl"] .select {
-  width: 100%;
-  margin-left: 0;
-}
-
 .selectInput {
   input {
     border: none;
+    text-align: right;
     text-transform: uppercase;
     font-family: $theme-font-sans-regular;
     font-size: 16px;
+  }
+}
+
+[dir="rtl"] {
+  .select {
+    margin-right: 0;
+    margin-left: 30px;
+  }
+
+  .selectInput input {
+    text-align: left;
+    padding-left: 2.5em;
   }
 }

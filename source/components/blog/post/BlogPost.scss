@@ -3,7 +3,7 @@
 
 .content {
   @include container;
-  max-width: 640px;
+  max-width: $theme-breakpoint-small;
 
   p, li {
     margin-bottom: 1.5em;
@@ -35,7 +35,7 @@
 }
 
 .blogHeader {
-  @media (min-width: 640px) {
+  @media (min-width: $theme-breakpoint-small) {
     background: url('../../../assets/home/header.jpg') no-repeat center center;
     background-size: cover;
     height: 240px;
@@ -47,7 +47,7 @@
   background: white;
   margin-bottom: 20px;
 
-  @media (min-width: 640px) {
+  @media (min-width: $theme-breakpoint-small) {
     @include container;
     max-width: 640px;
     padding: 30px;
