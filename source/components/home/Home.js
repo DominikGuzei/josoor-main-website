@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import Head from "react-helmet";
 import { defineMessages, intlShape } from 'react-intl';
-import ProgressiveImage from 'react-progressive-image-loading';
 import headerImagePreview from '../../assets/home/header-preview.jpg';
 import headerImage from '../../assets/home/header.jpg';
 import josoorVerticalLogo from '../../theme/images/josoor-logo-vertical-white.svg';
@@ -21,9 +20,6 @@ import worldMapDarkPreview from '../../assets/world-map-stripe-dark-preview.jpg'
 import worldMapDark from '../../assets/world-map-stripe-dark.png'
 import worldMapOrangePreview from '../../assets/world-map-stripe-orange-preview.jpg'
 import worldMapOrange from '../../assets/world-map-stripe-orange.png'
-import { getAlternateLanguagesTo, getLanguageByParentLocale } from '../../i18n';
-import { getRouteToAlternateLanguage } from '../../utils/routing';
-import PropTypes from 'prop-types';
 
 const messages = defineMessages({
   title: {
@@ -96,8 +92,7 @@ export default class Home extends Component {
             headerImagePreview={headerImagePreview}
             headerImage={headerImage}
             logo={josoorVerticalLogo}
-            headline={intl.formatMessage(messages.headline)}
-            pitch={intl.formatMessage(messages.pitch)}
+            headline={intl.formatMessage(messages.pitch)}
           />
 
           <div className={styles.projectsSection}>

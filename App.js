@@ -32,9 +32,9 @@ if (browserHistory) browserHistory.push = pushLocation;
 const routes = () => (
   <Router history={browserHistory} onUpdate={anchorate}>
     <Route component={Provider}>
-      {generateRoute(ROUTES.IMPRESS, Impress)}
       <Route component={Layout}>
         {generateRoute(ROUTES.INDEX, Home)}
+        {generateRoute(ROUTES.IMPRESS, Impress)}
         {generateRoute(ROUTES.ANSWERS, Answers)}
         {generateRoute(ROUTES.BLOG.INDEX, BlogIndexContainer)}
         {generateRoute(ROUTES.BLOG.POST, BlogPostContainer)}

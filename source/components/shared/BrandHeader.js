@@ -13,8 +13,7 @@ export const BrandHeader = (props) => (
       <div className={styles.header} style={Object.assign(style, { backgroundImage: `url(${src})` })}>
         <img className={styles.logo} src={props.logo} alt="Logo" />
         <h1 className={styles.headline}>{props.headline}</h1>
-        <div className={styles.pitch}>{props.pitch}</div>
-        <JoinUsButton />
+        {props.hideJoinButton ? null : <JoinUsButton />}
       </div>
     )}
   />

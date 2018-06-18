@@ -27,10 +27,6 @@
 }
 
 .headline {
-  display: none;
-}
-
-.pitch {
   text-align: center;
   width: 80%;
   max-width: 700px;
@@ -38,6 +34,7 @@
   font-size: 24px;
   color: white;
   line-height: 1.3em;
+  margin-top: 0;
   margin-bottom: 40px;
   @media (min-width: $theme-breakpoint-small) {
     font-size: 27px;

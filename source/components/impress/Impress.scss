@@ -3,6 +3,7 @@
 
 .impress {
   @include container;
+  margin-top: 40px;
   max-width: 640px;
   text-align: center;
 

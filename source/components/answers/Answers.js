@@ -72,8 +72,7 @@ export default class Answers extends Component {
             headerImagePreview={headerImagePreview}
             headerImage={headerImage}
             logo={headerLogo}
-            headline={intl.formatMessage(messages.headline)}
-            pitch={intl.formatMessage(messages.pitch)}
+            headline={intl.formatMessage(messages.pitch)}
           />
 
           <section className={styles.featuresSection}>
