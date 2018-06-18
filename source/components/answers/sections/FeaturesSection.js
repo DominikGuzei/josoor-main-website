@@ -7,6 +7,11 @@ import featuresPreview from '../../../assets/answers/features-preview.jpg';
 import featuresImage from '../../../assets/answers/features.jpg';
 import featuresPreviewArabic from '../../../assets/answers/features-ar-preview.jpg';
 import featuresImageArabic from '../../../assets/answers/features-ar.jpg';
+import searchIcon from '../../../assets/answers/search-icon.svg';
+import askIcon from '../../../assets/answers/ask-icon.svg';
+import answerIcon from '../../../assets/answers/answer-icon.svg';
+import reviewIcon from '../../../assets/answers/review-icon.svg';
+import translateIcon from '../../../assets/answers/translate-icon.svg';
 import { SUPPORTED_LANGUAGES } from '../../../i18n';
 
 const messages = defineMessages({
@@ -60,10 +65,13 @@ const messages = defineMessages({
   },
 });
 
-const renderFeature = (title, description) => (
+const renderFeature = (title, description, icon) => (
   <Col className={styles.feature} xs={10} sm={6} md={4}>
-    <h3>{title}</h3>
-    <p>{description}</p>
+    <img className={styles.icon} src={icon} />
+    <div className={styles.text}>
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
   </Col>
 );
 
@@ -99,23 +107,28 @@ export default class FeaturesSection extends Component {
             <Row center="xs">
               {renderFeature(
                 intl.formatMessage(messages.searchTitle),
-                intl.formatMessage(messages.searchDescription)
+                intl.formatMessage(messages.searchDescription),
+                searchIcon
               )}
               {renderFeature(
                 intl.formatMessage(messages.askTitle),
-                intl.formatMessage(messages.askDescription)
+                intl.formatMessage(messages.askDescription),
+                askIcon
               )}
               {renderFeature(
                 intl.formatMessage(messages.answerTitle),
-                intl.formatMessage(messages.answerDescription)
+                intl.formatMessage(messages.answerDescription),
+                answerIcon
               )}
               {renderFeature(
                 intl.formatMessage(messages.reviewTitle),
-                intl.formatMessage(messages.reviewDescription)
+                intl.formatMessage(messages.reviewDescription),
+                reviewIcon
               )}
               {renderFeature(
                 intl.formatMessage(messages.translateTitle),
-                intl.formatMessage(messages.translateDescription)
+                intl.formatMessage(messages.translateDescription),
+                translateIcon
               )}
             </Row>
           </Col>
