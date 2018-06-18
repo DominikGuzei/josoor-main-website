@@ -7,6 +7,7 @@ import SelectSkin from 'react-polymorph/lib/skins/simple/SelectSkin';
 import { withTheme } from 'react-polymorph/lib/themes/withTheme';
 import { IDENTIFIERS } from 'react-polymorph/lib/themes/API';
 import styles from './LanguageSelect.scss';
+import { getRouteToAlternateLanguage } from '../../../../utils/routing';
 
 class LanguageSelect extends Component {
 
@@ -19,7 +20,7 @@ class LanguageSelect extends Component {
     const { router, intl } = this.context;
     const currentPath = router.location.pathname;
     const currentLocale = intl.locale;
-    const localeHref = currentPath.replace(new RegExp(`^/${currentLocale}`), `/${value}`);
+    const localeHref = getRouteToAlternateLanguage(currentPath, currentLocale, value);
     return <Link className={styles.label} to={localeHref}>{label}</Link>;
   };
 

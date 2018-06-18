@@ -21,6 +21,9 @@ import worldMapDarkPreview from '../../assets/world-map-stripe-dark-preview.jpg'
 import worldMapDark from '../../assets/world-map-stripe-dark.png'
 import worldMapOrangePreview from '../../assets/world-map-stripe-orange-preview.jpg'
 import worldMapOrange from '../../assets/world-map-stripe-orange.png'
+import { getAlternateLanguagesTo, getLanguageByParentLocale } from '../../i18n';
+import { getRouteToAlternateLanguage } from '../../utils/routing';
+import PropTypes from 'prop-types';
 
 const messages = defineMessages({
   title: {

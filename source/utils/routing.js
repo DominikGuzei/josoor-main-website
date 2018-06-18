@@ -23,3 +23,7 @@ export const buildRoute = (pattern, params) => new Route(pattern).reverse(params
 export const replaceLanguageParts = (path, replacement) => (
   path.replace('(:language/)', replacement).replace('(:language(/))', replacement)
 );
+
+export const getRouteToAlternateLanguage = (route, current, alternate) => (
+  route.replace(new RegExp(`^/${current}`), `/${alternate}`)
+);

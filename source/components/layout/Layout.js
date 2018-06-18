@@ -6,10 +6,13 @@ import { ROUTES } from '../../routes';
 import TopMenu from './menu/TopMenu';
 import LocaleAwareLink from '../shared/LocaleAwareLink';
 import {
+  getAlternateLanguagesTo,
   getLanguageByParentLocale, SUPPORTED_LANGUAGES,
 } from '../../i18n';
 import { arabicFonts, latinFonts } from '../../theme/fonts';
 import environment from '../../environment';
+import { getRouteToAlternateLanguage } from '../../utils/routing';
+import PropTypes from 'prop-types';
 
 const messages = defineMessages({
   impressLink: {
@@ -22,12 +25,16 @@ export default class Layout extends Component {
 
   static contextTypes = {
     intl: intlShape.isRequired,
+    router: PropTypes.object.isRequired,
   };
 
   render() {
     const { children } = this.props;
-    const { intl } = this.context;
+    const { intl, router } = this.context;
+    const path = router.location.pathname;
+    const locale = intl.locale;
     const currentLanguage = getLanguageByParentLocale(intl.locale);
+    const alternateLanguages = getAlternateLanguagesTo(currentLanguage);
     const fontsCss = currentLanguage === SUPPORTED_LANGUAGES.ARABIC ? arabicFonts : latinFonts;
     return (
       <div className={styles.layout}>
@@ -35,6 +42,14 @@ export default class Layout extends Component {
           <html lang={currentLanguage.parentLocale} />
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          {alternateLanguages.map(({ parentLocale }) => (
+            <link
+              rel="alternate"
+              href={environment.BASE_URL + getRouteToAlternateLanguage(path, locale, parentLocale)}
+              hrefLang={parentLocale}
+              key={parentLocale}
+            />
+          ))}
           <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
           <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
           <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
