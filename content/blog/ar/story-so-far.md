@@ -6,7 +6,7 @@ subtitle: ربط التحديات والحلول معاً - من الفكرة إ
 author: ناتالي زرزور
 date: '2018-06-21'
 readable_date: ٢٤ حزيران  ٢٠١‬٨
-published: false
+published: true
 image: /images/puzzle-connection-1-.jpg
 teaser: >-
   في عام ٢٠١‬٥، طور الشاب السوري قتيبة فكرة جسور بعد أن حصل على اللجوء في
