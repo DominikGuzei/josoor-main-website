@@ -22,13 +22,11 @@ In 2014, Qutaiba went to Europe and sought asylum in Germany by the end of the y
 
 **The Idea**
 
-Bit by bit, he linked the pieces - and when he helped some friends found the association Kipepeo (http://wandlungsraeume-winterberg.de/about-foundation/), the idea started to take concrete shape: a platform where people can meet, connect, network, exchange and cooperate. Not only in a small town, but wherever there are refugees.
+Bit by bit, he linked the pieces - and when he helped some friends found the association [Kipepeo](http://wandlungsraeume-winterberg.de/about-foundation/), the idea started to take concrete shape: a platform where people can meet, connect, network, exchange and cooperate. Not only in a small town, but wherever there are refugees.
 
 When he was granted asylum in June 2015, the refugee crisis in Europe had just reached its peak - so instead of further developing the new idea, Qutaiba went to help other refugees along the same route he had travelled the year before, only this time as a volunteer.
 
 During his stay on the Croatian-Serbian border, he met Natalie, a volunteer from Austria. On his way back to Germany, he stopped at Vienna where they met again. When Qutaiba explained his idea to her, she immediately grasped the importance of it- and they decided to implement it together.
-
-
 
 **A rough start**
 
