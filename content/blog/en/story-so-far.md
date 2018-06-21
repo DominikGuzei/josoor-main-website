@@ -14,7 +14,8 @@ teaser: >-
   several delays and many difficulties due to lack of funds and developers they
   found the right team and strategy to launch in 2018.
 ---
-**Syria, Turkey, Germany**\
+**Syria, Turkey, Germany**
+
 \
 In  2012, then 23-year-old Qutaiba fled from Syria to Turkey. For the following two years he tried his best to earn money to finance humanitarian help for orphaned children in Syria. Whether as a presser in a laundry shop, a waiter, or even a restaurant owner - the money was never enough for more than his own survival. Frustrated with not having a chance to build something worthwhile, no chance of official residency any time soon and no future ahead, he decided to leave Turkey. 
 
