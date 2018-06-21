@@ -22,7 +22,7 @@ teaser: >-
 
 <img src="/images/img_3468.jpg" alt="drawing" width="200px" height="200px" style="float: left; margin-right: 1%; margin-bottom: 0.5em;"/> 
 
-<img src="/images/fb-home-share.png" alt="drawing" width="300px" height="200px" style="float: left; margin-right: 1%; margin-bottom: 0.5em;"/>
+<img src="/images/fb-home-share.png" alt="drawing" width="300px" height="200px" style="float: left; margin-right: 1%; margin-bottom: 2em;"/>
 
 # الفكرة
 
