@@ -23,7 +23,7 @@ teaser: >-
 
 **Die Anfänge**
 
-Stück für Stück setzte Qutaiba die einzelnen Puzzlestücke zusammen. Als er einem befreundeten Paar bei der Gründung des Vereins Kipepeo (http://wandlungsraeume-winterberg.de/about-foundation/) half, konkretisierte sich Qutaibas Idee: eine Plattform zur menschlichen Begegnung, Vernetzung, Austausch und Kooperation. Nicht nur in einem einzelnen, kleinen Ort, sondern überall, wo es Flüchtlinge gibt.
+Stück für Stück setzte Qutaiba die einzelnen Puzzlestücke zusammen. Als er einem befreundeten Paar bei der Gründung des Vereins [Kipepeo](http://wandlungsraeume-winterberg.de/about-foundation/) half, konkretisierte sich Qutaibas Idee: eine Plattform zur menschlichen Begegnung, Vernetzung, Austausch und Kooperation. Nicht nur in einem einzelnen, kleinen Ort, sondern überall, wo es Flüchtlinge gibt.
 
 Im Juni 2015 bekam er Asyl zugesprochen – und machte sich kurz darauf auf, um auf der Balkanroute, auf der er selbst nach Deutschland gekommen war, anderen zu helfen.
 
