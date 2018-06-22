@@ -64,4 +64,4 @@ teaser: >-
 يسعدنا أخيراً أن نبدأ العمل بشكل فعلي الآن - وفي غضون بضعة أشهر ، سنحتاج إلى دعمكم لنتمكن من أخذ الخطوة الأخيرة على الطريق: تمويل تطوير منصة جسور الإلكترونية من خلال حملة تمويل جماعية من أعضاء مجتمعنا. سيكون الأمر متروك لكم لجعل جسور حقيقة!
 
 <img src="/images/impacthub5.png" width="320" height="200" float="center" markdown="3" title=" خطاب ناتالي في مؤتمر عن الهجرة والإندماج في فيينا">
-<img src="/images/impacthub1.png" width="320" height="200" float="center" markdown="3" title="فريق جسور في مؤتمر عن الهجرة والاندماج في فيينا"><br><a href="https://www.facebook.com/LeaFabienne.Photography/">التقطت الصورة ليا فابيني</a></br><br></br>
+<img src="/images/impacthub1.png" width="320" height="200" float="center" markdown="3" title="فريق جسور في مؤتمر عن الهجرة والاندماج في فيينا"><br><a href="https://www.facebook.com/LeaFabienne.Photography/">التقطت الصورتين ليا فابيني</a></br><br></br>
