@@ -23,7 +23,6 @@ teaser: >-
 <a herf="https://d33wubrfki0l68.cloudfront.net/d20f9c1a00a4cd9e030caaae5e97b12a9bd1d4dd/5cf78/images/img_3468.jpg"><img src="/images/2013-08-18-10.44.15.jpg" width="320" height="200" float="center" markdown="3"></a>
 <a herf="https://d33wubrfki0l68.cloudfront.net/d20f9c1a00a4cd9e030caaae5e97b12a9bd1d4dd/5cf78/images/img_3468.jpg"><img src="/images/img_3468.jpg" width="320" height="200" float="center" markdown="3"></a>
 
-![null](/images/2013-08-18-10.44.15.jpg)
 
 # الفكرة
 
