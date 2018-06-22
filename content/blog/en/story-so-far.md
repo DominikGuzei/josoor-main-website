@@ -22,7 +22,7 @@ In 2014, Qutaiba went to Europe and sought asylum in Germany by the end of the y
 
 <img src="/images/2013-08-18-10.44.15.jpg" width="320" height="200" float="center" markdown="3" title="Qutaiba in Syria">
 
-<img src="/images/img_3468.jpg" width="320" height="200" float="center" markdown="3" title="Planning Josoor">
+<img src="/images/img_3468.jpg" width="320" height="200" float="center" markdown="3" title="Planning Josoor"><br></br>
 
 **The Idea**
 
@@ -34,7 +34,7 @@ During his stay on the Croatian-Serbian border, he met Natalie, a volunteer from
 
 <img src="/images/img-20150921-wa0020.jpg" width="320" height="200" float="center" markdown="3" title="Volunteering on the Croatian - Serbian borders">
 
-<img src="/images/wp_20150925_19_55_29_pro.jpg" width="320" height="200" float="center" markdown="3" title="Qutaiba and Natalie meet in Vienna">
+<img src="/images/wp_20150925_19_55_29_pro.jpg" width="320" height="200" float="center" markdown="3" title="Qutaiba and Natalie meet in Vienna"><br></br>
 
 **A rough start**
 
@@ -42,7 +42,7 @@ After Natalie returned from a research project in Nepal in December 2015, they s
 
 <img src="/images/n-in-nepal-3.jpg" width="320" height="200" float="center" markdown="3" title="Natalie while volunteering in Nepal">
 
-<img src="/images/qutaiba-speech.jpg" width="320" height="200" float="center" markdown="3" title="Qutaiba giving a speech at Freedom Festival Vienna">
+<img src="/images/qutaiba-speech.jpg" width="320" height="200" float="center" markdown="3" title="Qutaiba giving a speech at Freedom Festival Vienna"><br>
 
 Knowing about the importance of Josoor and highlights such as the invitation to Web Summit (the largest tech conference in Europe) and the great feedback Josoor received there, however, kept motivating us not to give up yet.
 
@@ -50,7 +50,7 @@ Throughout this journey, many people joined our team, others left again. We are 
 
 <img src="/images/hq-team-2.jpg" width="320" height="200" float="center" markdown="3" title="Josoor Team">
 
-<img src="/images/dsc_0055.jpg" width="320" height="200" float="center" markdown="3" title="Natalie at Josoor HQ in Vienna">
+<img src="/images/dsc_0055.jpg" width="320" height="200" float="center" markdown="3" title="Natalie at Josoor HQ in Vienna"><br>
 
 Now, after two and a half years, we finally found the right team with Dominik, Emma and Mohammed to put Josoor into action.
 
