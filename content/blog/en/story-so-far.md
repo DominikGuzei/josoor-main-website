@@ -53,7 +53,7 @@ Throughout this journey, many people joined our team, others left again. We are 
 
 <img src="/images/hq-team-2.jpg" width="320" height="200" float="center" markdown="3" title="Josoor Team">
 
-<img src="/images/dsc_0055.jpg" width="320" height="200" float="center" markdown="3" title="Natalie at Josoor HQ in Vienna"
+<img src="/images/dsc_0055.jpg" width="320" height="200" float="center" markdown="3" title="Natalie at Josoor HQ in Vienna">
 <br></br>
 
 Now, after two and a half years, we finally found the right team with Dominik, Emma and Mohammed to put Josoor into action.
