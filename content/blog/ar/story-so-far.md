@@ -42,7 +42,7 @@ teaser: >-
 
 <img src="/images/n-in-nepal-3.jpg" width="320" height="200" float="center" markdown="3" title="ناتالي أثناء رحلتها التطوعية إلى نيبال">
 
-<img src="/images/qutaiba-speech.jpg" width="320" height="200" float="center" markdown="3" title="خطاب ألقاه قتيبة عن جسور في مهرجان الحرية في فيينا"><br></br>
+<img src="/images/qutaiba-speech.jpg" width="320" height="200" float="center" markdown="3" title="خطاب ألقاه قتيبة عن جسور في مهرجان الحرية في فيينا"><br>
 
 ومع ذلك ، فإن معرفة أهمية جسور وتميزها بحصولها على دعوة مجانية لحضور مؤتمر ["قمة الويب"](https://websummit.com/) (أكبر مؤتمر تقني في أوروبا) والتعليقات العظيمة التي تلقاها الفريق ، حافظت على تحفيزهم على عدم الاستسلام بعد.
 
