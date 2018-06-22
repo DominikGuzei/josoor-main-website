@@ -22,7 +22,8 @@ In 2014, Qutaiba went to Europe and sought asylum in Germany by the end of the y
 
 <img src="/images/2013-08-18-10.44.15.jpg" width="320" height="200" float="center" markdown="3" title="Qutaiba in Syria">
 
-<img src="/images/img_3468.jpg" width="320" height="200" float="center" markdown="3" title="Planning Josoor"><br></br>
+<img src="/images/img_3468.jpg" width="320" height="200" float="center" markdown="3" title="Planning Josoor">
+<br></br>
 
 **The Idea**
 
