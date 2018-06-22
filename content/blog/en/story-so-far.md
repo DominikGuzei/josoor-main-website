@@ -20,7 +20,7 @@ In  2012, then 23-year-old Qutaiba fled from Syria to Turkey. For the following 
 
 In 2014, Qutaiba went to Europe and sought asylum in Germany by the end of the year. For six months he was waiting for the decision in his asylum case in a tiny, rural village near Winterberg, North Rhine-Westphalia. It was a deeply depressing time for Qutaiba. Usually very active, he was suddenly doomed to do nothing at all - all alone, not allowed to work, no money for activities of any kind, not even to go to the next town to make friends. With all this time at his hands, he started analysing the challenges and problems refugees in the area, but also local supporters were facing. Talking to as many people as possible, he started to get a clear overview of the bigger situation - and slowly, an idea started forming in his mind. 
 
-<img src="/images/2013-08-18-10.44.15.jpg" alt="qutaiba zarzour, syria" width="320" height="200" float="center" markdown="3" title="Qutaiba in Syria">
+<img src="/images/2013-08-17-08.47.26.jpg" alt="qutaiba zarzour, syria" width="320" height="200" float="center" markdown="3" title="Qutaiba in Syria">
 
 <img src="/images/img_3468.jpg" alt="Josoor, planning for Josoor, josoor plan" width="320" height="200" float="center" markdown="3" title="Planning Josoor">
 <br></br><br></br>
