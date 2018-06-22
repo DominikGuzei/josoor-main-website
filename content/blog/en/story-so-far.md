@@ -35,7 +35,8 @@ During his stay on the Croatian-Serbian border, he met Natalie, a volunteer from
 
 <img src="/images/img-20150921-wa0020.jpg" width="320" height="200" float="center" markdown="3" title="Volunteering on the Croatian - Serbian borders">
 
-<img src="/images/wp_20150925_19_55_29_pro.jpg" width="320" height="200" float="center" markdown="3" title="Qutaiba and Natalie meet in Vienna"><br></br>
+<img src="/images/wp_20150925_19_55_29_pro.jpg" width="320" height="200" float="center" markdown="3" title="Qutaiba and Natalie meet in Vienna">
+<br></br>
 
 **A rough start**
 
@@ -43,7 +44,8 @@ After Natalie returned from a research project in Nepal in December 2015, they s
 
 <img src="/images/n-in-nepal-3.jpg" width="320" height="200" float="center" markdown="3" title="Natalie while volunteering in Nepal">
 
-<img src="/images/qutaiba-speech.jpg" width="320" height="200" float="center" markdown="3" title="Qutaiba giving a speech at Freedom Festival Vienna"><br>
+<img src="/images/qutaiba-speech.jpg" width="320" height="200" float="center" markdown="3" title="Qutaiba giving a speech at Freedom Festival Vienna">
+<br></br>
 
 Knowing about the importance of Josoor and highlights such as the invitation to Web Summit (the largest tech conference in Europe) and the great feedback Josoor received there, however, kept motivating us not to give up yet.
 
@@ -51,7 +53,7 @@ Throughout this journey, many people joined our team, others left again. We are 
 
 <img src="/images/hq-team-2.jpg" width="320" height="200" float="center" markdown="3" title="Josoor Team">
 
-<img src="/images/dsc_0055.jpg" width="320" height="200" float="center" markdown="3" title="Natalie at Josoor HQ in Vienna"><br>
+<img src="/images/dsc_0055.jpg" width="320" height="200" float="center" markdown="3" title="Natalie at Josoor HQ in Vienna"><br></br>
 
 Now, after two and a half years, we finally found the right team with Dominik, Emma and Mohammed to put Josoor into action.
 
@@ -61,4 +63,5 @@ We are excited to finally get started - and in a few months, we need your suppor
 
 <img src="/images/impacthub5.png" width="320" height="200" float="center" markdown="3" title="Natalie giving a speech at an event about migration organized by Impact Hub">
 
-<img src="/images/impacthub1.png" width="320" height="200" float="center" markdown="3" title="Josoor team at an event about Migration by Impact Hub"><br><a href="https://www.facebook.com/LeaFabienne.Photography/">(c) Lea Fabienne Photography</a></br><br></br>
+<img src="/images/impacthub1.png" width="320" height="200" float="center" markdown="3" title="Josoor team at an event about Migration by Impact Hub">
+<br><a href="https://www.facebook.com/LeaFabienne.Photography/">(c) Lea Fabienne Photography</a></br><br></br>
