@@ -59,4 +59,5 @@ The concept is finished, the strategy clear, the designs prepared, the website l
 We are excited to finally get started - and in a few months, we need your support to go the last step of the way: financing the platform development through a crowdfunding campaign. Then it will be up to you to make Josoor a reality!
 
 <img src="/images/impacthub5.png" width="320" height="200" float="center" markdown="3" title="Natalie giving a speech at an event about migration organized by Impact Hub">
-<br><img src="/images/impacthub1.png" width="320" height="200" float="center" markdown="3" title="Josoor team at an event about Migration by Impact Hub"></br><a href="https://www.facebook.com/LeaFabienne.Photography/">(c) Lea Fabienne Photography</a>
+
+<img src="/images/impacthub1.png" width="320" height="200" float="center" markdown="3" title="Josoor team at an event about Migration by Impact Hub"><br><a href="https://www.facebook.com/LeaFabienne.Photography/">(c) Lea Fabienne Photography</a></br><br></br>
