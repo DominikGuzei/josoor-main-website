@@ -42,23 +42,21 @@ During his stay on the Croatian-Serbian border, he met Natalie, a volunteer from
 
 After Natalie returned from a research project in Nepal in December 2015, they started working on what was now called Josoor: clarifying the vision, ​​finding team members, specifying the concept, sketching the platform, deciding on the strategy, writing the business plan. The hope that it would take only a few months to launch was soon disappointed. The vision they initially had for Josoor was much too broad and had to be broken down into smaller pieces. But which of these to start with? A lot of research, interviews and exchange was necessary - and time consuming.  Due to lack of funds and developers, the launch had to be delayed again and again. Earning an income on the side, attending German courses and family obligations all delayed the launch even further.
 
+Knowing about the importance of Josoor and highlights such as the invitation to Web Summit (the largest tech conference in Europe) and the great feedback Josoor received there, however, kept motivating us not to give up yet.
+
+Throughout this journey, many people joined our team, others left again. We are thankful to all of them and we have learned a lot from every single one.
+
 <img src="/images/n-in-nepal-3.jpg" alt="Natalie Zarzour in Nepal, Natalie, Gruber, volunteering in Nepal" width="320" height="200" float="center" markdown="3" title="Natalie while volunteering in Nepal">
 
 <img src="/images/qutaiba-speech.jpg" alt="Qutaiba Zarzour giving a speech about Josoor, josoor, qutaiba zarzour" width="320" height="200" float="center" markdown="3" title="Qutaiba giving a speech at Freedom Festival Vienna">
 
-<img src="/images/hq-team-2.jpg" alt="Josoor team, josoor" width="320" height="200" float="center" markdown="3" title="Josoor Team">
-
-<img src="/images/dsc_0055.jpg" alt="Natalie Zarzour, Gruber, Josoor Office, Josoor" width="320" height="200" float="center" markdown="3" title="Qutaiba giving a speech at Freedom Festival Vienna">
-<br></br>
-
-Knowing about the importance of Josoor and highlights such as the invitation to Web Summit (the largest tech conference in Europe) and the great feedback Josoor received there, however, kept motivating us not to give up yet.
-
-Throughout this journey, many people joined our team, others left again. We are thankful to all of them and we have learned a lot from every single one. 
-
 <img src="/images/websummit2016.png" alt="Websummit 2016, Josoor at websummit, josoor events" width="320" height="200" float="center" markdown="3" title="Josoor at Websummit">
 
-<img src="/images/websummit_josoor_stand.png" alt="Websummit 2016, Josoor at websummit, Josoor stand"  width="320" height="200" float="center" markdown="3" title="Natalie at Josoor HQ in Vienna">
-<br></br>
+<img src="/images/hq-team-2.jpg" alt="Josoor team, josoor" width="320" height="200" float="center" markdown="3" title="Josoor Team">
+<br></br><br></br>
+
+
+**Finally**
 
 Now, after two and a half years, we finally found the right team with Dominik, Emma and Mohammed to put Josoor into action.
 
