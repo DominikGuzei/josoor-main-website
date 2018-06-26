@@ -7,7 +7,7 @@ author: Natalie Zarzour
 date: '2018-06-21'
 readable_date: 25.6.2018
 published: true
-image: /images/puzzle-connection-1-.jpg
+image: /images/puzzle-connection.jpg
 teaser: >-
   2015 entwickelte der syrische Flüchtling Qutaiba in Deutschland die Idee von
   dem, was später Josoor werden würde. Mit der Österreicherin Natalie begann er
@@ -21,10 +21,10 @@ teaser: >-
 
 2014  suchte er in Deutschland um Asyl an. Sechs Monate dauerte es bis zur Entscheidung in seinem Asylverfahren. Die verbrachte er in einem kleinen, abgelegenen Ort in der Nähe von Winterberg, Nordrhein-Westfalen. Es war eine zutiefst deprimierende Zeit für Qutaiba. Sonst sehr aktiv war er plötzlich zum Nichtstun verdammt: ohne Arbeitserlaubnis, ohne Geld für jegliche Aktivitäten, nicht mal dafür, in die nächste Stadt zu fahren um Leute kennenzulernen. Mit all der Zeit zur Verfügung begann er, die Probleme von Flüchtlingen und Freiwilligen in der Umgebung zu analysieren. Durch Gespräche mit so vielen Menschen wie möglich bekam er einen Überblick über die Situation - und er begann, eine Idee zu formen. 
 
-<img src="/images/2013-08-17-08.47.26.jpg" alt="qutaiba zarzour, syria" width="320" height="200" float="center" markdown="3" title="Qutaiba in Syria">
-
-<img src="/images/img_3468.jpg" alt="Josoor, planning for Josoor, josoor plan" width="320" height="200" float="center" markdown="3" title="Planning Josoor">
-<br></br><br></br>
+<gallery columnHeight="200px">
+  <img src="/images/qutaiba-in-syria.jpg" title="Qutaiba in Syrien" />
+  <img src="/images/planning-josoor.jpg" title="Josoor planen" />
+</gallery>
 
 **Die Anfänge**
 
@@ -34,10 +34,10 @@ Im Juni 2015 bekam er Asyl zugesprochen – und machte sich kurz darauf auf, um 
 
 Bei seinem Aufenthalt an der kroatisch- serbischen Grenze im September begegnete er Natalie, einer Freiwilligen aus Österreich. Am Weg zurück nach  Deutschland legte er einen Stopp in Wien ein, wo sich die beiden wieder trafen. Als sie von seiner Idee erfuhr, war die Master Studentin der Internationalen Entwicklung sofort Feuer und Flamme. Gemeinsam beschlossen die beiden, sie in die Realität umzusetzen.
 
-<img src="/images/img-20150921-wa0020.jpg" alt="Qutaiba Volunteering, Volunteering on Borders, Volunteering on Croatia borders, Croatia-Serbia borders" width="320" height="200" float="center" markdown="3" title="Volunteering on the Croatian - Serbian borders">
-
-<img src="/images/wp_20150925_19_55_29_pro.jpg" alt="Qutaiba & Natalie, Qutaiba, Natalie, Vienna, Qutaiba meets Natalie" width="320" height="200" float="center" markdown="3" title="Qutaiba and Natalie meet in Vienna">
-<br></br><br></br>
+<gallery columnHeight="200px">
+  <img src="/images/qutaiba-volunteering-croatia.jpg" title="Qutaiba ehrenamtlich an der Kroatisch-Serbischen Grenze">
+  <img src="/images/qutaiba-natalie-meet-in-vienna.jpg" title="Qutaiba und Natalie treffen sich in Wien">
+</gallery>
 
 **Schwierigkeiten und Verzögerungen**
 
@@ -47,11 +47,12 @@ Das Wissen um die Wichtigkeit von Josoor sowie Höhepunkte wie die Einladung zum
 
 Auf unserem Weg schlossen sich uns viele Menschen an, andere verließen uns wieder. Wir danken ihnen allen und haben von jedem und jeder Einzelnen sehr viel gelernt.
 
-<img src="/images/n-in-nepal-3.jpg" alt="Natalie Zarzour in Nepal, Natalie, Gruber, volunteering in Nepal" width="320" height="200" float="center" markdown="3" title="Natalie while volunteering in Nepal">
-<img src="/images/qutaiba-speech.jpg" alt="Qutaiba Zarzour giving a speech about Josoor, josoor, qutaiba zarzour" width="320" height="200" float="center" markdown="3" title="Qutaiba giving a speech at Freedom Festival Vienna">
-<img src="/images/websummit2016.png" alt="Websummit 2016, Josoor at websummit, josoor events" width="320" height="200" float="center" markdown="3" title="Josoor at Websummit">
-<img src="/images/hq-team-2.jpg" alt="Josoor team, josoor" width="320" height="200" float="center" markdown="3" title="Josoor Team">
-<br></br><br></br>
+<gallery columnHeight="200px">
+  <img src="/images/natalie-in-nepal.jpg" title="Natalie ehrenamtlich in Nepal">
+  <img src="/images/qutaiba-speech.jpg" title="Qutaiba hält einen Vortrag am Freedom Festival Vienna">
+  <img src="/images/websummit2016.jpg" title="Josoor am Websummit">
+  <img src="/images/josoor-team-2016.jpg" title="Das Josoor Team">
+</gallery>
 
 **Endlich**
 
@@ -61,7 +62,9 @@ Die Entscheidung, welche App als erstes umgesetzt wird, ist gefallen, die Strate
 
 Wir können es kaum erwarten, endlich loszulegen! Bald sind wir auf eure Unterstützung angewiesen um den letzten Schritt zu schaffen: die Finanzierung der Plattformentwicklung durch eine Crowdfunding Kampagne. Dann liegt es nur mehr an euch, Josoor Wirklichkeit werden zu lassen!
 
-<img src="/images/impacthub5.png" alt="Natalie Zarzour giving a speech, speech about josoor, josoor events, Natalie Zarzour" width="320" height="200" float="center" markdown="3" title="Natalie giving a speech at an event about migration organized by Impact Hub">
+<gallery columnHeight="200px">
+  <img src="/images/impacthub5.jpg" title="Natalie hält einen Vortrag bei einem Event zu Migration im Impact Hub">
+  <img src="/images/impacthub1.jpg" title="Das Josoor team auf einem Event zu Migration im Impact Hub">
+</gallery>
 
-<img src="/images/impacthub1.png" alt="Josoor team, josoor events, josoor stand" width="320" height="200" float="center" markdown="3" title="Josoor team at an event about Migration by Impact Hub">
-<br><a href="https://www.facebook.com/LeaFabienne.Photography/">(c) Lea Fabienne Photography</a></br><br></br>
+<a href="https://www.facebook.com/LeaFabienne.Photography/">(c) Lea Fabienne Photography</a>

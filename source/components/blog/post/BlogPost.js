@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import { Grid, Row, Col } from 'react-flexbox-grid';
+import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
+import Head from "react-helmet";
+import { defineMessages, intlShape } from 'react-intl';
 import styles from './BlogPost.scss';
 import BlogPostHeader from '../BlogPostHeader';
-import Head from "react-helmet";
-import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
 import { ROUTES } from '../../../routes';
-import { defineMessages, intlShape } from 'react-intl';
 import LocaleAwareLink from '../../shared/LocaleAwareLink';
 import JoinUsSection from '../../shared/JoinUsSection';
 import environment from '../../../environment';
@@ -17,6 +18,27 @@ const messages = defineMessages({
     defaultMessage: '!!!Back home',
   },
 });
+
+const noTextNodes = (child) => typeof child !== "string" || child.replace(/\s/g, "") !== "";
+
+const componentsMap = {
+  gallery: (props) => (
+    <Grid fluid className={styles.gallery}>
+      <Row center="xs">
+        {props.children.filter(noTextNodes).map((image, index) => (
+          <Col
+            xs={12} sm={6}
+            key={index}
+            style={{ maxHeight: props.columnheight }}
+            className={styles.galleryImage}
+          >
+            {React.cloneElement(image, { alt: image.props.title })}
+          </Col>
+        ))}
+      </Row>
+    </Grid>
+  )
+};
 
 export default class BlogPost extends Component {
 
@@ -59,7 +81,9 @@ export default class BlogPost extends Component {
             {post.teaser}
           </p>
 
-          <BodyRenderer>{post.body}</BodyRenderer>
+          <BodyRenderer components={componentsMap}>
+            {post.body}
+          </BodyRenderer>
 
           <footer>
             <LocaleAwareLink to={ROUTES.BLOG.INDEX}>

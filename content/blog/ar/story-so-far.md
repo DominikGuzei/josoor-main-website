@@ -7,7 +7,7 @@ author: ناتالي زرزور
 date: '2018-06-21'
 readable_date: ٢٤ حزيران  ٢٠١‬٨‬
 published: true
-image: /images/puzzle-connection-1-.jpg
+image: /images/puzzle-connection.jpg
 teaser: >-
   في عام ٢٠١‬٥، طور الشاب السوري قتيبة فكرة جسور بعد أن حصل على اللجوء في
   ألمانيا. وسرعان ما بدأ هو والفتاة النمساوية ناتالي العمل على تنفيذها. بعد عدة
@@ -20,9 +20,10 @@ teaser: >-
 
 في عام ٢٠١٤ ، ذهب إلى أوروبا وطلب اللجوء في ألمانيا بحلول نهاية العام. لمدة ستة أشهر كان ينتظر القرار في قضية اللجوء الخاصة به في قرية صغيرة ريفية بالقرب من بلدة اسمها وينتربرغ ، في ولاية شمال الراين - ويستفاليا. لقد كان وقتًا محبطًا جدًا له. عادة ما يكون قتيبة نشيطاً للغاية ، ولكن فجأة حكم عليه بعدم القدرة على القيام بأي شيء على الإطلاق - لا يسمح له بالعمل ، لا يملك المال الكافي حتى لشراء تذاكر مواصلات النقل العام للذهاب إلى المدينة القريبة لتكوين صداقات وحضور الأنشطة الإجتماعية. مع كل هذا الوقت بين يديه ، بدأ في تحليل التحديات والمشاكل التي يواجهها اللاجئون في المنطقة ، والتحديات التي كان يواجهها السكان المحليين أيضاً. وعندما تحدث إلى أكبر عدد ممكن من الناس ، بدأ في الحصول على نظرة عامة وواضحة عن الموضوع بصورة أكبر - وببطء ، بدأت تتشكل فكرة في ذهنه.
 
-<img src="/images/2013-08-17-08.47.26.jpg" alt="قتيبة في سوريا" width="320" height="200" float="center" markdown="3" title="قتيبة في سوريا 2">
-
-<img src="/images/img_3468.jpg" alt="التخطيط لجسور" width="320" height="200" float="center" markdown="3" title="مرحلة التخطيط لجسور">
+<gallery columnHeight="200px">
+  <img src="/images/qutaiba-in-syria.jpg" title="قتيبة في سوريا 2">
+  <img src="/images/planning-josoor.jpg" title="مرحلة التخطيط لجسور">
+</gallery>
 
 ## الفكرة
 
@@ -32,9 +33,10 @@ teaser: >-
 
 خلال تطوعه على الحدود الكرواتية الصربية التقى بفتاة اسمها [ناتالي](https://www.facebook.com/natalie.zarz)، وهي متطوعة من النمسا. في طريق عودته إلى ألمانيا توقف في فيينا لبضعة أيام حيث التقيا مرة أخرى. عندما أوضح قتيبة فكرته عن شبكة جسور لها ، أدركت على الفور أهمية ذلك ، وقرروا تطبيقها معًا.
 
-<img src="/images/img-20150921-wa0020.jpg" alt="تطوع" width="320" height="200" float="center" markdown="3" title="أثناء التطوع على الحدود الكرواتية-الصربية">
-
-<img src="/images/wp_20150925_19_55_29_pro.jpg" alt="قتيبة وناتالي" width="320" height="200" float="center" markdown="3" title="قتيبة يلتقي بناتالي في فيينا">
+<gallery columnHeight="200px">
+  <img src="/images/qutaiba-volunteering-croatia.jpg" title="أثناء التطوع على الحدود الكرواتية-الصربية" />
+  <img src="/images/qutaiba-natalie-meet-in-vienna.jpg" title="قتيبة يلتقي بناتالي في فيينا" />
+</gallery>
 
 ## بداية صعبة
 
@@ -44,13 +46,12 @@ teaser: >-
 
 خلال هذه الرحلة ، انضم العديد من الأشخاص لفريق جسور وغادر آخرون مرة أخرى. نحن ممتنون لهم جميعا وقد تعلمنا الكثير من كل واحد منهم. 
 
-<img src="/images/n-in-nepal-3.jpg" alt="ناتالي في نيبال" width="320" height="200" float="center" markdown="3" title="ناتالي أثناء رحلتها التطوعية إلى نيبال">
-
-<img src="/images/qutaiba-speech.jpg" alt="خطاب قتيبة عن جسور" width="320" height="200" float="center" markdown="3" title="خطاب ألقاه قتيبة عن جسور في مهرجان الحرية في فيينا">
-
-<img src="/images/websummit2016.png" alt="مؤتمر قمة الويب" width="320" height="200" float="center" markdown="3" title="مؤتمر قمة الويب في ليسبون، البرتغال 2016">
-
-<img src="/images/hq-team-2.jpg" alt="فريق جسور، فريق شبكة جسور" width="320" height="200" float="center" markdown="3" title="فريق جسور">
+<gallery columnHeight="200px">
+  <img src="/images/natalie-in-nepal.jpg" title="ناتالي أثناء رحلتها التطوعية إلى نيبال">
+  <img src="/images/qutaiba-speech.jpg" title="خطاب ألقاه قتيبة عن جسور في مهرجان الحرية في فيينا">
+  <img src="/images/websummit2016.jpg" title="مؤتمر قمة الويب في ليسبون، البرتغال 2016">
+  <img src="/images/josoor-team-2016.jpg" title="فريق جسور">
+</gallery>
 
 ## ماذا يحدث الآن
 
@@ -60,6 +61,9 @@ teaser: >-
 
 يسعدنا أخيراً أن نبدأ العمل بشكل فعلي الآن - وفي غضون بضعة أشهر ، سنحتاج إلى دعمكم لنتمكن من أخذ الخطوة الأخيرة على الطريق: تمويل تطوير منصة جسور الإلكترونية من خلال حملة تمويل جماعية من أعضاء مجتمعنا. سيكون الأمر متروك لكم لجعل جسور حقيقة!
 
-<img src="/images/impacthub5.png" alt="خطاب ناتالي عن جسور 2018" width="320" height="200" float="center" markdown="3" title=" خطاب ناتالي في مؤتمر عن الهجرة والإندماج في فيينا">
-<img src="/images/impacthub1.png" alt="فريق جسور 2018" width="320" height="200" float="center" markdown="3" title="فريق جسور في مؤتمر عن الهجرة والاندماج في فيينا"><br>
+<gallery columnHeight="200px">
+  <img src="/images/impacthub5.jpg" title=" خطاب ناتالي في مؤتمر عن الهجرة والإندماج في فيينا">
+  <img src="/images/impacthub1.jpg" title="فريق جسور في مؤتمر عن الهجرة والاندماج في فيينا">
+</gallery>
+
 <a href="https://www.facebook.com/LeaFabienne.Photography/">التقطت الصورتين ليا فابيني</a></br><br></br>

@@ -64,3 +64,25 @@
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
+.gallery {
+  margin: 40px -8px;
+}
+
+.galleryImage {
+  margin-bottom: 20px;
+  overflow: hidden;
+  @media (max-width: $theme-breakpoint-small) {
+    max-height: initial !important;
+  }
+  img {
+    width: 100%;
+    @media (min-width: $theme-breakpoint-small) {
+      width: auto;
+      min-width: 100%;
+      max-width: 100%;
+      min-height: 100%;
+      max-height: 100%;
+    }
+  }
+}
