@@ -1,15 +1,10 @@
 import React, { Component } from 'react';
 import Head from "react-helmet";
 import styles from './Impress.scss';
-import josoorLogo from '../../theme/images/josoor-logo-vertical-white.svg';
+import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
 import { ROUTES } from '../../routes';
 import { defineMessages, intlShape, FormattedMessage } from 'react-intl';
 import LocaleAwareLink from '../shared/LocaleAwareLink';
-import { latinFonts } from '../../theme/fonts';
-import environment from '../../environment';
-import headerImagePreview from '../../assets/home/header-preview.jpg';
-import headerImage from '../../assets/home/header.jpg';
-import { BrandHeader } from '../shared/BrandHeader';
 
 const messages = defineMessages({
   title: {
@@ -50,17 +45,13 @@ export default class Impress extends Component {
       <div>
         <Head>
           <title>{intl.formatMessage(messages.title)}</title>
-          <style type="text/css" rel="stylesheet" cssText={latinFonts(environment.BASE_URL)} />
         </Head>
-        <BrandHeader
-          headerImagePreview={headerImagePreview}
-          headerImage={headerImage}
-          logo={josoorLogo}
-          headline={intl.formatMessage(messages.headline)}
-          hideJoinButton
-        />
+        <div className={styles.header} />
         <div className={styles.impress}>
           <div className={styles.text}>
+
+            <img className={styles.josoorLogo} src={josoorLogo} />
+            <h1>{intl.formatMessage(messages.headline)}</h1>
 
             <FormattedMessage
               {...messages.intro}

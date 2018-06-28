@@ -3,9 +3,11 @@ import PropTypes from 'prop-types';
 import Head from "react-helmet";
 import { browserHistory } from 'react-router';
 import { IntlProvider } from 'react-intl';
+// import GoogleAnalytics from 'react-ga';
 import translations from '../i18n/translations';
 import { parseRoute } from '../utils/routing';
 import ThemeProvider from 'react-polymorph/lib/components/ThemeProvider';
+import PrivacyProvider from './privacy/PrivacyProvider';
 import theme from '../theme/polymorph/theme';
 import {
   defaultLanguage,
@@ -40,6 +42,10 @@ export default class Provider extends Component {
     }
   }
 
+  componentDidMount() {
+    // GoogleAnalytics.initialize('UA-78308702-2');
+  }
+
   render() {
     const { children } = this.props;
     let locale = this.getLocaleFromRoute();
@@ -53,7 +59,9 @@ export default class Provider extends Component {
         </Head>
         <ThemeProvider theme={theme}>
           <IntlProvider {...{ locale, key: locale, messages: translations[locale] }}>
-            {children}
+            <PrivacyProvider>
+              {children}
+            </PrivacyProvider>
           </IntlProvider>
         </ThemeProvider>
       </Fragment>

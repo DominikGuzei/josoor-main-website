@@ -19,6 +19,20 @@
   margin-bottom: 20px;
 }
 
+.fbLink {
+  display: block;
+  margin-bottom: 1em;
+  &:link, &:visited {
+    color: #4266b2;
+  }
+  img {
+    width: 40px;
+    margin: 10px auto;
+    display: block;
+    position: relative;
+  }
+}
+
 .bankDetails {
   margin-top: 20px;
   font-size: 15px;

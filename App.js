@@ -13,6 +13,7 @@ import Impress from './source/components/impress/Impress';
 import Layout from "./source/components/layout/Layout";
 import Answers from './source/components/answers/Answers';
 import Provider from './source/components/Provider';
+import PrivacyStatement from './source/components/privacy/PrivacyStatement';
 import './source/theme/App.global.scss';
 
 const removeSplatNames = (route) => route.replace(/(?=\*)(\S+)/, '*');
@@ -35,6 +36,7 @@ const routes = () => (
       <Route component={Layout}>
         {generateRoute(ROUTES.INDEX, Home)}
         {generateRoute(ROUTES.IMPRESS, Impress)}
+        {generateRoute(ROUTES.PRIVACY, PrivacyStatement)}
         {generateRoute(ROUTES.ANSWERS, Answers)}
         {generateRoute(ROUTES.BLOG.INDEX, BlogIndexContainer)}
         {generateRoute(ROUTES.BLOG.POST, BlogPostContainer)}

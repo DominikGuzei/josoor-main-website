@@ -13,11 +13,16 @@ import { arabicFonts, latinFonts } from '../../theme/fonts';
 import environment from '../../environment';
 import { getRouteToAlternateLanguage } from '../../utils/routing';
 import PropTypes from 'prop-types';
+import PrivacyDisclaimer from '../privacy/PrivacyDisclaimer';
 
 const messages = defineMessages({
   impressLink: {
     id: 'layout.footer.impressLink',
-    defaultMessage: '!!!Impress',
+    defaultMessage: 'Impress',
+  },
+  privacyLink: {
+    id: 'layout.footer.privacyLink',
+    defaultMessage: 'Privacy Statement',
   },
 });
 
@@ -41,7 +46,7 @@ export default class Layout extends Component {
         <Head>
           <html lang={currentLanguage.parentLocale} />
           <meta charSet="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
           {alternateLanguages.map(({ parentLocale }) => (
             <link
               rel="alternate"
@@ -74,9 +79,14 @@ export default class Layout extends Component {
         <div className={styles.content}>
           {children}
         </div>
+        <PrivacyDisclaimer />
         <footer className={styles.footer}>
           <LocaleAwareLink to={ROUTES.IMPRESS} className={styles.impressLink}>
             {intl.formatMessage(messages.impressLink)}
+          </LocaleAwareLink>
+          <span className={styles.footerSeparator}>|</span>
+          <LocaleAwareLink to={ROUTES.PRIVACY} className={styles.privacyLink}>
+            {intl.formatMessage(messages.privacyLink)}
           </LocaleAwareLink>
         </footer>
       </div>

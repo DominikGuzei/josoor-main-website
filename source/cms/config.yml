@@ -12,6 +12,18 @@ collections:
     delete: false
     extension: json
     fields:
+      - label: PrivacyDisclaimer.allowButtonLabel
+        name: PrivacyDisclaimer.allowButtonLabel
+        widget: text
+      - label: PrivacyDisclaimer.intro
+        name: PrivacyDisclaimer.intro
+        widget: text
+      - label: PrivacyDisclaimer.privacyStatementLink
+        name: PrivacyDisclaimer.privacyStatementLink
+        widget: text
+      - label: PrivacyDisclaimer.refuseButtonLabel
+        name: PrivacyDisclaimer.refuseButtonLabel
+        widget: text
       - label: answers.features.answer.description
         name: answers.features.answer.description
         widget: text
@@ -83,6 +95,9 @@ collections:
         widget: text
       - label: buttons.joinUs
         name: buttons.joinUs
+        widget: text
+      - label: facebookPageLink
+        name: facebookPageLink
         widget: text
       - label: home.challenges.refugees.headline
         name: home.challenges.refugees.headline
@@ -258,15 +273,60 @@ collections:
       - label: layout.footer.impressLink
         name: layout.footer.impressLink
         widget: text
+      - label: layout.footer.privacyLink
+        name: layout.footer.privacyLink
+        widget: text
       - label: layout.topMenu.blogLink
         name: layout.topMenu.blogLink
         widget: text
       - label: layout.topMenu.homeLink
         name: layout.topMenu.homeLink
         widget: text
+      - label: privacy.headline
+        name: privacy.headline
+        widget: text
+      - label: privacy.intro
+        name: privacy.intro
+        widget: text
+      - label: privacy.settings.allowed
+        name: privacy.settings.allowed
+        widget: text
+      - label: privacy.settings.headline
+        name: privacy.settings.headline
+        widget: text
+      - label: privacy.settings.intro
+        name: privacy.settings.intro
+        widget: text
+      - label: privacy.settings.refused
+        name: privacy.settings.refused
+        widget: text
+      - label: privacy.title
+        name: privacy.title
+        widget: text
+      - label: privacy.what.facebook.headline
+        name: privacy.what.facebook.headline
+        widget: text
+      - label: privacy.what.facebook.text
+        name: privacy.what.facebook.text
+        widget: text
+      - label: privacy.what.googleAnalytics.headline
+        name: privacy.what.googleAnalytics.headline
+        widget: text
+      - label: privacy.what.googleAnalytics.text
+        name: privacy.what.googleAnalytics.text
+        widget: text
+      - label: privacy.what.headline
+        name: privacy.what.headline
+        widget: text
+      - label: privacy.what.intro
+        name: privacy.what.intro
+        widget: text
       - label: title
         name: title
         widget: string
+      - label: what_you_can_do.findUsOnFacebook
+        name: what_you_can_do.findUsOnFacebook
+        widget: text
     editor:
       preview: false
   - name: blog-de

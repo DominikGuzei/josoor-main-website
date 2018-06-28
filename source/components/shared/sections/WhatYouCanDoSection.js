@@ -3,7 +3,9 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import styles from './WhatYouCanDoSection.scss';
 import { defineMessages, intlShape } from 'react-intl';
 import FacebookButton from '../FacebookButton';
-import { getLanguageByParentLocale, SUPPORTED_LANGUAGES, SUPPORTED_LOCALES } from '../../../i18n/index';
+import { getLanguageByParentLocale, SUPPORTED_LANGUAGES } from '../../../i18n/index';
+import { PrivacyContext } from '../../privacy/PrivacyContext';
+import fbLogo from '../../../assets/facebook-logo.svg';
 
 const messages = defineMessages({
   headline: {
@@ -13,6 +15,14 @@ const messages = defineMessages({
   description: {
     id: 'home.what_you_can_do.description',
     defaultMessage: `!!!home.what_you_can_do.description`
+  },
+  facebookPageLink: {
+    id: 'facebookPageLink',
+    defaultMessage: `https://www.facebook.com/josoor.net/`
+  },
+  findUsOnFacebook: {
+    id: 'what_you_can_do.findUsOnFacebook',
+    defaultMessage: `Find us on Facebook`
   },
 });
 
@@ -48,12 +58,24 @@ export default class WhatYouCanDoSection extends Component {
           <Col className={styles.description} xs={12} sm={10} md={8}>
 
             <div className={styles.facebookShare}>
-              <FacebookButton
-                locale={locale}
-                url={shareUrl}
-                layout="button_count"
-                share={true}
-              />
+              <a
+                className={styles.fbLink}
+                href={intl.formatMessage(messages.facebookPageLink)}
+                target="_blank"
+              >
+                <img src={fbLogo} />
+                {intl.formatMessage(messages.findUsOnFacebook)}
+              </a>
+              <PrivacyContext.Consumer>
+                {privacySettings => privacySettings.userHasGivenConsent && (
+                  <FacebookButton
+                    locale={locale}
+                    url={shareUrl}
+                    layout="button_count"
+                    share={true}
+                  />
+                )}
+              </PrivacyContext.Consumer>
             </div>
 
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">

@@ -1,0 +1,58 @@
+@import '../../theme/config';
+
+.root {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: $theme-color-main-light;
+  z-index: 2;
+  padding: 20px 0;
+  -webkit-box-shadow: 0 -2px 5px 0 rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 -2px 5px 0 rgba(0,0,0,0.5);
+  box-shadow: 0 -2px 5px 0 rgba(0,0,0,0.5);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.diclaimer {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  text-align: center;
+  p {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+
+    @media (min-width: $theme-breakpoint-small) {
+      font-size: 16px;
+    }
+  }
+}
+
+.privacyLink {
+  display: block;
+  margin: 10px 0 20px 0;
+  &:link, &:visited {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+.agreeButton {
+  width: 100px;
+  display: inline-block;
+}
+
+.agreeButton {
+  padding: 10px;
+}
+
+.refuseLink {
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: underline;
+}
