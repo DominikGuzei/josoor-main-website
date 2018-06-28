@@ -112,7 +112,7 @@ export default class PrivacyStatement extends Component {
                   className={styles.consentToggle}
                   label={privacySettings.userHasGivenConsent ? (
                     intl.formatMessage(messages.settingsAllowedLabel)
-                  ): (
+                  ) : (
                     intl.formatMessage(messages.settingsRefusedLabel)
                   )}
                   checked={privacySettings.userHasGivenConsent}
