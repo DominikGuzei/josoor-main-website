@@ -24,7 +24,7 @@
   padding-top: 60px;
   text-align: center;
   @media (min-width: $theme-breakpoint-small) {
-    text-align: left;
+    text-align: inherit;
     padding-top: 40px;
     max-width: 640px;
   }
