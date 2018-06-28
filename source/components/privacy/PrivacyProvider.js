@@ -5,11 +5,11 @@ const PRIVACY_CONSENT = 'privacy-consent';
 
 const privacyConsent = {
   set(value) {
-    if (!localStorage) return;
+    if (typeof localStorage === 'undefined') return;
     localStorage.setItem(PRIVACY_CONSENT, value);
   },
   get() {
-    if (!localStorage) return null;
+    if (typeof localStorage === 'undefined') return null;
     return localStorage.getItem(PRIVACY_CONSENT);
   },
   YES: 'true',
