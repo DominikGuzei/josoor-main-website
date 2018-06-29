@@ -21,6 +21,7 @@ export default class PrivacyProvider extends Component {
   constructor(props) {
     super(props);
     this.state = ({
+      hasLoadedSettings: true,
       userHasDecided: privacyConsent.get() !== null,
       userHasGivenConsent: privacyConsent.get() === privacyConsent.YES,
       agree: () => {

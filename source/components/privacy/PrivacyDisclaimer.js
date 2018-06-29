@@ -36,8 +36,8 @@ export default class PrivacyDisclaimer extends Component {
     const { intl } = this.context;
     return (
       <PrivacyContext.Consumer>
-        {privacySettings => (
-          !privacySettings.userHasDecided && (
+        {({ hasLoadedSettings, userHasDecided }) => (
+          hasLoadedSettings && !userHasDecided && (
           <div className={styles.root}>
             <div className={styles.diclaimer}>
               <p>
