@@ -36,8 +36,8 @@ export default class PrivacyDisclaimer extends Component {
     const { intl } = this.context;
     return (
       <PrivacyContext.Consumer>
-        {({ hasLoadedSettings, userHasDecided }) => (
-          hasLoadedSettings && !userHasDecided && (
+        {({ hasLoadedSettings, userHasDecided, agree, refuse }) => (
+          hasLoadedSettings && !userHasDecided (
           <div className={styles.root}>
             <div className={styles.diclaimer}>
               <p>
@@ -48,11 +48,11 @@ export default class PrivacyDisclaimer extends Component {
               </p>
               <Button
                 className={styles.agreeButton}
-                onClick={privacySettings.agree}
+                onClick={agree}
                 skin={ButtonSkin}
                 label={intl.formatMessage(messages.allowButtonLabel)}
               />
-              <a className={styles.refuseLink} onClick={privacySettings.deny}>
+              <a className={styles.refuseLink} onClick={refuse}>
                 {intl.formatMessage(messages.refuseButtonLabel)}
               </a>
             </div>

@@ -28,7 +28,7 @@ export default class PrivacyProvider extends Component {
         privacyConsent.set(privacyConsent.YES);
         this.setState({ userHasDecided: true, userHasGivenConsent: true });
       },
-      deny: () => {
+      refuse: () => {
         privacyConsent.set(privacyConsent.NO);
         this.setState({ userHasDecided: true, userHasGivenConsent: false });
       },
