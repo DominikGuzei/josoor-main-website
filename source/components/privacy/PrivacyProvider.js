@@ -2,15 +2,16 @@ import React, { Component } from 'react';
 import { PrivacyContext } from './PrivacyContext.js';
 
 const PRIVACY_CONSENT = 'privacy-consent';
-const hasLocaleStorage = typeof localStorage === 'undefined';
+const isRuntime = typeof window !== 'undefined';
+const hasLocaleStorage = typeof localStorage !== 'undefined';
 
 const privacyConsent = {
   set(value) {
-    if (hasLocaleStorage) return;
+    if (!hasLocaleStorage) return;
     localStorage.setItem(PRIVACY_CONSENT, value);
   },
   get() {
-    if (hasLocaleStorage) return null;
+    if (!hasLocaleStorage) return null;
     return localStorage.getItem(PRIVACY_CONSENT);
   },
   YES: 'true',
@@ -22,7 +23,7 @@ export default class PrivacyProvider extends Component {
   constructor(props) {
     super(props);
     this.state = ({
-      hasLoadedSettings: hasLocaleStorage,
+      hasLoadedSettings: isRuntime && hasLocaleStorage,
       userHasDecided: privacyConsent.get() !== null,
       userHasGivenConsent: privacyConsent.get() === privacyConsent.YES,
       agree: () => {
