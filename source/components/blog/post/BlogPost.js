@@ -13,6 +13,10 @@ import { buildRoute } from '../../../utils/routing';
 import WhatYouCanDoSection from '../../shared/sections/WhatYouCanDoSection';
 
 const messages = defineMessages({
+  pageTitleAppendix: {
+    id: 'blog.post.pageTitleAppendix',
+    defaultMessage: 'Josoor Blog',
+  },
   backHomeLink: {
     id: 'blog.backHomeLink',
     defaultMessage: '!!!Back home',
@@ -54,14 +58,16 @@ export default class BlogPost extends Component {
     post = post.node;
     const postId = post.filename.substring(0, post.filename.indexOf('.md'));
     const shareUrl = `${environment.BASE_URL}${buildRoute(ROUTES.BLOG.POST, { language: intl.locale, id: postId })}`;
+    const pageTitleAppendix = intl.formatMessage(messages.pageTitleAppendix);
+    const pageTitle = `${post.headline} | ${pageTitleAppendix}`;
     return (
       <div className={styles.root}>
         <Head>
-          <title>{post.headline}</title>
+          <title>{pageTitle}</title>
           <meta name="description" content={post.teaser} />
           <meta property="og:url" content={shareUrl} />
           <meta property="og:type" content="article" />
-          <meta property="og:title" content={post.headline} />
+          <meta property="og:title" content={pageTitle} />
           <meta property="og:description" content={post.teaser} />
           <meta property="og:image" content={environment.BASE_URL + post.image} />
           <meta property="og:image:width" content="680" />
