@@ -66,7 +66,7 @@ const messages = defineMessages({
 });
 
 const renderFeature = (title, description, icon) => (
-  <Col className={styles.feature} xs={10} sm={6} md={4}>
+  <Col className={styles.feature} xs={10} sm={6} lg={4}>
     <img className={styles.icon} src={icon} />
     <div className={styles.text}>
       <h3>{title}</h3>
