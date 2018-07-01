@@ -57,7 +57,9 @@ export default class ProjectsSection extends Component {
               <Col xs={12} sm={10} md={5} lg={4} className={`${styles.project} ${styles.answers}`}>
                 <Row center="xs">
                   <Col xs={8}>
-                    <img src={answersLogo} alt="Josoor Answers logo" />
+                    <LocaleAwareLink to={ROUTES.ANSWERS}>
+                      <img src={answersLogo} alt="Josoor Answers logo" />
+                    </LocaleAwareLink>
                   </Col>
                   <Col xs={12}>
                     <span className={styles.state}>
