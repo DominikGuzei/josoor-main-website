@@ -30,27 +30,29 @@
     margin: 60px auto 0 auto;
     width: calc(100% - 80px);
     text-transform: uppercase;
-
-    > a {
-      padding-left: 8px;
-      padding-right: 17px;
-      font-family: $theme-font-sans-bold;
-    }
   }
 
-  .blogLink {
+  .menuLink {
     display: block;
     color: #474d57;
-    padding-bottom: 20px;
     border-bottom: 1px solid $theme-color-main-light;
     margin-bottom: 20px;
+    font-family: $theme-font-sans-light;
+    padding: 0 17px 20px 8px;
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 10px;
+      background: url('../../../theme/images/arrow-right.svg') no-repeat;
+      background-size: 9px;
+    }
   }
 
   .joinUsButton {
     width: 100%;
     background-color: $theme-color-main-light;
     font-family: $theme-font-sans-bold;
-    margin-top: 30px;
 
     &:hover, &:active {
       background: none;

@@ -15,6 +15,10 @@ const messages = defineMessages({
     id: 'layout.topMenu.blogLink',
     defaultMessage: '!!!Blog',
   },
+  answersLink: {
+    id: 'layout.topMenu.answersLink',
+    defaultMessage: 'Josoor Answers',
+  },
 });
 
 export default class TopMenu extends Component {
