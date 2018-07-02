@@ -204,9 +204,6 @@ collections:
       - label: home.factSupportersTranslation
         name: home.factSupportersTranslation
         widget: text
-      - label: home.headline
-        name: home.headline
-        widget: text
       - label: home.join.newsletter.email
         name: home.join.newsletter.email
         widget: text
@@ -339,9 +336,6 @@ collections:
       - label: privacy.what.intro
         name: privacy.what.intro
         widget: text
-      - label: title
-        name: title
-        widget: string
       - label: what_you_can_do.findUsOnFacebook
         name: what_you_can_do.findUsOnFacebook
         widget: text

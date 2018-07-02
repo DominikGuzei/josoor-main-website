@@ -13,15 +13,15 @@ import { BrandHeader } from '../shared/BrandHeader';
 const messages = defineMessages({
   title: {
     id: 'connect.title',
-    defaultMessage: 'Connect: Inclusive Communities for Refugees & Supporters',
+    defaultMessage: '!!!Connect: Inclusive Communities for Refugees & Supporters',
   },
   headline: {
     id: 'connect.headline',
-    defaultMessage: 'Connect',
+    defaultMessage: '!!!Connect',
   },
   pitch: {
     id: 'connect.pitch',
-    defaultMessage: 'Where refugees & local supporters connect to build strong, active and inclusive communities',
+    defaultMessage: '!!!Where refugees & local supporters connect to build strong, active and inclusive communities',
   },
 });
 
