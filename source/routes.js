@@ -1,6 +1,7 @@
 export const ROUTES = {
   INDEX: '/(:language(/))',
   ANSWERS: '/(:language/)answers',
+  CONNECT: '/(:language/)connect',
   IMPRESS: '/(:language/)impress',
   PRIVACY: '/(:language/)privacy',
   ADMIN: '/admin',

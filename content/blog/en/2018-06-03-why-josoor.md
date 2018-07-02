@@ -4,7 +4,7 @@ title: why-josoor
 headline: Why Josoor?
 subtitle: Turning Crisis into Opportunities
 author: Natalie Zarzour
-date: 2018-06-04
+date: '2018-06-04'
 readable_date: 'June 4, 2018'
 published: true
 image: /images/refugee-fence-rise-above.jpg

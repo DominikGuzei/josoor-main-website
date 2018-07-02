@@ -6,10 +6,10 @@ subtitle: >-
   Connecting refugees & supporters to build strong, active and inclusive
   communities.
 author: Natalie Zarzour
-date: 2018-06-18
+date: '2018-06-18'
 readable_date: 'June 18, 2018'
 published: true
-image: /images/shutterstock_759169186-1-.jpg
+image: /images/connect-title-image.jpg
 teaser: >-
   The biggest challenge for refugees in their new homes is rebuilding their
   social lives. Josoor Connect will serve as the focal point for refugees to

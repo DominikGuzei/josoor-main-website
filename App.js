@@ -12,6 +12,7 @@ import Home from './source/components/home/Home';
 import Impress from './source/components/impress/Impress';
 import Layout from "./source/components/layout/Layout";
 import Answers from './source/components/answers/Answers';
+import Connect from './source/components/connect/Connect';
 import Provider from './source/components/Provider';
 import PrivacyStatement from './source/components/privacy/PrivacyStatement';
 import './source/theme/App.global.scss';
@@ -38,6 +39,7 @@ const routes = () => (
         {generateRoute(ROUTES.IMPRESS, Impress)}
         {generateRoute(ROUTES.PRIVACY, PrivacyStatement)}
         {generateRoute(ROUTES.ANSWERS, Answers)}
+        {generateRoute(ROUTES.CONNECT, Connect)}
         {generateRoute(ROUTES.BLOG.INDEX, BlogIndexContainer)}
         {generateRoute(ROUTES.BLOG.POST, BlogPostContainer)}
         {/*<Route path="/blog/after/:after" component={BlogIndexContainer} />*/}

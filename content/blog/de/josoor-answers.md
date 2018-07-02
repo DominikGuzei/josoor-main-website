@@ -6,8 +6,8 @@ subtitle: >-
   Flüchtlingen und Freiwilligen ermöglichen, die Sprachbarriere zu überwinden,
   und vertrauenswürdige Informationen auszutauschen.
 author: Natalie Zarzour
-date: 2018-06-11
-readable_date: 6. Juni 2018
+date: '2018-06-11'
+readable_date: '6. Juni 2018'
 published: true
 image: /images/josoor-answers-main-image-updated.jpg
 teaser: >-

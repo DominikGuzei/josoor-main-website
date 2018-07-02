@@ -4,8 +4,8 @@ title: josoor-in-a-nutshell
 headline: 'Josoor: kurz erklärt'
 subtitle: Flüchtlinge & Freiwillige vernetzen
 author: Natalie Gruber
-date: 2018-06-06
-readable_date: 6. Juni 2018
+date: '2018-06-06'
+readable_date: '6. Juni 2018'
 published: true
 image: /images/three-people-laughing-at-smartphone.jpg
 teaser: >-

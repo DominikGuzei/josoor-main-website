@@ -5,7 +5,7 @@ headline: Wie alles begann
 subtitle: Stück für Stück zur Umsetzung
 author: Natalie Zarzour
 date: '2018-06-21'
-readable_date: 25.6.2018
+readable_date: '25. Juni 2018'
 published: true
 image: /images/story-so-far.jpg
 teaser: >-

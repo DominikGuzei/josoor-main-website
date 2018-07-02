@@ -15,7 +15,7 @@ import WhatYouCanDoSection from '../../shared/sections/WhatYouCanDoSection';
 const messages = defineMessages({
   pageTitleAppendix: {
     id: 'blog.post.pageTitleAppendix',
-    defaultMessage: 'Josoor Blog',
+    defaultMessage: '!!!Josoor Blog',
   },
   backHomeLink: {
     id: 'blog.backHomeLink',

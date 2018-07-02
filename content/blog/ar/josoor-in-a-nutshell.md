@@ -4,7 +4,7 @@ title: josoor-in-a-nutshell
 headline: جسور باختصار
 subtitle: 'توحيد اللاجئين والسكان المحليين '
 author: ناتالي زرزور
-date: 2018-06-06T00:00:00.000Z
+date: '2018-06-06'
 readable_date: ٦ حزيران ٢٠١٨
 published: true
 image: /images/three-people-laughing-at-smartphone.jpg

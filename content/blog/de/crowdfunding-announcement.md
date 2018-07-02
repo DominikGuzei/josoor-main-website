@@ -5,9 +5,9 @@ headline: 'Ankündigung: Crowdfunding-Kampagne!'
 subtitle: 'Wir sammeln spenden, um die Entwicklung von Josoor Answers zu finanzieren!'
 author: Natalie Zarzour
 date: '2018-07-02'
-readable_date: 02.07.2018
+readable_date: '2. Juli 2018'
 published: true
-image: /images/crowdfunding-new.jpg
+image: /images/crowdfunding.jpg
 teaser: >-
   Im August starten wir unsere erste Crowdfunding-Kampagne in der Hoffnung,
   40.000 € zu sammeln, um die Entwicklung unserer ersten App, Josoor Answers, zu

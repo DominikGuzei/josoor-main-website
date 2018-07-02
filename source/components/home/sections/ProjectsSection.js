@@ -10,7 +10,7 @@ import LocaleAwareLink from '../../shared/LocaleAwareLink';
 const messages = defineMessages({
   headline: {
     id: 'home.projects.title',
-    defaultMessage: '!!!Our Projects',
+    defaultMessage: 'Our Projects',
   },
   connectTitle: {
     id: 'home.projects.connect.title',
@@ -30,11 +30,11 @@ const messages = defineMessages({
   },
   comingSoon: {
     id: 'home.projects.comingSoon',
-    defaultMessage: '!!!coming soon',
+    defaultMessage: 'coming soon',
   },
   learnMore: {
     id: 'home.projects.learnMore',
-    defaultMessage: '!!!Learn more',
+    defaultMessage: 'Learn more',
   },
 });
 
@@ -89,6 +89,9 @@ export default class ProjectsSection extends Component {
                   <Col xs={12} sm={10} className={styles.info}>
                     {intl.formatMessage(messages.connectIntro)}
                   </Col>
+                  <LocaleAwareLink className={styles.learnMoreButton} to={ROUTES.CONNECT}>
+                    {intl.formatMessage(messages.learnMore)}
+                  </LocaleAwareLink>
                 </Row>
               </Col>
             </Row>

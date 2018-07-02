@@ -11,6 +11,11 @@
   padding: 1em 4em 0.8em;
   text-transform: uppercase;
 
+  @media (max-width: $theme-breakpoint-medium) {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+
   &:hover {
     background-color: rgba(white, 0.8);
     color: black;

@@ -26,10 +26,6 @@ const messages = defineMessages({
     id: 'home.title',
     defaultMessage: '!!!Josoor',
   },
-  headline: {
-    id: 'home.headline',
-    defaultMessage: '!!!Josoor',
-  },
   pitch: {
     id: 'home.pitch',
     defaultMessage: '!!!home.pitch',

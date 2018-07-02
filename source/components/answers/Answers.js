@@ -21,11 +21,11 @@ import WhatWeDoSection from '../shared/sections/WhatWeDoSection';
 const messages = defineMessages({
   title: {
     id: 'answers.title',
-    defaultMessage: '!!!Josoor Answers',
+    defaultMessage: 'Josoor Answers',
   },
   headline: {
     id: 'answers.headline',
-    defaultMessage: '!!!Josoor',
+    defaultMessage: 'Josoor Answers',
   },
   pitch: {
     id: 'answers.pitch',

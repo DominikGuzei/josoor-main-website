@@ -6,7 +6,7 @@ subtitle: >-
   شبكة التواصل الإجتماعية التي تدعم اللاجئين والسكان المحليين لجمع وترجمة
   ومشاركة المعلومات الموثوقة
 author: ناتالي زرزور
-date: 2018-06-11
+date: '2018-06-11'
 readable_date: ' ١١ حزيران ٢٠١٨'
 published: true
 image: /images/josoor-answers-main-image-updated.jpg

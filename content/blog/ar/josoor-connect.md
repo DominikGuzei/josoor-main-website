@@ -4,10 +4,10 @@ title: josoor-connect
 headline: تطبيق جسور تواصل
 subtitle: حيث يتواصل اللاجئون والسكان المحليون معاً ليبنوا مجتمعات متماسكة و نشطة وشاملة
 author: ناتالي زرزور
-date: 2018-06-18T00:00:00.000Z
+date: '2018-06-18'
 readable_date: ١٨حزيران ٢٠١٨
 published: true
-image: /images/shutterstock_759169186-1-.jpg
+image: /images/connect-title-image.jpg
 teaser: >-
   التحدي الأكبر أمام اللاجئين في منازلهم الجديدة هو إعادة بناء حياتهم
   الاجتماعية. ستكون "جسور تواصل" بمثابة نقطة اتصال للاجئين للتواصل مع المؤيدين

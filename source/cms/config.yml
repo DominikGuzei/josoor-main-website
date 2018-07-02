@@ -84,6 +84,9 @@ collections:
       - label: blog.headline
         name: blog.headline
         widget: text
+      - label: blog.post.pageTitleAppendix
+        name: blog.post.pageTitleAppendix
+        widget: text
       - label: blog.readMore
         name: blog.readMore
         widget: text
@@ -95,6 +98,15 @@ collections:
         widget: text
       - label: buttons.joinUs
         name: buttons.joinUs
+        widget: text
+      - label: connect.headline
+        name: connect.headline
+        widget: text
+      - label: connect.pitch
+        name: connect.pitch
+        widget: text
+      - label: connect.title
+        name: connect.title
         widget: text
       - label: facebookPageLink
         name: facebookPageLink
@@ -276,8 +288,14 @@ collections:
       - label: layout.footer.privacyLink
         name: layout.footer.privacyLink
         widget: text
+      - label: layout.topMenu.answersLink
+        name: layout.topMenu.answersLink
+        widget: text
       - label: layout.topMenu.blogLink
         name: layout.topMenu.blogLink
+        widget: text
+      - label: layout.topMenu.connectLink
+        name: layout.topMenu.connectLink
         widget: text
       - label: layout.topMenu.homeLink
         name: layout.topMenu.homeLink

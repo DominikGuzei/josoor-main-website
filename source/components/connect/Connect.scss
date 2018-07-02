@@ -1,0 +1,75 @@
+@import "../../theme/config";
+@import "../../theme/mixins/container";
+@import "../../theme/mixins/decorations";
+
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  @media (min-width: $theme-breakpoint-small) {
+    margin-top: -$theme-top-menu-height;
+  }
+}
+
+.logo {
+  height: 200px;
+  margin-bottom: -10px;
+  margin-top: 20px;
+  @media (min-width: $theme-breakpoint-small) {
+    height: 300px;
+    margin-bottom: -40px;
+    margin-top: 60px;
+  }
+}
+
+.headline {
+  display: none;
+}
+
+.pitch {
+  text-align: center;
+  width: 80%;
+  max-width: 700px;
+  font-family: $theme-font-sans-regular;
+  font-size: 24px;
+  color: white;
+  line-height: 1.3em;
+  margin-bottom: 40px;
+  @media (min-width: $theme-breakpoint-small) {
+    font-size: 27px;
+  }
+}
+
+.separator {
+  @include separator;
+}
+
+.content {
+  margin: 0 auto;
+  width: calc(100% - 40px);
+  max-width: 640px;
+}
+
+.featuresSection {
+  background-color: #fafafa;
+  padding-bottom: 3em;
+  @media (min-width: $theme-breakpoint-small) {
+    padding-bottom: 6em;
+  }
+  @media (min-width: $theme-breakpoint-medium) {
+    padding-bottom: 8em;
+  }
+}
+
+.whatWeDoSection {
+  margin-bottom: 4em;
+}
+
+.joinUsSection {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}

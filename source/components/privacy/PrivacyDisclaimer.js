@@ -10,19 +10,19 @@ import { defineMessages, intlShape } from 'react-intl';
 const messages = defineMessages({
   disclaimer: {
     id: 'PrivacyDisclaimer.intro',
-    defaultMessage: 'Please help us enhance our website by storing cookies and collecting anonymized data.',
+    defaultMessage: '!!!Please help us enhance our website by storing cookies and collecting anonymized data.',
   },
   privacyStatementLink: {
     id: 'PrivacyDisclaimer.privacyStatementLink',
-    defaultMessage: 'Learn more in our Privacy Statement',
+    defaultMessage: '!!!Learn more in our Privacy Statement',
   },
   allowButtonLabel: {
     id: 'PrivacyDisclaimer.allowButtonLabel',
-    defaultMessage: 'allow',
+    defaultMessage: '!!!allow',
   },
   refuseButtonLabel: {
     id: 'PrivacyDisclaimer.refuseButtonLabel',
-    defaultMessage: 'refuse',
+    defaultMessage: '!!!refuse',
   },
 });
 

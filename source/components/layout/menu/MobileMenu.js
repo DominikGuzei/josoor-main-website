@@ -53,6 +53,9 @@ export default class MobileMenu extends Component {
             <LocaleAwareLink to={ROUTES.ANSWERS} className={styles.menuLink}>
               {intl.formatMessage(linkTitles.answersLink)}
             </LocaleAwareLink>
+            <LocaleAwareLink to={ROUTES.CONNECT} className={styles.menuLink}>
+              {intl.formatMessage(linkTitles.connectLink)}
+            </LocaleAwareLink>
             <JoinUsButton className={styles.joinUsButton} />
           </div>
         </div>

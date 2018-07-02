@@ -6,7 +6,7 @@ subtitle: >-
   Empowering refugees & supporters to bridge the language barrier and exchange
   trustworthy information
 author: Natalie Zarzour
-date: 2018-06-11
+date: '2018-06-11'
 readable_date: 'June 11, 2018'
 published: true
 image: /images/josoor-answers-main-image-updated.jpg

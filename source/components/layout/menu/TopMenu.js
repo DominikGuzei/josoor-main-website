@@ -17,7 +17,11 @@ const messages = defineMessages({
   },
   answersLink: {
     id: 'layout.topMenu.answersLink',
-    defaultMessage: 'Josoor Answers',
+    defaultMessage: 'Answers',
+  },
+  connectLink: {
+    id: 'layout.topMenu.connectLink',
+    defaultMessage: 'Connect',
   },
 });
 

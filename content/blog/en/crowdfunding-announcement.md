@@ -7,7 +7,7 @@ author: Natalie Zarzour
 date: '2018-07-02'
 readable_date: 'June 2nd, 2018'
 published: true
-image: /images/crowdfunding-new.jpg
+image: /images/crowdfunding.jpg
 teaser: >-
   In August, we will launch our first crowdfunding campaign with the hopes of
   collecting 40.000 € to finance the development of our first app, Josoor
