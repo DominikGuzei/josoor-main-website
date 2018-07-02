@@ -7,7 +7,7 @@ author: Natalie Zarzour
 date: '2018-06-21'
 readable_date: 25.6.2018
 published: true
-image: /images/puzzle-connection.jpg
+image: /images/story-so-far.jpg
 teaser: >-
   2015 entwickelte der syrische Flüchtling Qutaiba in Deutschland die Idee von
   dem, was später Josoor werden würde. Mit der Österreicherin Natalie begann er
