@@ -13,7 +13,7 @@ teaser: >-
   40.000 € zu sammeln, um die Entwicklung unserer ersten App, Josoor Answers, zu
   finanzieren.
 ---
-**Warum Crowdfunding?**
+## **Warum Crowdfunding?**
 
 Es gibt viele verschiedene Arten, das Geld, das wir für die Entwicklung von Josoor Answers benötigen, zu bekommen. Tatsächlich bewerben wir uns laufend um Fördergelder, sammeln regelmäßig Spenden und bitten Sponsoren um größere Beträge für Josoor selbst. Das meiste der bisherigen Arbeit wurde auch von unseren Teammitgliedern selbst finanziert.
 
@@ -23,7 +23,7 @@ Wir haben als Grassroot- Initiative begonnen - und das wollen wir auch bleiben. 
 
 
 
-**Wie wird es funktionieren?**
+## **Wie wird es funktionieren?**
 
 Wir werden eine der großen Crowdfunding-Plattformen, die 100% der Spenden an das Projekt selbst abgibt, ohne irgendwelche Gebühren abzuziehen. Auf dieser Online-Kampagnenseite werden wir euch noch mehr Details von Josoor Answers, erklären, einschließlich einer Vorschau des Prototyps, zeigen euch alle Dankeschön- Geschenke die ihr für eure Spende erhaltet, und erzählen euch mehr über die Geschichte von Josoor und unser Team!
 
@@ -33,7 +33,7 @@ Um das zu schaffen, werden wir den ganzen Juli lang unser Bestes geben, um unser
 
 
 
-**Wie ihr uns unterstützen könnt!**
+## **Wie ihr uns unterstützen könnt!**
 
 Um uns dabei zu unterstützen, die Crowdfunding-Kampagne zu einem Erfolg zu machen und Josoor Answers zu entwickeln, teilt bitte unsere Facebook-Seiten so oft wie möglich - vor allem in Facebook-Gruppen von Geflüchteten und / oder Unterstützer*innen, oder bittet sogar Leute mit vielen Followern, unsere Seiten zu teilen!
 
