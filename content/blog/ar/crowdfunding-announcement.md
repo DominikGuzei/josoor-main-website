@@ -7,7 +7,7 @@ author: ناتالي زرزور
 date: '2018-07-02'
 readable_date: ٢ تموز ٢٠١‬٨
 published: true
-image: /images/crowdfunding.jpg
+image: /images/crowdfunding-new.jpg
 teaser: >-
   في شهر أغسطس ، سنطلق أول حملة تمويل جماعي لجسور على أمل جمع مبلغ ٤٠٠٠٠ يورو
   لتمويل تطوير تطبيقنا الأول ، جسور إجابات.
