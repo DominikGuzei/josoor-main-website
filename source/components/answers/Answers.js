@@ -76,15 +76,15 @@ export default class Answers extends Component {
             hideJoinButton
           />
 
-          <section className={styles.featuresSection}>
-            <FeaturesSection />
-          </section>
-
           <FactStripe
             text={intl.formatMessage(messages.accessToInformation)}
             preview={worldMapOrangePreview}
             image={worldMapOrange}
           />
+
+          <section className={styles.featuresSection}>
+            <FeaturesSection />
+          </section>
 
           <WhatWeDoSection
             className={styles.whatWeDoSection}
