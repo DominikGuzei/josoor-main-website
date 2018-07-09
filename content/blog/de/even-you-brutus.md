@@ -49,4 +49,5 @@ Mustafa Zarzour, *1950, ist pensionierter Geschichtslehrer. Er kommt aus Idlib, 
 
 - - -
 
+\
 Auf dem Josoor Blog möchten wir nicht nur über Neuigkeiten und Updates informieren und Einblicke in die Arbeit unseres Teams geben. Wir wollen diese Plattform auch nutzen, um den Stimmen unserer Community-Mitglieder Gehör zu verschaffen. Deshalb teilen wir Geschichten, Tagebucheinträge, Artikel und Gedichte von Flüchtlingen und Freiwilligen, die ihre Gedanken mit einem größeren Publikum teilen möchten. Wenn du etwas teilen möchtest, [Sie können hier einreichen](https://docs.google.com/forms/d/17FOZfJufEx7IvccSrDfeAwHdVXmA8JU20rbe9Dfh_Lk)
