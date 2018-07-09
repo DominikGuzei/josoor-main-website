@@ -45,7 +45,7 @@ Auch du, Brutus?
 
 ## Über den Autor
 
-Mustafa Zarzour, *1950, ist pensionierter Geschichtslehrer. Er kommt aus Idlib, Syrien, und arbeitete mehrere Jahre in Saudi Arabien und Abu Dhabi. 2016 kam er nach Österreich wo er 2017 Asyl erhielt. Mustafa lebt in Wien mit seiner Frau und seiner jüngsten Tochter. 
+**Mustafa Zarzour**, *1950, ist pensionierter Geschichtslehrer. Er kommt aus Idlib, Syrien, und arbeitete mehrere Jahre in Saudi Arabien und Abu Dhabi. 2016 kam er nach Österreich wo er 2017 Asyl erhielt. Mustafa lebt in Wien mit seiner Frau und seiner jüngsten Tochter. 
 
 - - -
 
