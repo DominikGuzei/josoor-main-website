@@ -1,8 +1,8 @@
 ---
 language: de
 title: even-you-brutus
-headline: 'Even you, Brutus?'
-subtitle: Diaries of a Refugee - Part I
+headline: 'Auch du, Brutus?'
+subtitle: Tagebücher eines Geflüchteten - Teil I
 author: Mustafa Zarzour
 date: '2018-07-09'
 readable_date: 9. Juli 2018
