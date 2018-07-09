@@ -44,7 +44,7 @@ Even you, Brutus?
 
 ## About the writer
 
-Mustafa Zarzour, *1950, is a retired history teacher. He is from Idlib, Syria, and spent several years working in Saudi Arabia and Abu Dhabi. In 2016 he came to Austria and was granted Asylum in 2017. Mustafa lives in Vienna with his wife and youngest daughter.
+**Mustafa Zarzour**, *1950, is a retired history teacher. He is from Idlib, Syria, and spent several years working in Saudi Arabia and Abu Dhabi. In 2016 he came to Austria and was granted Asylum in 2017. Mustafa lives in Vienna with his wife and youngest daughter.
 
 - - -
 
