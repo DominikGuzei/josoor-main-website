@@ -48,5 +48,4 @@ Mustafa Zarzour, *1950, is a retired history teacher. He is from Idlib, Syria, a
 
 - - -
 
-\
 On the Josoor Blog, we not only want to inform our readers of news and updates as well as give insights into our Team’s work. We also want to use this platform to make the voice of our community members heard. Therefore, we share stories, diaries, articles and poems written by refugees and supporters who want to share their thoughts with a larger audience. If there is anything you would like to share, you can [submit here](https://docs.google.com/forms/d/e/1FAIpQLSdMCWb7Vx1_BHb8jOtnVglsDfOtYW2kfXadQKQbZyO4bdi4ng/viewform?usp=sf_link)
