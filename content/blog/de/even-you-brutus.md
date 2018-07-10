@@ -49,4 +49,4 @@ Auch du, Brutus?
 
 - - -
 
-Auf dem Josoor Blog möchten wir nicht nur über Neuigkeiten und Updates informieren und Einblicke in die Arbeit unseres Teams geben. Wir wollen diese Plattform auch nutzen, um den Stimmen unserer Community-Mitglieder Gehör zu verschaffen. Deshalb teilen wir Geschichten, Tagebucheinträge, Artikel und Gedichte von Flüchtlingen und Freiwilligen, die ihre Gedanken mit einem größeren Publikum teilen möchten. Wenn du etwas teilen möchtest, [Sie können hier einreichen](https://docs.google.com/forms/d/17FOZfJufEx7IvccSrDfeAwHdVXmA8JU20rbe9Dfh_Lk)
+Auf dem Josoor Blog möchten wir nicht nur über Neuigkeiten und Updates informieren und Einblicke in die Arbeit unseres Teams geben. Wir wollen diese Plattform auch nutzen, um den Stimmen unserer Community-Mitglieder Gehör zu verschaffen. Deshalb teilen wir Geschichten, Tagebucheinträge, Artikel und Gedichte von Flüchtlingen und Freiwilligen, die ihre Gedanken mit einem größeren Publikum teilen möchten. Wenn du etwas teilen möchtest, [Sie können hier einreichen](https://docs.google.com/forms/d/e/1FAIpQLSc7I_KfSv_ljqRI7QE-2hUch18xWzGDOjjN0jg5A8leqEhIgg/viewform?usp=sf_link)
