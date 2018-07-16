@@ -16,6 +16,8 @@ teaser: >-
 The following text is an imaginary speech at a UN conference that was written in 2014 with some updates before the publication on the Josoor Blog.\
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
+## The People in Power
+
 Thank you for the invitation to speak here today. 
 
 I know how these conferences work, but I didn’t come here to deliver another hour long, but meaningless talk. I came here with only one purpose: to try and shake you a little bit, wake you up, make you really listen to one thing so many people would say to you if they had the chance to speak here in front of all of you.
@@ -42,9 +44,12 @@ So maybe try to remember that the next time you are at work and it gets boring, 
 
 Push your ego aside for a moment, and ask yourself: what would my younger self think of me, sitting here, playing candy crush?
 
-## \
-About the Author
+
+
+## About the Author
 
 Natalie Zarzour, *1989, is a Co- Founder and the CEO of Josoor. She graduated in International Development Studies and gained some experience working on Projects in Zanzibar and Nepal as well as Executive Secretary General of the Austrian Bhutan Society before co- founding Josoor. 
 
-On the Josoor Blog, we not only want to inform our readers of news and updates as well as give insights into our Team’s work. We also want to use this platform to make the voice of our community members heard. Therefore, we share stories, diaries, articles and poems written by refugees and supporters who want to share their thoughts with a larger audience. If there is anything you would like to share, you can [submit it here](https://docs.google.com/forms/d/e/1FAIpQLSdv5oHnkcsGHozXoVG2RNm1ojXQWEoPNlW3jI-Sp1QLKjdJrQ/viewform).
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+On the Josoor Blog, we not only want to inform our readers of news and updates as well as give insights into our Team’s work. We also want to use this platform to make the voice of our community members heard. Therefore, we share stories, diaries, articles and poems written by refugees and supporters who want to share their thoughts with a larger audience. If there is anything you would like to share on the Josoor Blog, you can [submit it here](https://docs.google.com/forms/d/e/1FAIpQLSdv5oHnkcsGHozXoVG2RNm1ojXQWEoPNlW3jI-Sp1QLKjdJrQ/viewform).
