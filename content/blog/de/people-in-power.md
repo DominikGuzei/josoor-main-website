@@ -16,7 +16,7 @@ teaser: >-
 ---
 Der folgende Text ist eine imaginäre Rede bei einer UNO Konferenz, die ursprünglich Ende 2014 geschrieben wurde, mit ein paar Updates vor der jetzigen Veröffentlichung.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+******************
 
 ## Die Menschen an der Macht
 
@@ -52,6 +52,5 @@ Schiebt euer Ego für einen Moment zur Seite und fragt euch selbst: was würde e
 
 **Natalie Zarzour**, *1989, ist Co- Founder und Geschäftsführerin von Josoor. Sie hat einen Bachelor in Internationaler Entwicklung und in Projekten in Sansibar und Nepal sowie als geschäftsführende Generalsekretärin der Österreichischen Bhutan Gesellschaft Erfahrung gesammelt bevor sie Josoor mitgründete.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
+**********************
 Auf dem Josoor Blog möchten wir nicht nur über Neuigkeiten und Updates informieren und Einblicke in die Arbeit unseres Teams geben. Wir wollen diese Plattform auch nutzen, um den Stimmen unserer Community-Mitglieder Gehör zu verschaffen. Deshalb teilen wir Geschichten, Tagebucheinträge, Artikel und Gedichte von Flüchtlingen und Freiwilligen, die ihre Gedanken mit einem größeren Publikum teilen möchten. Wenn auch du etwas auf dem Josoor Blog teilen möchtest, kannst du es gerne [hier einreichen](https://docs.google.com/forms/d/e/1FAIpQLSc7I_KfSv_ljqRI7QE-2hUch18xWzGDOjjN0jg5A8leqEhIgg/viewform).
