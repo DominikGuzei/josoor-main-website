@@ -49,6 +49,8 @@ Push your ego aside for a moment, and ask yourself: what would my younger self t
 ## About the Author
 
 Natalie Zarzour, *1989, is a Co- Founder and the CEO of Josoor. She graduated in International Development Studies and gained some experience working on Projects in Zanzibar and Nepal as well as Executive Secretary General of the Austrian Bhutan Society before co- founding Josoor. 
-*******************
+
+- - -
+
 ## Write with us
 On the Josoor Blog, we not only want to inform our readers of news and updates as well as give insights into our Team’s work. We also want to use this platform to make the voice of our community members heard. Therefore, we share stories, diaries, articles and poems written by refugees and supporters who want to share their thoughts with a larger audience. If there is anything you would like to share on the Josoor Blog, you can [submit it here](https://docs.google.com/forms/d/e/1FAIpQLSdv5oHnkcsGHozXoVG2RNm1ojXQWEoPNlW3jI-Sp1QLKjdJrQ/viewform).

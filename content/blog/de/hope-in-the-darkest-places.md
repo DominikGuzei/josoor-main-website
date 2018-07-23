@@ -49,25 +49,26 @@ Hunger war die schlimmste Folter, der wir ausgesetzt waren. Ihr könnt es euch w
 
 Wir aßen in Gruppen, jede Gruppe bestand aus 6 - 8 Personen. Wir bekamen das Essen für den ganzen Tag auf einmal am Morgen. Die Portion, die wir pro Gruppe bekamen, reichte nicht einmal für eine Person. Hier ist, was wir bekommen haben:
 
-_Frühstück:_\
-  * Ein Stück Pita-Brot pro Person\
-  * Kleine Schüssel mit Joghurt pro Gruppe - (Jeder konnte sein Brot 3-5 Mal eintunken)\
-oder\
-  * Ein gekochtes Ei und eine Kartoffel\
-und, ein mal pro Woche\
- * "HALVA" , eine Süßigkeit. Sie gaben uns dies als eine Art der Folter. Sie wussten, dass unsere ausgehungerten Körper nach Zucker verlangten, also gaben sie uns genug, um unsere Körper noch mehr danach verlangen zu lassen.
+**Frühstück:**
 
-_Mittagessen_\
- * Ein Stück Pita-Brot pro Person\
- * Eine Schüssel Reis gemischt mit sehr kleinen Stücken Huhn pro Gruppe - (ich glaube, sie haben ein\
-   Huhn für alle Leute in der Zelle verwendet)\
-oder\
- * Eine Schüssel Tomatensuppe mit Nudeln drinnen pro Gruppe - oft voller Haare, und zwar wirklich viele\
-    Haare.\
-oder\
- * Grütze mit ein paar kaum sichtbaren Hühnchenstücken
+  * Ein Stück Pita-Brot pro Person
+  * Kleine Schüssel mit Joghurt pro Gruppe - (Jeder konnte sein Brot 3-5 Mal eintunken)<br/>
+    **oder**<br/>
+    Ein gekochtes Ei und eine Kartoffel
+ * und, ein mal pro Woche "HALVA" , eine Süßigkeit. Sie gaben uns dies als eine Art der Folter. Sie wussten, dass unsere ausgehungerten Körper nach Zucker verlangten, also gaben sie uns genug, um unsere Körper noch mehr danach verlangen zu lassen.
 
-_Abendessen _\
+**Mittagessen:**
+
+ * Ein Stück Pita-Brot pro Person
+ * Eine Schüssel Reis gemischt mit sehr kleinen Stücken Huhn pro Gruppe - (ich glaube, sie haben ein
+   Huhn für alle Leute in der Zelle verwendet)<br/>
+   **oder**<br/>
+   Eine Schüssel Tomatensuppe mit Nudeln drinnen pro Gruppe - oft voller Haare, und zwar wirklich viele Haare.<br/>
+   **oder**<br/>
+   Grütze mit ein paar kaum sichtbaren Hühnchenstücken
+
+**Abendessen:**
+
 Immer dasselbe wie das Frühstück
 
 Wir bekamen etwa 500 Kalorien pro Tag. Auf diese Weise waren wir ständig am Verhungern, ohne dass unsere Körper jemals total aufgaben - und wir mussten eine immense Disziplin aufbringen, um nicht all das Essen auf einmal zu essen, das wir bekamen. An manchen Tagen brachten sie uns gar nichts zu essen.
@@ -116,6 +117,6 @@ Den Rest des Tages verbrachten wir schweigend miteinander. Statt zu reden dachte
 
 **Qutaiba Zarzour**, * 1988, stammt aus Idlib, Syrien, und lebte viele Jahre in Abu Dhabi - vor allem, weil er nach seiner Entlassung aus dem Gefängnis immer noch von der syrischen Regierung gesucht wurde. Als der Krieg in Syrien begann, kehrte er in sein Heimatland zurück, um für verwaiste Kinder zu sorgen. Als er erfuhr, dass die Regierung wieder aktiv nach ihm suchte, floh er in die Türkei und von dort nach Deutschland, wo er Anfang 2015 ankam. Während er auf sein Asyl wartete, begann er über eine Plattform nachzudenken, deren Namen später Josoor sein würde. Er lebt derzeit in München und ist Mitgründer von und Mastermind hinter Josoor.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- - -
 
 Auf dem Josoor Blog möchten wir nicht nur über Neuigkeiten und Updates informieren und Einblicke in die Arbeit unseres Teams geben. Wir wollen diese Plattform auch nutzen, um den Stimmen unserer Community-Mitglieder Gehör zu verschaffen. Deshalb teilen wir Geschichten, Tagebucheinträge, Artikel und Gedichte von Flüchtlingen und Freiwilligen, die ihre Gedanken mit einem größeren Publikum teilen möchten. Wenn du etwas teilen möchtest, kannst du es [hier einreichen](https://docs.google.com/forms/d/e/1FAIpQLSc7I_KfSv_ljqRI7QE-2hUch18xWzGDOjjN0jg5A8leqEhIgg/viewform) .

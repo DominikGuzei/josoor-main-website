@@ -51,24 +51,25 @@ Starvation was the most painful torture we were subjected to. You probably can�
 
 We used to eat in groups, each group consisting of 6 - 8 people. We used to get all the food for the day at once in the morning. The portion we used to get per group was not even enough for one person. Here is what we used to get:
 
-_Breakfast_\
-  * One piece of Pita bread per person\
-  * Small bowl of yogurt per GROUP - (we could each dip our bread 3-5 times)\
-or  \
-  * One boiled egg and one potato.\
-and, once a week\
+**Breakfast:**
+  * One piece of Pita bread per person
+  * Small bowl of yogurt per GROUP - (we could each dip our bread 3-5 times)<br />
+    **or**<br />
+    One boiled egg and one potato.
+and, once a week
  * "HALVA", a kind of sweet they used as a way of torture. They knew that our starved bodies would crave sugar so they gave us just enough to make our bodies crave it even more.
 
-_Lunch_\
- * One piece of Pita bread per person\
- * One bowl of rice mixed with very little chicken pieces per group - (I think they used one chicken to\
-cook for all of us in the cell)\
-or\
-* A bowl of tomato soup with spaghetti inside per goup - it was often full of hair, and so much of it.\
-or\
- * Groats with some barely visible chicken pieces.
+**Lunch:**
+ * One piece of Pita bread per person
+ * One bowl of rice mixed with very little chicken pieces per group - (I think they used one chicken to
+   cook for all of us in the cell)<br />
+   **or**<br />
+   A bowl of tomato soup with spaghetti inside per goup - it was often full of hair, and so much of it.<br />
+   **or**<br />
+   Groats with some barely visible chicken pieces.
 
-_Dinner _\
+**Dinner:**
+
 Always the same as breakfast
 
 We had about 500 calories per day. This way, we were constantly starving without ever having our bodies shutting down totally - and we had to bring up an immense discipline to not eat it all the food we got at once. On some days, they didn’t bring us any food.
@@ -117,6 +118,6 @@ We spent the rest of the day in silence not talking to each other. Instead, each
 
 **Qutaiba Zarzour**, *1988, is from Idlib, Syria, and lived in Abu Dhabi for many years - mostly because after his release from prison, he was still wanted by the Syrian Government. When the war started in Syria, he returned to his home country to help care for orphaned children. When he learned that the government was actively looking for him again, he fled to Turkey and from there to Germany where he arrived in early 2015. While being forced into inaction while waiting for his Asylum, he started thinking of a platform that would later be called Josoor. He currently lives in Munich and is the co- founder of and mastermind behind Josoor.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+- - -
 
 On the Josoor Blog, we not only want to inform our readers of news and updates as well as give insights into our Team’s work. We also want to use this platform to make the voice of our community members heard. Therefore, we share stories, diaries, articles and poems written by refugees and supporters who want to share their thoughts with a larger audience. If there is anything you want to share, you can [submit it here](https://docs.google.com/forms/d/e/1FAIpQLSdv5oHnkcsGHozXoVG2RNm1ojXQWEoPNlW3jI-Sp1QLKjdJrQ/viewform) .
