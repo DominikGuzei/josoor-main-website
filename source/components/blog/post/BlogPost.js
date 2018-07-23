@@ -3,13 +3,14 @@ import { Grid, Row, Col } from 'react-flexbox-grid';
 import { BodyRenderer } from "@phenomic/preset-react-app/lib/client";
 import Head from "react-helmet";
 import { defineMessages, intlShape } from 'react-intl';
+import { browserHistory } from 'react-router';
 import styles from './BlogPost.scss';
 import BlogPostHeader from '../BlogPostHeader';
 import { ROUTES } from '../../../routes';
 import LocaleAwareLink from '../../shared/LocaleAwareLink';
 import JoinUsSection from '../../shared/JoinUsSection';
 import environment from '../../../environment';
-import { buildRoute } from '../../../utils/routing';
+import { buildRoute, replaceLanguageParts } from '../../../utils/routing';
 import WhatYouCanDoSection from '../../shared/sections/WhatYouCanDoSection';
 
 const messages = defineMessages({
@@ -51,8 +52,12 @@ export default class BlogPost extends Component {
   };
 
   render() {
-    const { isLoading } = this.props;
+    const { isLoading, hasError } = this.props;
     const { intl } = this.context;
+    if (hasError) {
+      const blogIndexRoute = replaceLanguageParts(ROUTES.BLOG.INDEX, intl.locale + '/');
+      browserHistory.push({ pathname: blogIndexRoute })
+    }
     let { post } = this.props;
     if (isLoading || !post || !post.node) return null;
     post = post.node;

@@ -7,7 +7,7 @@ author: Qutaiba Zarzour
 date: '2018-07-23'
 readable_date: 23. Juli 2018
 published: true
-image: /images/prison-2.png
+image: /images/prison.jpg
 teaser: >-
   Plötzlich wurde es totenstill in der Zelle, als durch das winzige Fenster am
   oberen Ende der Wand ein Schmetterling herein flatterte. Dieser Schmetterling

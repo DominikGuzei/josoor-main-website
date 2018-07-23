@@ -7,7 +7,7 @@ author: Qutaiba Zarzour
 date: '2018-07-23'
 readable_date: 'July 23rd, 2018'
 published: true
-image: /images/prison-2.png
+image: /images/prison.jpg
 teaser: >-
   Suddenly, the cell went into total silence when, through the tiny window at
   the top of the wall, a beautiful butterfly came fluttering in. This butterfly
