@@ -5,7 +5,7 @@ headline: الأمل في أظلم الأماكن
 subtitle: التعذيب والتضامن والأمل في أحد السجون السياسية في سوريا
 author: قتيبة زرزور
 date: '2018-07-24'
-readable_date: ١٦ تموز ٢٠١٨
+readable_date: ۲۳ تموز ٢٠١٨
 published: true
 image: /images/prison-2.png
 teaser: >-
