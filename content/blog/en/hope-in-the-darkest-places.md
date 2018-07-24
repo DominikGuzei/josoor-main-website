@@ -45,16 +45,24 @@ They use different means to make you comply. Sometimes when they beat you, they 
 
 Apart from the unpredictable interruptions of “investigation”, everyday life in prison has clear rules. 
 
-You are not allowed to talk in a way that the Guard, who sits in a room next to the cell, can hear you, otherwise everyone will collectively be punished.
-When the guards open the door, every person in the cell has to stand up straight facing the wall with the hands behind the back BEFORE the door is opened. If you don’t manage to stand up quickly enough, you will be punished instantly. 
-No one was allowed to pray and you would get punished for it.
+* You are not allowed to talk in a way that the Guard, who sits in a room next to the cell, can hear you, otherwise everyone will collectively be punished.
+
+
+
+* When the guards open the door, every person in the cell has to stand up straight facing the wall with the hands behind the back BEFORE the door is opened. If you don’t manage to stand up quickly enough, you will be punished instantly. 
+
+
+
+* No one was allowed to pray and you would get punished for it.
 
 ### Starvation
+
 Starvation was the most painful torture we were subjected to. You probably can’t imagine, but it was much worse than the actual torture. They weren't just starving us by giving us no food. That would probably have been better. But what they did was worse. We used to get three meals a day for breakfast, lunch and dinner.  Sounds great right? It wasn't really. It was literally barely enough to stay alive.
 
 We used to eat in groups, each group consisting of 6 - 8 people. We used to get all the food for the day at once in the morning. The portion we used to get per group was not even enough for one person. Here is what we used to get:
 
 **Breakfast**
+
 * One piece of Pita bread per person
 * Small bowl of yogurt per GROUP - (Each one could dip a 
        piece of bread 3-5 times and continue eating the rest of the 
@@ -81,12 +89,14 @@ We used to eat in groups, each group consisting of 6 - 8 people. We used to get 
 
 This way, we were constantly starving without ever having our bodies shutting down totally - and we had to bring up an immense discipline to not eat it all the food we got at once. On some days, they didn’t bring us any food.
 
-### Sleep Deprivation 
+### Sleep Deprivation
+
 Discipline was also required for sleeping. With the lack of space, we had to sleep in shifts. While some of us were standing, others were sleeping. Of course there were no mattresses or anything, we just used our shoes as pillows and jackets as blankets.
 
 Part of the torture treatment was not only not giving us enough space to sleep, but also not letting us sleep properly. The guards made sure of that by coming into the cell frequently, night and day. According to rule #2, everyone had to stand up facing the wall before the guard was inside. You always had to be ready to jump up anytime - and you would regularly be awoken by others screaming at you to get up.
 
 ## Solidarity
+
 This might be surprising to most of you, but I never knew what solidarity meant until I entered that tiny cell. The solidarity I experienced between all the prisoners in that horrible place was the first time I felt something that powerful and beautiful. 
 
 We did not only share the same suffering, injustice and pain, we also shared so much compassion. We felt that anyone who came new was part of the family - and we instantly cared for them. 
@@ -102,6 +112,7 @@ Even some guards had compassion. Unfortunately, unlike for us, compassion had a 
 I even saw compassion in the eyes of one of the guards who was torturing me. I saw the pain in his eyes, as if he was trying to tell me “I’m sorry” and “please forgive me”.
 
 ## Hope
+
 Imagine going through all this and much more I didn’t mention without knowing for how long it’s gonna last. It could be days, months, a year or maybe more, nobody knows. The uncertainty of how long it would last was by far the worst. I believe the only thing that made us survive was hope - even though many didn’t survive after all. One of our cellmates was in this tiny cell for more than a year already when I came - and he could still smile and laugh when he heard a joke. More than that, he was often the one making us laugh by telling us funny stories about survival in the real world before he was imprisoned. He suffered the longest, but I believe long enough to get used to the situation and realise that the only way to survive is to hold on to the hope of being free one day. It was very difficult for him to see so many people come in and leave again while he was still inside these four walls. Yet he was still smiling and laughing. He gave us strength to keep holding on to the little hope we had left.
 
 But I didn’t really grasp how much hope we had until the butterfly gave us a visit. 
@@ -118,6 +129,6 @@ We spent the rest of the day in silence not talking to each other. Instead, each
 
 **Qutaiba Zarzour**, *1988, is from Idlib, Syria, and lived in Abu Dhabi for many years - mostly because after his release from prison, he was still wanted by the Syrian Government. When the war started in Syria, he returned to his home country to help care for orphaned children. When he learned that the government was actively looking for him again, he fled to Turkey and from there to Germany where he arrived in early 2015. While being forced into inaction while waiting for his Asylum, he started thinking of a platform that would later be called Josoor. He currently lives in Munich and is the co-founder of Josoor.
 
-********************
+- - -
 
 On the Josoor Blog, we not only want to inform our readers of news and updates as well as give insights into our Team’s work. We also want to use this platform to make the voice of our community members heard. Therefore, we share stories, diaries, articles and poems written by refugees and supporters who want to share their thoughts with a larger audience. If there is anything you want to share, you can [submit it here](https://docs.google.com/forms/d/e/1FAIpQLSdv5oHnkcsGHozXoVG2RNm1ojXQWEoPNlW3jI-Sp1QLKjdJrQ/viewform) .
