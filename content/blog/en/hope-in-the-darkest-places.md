@@ -127,7 +127,7 @@ We spent the rest of the day in silence not talking to each other. Instead, each
 
 ## About the author
 
-**Qutaiba Zarzour**, *1988, is from Idlib, Syria, and lived in Abu Dhabi most of his life. After his release from prison he went back to Abu Dhabi, but he was still wanted by the Syrian Government. When the war started in Syria, he returned to his home country to help care for children. When he learned that the government was actively looking for him again, he fled to Turkey and from there to Germany where he arrived in early 2015. While being forced into inaction while waiting for his Asylum, he started thinking of a platform that would later be called Josoor. He currently lives in Munich and is the co-founder of Josoor.
+**Qutaiba Zarzour**, *1988, is from Idlib, Syria, and lived in Abu Dhabi most of his life. After his release from prison he went back to Abu Dhabi because he was still wanted by the Syrian Government. When the war started in Syria, he returned to his home country to help care for children. When he learned that the government was actively looking for him again, he fled to Turkey and from there to Germany where he arrived in early 2015. While being forced into inaction while waiting for his Asylum, he started thinking of a platform that would later be called Josoor. He currently lives in Munich and is the co-founder of Josoor.
 
 - - -
 
