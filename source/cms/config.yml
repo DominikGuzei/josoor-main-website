@@ -96,6 +96,9 @@ collections:
       - label: blog.title
         name: blog.title
         widget: text
+      - label: buttons.crowdfunding
+        name: buttons.crowdfunding
+        widget: text
       - label: buttons.joinUs
         name: buttons.joinUs
         widget: text

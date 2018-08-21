@@ -4,8 +4,8 @@
   display: block;
   border: 2px solid white;
   border-radius: 50px;
-  color: white;
-  font-family: $theme-font-sans-bold;
+  color: white !important;
+  font-family: $theme-font-sans-bold !important;
   font-size: 15px;
   text-align: center;
   padding: 1em 4em 0.8em;
@@ -17,9 +17,10 @@
   }
 
   &:hover {
-    background-color: rgba(white, 0.8);
+    background-color: rgba(white, 0.5);
     color: black;
     cursor: pointer;
+    text-decoration: none !important;
   }
 
   &:active {

@@ -73,7 +73,7 @@ export default class Answers extends Component {
             headerImage={headerImage}
             logo={headerLogo}
             headline={intl.formatMessage(messages.pitch)}
-            hideJoinButton
+            hideCallToAction
           />
 
           <FactStripe

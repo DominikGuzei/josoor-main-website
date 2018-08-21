@@ -53,7 +53,7 @@ export default class Connect extends Component {
             headerImage={headerImage}
             logo={headerLogo}
             headline={intl.formatMessage(messages.pitch)}
-            hideJoinButton
+            hideCallToAction
           />
 
           <WhatYouCanDoSection
