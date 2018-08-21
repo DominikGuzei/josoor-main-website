@@ -18,7 +18,7 @@ const messages = defineMessages({
   },
   facebookPageLink: {
     id: 'facebookPageLink',
-    defaultMessage: `!!!https://www.facebook.com/josoor.net/`
+    defaultMessage: `!!!https://www.facebook.com/josoor.english/`
   },
   findUsOnFacebook: {
     id: 'what_you_can_do.findUsOnFacebook',
