@@ -1,5 +1,6 @@
 export const ROUTES = {
   INDEX: '/(:language(/))',
+  ABOUT: '/(:language/)about',
   ANSWERS: '/(:language/)answers',
   CONNECT: '/(:language/)connect',
   IMPRESS: '/(:language/)impress',

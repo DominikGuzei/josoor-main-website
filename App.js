@@ -9,6 +9,7 @@ import { ROUTES } from './source/routes';
 import BlogIndexContainer from './source/components/blog/index/BlogIndexContainer';
 import BlogPostContainer from './source/components/blog/post/BlogPostContainer';
 import Home from './source/components/home/Home';
+import About from './source/components/about/About';
 import Impress from './source/components/impress/Impress';
 import Layout from "./source/components/layout/Layout";
 import Answers from './source/components/answers/Answers';
@@ -36,6 +37,7 @@ const routes = () => (
     <Route component={Provider}>
       <Route component={Layout}>
         {generateRoute(ROUTES.INDEX, Home)}
+        {generateRoute(ROUTES.ABOUT, About)}
         {generateRoute(ROUTES.IMPRESS, Impress)}
         {generateRoute(ROUTES.PRIVACY, PrivacyStatement)}
         {generateRoute(ROUTES.ANSWERS, Answers)}

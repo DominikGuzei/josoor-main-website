@@ -24,6 +24,24 @@ collections:
       - label: PrivacyDisclaimer.refuseButtonLabel
         name: PrivacyDisclaimer.refuseButtonLabel
         widget: text
+      - label: about.headline
+        name: about.headline
+        widget: text
+      - label: about.mission.headline
+        name: about.mission.headline
+        widget: text
+      - label: about.mission.text
+        name: about.mission.text
+        widget: text
+      - label: about.title
+        name: about.title
+        widget: text
+      - label: about.vision.headline
+        name: about.vision.headline
+        widget: text
+      - label: about.vision.text
+        name: about.vision.text
+        widget: text
       - label: answers.features.answer.description
         name: answers.features.answer.description
         widget: text
@@ -222,9 +240,6 @@ collections:
       - label: home.join.title
         name: home.join.title
         widget: text
-      - label: home.pitch
-        name: home.pitch
-        widget: text
       - label: home.projects.answers.intro
         name: home.projects.answers.intro
         widget: text
@@ -288,6 +303,9 @@ collections:
       - label: layout.footer.privacyLink
         name: layout.footer.privacyLink
         widget: text
+      - label: layout.topMenu.aboutLink
+        name: layout.topMenu.aboutLink
+        widget: text
       - label: layout.topMenu.answersLink
         name: layout.topMenu.answersLink
         widget: text
@@ -299,6 +317,9 @@ collections:
         widget: text
       - label: layout.topMenu.homeLink
         name: layout.topMenu.homeLink
+        widget: text
+      - label: pitch
+        name: pitch
         widget: text
       - label: privacy.headline
         name: privacy.headline

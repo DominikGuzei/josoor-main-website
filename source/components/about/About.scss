@@ -1,0 +1,56 @@
+@import "../../theme/config";
+@import "../../theme/mixins/container";
+@import "../../theme/mixins/decorations";
+
+.header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  @media (min-width: $theme-breakpoint-small) {
+    margin-top: -$theme-top-menu-height;
+  }
+}
+
+.headline {
+  color: white;
+  margin-top: 120px;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.pitch {
+  text-align: center;
+  width: 80%;
+  max-width: 700px;
+  font-family: $theme-font-sans-regular;
+  font-size: 24px;
+  color: white;
+  line-height: 1.3em;
+  margin-bottom: 40px;
+  @media (min-width: $theme-breakpoint-small) {
+    font-size: 27px;
+  }
+}
+
+.content {
+  margin: 0 auto;
+  width: calc(100% - 40px);
+  max-width: 640px;
+}
+
+.vision, .mission {
+  text-align: center;
+  h2 {
+    margin-bottom: 10px;
+  }
+}
+
+.joinUsSection {
+  padding-top: 2em;
+  border-top: 1px solid #eee;
+  margin-top: 4em;
+}

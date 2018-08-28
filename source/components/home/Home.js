@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Grid, Row, Col } from 'react-flexbox-grid';
 import Head from "react-helmet";
 import { defineMessages, intlShape } from 'react-intl';
 import headerImagePreview from '../../assets/home/header-preview.jpg';
@@ -20,15 +19,12 @@ import worldMapDarkPreview from '../../assets/world-map-stripe-dark-preview.jpg'
 import worldMapDark from '../../assets/world-map-stripe-dark.png'
 import worldMapOrangePreview from '../../assets/world-map-stripe-orange-preview.jpg'
 import worldMapOrange from '../../assets/world-map-stripe-orange.png'
+import { globalMessages } from '../../i18n/global-messages';
 
 const messages = defineMessages({
   title: {
     id: 'home.title',
     defaultMessage: '!!!Josoor',
-  },
-  pitch: {
-    id: 'home.pitch',
-    defaultMessage: '!!!home.pitch',
   },
   factIncreaseOfHate: {
     id: 'home.factIncreaseOfHate',
@@ -71,11 +67,11 @@ export default class Home extends Component {
       <div>
         <Head>
           <title>{intl.formatMessage(messages.title)}</title>
-          <meta name="description" content={intl.formatMessage(messages.pitch)} />
+          <meta name="description" content={intl.formatMessage(globalMessages.josoorPitch)} />
           <meta property="og:url" content={`${environment.BASE_URL}/${intl.locale}`} />
           <meta property="og:type" content="website" />
           <meta property="og:title" content={intl.formatMessage(messages.title)} />
-          <meta property="og:description" content={intl.formatMessage(messages.pitch)} />
+          <meta property="og:description" content={intl.formatMessage(globalMessages.josoorPitch)} />
           <meta property="og:image" content={environment.BASE_URL + '/images/fb-home-share.png'} />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
@@ -88,7 +84,7 @@ export default class Home extends Component {
             headerImagePreview={headerImagePreview}
             headerImage={headerImage}
             logo={josoorVerticalLogo}
-            headline={intl.formatMessage(messages.pitch)}
+            headline={intl.formatMessage(globalMessages.josoorPitch)}
           />
 
           <div className={styles.projectsSection}>

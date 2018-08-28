@@ -50,6 +50,9 @@ export default class MobileMenu extends Component {
             <LocaleAwareLink to={ROUTES.BLOG.INDEX} className={styles.menuLink}>
               {intl.formatMessage(linkTitles.blogLink)}
             </LocaleAwareLink>
+            <LocaleAwareLink to={ROUTES.ABOUT} className={styles.menuLink}>
+              {intl.formatMessage(linkTitles.aboutLink)}
+            </LocaleAwareLink>
             <LocaleAwareLink to={ROUTES.ANSWERS} className={styles.menuLink}>
               {intl.formatMessage(linkTitles.answersLink)}
             </LocaleAwareLink>

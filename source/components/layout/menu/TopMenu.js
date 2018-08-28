@@ -23,6 +23,10 @@ const messages = defineMessages({
     id: 'layout.topMenu.connectLink',
     defaultMessage: 'Connect',
   },
+  aboutLink: {
+    id: 'layout.topMenu.aboutLink',
+    defaultMessage: 'About',
+  },
 });
 
 export default class TopMenu extends Component {
