@@ -1,7 +1,7 @@
 ---
 language: en
 title: crowdfunding-campaign
-headline: Crowdfunding Campaign
+headline: Crowdfunding Campaign Launch
 subtitle: ' Raising money to finance the development of Josoor Answers'
 author: Natalie Zarzour
 date: '2018-08-29'
@@ -13,13 +13,13 @@ teaser: >-
   of  raising 35.000 € to finance the development of Josoor Answers. Help us by
   donating and spreading the word and we can make it happen together!
 ---
-For more than two years, our team has been working on the idea of Josoor: an online platform connecting refugees & local supporters worldwide, providing them with different tools to solve the many challenges they face. 
+In a previous[ blog article](https://www.josoor.net/en/blog/posts/crowdfunding-announcement) , we announced the preparations for our crowdfunding campaign - now it is online!
 
-A year ago, after founding the association of Josoor, recruiting the right team members and breaking down the idea into smaller pieces to implement step by step, we started working on the first one of these tools: the app we now call [Josoor Answers](https://www.josoor.net/en/blog/posts/josoor-answers). With it, we want to enable refugees and local supporters worldwide to bridge the language barrier in information exchange. Since then, we tested the idea, decided on all its features, built the wireframes, and gave it a design.
+We just launched it on Indiegogo and will run it for 35 days to collect 35.000 € for the development and Beta test of our app [Josoor Answers](https://www.josoor.net/en/blog/posts/josoor-answers)!
 
-Now, our Team is ready to start the development - but we need money to make it happen!
+Your support is crucial especially in the **first 48 hours** to make Indiegogo feature the campaign and make it successful! So please donate what you can **today or tomorrow**!
 
-35.000 € are required to fund the development of Josoor Answers and it’s Beta test and bring it all the way to the public launch. 
+
 
 ## Why Crowdfunding?
 
