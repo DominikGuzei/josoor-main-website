@@ -5,7 +5,7 @@ headline: Crowdfunding Campaign Launch
 subtitle: ' Raising money to finance the development of Josoor Answers'
 author: Natalie Zarzour
 date: '2018-08-29'
-readable_date: 29. August 2018
+readable_date: 31. August 2018
 published: false
 image: /images/optimized-josoor-phone-picture-blog.jpg
 teaser: >-
