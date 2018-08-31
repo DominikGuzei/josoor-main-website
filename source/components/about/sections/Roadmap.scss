@@ -6,9 +6,9 @@
     content:"";
     position: absolute;
     z-index: -1;
-    left: 33px;
+    left: 8.33333333%;
     top: 0;
-    bottom: 0;
+    bottom: 140px;
     //left: 50%;
     border-left: 3px solid #979797;
     //transform: translate(-50%);
@@ -20,7 +20,7 @@
 
 .entry {
   position: relative;
-  padding: 0;
+  padding: 0 0 40px 0;
 
   h1 {
     margin: 1.5em 20px;
@@ -51,6 +51,7 @@
   }
 
   @media (min-width: $theme-breakpoint-small) {
+    padding: 0;
     &.first {
       margin-bottom: 80px;
     }
