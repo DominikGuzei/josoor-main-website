@@ -30,6 +30,7 @@ export default class Roadmap extends Component {
           <Row>
             <Col xsOffset={1} xs={10}
                  smOffset={3} sm={6}
+                 mdOffset={4} sm={4}
                  className={classnames([styles.entry, styles.first, styles.done])}>
               <div className={styles.box}>
                 <div className={styles.header} />
@@ -41,6 +42,7 @@ export default class Roadmap extends Component {
             </Col>
             <Col xsOffset={1} xs={10}
                  smOffset={6} sm={5}
+                 mdOffset={6} md={4}
                  className={classnames([styles.entry, styles.here])}>
               <div className={styles.box}>
                 <div className={styles.header}>
@@ -52,6 +54,7 @@ export default class Roadmap extends Component {
             </Col>
             <Col xsOffset={1} xs={10}
                  smOffset={1} sm={5}
+                 mdOffset={2} md={4}
                  className={classnames([styles.entry, styles.odd])}>
               <div className={styles.box}>
                 <div className={styles.header}>
@@ -63,6 +66,7 @@ export default class Roadmap extends Component {
             </Col>
             <Col xsOffset={1} xs={10}
                  smOffset={6} sm={5}
+                 mdOffset={6} md={4}
                  className={classnames([styles.entry])}>
               <div className={styles.box}>
                 <div className={styles.header} />
@@ -72,6 +76,7 @@ export default class Roadmap extends Component {
             </Col>
             <Col xsOffset={1} xs={10}
                  smOffset={1} sm={5}
+                 mdOffset={2} md={4}
                  className={classnames([styles.entry, styles.odd])}>
               <div className={styles.box}>
                 <div className={styles.header}>
@@ -83,6 +88,7 @@ export default class Roadmap extends Component {
             </Col>
             <Col xsOffset={1} xs={10}
                  smOffset={6} sm={5}
+                 mdOffset={6} md={4}
                  className={classnames([styles.entry])}>
               <div className={styles.box}>
                 <div className={styles.header}>
@@ -94,6 +100,7 @@ export default class Roadmap extends Component {
             </Col>
             <Col xsOffset={1} xs={10}
                  smOffset={3} sm={6}
+                 mdOffset={4} sm={4}
                  className={classnames([styles.entry, styles.last])}>
               <div className={styles.box}>
                 <div className={styles.header}>
