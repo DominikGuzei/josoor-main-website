@@ -40,7 +40,7 @@
     "react-helmet": "5.2.0",
     "react-intl": "2.4.0",
     "react-intl-translations-manager": "5.0.3",
-    "react-polymorph": "0.7.0",
+    "react-polymorph": "git://github.com/input-output-hk/react-polymorph#develop",
     "react-progressive-image-loading": "^3.0.3",
     "react-router": "3.2.1",
     "route-parser": "0.0.5"

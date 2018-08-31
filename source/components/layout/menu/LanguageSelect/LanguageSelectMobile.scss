@@ -1,9 +1,13 @@
 @import "../../../../theme/polymorph/custom/config";
 // Theme config overrides go here
 $select-input-bg-color: transparent;
-$select-down-arrow-position-left: 100%;
-$select-input-padding: 0 0.5em 0 0;
-$select-down-arrow-position-bottom: 6px;
+$select-input-padding: 0 1em 0 0;
+$select-arrow-width: 11px;
+// closed
+$select-arrow-position-bottom: 6px;
+$select-arrow-position-left: calc(100% - #{$select-arrow-width});
+// open
+$select-open-arrow-position-bottom: 7px;
 @import "../../../../../node_modules/react-polymorph/source/themes/simple/SimpleSelect";
 // Css module overrides go here …
 

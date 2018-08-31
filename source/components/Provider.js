@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Head from "react-helmet";
 import { browserHistory } from 'react-router';
@@ -6,7 +6,7 @@ import { IntlProvider } from 'react-intl';
 import GoogleAnalytics from './GoogleAnalytics.js';
 import translations from '../i18n/translations';
 import { parseRoute } from '../utils/routing';
-import ThemeProvider from 'react-polymorph/lib/components/ThemeProvider';
+import { ThemeProvider } from 'react-polymorph/lib/components/ThemeProvider';
 import PrivacyProvider from './privacy/PrivacyProvider';
 import { PrivacyContext } from './privacy/PrivacyContext';
 import theme from '../theme/polymorph/theme';

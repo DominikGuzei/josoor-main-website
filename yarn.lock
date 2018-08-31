@@ -6587,6 +6587,10 @@ postcss@^6.0.1:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
+postinstall-build@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/postinstall-build/-/postinstall-build-5.0.1.tgz#b917a9079b26178d9a24af5a5cd8cb4a991d11b9"
+
 prepend-http@^1.0.0, prepend-http@^1.0.1:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
@@ -6880,13 +6884,14 @@ react-modal@3.1.12:
     prop-types "^15.5.10"
     warning "^3.0.0"
 
-react-polymorph@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/react-polymorph/-/react-polymorph-0.7.0.tgz#e87741334f358558ab272c44f7a0391d7839b77d"
+"react-polymorph@git://github.com/input-output-hk/react-polymorph#develop":
+  version "0.7.1"
+  resolved "git://github.com/input-output-hk/react-polymorph#6c610ad6fe7bdae5f46210573c6a69baa5bc0129"
   dependencies:
     create-react-context "0.2.2"
     create-react-ref "0.1.0"
     filter-react-dom-props "0.0.2"
+    postinstall-build "5.0.1"
     react-modal "3.1.12"
 
 react-progressive-image-loading@^3.0.3:

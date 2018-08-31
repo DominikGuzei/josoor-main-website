@@ -5,8 +5,8 @@ import styles from './PrivacyStatement.scss';
 import josoorLogo from '../../theme/images/josoor-logo-vertical-colored.svg';
 import { defineMessages, intlShape, FormattedHTMLMessage } from 'react-intl';
 import { PrivacyContext } from './PrivacyContext.js';
-import Checkbox from 'react-polymorph/lib/components/Checkbox';
-import SwitchSkin from 'react-polymorph/lib/skins/simple/SwitchSkin';
+import { Checkbox } from 'react-polymorph/lib/components/Checkbox';
+import { SwitchSkin } from 'react-polymorph/lib/skins/simple/SwitchSkin';
 
 const messages = defineMessages({
   title: {

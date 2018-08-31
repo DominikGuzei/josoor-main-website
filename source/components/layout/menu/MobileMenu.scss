@@ -6,7 +6,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 
 .menuIcon {
@@ -16,6 +16,7 @@
   cursor: pointer;
   position: relative;
   top: -1px;
+  margin-left: 20px;
 }
 
 .menuOverlay {
@@ -71,12 +72,17 @@
   cursor: pointer;
 }
 
-[dir="rtl"] .closeIcon {
-  right: initial;
-  left: 50px;
+[dir="rtl"] {
+  .menuIcon {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .closeIcon {
+    right: initial;
+    left: 50px;
+  }
 }
-
-// ======= STATES ========
+  // ======= STATES ========
 
 .isOpen {
   .closeIcon {

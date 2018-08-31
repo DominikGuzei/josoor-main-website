@@ -9,6 +9,7 @@ import environment from '../../environment';
 import ProgressiveImage from 'react-progressive-image-loading';
 import JoinUsButton from '../shared/JoinUsButton';
 import { globalMessages } from '../../i18n/global-messages';
+import Roadmap from './sections/Roadmap';
 
 const messages = defineMessages({
   title: {
@@ -58,6 +59,7 @@ export default class About extends Component {
           <meta property="og:image:width" content="680" />
           <meta property="og:image:height" content="554" />
         </Head>
+
         <div>
           <ProgressiveImage
             preview={headerImagePreview}
@@ -73,6 +75,7 @@ export default class About extends Component {
             )}
           />
         </div>
+
         <div className={styles.content}>
           <div className={styles.vision}>
             <h2>{intl.formatMessage(messages.visionHeadline)}</h2>
@@ -83,6 +86,8 @@ export default class About extends Component {
             <p>{intl.formatMessage(messages.missionText)}</p>
           </div>
         </div>
+
+        <Roadmap />
 
         <div className={styles.joinUsSection}>
           <JoinUsSection />

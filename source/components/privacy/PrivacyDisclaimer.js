@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Button from 'react-polymorph/lib/components/Button';
-import ButtonSkin from 'react-polymorph/lib/skins/simple/ButtonSkin';
+import { Button } from 'react-polymorph/lib/components/Button';
+import { ButtonSkin } from 'react-polymorph/lib/skins/simple/ButtonSkin';
 import { PrivacyContext } from './PrivacyContext.js';
 import styles from './PrivacyDisclaimer.scss';
 import LocaleAwareLink from '../shared/LocaleAwareLink';

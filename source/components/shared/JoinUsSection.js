@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import styles from './JoinUsSection.scss';
 import { defineMessages, intlShape } from 'react-intl';
-import FormField from 'react-polymorph/lib/components/FormField';
-import FormFieldSkin from 'react-polymorph/lib/skins/simple/FormFieldSkin';
-import Input from 'react-polymorph/lib/components/Input';
-import InputSkin from 'react-polymorph/lib/skins/simple/InputSkin';
+import { FormField } from 'react-polymorph/lib/components/FormField';
+import { FormFieldSkin } from 'react-polymorph/lib/skins/simple/FormFieldSkin';
+import { Input } from 'react-polymorph/lib/components/Input';
+import { InputSkin } from 'react-polymorph/lib/skins/simple/InputSkin';
 import { JOIN_US_ANCHOR_ID } from '../home/Home';
 
 const messages = defineMessages({
