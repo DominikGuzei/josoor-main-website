@@ -32,7 +32,7 @@ Um euch für eure Hilfe beim Aufbau von Josoor Answers zu danken, haben wir eini
 
 ## Wie kann ich die Kampagne unterstützen?
 
-* Spende - selbst den kleinsten Betrag!\
+* **Spende - selbst den kleinsten Betrag!**  
   Als Grassroot-Organisation verlassen wir uns nicht auf einzelne große Spenden, sondern auf viele kleine und sogar winzige Spenden, die sich jedes Community-Mitglied leisten kann! Wenn alle unsere derzeit 30.000 Anhänger nur 1 Euro und 33 Cent spenden würden, hätten wir unser Ziel erreicht!
-* Teilen und weitererzählen!\
+* **Teilen und weitererzählen!**  
   Genau so wichtig wie ein finanzieller Beitrag ist es, uns dabei zu helfen, möglichst viele Menschen zu erreichen. Crowdfunding-Kampagnen leben davon, geteilt zu werden - also hilf uns und teile die Kampagne mit all deinen Bekannten!

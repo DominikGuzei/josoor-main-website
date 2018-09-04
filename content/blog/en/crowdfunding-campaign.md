@@ -33,7 +33,7 @@ To thank you for your help in building Josoor Answers, we have prepared several 
 
 ## How can I support the campaign?
 
-* Donate - even the smallest amount!\
+* **Donate - even the smallest amount!**  
   As a grassroot organisation, we rely not on individual large donations, but on many small and even tiny contributions each community member can afford! If all of our currently 30.000 followers would donate just 1 Euro and 33 Cents, we would meet our goal right now!
-* Spread the word!\
+* **Spread the word!**  
   Even more important than contributing financially is to help us reach as many people as possible. Crowdfunding campaigns thrive when they get shared - so help us and tell all your friends about it!
